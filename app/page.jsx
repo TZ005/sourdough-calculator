@@ -9,7 +9,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6">
           <h1 className="text-3xl md:text-5xl mb-4">Sourdough Hydration Calculator</h1>
           <p className="text-lg text-[#5C4033] max-w-2xl mx-auto">
-            Calculate water, salt, and starter ratios for any sourdough recipe â€?instantly, accurately, and free.
+            Calculate water, salt, and starter ratios for any sourdough recipe â€” instantly, accurately, and free.
           </p>
         </div>
       </section>
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </section>
 
-<section className="py-12 bg-brand-tan">
+      <section className="py-12 bg-brand-tan">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-center mb-3">ğŸ›’ Recommended Sourdough Tools</h2>
           <p className="text-center text-[#5C4033] mb-8 max-w-2xl mx-auto">
@@ -30,32 +30,32 @@ export default function Home() {
             <a href="https://www.amazon.com/dp/B0FBZ64DVL?tag=sourdoughca0a-20" target="_blank" rel="sponsored nofollow noopener noreferrer" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <div className="text-2xl mb-2">ğŸŒ¾</div>
               <h3 className="font-semibold mb-1">King Arthur Bread Flour</h3>
-              <p className="text-sm text-brand-muted mb-2">100% Organic, Unbleached, 5 lb â€?Best Seller</p>
-              <span className="text-sm text-brand-brown font-medium">View on Amazon â†?/span>
+              <p className="text-sm text-brand-muted mb-2">100% Organic, Unbleached, 5 lb â€” Best Seller</p>
+              <span className="text-sm text-brand-brown font-medium">View on Amazon â†’</span>
             </a>
             <a href="https://www.amazon.com/dp/B00U1OCPWQ?tag=sourdoughca0a-20" target="_blank" rel="sponsored nofollow noopener noreferrer" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <div className="text-2xl mb-2">ğŸ</div>
               <h3 className="font-semibold mb-1">Lodge Dutch Oven</h3>
-              <p className="text-sm text-brand-muted mb-2">6 Quart Enameled Cast Iron â€?Perfect for bread baking</p>
-              <span className="text-sm text-brand-brown font-medium">View on Amazon â†?/span>
+              <p className="text-sm text-brand-muted mb-2">6 Quart Enameled Cast Iron â€” Perfect for bread baking</p>
+              <span className="text-sm text-brand-brown font-medium">View on Amazon â†’</span>
             </a>
             <a href="https://www.amazon.com/dp/B07XXSYLL8?tag=sourdoughca0a-20" target="_blank" rel="sponsored nofollow noopener noreferrer" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
-              <div className="text-2xl mb-2">ğŸŒ¡ï¸?/div>
+              <div className="text-2xl mb-2">ğŸŒ¡ï¸</div>
               <h3 className="font-semibold mb-1">ThermoPro TP19 Thermometer</h3>
-              <p className="text-sm text-brand-muted mb-2">Instant read, waterproof â€?For perfect dough temperature</p>
-              <span className="text-sm text-brand-brown font-medium">View on Amazon â†?/span>
+              <p className="text-sm text-brand-muted mb-2">Instant read, waterproof â€” For perfect dough temperature</p>
+              <span className="text-sm text-brand-brown font-medium">View on Amazon â†’</span>
             </a>
             <a href="https://www.amazon.com/dp/B01LY7NDQ9?tag=sourdoughca0a-20" target="_blank" rel="sponsored nofollow noopener noreferrer" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <div className="text-2xl mb-2">ğŸª’</div>
               <h3 className="font-semibold mb-1">Sourdough Bread Lame</h3>
-              <p className="text-sm text-brand-muted mb-2">Scoring tool with replacement blades â€?Authentic patterns</p>
-              <span className="text-sm text-brand-brown font-medium">View on Amazon â†?/span>
+              <p className="text-sm text-brand-muted mb-2">Scoring tool with replacement blades â€” Authentic patterns</p>
+              <span className="text-sm text-brand-brown font-medium">View on Amazon â†’</span>
             </a>
             <a href="https://www.amazon.com/dp/B0113UZJE2?tag=sourdoughca0a-20" target="_blank" rel="sponsored nofollow noopener noreferrer" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <div className="text-2xl mb-2">âš–ï¸</div>
               <h3 className="font-semibold mb-1">Etekcity Kitchen Scale</h3>
-              <p className="text-sm text-brand-muted mb-2">Multifunction, stainless steel â€?For precise baking</p>
-              <span className="text-sm text-brand-brown font-medium">View on Amazon â†?/span>
+              <p className="text-sm text-brand-muted mb-2">Multifunction, stainless steel â€” For precise baking</p>
+              <span className="text-sm text-brand-brown font-medium">View on Amazon â†’</span>
             </a>
             <div className="bg-brand-cream p-5 rounded-lg border-2 border-dashed border-brand-wheat flex flex-col items-center justify-center text-center">
               <div className="text-2xl mb-2">ğŸ’¡</div>
@@ -67,7 +67,6 @@ export default function Home() {
         </div>
       </section>
 
-
       <HydrationChart />
 
       <section className="py-16 max-w-3xl mx-auto px-6">
@@ -78,14 +77,15 @@ export default function Home() {
         </p>
         <p>Hydration dramatically affects the final bread:</p>
         <ul className="list-disc pl-6 space-y-2 my-4">
-          <li><strong>Lower hydration (50â€?5%)</strong> produces a denser, tighter crumb â€?perfect for bagels and pretzels.</li>
-          <li><strong>Medium hydration (70â€?0%)</strong> gives the classic sourdough texture most home bakers aim for.</li>
-          <li><strong>Higher hydration (80â€?00%)</strong> creates an open, airy crumb with large irregular holes â€?the hallmark of artisan sourdough.</li>
+          <li><strong>Lower hydration (50â€“65%)</strong> produces a denser, tighter crumb â€” perfect for bagels and pretzels.</li>
+          <li><strong>Medium hydration (70â€“80%)</strong> gives the classic sourdough texture most home bakers aim for.</li>
+          <li><strong>Higher hydration (80â€“100%)</strong> creates an open, airy crumb with large irregular holes â€” the hallmark of artisan sourdough.</li>
         </ul>
         <p>
           Use the calculator above to find the exact water, salt, and starter amounts for your recipe. Want to learn more?{" "}
           <Link href="/blog/what-is-hydration/" className="text-brand-brown font-medium">
-            Read our complete guide â†?          </Link>
+            Read our complete guide â†’
+          </Link>
         </p>
       </section>
 
@@ -97,8 +97,10 @@ export default function Home() {
             href="/blog/"
             className="inline-block px-7 py-3 bg-brand-wheat text-brand-dark rounded-lg font-semibold hover:bg-brand-wheat-dark transition-colors"
           >
-            Browse All Articles â†?          </Link>
+            Browse All Articles â†’
+          </Link>
         </div>
-      </section>    </>
+      </section>
+    </>
   );
 }
