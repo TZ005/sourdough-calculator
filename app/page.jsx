@@ -27,31 +27,31 @@ export default function Home() {
             The exact tools and ingredients I recommend for baking perfect sourdough bread at home.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
-            <a href="https://www.amazon.com/dp/B0FBZ64DVL?tag=sourdoughca0a-20" target="_blank" rel="sponsored nofollow" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
+            <a href="https://www.amazon.com/dp/B0FBZ64DVL?tag=sourdoughca0a-20" target="_blank" rel="sponsored nofollow noopener noreferrer" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <div className="text-2xl mb-2">ğŸŒ¾</div>
               <h3 className="font-semibold mb-1">King Arthur Bread Flour</h3>
               <p className="text-sm text-brand-muted mb-2">100% Organic, Unbleached, 5 lb â€?Best Seller</p>
               <span className="text-sm text-brand-brown font-medium">View on Amazon â†?/span>
             </a>
-            <a href="https://www.amazon.com/dp/B00U1OCPWQ?tag=sourdoughca0a-20" target="_blank" rel="sponsored nofollow" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
+            <a href="https://www.amazon.com/dp/B00U1OCPWQ?tag=sourdoughca0a-20" target="_blank" rel="sponsored nofollow noopener noreferrer" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <div className="text-2xl mb-2">ğŸ</div>
               <h3 className="font-semibold mb-1">Lodge Dutch Oven</h3>
               <p className="text-sm text-brand-muted mb-2">6 Quart Enameled Cast Iron â€?Perfect for bread baking</p>
               <span className="text-sm text-brand-brown font-medium">View on Amazon â†?/span>
             </a>
-            <a href="https://www.amazon.com/dp/B07XXSYLL8?tag=sourdoughca0a-20" target="_blank" rel="sponsored nofollow" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
+            <a href="https://www.amazon.com/dp/B07XXSYLL8?tag=sourdoughca0a-20" target="_blank" rel="sponsored nofollow noopener noreferrer" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <div className="text-2xl mb-2">ğŸŒ¡ï¸?/div>
               <h3 className="font-semibold mb-1">ThermoPro TP19 Thermometer</h3>
               <p className="text-sm text-brand-muted mb-2">Instant read, waterproof â€?For perfect dough temperature</p>
               <span className="text-sm text-brand-brown font-medium">View on Amazon â†?/span>
             </a>
-            <a href="https://www.amazon.com/dp/B01LY7NDQ9?tag=sourdoughca0a-20" target="_blank" rel="sponsored nofollow" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
+            <a href="https://www.amazon.com/dp/B01LY7NDQ9?tag=sourdoughca0a-20" target="_blank" rel="sponsored nofollow noopener noreferrer" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <div className="text-2xl mb-2">ğŸª’</div>
               <h3 className="font-semibold mb-1">Sourdough Bread Lame</h3>
               <p className="text-sm text-brand-muted mb-2">Scoring tool with replacement blades â€?Authentic patterns</p>
               <span className="text-sm text-brand-brown font-medium">View on Amazon â†?/span>
             </a>
-            <a href="https://www.amazon.com/dp/B0113UZJE2?tag=sourdoughca0a-20" target="_blank" rel="sponsored nofollow" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
+            <a href="https://www.amazon.com/dp/B0113UZJE2?tag=sourdoughca0a-20" target="_blank" rel="sponsored nofollow noopener noreferrer" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <div className="text-2xl mb-2">âš–ï¸</div>
               <h3 className="font-semibold mb-1">Etekcity Kitchen Scale</h3>
               <p className="text-sm text-brand-muted mb-2">Multifunction, stainless steel â€?For precise baking</p>
