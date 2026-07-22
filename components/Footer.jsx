@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -22,13 +22,11 @@ export default function Footer() {
             <h4 className="text-brand-wheat mb-3">Resources</h4>
             <ul className="space-y-2">
               <li><Link href="/blog/what-is-hydration/" className="text-brand-wheat hover:text-white">What is Hydration?</Link></li>
-              <li><Link href="/blog/hydration-chart/" className="text-brand-wheat hover:text-white">Hydration Chart</Link></li>
-              <li><Link href="/blog/how-to-calculate/" className="text-brand-wheat hover:text-white">How to Calculate</Link></li>
             </ul>
           </div>
         </div>
         <p className="text-center pt-6 border-t border-[#5C4033] text-brand-muted text-sm">
-          © 2026 SourdoughCalc. All rights reserved.
+          ? 2026 SourdoughCalc. All rights reserved.
         </p>
       </div>
     </footer>
