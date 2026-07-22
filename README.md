@@ -4,7 +4,7 @@ A free, fast, accurate sourdough hydration calculator built with **Next.js + Tai
 
 ## 🌐 Live Site
 
-https://sourdoughhydrationcalculator.com/
+https://sourdough-hydrationcalculator.com/
 
 ## 🛠️ Tech Stack
 
@@ -91,3 +91,4 @@ This site is deployed via **Cloudflare Pages**:
 ## 📝 License
 
 © 2026 SourdoughCalc. All rights reserved.
+
