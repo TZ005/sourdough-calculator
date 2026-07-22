@@ -92,3 +92,5 @@ This site is deployed via **Cloudflare Pages**:
 
 © 2026 SourdoughCalc. All rights reserved.
 
+
+<!-- Last deployed: 2026-07-22 22:28:32 -->
