@@ -21,6 +21,9 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://www.amazon.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://m.media-amazon.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.amazon.com" />
+        {/* Cloudflare Web Analytics */}
+        <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ed533c19d9f74eb88d3b8c58833aea24"}'></script>
+        {/* End Cloudflare Web Analytics */}
       </head>
       <body className="bg-brand-cream text-brand-dark">
         <Header />
