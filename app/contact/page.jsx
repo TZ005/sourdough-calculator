@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: "Contact - SourdoughCalc",
   description: "Get in touch with the SourdoughCalc team.",
 };
@@ -13,7 +13,7 @@ export default function Contact() {
 
       <div className="bg-white rounded-xl p-8 shadow-md">
         <p className="mb-4">
-          <strong>Email:</strong> hello@sourdoughhydrationcalculator.com
+          <strong>Email:</strong> hello@sourdough-hydrationcalculator.com
         </p>
         <p className="mb-4">
           <strong>Response time:</strong> Within 2 business days

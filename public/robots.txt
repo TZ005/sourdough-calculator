@@ -1,4 +1,4 @@
-﻿User-agent: *
+User-agent: *
 Allow: /
 
-Sitemap: https://sourdoughhydrationcalculator.com/sitemap.xml
+Sitemap: https://sourdough-hydrationcalculator.com/sitemap.xml

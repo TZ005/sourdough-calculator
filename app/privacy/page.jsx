@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: "Privacy Policy - SourdoughCalc",
   description: "Privacy policy for SourdoughCalc - we do not track, collect, or sell your data.",
 };
@@ -34,7 +34,7 @@ export default function Privacy() {
 
       <h2 className="mt-8 mb-3">Contact</h2>
       <p>
-        Questions? Email us at hello@sourdoughhydrationcalculator.com
+        Questions? Email us at hello@sourdough-hydrationcalculator.com
       </p>
     </article>
   );

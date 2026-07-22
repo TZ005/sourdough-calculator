@@ -1,4 +1,4 @@
-﻿import "./globals.css";
+import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -10,7 +10,7 @@ export const metadata = {
     title: "Sourdough Hydration Calculator - Free Tool",
     description: "Calculate water, salt, and starter ratios for any sourdough recipe instantly.",
     type: "website",
-    url: "https://sourdoughhydrationcalculator.com/",
+    url: "https://sourdough-hydrationcalculator.com/",
   },
 };
 
