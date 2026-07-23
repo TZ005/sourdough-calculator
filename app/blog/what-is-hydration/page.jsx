@@ -1,4 +1,5 @@
 ﻿import Link from "next/link";
+import Comments from "@/components/Comments";
 
 export const metadata = {
   title: "What is Sourdough Hydration? A Complete Guide (2026)",
