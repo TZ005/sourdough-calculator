@@ -2,6 +2,12 @@
 
 const POSTS = [
   {
+    slug: "best-sourdough-calculators",
+    title: "Best 10 Free Sourdough Hydration Calculators (2026)",
+    excerpt: "I tested 10 popular sourdough hydration calculators. Here is which one is best for beginners, mobile users, and serious bakers.",
+    readTime: "12 min",
+  },
+  {
     slug: "what-is-hydration",
     title: "What is Sourdough Hydration? A Complete Guide",
     excerpt: "Understand hydration, how it affects your dough, and how to choose the right percentage for your bread.",
