@@ -58,3 +58,17 @@
 2. 不支持的精确 size×ratio 会**自动标准化**到最近的标准档
 3. PNG 文件大小因内容复杂度而异（同样 1312x736 可能是 600KB 或 1.2MB）
 4. WebP 格式比 PNG 小约 30-50%（如需优化）
+
+## Notes
+
+### Platform rebrands (2023+)
+- **Twitter → X (2023)**: Old links `twitter.com` auto-redirect to `x.com`
+  - Compose: https://x.com/compose/post
+  - Validator tools merged into Post Inspector / Tweet Composer
+  - Docs: https://developer.x.com/
+
+### Twitter Card / OG image sizing notes
+- Platform standard: **1.91:1 (1200×630)** for Facebook / LinkedIn / Slack
+- Twitter: supports 1.91:1 (summary_large_image), auto-crops 16:9
+- Your current image is 16:9 (1312×736) - most platforms accept and crop
+- Perfect version: install sharp, regenerate as 1200×630
