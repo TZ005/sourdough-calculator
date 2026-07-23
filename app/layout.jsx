@@ -11,6 +11,21 @@ export const metadata = {
     description: 'Calculate water, salt, and starter ratios for any sourdough recipe instantly.',
     type: 'website',
     url: 'https://sourdough-hydrationcalculator.com/',
+    siteName: 'SourdoughCalc',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'SourdoughCalc - Free Hydration Calculator for Bakers',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Sourdough Hydration Calculator - Free Tool',
+    description: 'Calculate water, salt, and starter ratios for any sourdough recipe instantly.',
+    images: ['/og-image.png'],
   },
 };
 
