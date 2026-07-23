@@ -36,7 +36,7 @@ export default function Comments() {
   }, []);
 
   return (
-    <div className="mt-12 pt-8 border-t border-brand-tan">
+    <div className="max-w-3xl mx-auto px-6 mt-12 pt-8 border-t border-brand-tan">
       <h3 className="text-xl font-semibold mb-4 text-brand-dark">Comments</h3>
       <p className="text-sm text-brand-muted mb-4">
         Sign in with GitHub to leave a comment. Powered by{" "}
