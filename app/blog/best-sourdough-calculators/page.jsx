@@ -10,7 +10,7 @@ export const metadata = {
 export default function BestSourdoughCalculators() {
   return (
     <article className="max-w-3xl mx-auto px-6 py-16">
-      <Link href="/blog/" className="text-brand-muted text-sm">�?Back to Blog</Link>
+      <Link href="/blog/" className="text-brand-muted text-sm">—Back to Blog</Link>
 
       <h1 className="mt-4 mb-3">Best 10 Free Sourdough Hydration Calculators (Tested and Ranked 2026)</h1>
       <p className="text-brand-muted text-sm mb-8">📖 12 min read · Updated July 2026</p>
@@ -18,7 +18,7 @@ export default function BestSourdoughCalculators() {
       <p className="text-lg mb-6">
         If you have ever Googled "sourdough hydration calculator," you already know the problem: there are
         dozens of tools out there, and most of them look the same. So I spent a week testing the ten most
-        popular free options to see which ones are actually worth your time. Below is what I found �?honest
+        popular free options to see which ones are actually worth your time. Below is what I found —honest
         pros, cons, and which one you should use based on your skill level.
       </p>
 
@@ -146,7 +146,7 @@ export default function BestSourdoughCalculators() {
         <li>Whether it had any signup wall, ads, or dark patterns</li>
       </ul>
 
-      <h2 className="mt-10 mb-3">1. SourdoughCalc �?Best Overall</h2>
+      <h2 className="mt-10 mb-3">1. SourdoughCalc 🥇 — Best Overall</h2>
       <p className="mb-4">
         <Link href="/" className="text-brand-brown font-medium">SourdoughCalc</Link> is the tool I
         reach for most often, and I am admittedly biased because I built it. But after testing the other
@@ -163,11 +163,11 @@ export default function BestSourdoughCalculators() {
         retype ingredients. A simple way to save or share a recipe would make it perfect.
       </p>
       <p className="mb-4">
-        <strong>Best for:</strong> anyone who wants a fast, no-fuss calculator that also teaches you about
+        <strong>👍 Best for:</strong> anyone who wants a fast, no-fuss calculator that also teaches you about
         hydration while you bake.
       </p>
 
-      <h2 className="mt-10 mb-3">2. Sourdough.co.uk �?Best for Advanced Bakers</h2>
+      <h2 className="mt-10 mb-3">2. Sourdough.co.uk — Best for Advanced Bakers</h2>
       <p className="mb-4">
         This is one of the oldest sourdough calculators on the internet, dating back to 2014. It has a
         no-nonsense interface that serious bakers tend to love. You input flour weight, hydration, salt
@@ -182,11 +182,11 @@ export default function BestSourdoughCalculators() {
         usable but cramped. There is no visual hydration guide, so beginners may find it intimidating.
       </p>
       <p className="mb-4">
-        <strong>Best for:</strong> experienced bakers who already understand the math and just want the
+        <strong>👍 Best for:</strong> experienced bakers who already understand the math and just want the
         numbers fast.
       </p>
 
-      <h2 className="mt-10 mb-3">3. Simple Sourdough Calculator (sourdoughcalculator.info) �?Best for True Beginners</h2>
+      <h2 className="mt-10 mb-3">3. Simple Sourdough Calculator (sourdoughcalculator.info) — Best for True Beginners</h2>
       <p className="mb-4">
         As the name suggests, this one is about as simple as it gets. One flour weight input, one
         hydration slider, and you are done. Great for people who feel intimidated by bakers percentage
@@ -201,13 +201,13 @@ export default function BestSourdoughCalculators() {
         adjustments, no presets.
       </p>
       <p className="mb-4">
-        <strong>Best for:</strong> first-time sourdough bakers who only need the water number and nothing
+        <strong>👍 Best for:</strong> first-time sourdough bakers who only need the water number and nothing
         else.
       </p>
 
-      <h2 className="mt-10 mb-3">4. Bread Hydration and Conversion Calculator (breadcalc.com) �?Best for Bakers Percentage</h2>
+      <h2 className="mt-10 mb-3">4. Bread Hydration and Conversion Calculator (breadcalc.com) — Best for Bakers Percentage</h2>
       <p className="mb-4">
-        This calculator goes beyond sourdough �?it handles sandwich bread, sourdough, focaccia,
+        This calculator goes beyond sourdough —it handles sandwich bread, sourdough, focaccia,
         ciabatta, autumn white, and more. It also includes a yeast-to-flour conversion tool.
       </p>
       <p className="mb-4">
@@ -220,10 +220,10 @@ export default function BestSourdoughCalculators() {
         dedicated tools.
       </p>
       <p className="mb-4">
-        <strong>Best for:</strong> home bakers who split time between sourdough and yeasted breads.
+        <strong>👍 Best for:</strong> home bakers who split time between sourdough and yeasted breads.
       </p>
 
-      <h2 className="mt-10 mb-3">5. Flourwise Free Bread Hydration Calculator �?Best for Whole Grain Bakers</h2>
+      <h2 className="mt-10 mb-3">5. Flourwise Free Bread Hydration Calculator — Best for Whole Grain Bakers</h2>
       <p className="mb-4">
         Flourwise is built around the idea that different flours absorb different amounts of water. It has
         a small database of flours (bread flour, whole wheat, rye, spelt, einkorn) and adjusts hydration
@@ -238,10 +238,10 @@ export default function BestSourdoughCalculators() {
         you are on your own. Also, less beginner-friendly than SourdoughCalc.
       </p>
       <p className="mb-4">
-        <strong>Best for:</strong> bakers experimenting with whole wheat, rye, or other non-wheat flours.
+        <strong>👍 Best for:</strong> bakers experimenting with whole wheat, rye, or other non-wheat flours.
       </p>
 
-      <h2 className="mt-10 mb-3">6. ThePerfectLoaf Starter Tools �?Best for Tracking Your Starter</h2>
+      <h2 className="mt-10 mb-3">6. ThePerfectLoaf Starter Tools — Best for Tracking Your Starter</h2>
       <p className="mb-4">
         Maurizio Leo’s ThePerfectLoaf site does not have a single hydration calculator the way the others
         on this list do, but it does have a starter tracking template and a bake log template that are
@@ -255,11 +255,11 @@ export default function BestSourdoughCalculators() {
         tool to do the math.
       </p>
       <p className="mb-4">
-        <strong>Best for:</strong> bakers who want to track starter activity and bake logs alongside
+        <strong>👍 Best for:</strong> bakers who want to track starter activity and bake logs alongside
         calculating recipes.
       </p>
 
-      <h2 className="mt-10 mb-3">7. Crave The Good Sourdough Hydration �?Best for Beginners Who Want a Recipe</h2>
+      <h2 className="mt-10 mb-3">7. Crave The Good Sourdough Hydration — Best for Beginners Who Want a Recipe</h2>
       <p className="mb-4">
         This is less of a standalone calculator and more of a beginner-friendly article with a calculator
         embedded. The page explains hydration, then gives you a calculator for two common hydration levels
@@ -272,10 +272,10 @@ export default function BestSourdoughCalculators() {
         What could be better: limited to two hydration options. Not flexible for experimentation.
       </p>
       <p className="mb-4">
-        <strong>Best for:</strong> someone who has never baked sourdough and wants hand-holding.
+        <strong>👍 Best for:</strong> someone who has never baked sourdough and wants hand-holding.
       </p>
 
-      <h2 className="mt-10 mb-3">8. That Sourdough Gal �?Best for Bakers Math</h2>
+      <h2 className="mt-10 mb-3">8. That Sourdough Gal — Best for Bakers Math</h2>
       <p className="mb-4">
         This calculator is part of a larger blog about sourdough baking. It focuses on bakers percentage
         math with clear explanations of how each percentage is calculated.
@@ -288,10 +288,10 @@ export default function BestSourdoughCalculators() {
         distracting ads.
       </p>
       <p className="mb-4">
-        <strong>Best for:</strong> bakers who want to understand the math, not just the answer.
+        <strong>👍 Best for:</strong> bakers who want to understand the math, not just the answer.
       </p>
 
-      <h2 className="mt-10 mb-3">9. King Arthur Baker’s Percentage Calculator �?Best for Quick Reference</h2>
+      <h2 className="mt-10 mb-3">9. King Arthur Baker’s Percentage Calculator — Best for Quick Reference</h2>
       <p className="mb-4">
         The King Arthur baking company has a simple calculator that gives you ingredient weights from a
         total dough weight and percentages.
@@ -303,10 +303,10 @@ export default function BestSourdoughCalculators() {
         What could be better: not sourdough-specific. Does not account for starter or levain.
       </p>
       <p className="mb-4">
-        <strong>Best for:</strong> yeasted bread bakers who want a trusted brand for quick math.
+        <strong>👍 Best for:</strong> yeasted bread bakers who want a trusted brand for quick math.
       </p>
 
-      <h2 className="mt-10 mb-3">10. Sourdough Apps (iOS / Android) �?Best for Phone-Only Bakers</h2>
+      <h2 className="mt-10 mb-3">10. Sourdough Apps (iOS / Android) — Best for Phone-Only Bakers</h2>
       <p className="mb-4">
         There are several paid sourdough apps in the App Store and Google Play. Most are a few dollars
         and include additional features like recipe storage, timers, and starter tracking.
@@ -319,7 +319,7 @@ export default function BestSourdoughCalculators() {
         heavily limited.
       </p>
       <p className="mb-4">
-        <strong>Best for:</strong> bakers who refuse to bake with a laptop open.
+        <strong>👍 Best for:</strong> bakers who refuse to bake with a laptop open.
       </p>
 
       <h2 className="mt-10 mb-3">Frequently Asked Questions</h2>
@@ -356,7 +356,7 @@ export default function BestSourdoughCalculators() {
       <h2 className="mt-10 mb-3">Final Verdict</h2>
       <p className="mb-4">
         After a week of testing, <Link href="/" className="text-brand-brown font-medium">SourdoughCalc</Link>{" "}
-        remains my top pick for most bakers �?it is fast, free, mobile-friendly, and teaches you about
+        remains my top pick for most bakers —it is fast, free, mobile-friendly, and teaches you about
         hydration while you bake. If you want something even more minimal, sourdough.co.uk is a solid
         runner-up. And if you only bake on your phone, the paid apps are worth the few dollars.
       </p>
