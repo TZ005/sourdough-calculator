@@ -2,6 +2,12 @@
 
 const POSTS = [
   {
+    slug: "common-mistakes",
+    title: "5 Common Sourdough Mistakes (and How to Fix Them)",
+    excerpt: "Dense crumb, flat loaf, gummy texture? The 5 most common sourdough mistakes and exactly how to fix each one.",
+    readTime: "12 min",
+  },
+  {
     slug: "hydration-guide",
     title: "Sourdough Hydration: The Complete Beginner's Guide (2026)",
     excerpt: "Everything you need to know about sourdough hydration, from 70% beginner loaves to 100% ciabatta. Includes flour absorption tips and a free calculator.",
