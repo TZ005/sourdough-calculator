@@ -2,6 +2,12 @@
 
 const POSTS = [
   {
+    slug: "hydration-guide",
+    title: "Sourdough Hydration: The Complete Beginner's Guide (2026)",
+    excerpt: "Everything you need to know about sourdough hydration, from 70% beginner loaves to 100% ciabatta. Includes flour absorption tips and a free calculator.",
+    readTime: "15 min",
+  },
+  {
     slug: "best-sourdough-calculators",
     title: "Best 10 Free Sourdough Hydration Calculators (2026)",
     excerpt: "I tested 10 popular sourdough hydration calculators. Here is which one is best for beginners, mobile users, and serious bakers.",
