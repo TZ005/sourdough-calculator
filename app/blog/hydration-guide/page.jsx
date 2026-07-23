@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Comments from "@/components/Comments";
 
 export const metadata = {
   title: "Sourdough Hydration: The Complete Beginner's Guide (2026)",
@@ -226,6 +227,7 @@ export default function HydrationGuide() {
         </Link>{" "}
         if you want a second opinion.
       </p>
+      <Comments />
     </article>
   );
 }

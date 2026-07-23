@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Comments from "@/components/Comments";
 
 export const metadata = {
   title: "5 Common Sourdough Mistakes (and How to Fix Them) - 2026 Guide",
@@ -234,6 +235,7 @@ export default function CommonMistakes() {
         </Link>{" "}
         walks through the science.
       </p>
+      <Comments />
     </article>
   );
 }
