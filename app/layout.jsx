@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
+  metadataBase: new URL('https://sourdough-hydrationcalculator.com/'),
   title: 'Sourdough Hydration Calculator - Free Tool (2026) | SourdoughCalc',
   description: 'Free sourdough hydration calculator. Input flour weight, get water, salt & starter ratios instantly. Includes hydration chart for 50 percent to 100 percent.',
   keywords: ['sourdough hydration calculator', 'sourdough hydration', 'hydration calculator', 'sourdough recipe calculator'],
