@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Comments from "@/components/Comments";
 
 export const metadata = {
   title: "Best 10 Free Sourdough Hydration Calculators (Tested and Ranked 2026)",
@@ -364,7 +363,6 @@ export default function BestSourdoughCalculators() {
         Whichever tool you choose, the most important thing is that you actually use it. Hydration
         math is the difference between guessing and baking with confidence.
       </p>
-      <Comments />
     </article>
   );
 }
