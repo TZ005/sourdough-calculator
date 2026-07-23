@@ -12,6 +12,15 @@ export default function WhatIsHydration() {
 
       <h1 className="mt-4 mb-3">What is Sourdough Hydration?</h1>
       <p className="text-brand-muted text-sm mb-8">📖 8 min read · Updated 2026</p>
+      <img
+        src="/images/blog/what-is-hydration.png"
+        alt="Hand-drawn watercolor illustration of white flour being poured into a bowl of water, with a small spoon of salt beside it"
+        width="1200"
+        height="630"
+        className="w-full rounded-xl my-8"
+        loading="lazy"
+      />
+
 
       <p className="text-lg mb-6">
         If you have ever wondered why some sourdough breads are dense and chewy while others are light and full

@@ -13,6 +13,15 @@ export default function CommonMistakes() {
 
       <h1 className="mt-4 mb-3">5 Common Sourdough Mistakes (and How to Fix Them)</h1>
       <p className="text-brand-muted text-sm mb-8">📖 12 min read · Updated July 2026</p>
+      <img
+        src="/images/blog/common-mistakes.png"
+        alt="Hand-drawn watercolor illustration of a slightly over-baked sourdough loaf on a cooling rack with a thermometer showing high heat"
+        width="1200"
+        height="630"
+        className="w-full rounded-xl my-8"
+        loading="lazy"
+      />
+
 
       <p className="text-lg mb-6">
         Every sourdough baker has pulled a loaf out of the oven that was flat, dense, gummy, or just

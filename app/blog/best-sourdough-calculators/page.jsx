@@ -13,6 +13,15 @@ export default function BestSourdoughCalculators() {
 
       <h1 className="mt-4 mb-3">Best 10 Free Sourdough Hydration Calculators (Tested and Ranked 2026)</h1>
       <p className="text-brand-muted text-sm mb-8">📖 12 min read · Updated July 2026</p>
+      <img
+        src="/images/blog/best-sourdough-calculators.png"
+        alt="Hand-drawn watercolor illustration of sourdough baking tools in a flat lay: Dutch oven, kitchen scale, thermometer, dough scraper, and a fresh boule"
+        width="1200"
+        height="630"
+        className="w-full rounded-xl my-8"
+        loading="lazy"
+      />
+
 
       <p className="text-lg mb-6">
         If you have ever Googled "sourdough hydration calculator," you already know the problem: there are
