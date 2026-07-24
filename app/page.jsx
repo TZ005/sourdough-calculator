@@ -37,7 +37,7 @@ export default function Home() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
             <AffiliateLink href="https://www.amazon.com/dp/B0FBZ64DVL?tag=sourdoughca0a-20" productName="King Arthur Bread Flour" source="homepage" aria-label="Buy King Arthur Bread Flour on Amazon - 100% Organic, Unbleached, 5 lb" title="King Arthur Bread Flour on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
-              <div className="text-2xl mb-2" role="img" aria-label="Wheat icon">🌾</div>
+              <img src="/images/product-flour.png" alt="Hand-drawn watercolor illustration of a bag of bread flour" width="600" height="600" className="w-28 h-28 mx-auto mb-3 object-contain" loading="lazy" />
               <h3 className="font-semibold mb-1">King Arthur Bread Flour</h3>
               <p className="text-sm text-brand-muted mb-2">100% Organic, Unbleached, 5 lb — Best Seller</p>
               <span className="text-sm text-brand-brown font-medium">View on Amazon →</span>
