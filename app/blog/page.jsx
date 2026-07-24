@@ -2,6 +2,30 @@
 
 const POSTS = [
   {
+    slug: "didnt-rise",
+    title: "Why Your Sourdough Did Not Rise: 12 Common Causes and How to Fix Each",
+    excerpt: "Troubleshooting guide for flat, dense, or sunken sourdough. 12 common causes with specific fixes, from weak starter to oven temperature mistakes.",
+    readTime: "10 min",
+  },
+  {
+    slug: "rye-sourdough",
+    title: "Rye Sourdough: A Beginner's Guide to Dark, Flavorful, Traditional Bread",
+    excerpt: "Rye sourdough is a different beast from wheat. Here's how to work with rye's unique properties for dark, moist, intensely flavored bread.",
+    readTime: "8 min",
+  },
+  {
+    slug: "shaping-boule",
+    title: "How to Shape a Sourdough Boule: 3 Methods for Beginners",
+    excerpt: "Step-by-step instructions for shaping a tight, round boule. Three methods from simple to advanced, with troubleshooting.",
+    readTime: "7 min",
+  },
+  {
+    slug: "bulk-fermentation",
+    title: "Sourdough Bulk Fermentation: A Complete Guide to Timing and Temperature",
+    excerpt: "When to end bulk fermentation: visual cues, temperature effects, and timing guidelines. Stop guessing and start baking by feel.",
+    readTime: "9 min",
+  },
+  {
     slug: "crispy-crust",
     title: "Sourdough Crust: 7 Tips for a Crispy, Crackling, Bakery-Style Crust",
     excerpt: "Want that signature crackling sourdough crust? Seven proven tips for oven spring, steam, and the perfect crackle every time.",
