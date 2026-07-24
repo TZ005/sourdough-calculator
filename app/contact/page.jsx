@@ -13,7 +13,7 @@ export default function Contact() {
 
       <div className="bg-white rounded-xl p-8 shadow-md">
         <p className="mb-4">
-          <strong>Email:</strong> hello@sourdough-hydrationcalculator.com
+          <strong>Email:</strong> yanxi001studio@sourdough-hydrationcalculator.com
         </p>
         <p className="mb-4">
           <strong>Response time:</strong> Within 2 business days

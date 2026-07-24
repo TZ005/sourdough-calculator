@@ -34,7 +34,7 @@ export default function Privacy() {
 
       <h2 className="mt-8 mb-3">Contact</h2>
       <p>
-        Questions? Email us at hello@sourdough-hydrationcalculator.com
+        Questions? Email us at yanxi001studio@sourdough-hydrationcalculator.com
       </p>
     </article>
   );
