@@ -2,6 +2,24 @@
 
 const POSTS = [
   {
+    slug: "crispy-crust",
+    title: "Sourdough Crust: 7 Tips for a Crispy, Crackling, Bakery-Style Crust",
+    excerpt: "Want that signature crackling sourdough crust? Seven proven tips for oven spring, steam, and the perfect crackle every time.",
+    readTime: "7 min",
+  },
+  {
+    slug: "vs-regular-bread",
+    title: "Sourdough vs Regular Bread: Nutrition, Digestibility, and Taste Compared",
+    excerpt: "Is sourdough actually healthier than regular bread? A science-backed comparison of nutrition, glycemic index, digestibility, and flavor.",
+    readTime: "8 min",
+  },
+  {
+    slug: "best-flour",
+    title: "Best Flour for Sourdough: A Complete Guide for Home Bakers",
+    excerpt: "Bread flour, all-purpose, whole wheat, rye: which flour makes the best sourdough? Practical guide to choosing flour by skill level and style.",
+    readTime: "9 min",
+  },
+  {
     slug: "sourdough-discard",
     title: "Sourdough Discard: 10 Easy Recipes That Don't Taste Sour",
     excerpt: "Don't throw away your sourdough discard! 10 delicious recipes including pancakes, crackers, waffles, pizza dough and more. Zero waste, full flavor.",
