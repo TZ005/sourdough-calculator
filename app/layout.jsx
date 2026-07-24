@@ -40,6 +40,17 @@ export default function RootLayout({ children }) {
         {/* Cloudflare Web Analytics */}
         <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ed533c19d9f74eb88d3b8c58833aea24"}'></script>
         {/* End Cloudflare Web Analytics */}
+
+        {/* Google Analytics 4 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-15315088186"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-15315088186');`
+          }}
+        />
       </head>
       <body className="bg-brand-cream text-brand-dark">
         <Header />
