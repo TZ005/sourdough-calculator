@@ -35,11 +35,9 @@ TO: editor@thekitchen.com
 FROM: your-email@gmail.com
 SUBJECT: Quick suggestion for your The Kitchen readers
 
-Subject: Quick suggestion for your The Kitchen readers
-
 Hi there,
 
-I was just reading your article the sourdough article I found on your site on thekitchen.com and noticed you link to https://thekitchen.com or similar competitor for hydration calculations. Great article!
+I was just reading the sourdough guide on your site thekitchen.com and noticed you link to a competitor for hydration calculations. Great article!
 
 I built a free alternative at sourdough-hydrationcalculator.com that might be a better fit:
 

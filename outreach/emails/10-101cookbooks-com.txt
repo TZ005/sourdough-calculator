@@ -35,11 +35,9 @@ TO: heidi@101cookbooks.com
 FROM: your-email@gmail.com
 SUBJECT: Quick suggestion for your 101 Cookbooks readers
 
-Subject: Quick suggestion for your 101 Cookbooks readers
-
 Hi there,
 
-I was just reading your article the sourdough article I found on your site on 101cookbooks.com and noticed you link to https://101cookbooks.com or similar competitor for hydration calculations. Great article!
+I was just reading the sourdough guide on your site 101cookbooks.com and noticed you link to a competitor for hydration calculations. Great article!
 
 I built a free alternative at sourdough-hydrationcalculator.com that might be a better fit:
 

@@ -35,8 +35,6 @@ TO: editor@cuisinefiend.com
 FROM: your-email@gmail.com
 SUBJECT: Quick suggestion for your Pan De Cristal readers
 
-Subject: Quick suggestion for your Pan De Cristal readers
-
 Hi there,
 
 I was just reading the sourdough guide on your site cuisinefiend.com 
