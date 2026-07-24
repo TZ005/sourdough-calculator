@@ -34,6 +34,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <link rel="preload" as="image" href="/og-image.webp" type="image/webp" />
         <link rel="preconnect" href="https://www.amazon.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://m.media-amazon.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.amazon.com" />
