@@ -42,13 +42,13 @@ export default function RootLayout({ children }) {
         {/* End Cloudflare Web Analytics */}
 
         {/* Google Analytics 4 */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-15315088186"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-58KC5RL1PG"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-15315088186');`
+gtag('config', 'G-58KC5RL1PG');`
           }}
         />
       </head>
