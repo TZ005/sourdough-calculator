@@ -5,7 +5,7 @@ Track each target through the funnel: pending, sent, opened, replied, linked.
 | ID | Site | Status | Date Sent | Date Replied | Notes |
 |----|------|--------|-----------|--------------|-------|
 | 1 | cuisinefiend.com | bounced | - | - | email `editor@` does not exist (auto-suggest); skip for now |
-| 2 | lemonsandanchovies.com | pending | | | next to try |
+| 2 | lemonsandanchovies.com | bounced | - | - | email hello@ does not exist (auto-suggest); skip for now | | | next to try |
 | 3 | pantrymama.com | **sent** | 2026-07-24 | | in outreach window |
 | 4 | breadexperience.com | pending | | | |
 | 5 | alexandracooks.com | pending | | | high DR (70) - lower response rate |
@@ -18,8 +18,8 @@ Track each target through the funnel: pending, sent, opened, replied, linked.
 ## Stats
 - Total targets: 10
 - Sent: 1 (10%)
-- Bounced: 1 (10%)
-- Pending: 8
+- Bounced: 2 (20%)
+- Pending: 7
 - Reply rate: TBD
 
 ## Notes
