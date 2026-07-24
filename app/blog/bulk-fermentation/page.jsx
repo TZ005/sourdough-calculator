@@ -33,8 +33,7 @@ export default function BulkFermentation() {
       <h3 className="mt-6 mb-2">1. Temperature</h3>
       <p className="mb-4">
         Temperature is the most important factor. Warmer dough ferments faster, cooler dough
-        ferments slower. Each 10°F increase roughly halves the fermentation time. A dough at 75°F
-        might bulk for 3 hours, while the same dough at 65°F might need 6 hours.
+        ferments slower. Warmer dough ferments faster, cooler dough slower. A dough at 75°F might bulk for 3-4 hours, while the same dough at 65°F might need 5-7 hours.
       </p>
 
       <h3 className="mt-6 mb-2">2. Time</h3>

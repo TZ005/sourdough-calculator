@@ -79,8 +79,7 @@ export default function VsRegularBread() {
 
       <h3 className="mt-6 mb-2">5. Better Flavor, Longer Shelf Life</h3>
       <p className="mb-4">
-        Sourdough has a tangy, complex flavor that is simply more interesting than regular bread.
-        This is subjective, but most people who make sourdough regularly prefer it. The lactic acid
+        Sourdough has a tangy, complex flavor. Some people prefer it; others prefer simpler breads. The lactic acid in sourdough also acts as a natural preservative, so sourdough stays fresh for 3-5 days compared to 1-2 days for commercial bread. The lactic acid
         in sourdough also acts as a natural preservative, so sourdough stays fresh for 3-5 days
         compared to 1-2 days for commercial bread.
       </p>
