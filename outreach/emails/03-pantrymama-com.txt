@@ -39,9 +39,11 @@ Subject: Quick suggestion for your The Pantry Mama readers
 
 Hi there,
 
-I was just reading your article the sourdough article I found on your site on pantrymama.com and noticed you link to https://pantrymama.com or similar competitor for hydration calculations. Great article!
+I was just reading the sourdough guide on your site pantrymama.com 
+and noticed you link to a competitor for hydration calculations. 
+Great article!
 
-I built a free alternative at sourdough-hydrationcalculator.com that might be a better fit:
+I built a free alternative at sourdough-hydrationcalculator.com
 
 - **Faster** (calculations in <100ms)
 - **No signup, no cookies, no tracking** (privacy-friendly)
@@ -55,6 +57,6 @@ The embed code is just 2 lines:
 If you find it useful, would you consider updating the link? No pressure if you're happy with the current one — I just thought your readers might prefer a faster, ad-free option.
 
 Best,
-[your_name]
+Tim zhang
 SourdoughCalc
 https://sourdough-hydrationcalculator.com

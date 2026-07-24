@@ -39,9 +39,12 @@ Subject: Quick suggestion for your Pan De Cristal readers
 
 Hi there,
 
-I was just reading your article the sourdough article I found on your site on cuisinefiend.com and noticed you link to https://cuisinefiend.com or similar competitor for hydration calculations. Great article!
+I was just reading the sourdough guide on your site cuisinefiend.com 
+and noticed you link to a competitor for hydration calculations. 
+Great article!
 
-I built a free alternative at sourdough-hydrationcalculator.com that might be a better fit:
+I built a free alternative at sourdough-hydrationcalculator.com 
+that might be a better fit:
 
 - **Faster** (calculations in <100ms)
 - **No signup, no cookies, no tracking** (privacy-friendly)
