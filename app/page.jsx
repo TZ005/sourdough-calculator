@@ -7,6 +7,14 @@ export default function Home() {
     <>
       <section className="py-16 md:py-20 text-center bg-gradient-to-b from-brand-cream to-brand-tan">
         <div className="max-w-6xl mx-auto px-6">
+          <img
+            src="/og-image.png"
+            alt="Hand-drawn watercolor illustration of sourdough baking tools and a fresh loaf"
+            width="1200"
+            height="630"
+            className="w-full max-w-4xl mx-auto rounded-2xl shadow-lg mb-10"
+            loading="eager"
+          />
           <h1 className="text-3xl md:text-5xl mb-4">Sourdough Hydration Calculator</h1>
           <p className="text-lg text-[#5C4033] max-w-2xl mx-auto">
             Calculate water, salt, and starter ratios for any sourdough recipe — instantly, accurately, and free.
