@@ -1,6 +1,13 @@
 ﻿import Link from "next/link";
 
-const POSTS = [  { slug: "sourdough-starter",
+const POSTS = [
+  {
+    slug: "sourdough-discard",
+    title: "Sourdough Discard: 10 Easy Recipes That Don't Taste Sour",
+    excerpt: "Don't throw away your sourdough discard! 10 delicious recipes including pancakes, crackers, waffles, pizza dough and more. Zero waste, full flavor.",
+    readTime: "8 min",
+  },
+  { slug: "sourdough-starter",
     title: "Sourdough Starter: A 7-Day Guide from Scratch",
     excerpt: "Day-by-day guide to creating your own starter from just flour + water. Includes feeding schedules and troubleshooting.",
     readTime: "10 min",
