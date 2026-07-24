@@ -1,6 +1,21 @@
 ﻿import Link from "next/link";
 
-const POSTS = [
+const POSTS = [  { slug: "sourdough-starter",
+    title: "Sourdough Starter: A 7-Day Guide from Scratch",
+    excerpt: "Day-by-day guide to creating your own starter from just flour + water. Includes feeding schedules and troubleshooting.",
+    readTime: "10 min",
+  },
+  { slug: "bakers-percentage",
+    title: "Baker's Percentage: Convert Any Recipe (With Calculator)",
+    excerpt: "Master baker's percentage in 8 minutes. Convert any bread recipe, scale to your loaf size, never guess hydration again.",
+    readTime: "8 min",
+  },
+  { slug: "sourdough-schedule",
+    title: "Sourdough Schedule: A 24-Hour Timeline for Your First Loaf",
+    excerpt: "Hour-by-hour timeline from starter feed to slicing. Perfect for first-time bakers.",
+    readTime: "9 min",
+  },
+
   {
     slug: "common-mistakes",
     title: "5 Common Sourdough Mistakes (and How to Fix Them)",
