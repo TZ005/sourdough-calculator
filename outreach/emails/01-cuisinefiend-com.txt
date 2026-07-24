@@ -1,0 +1,27 @@
+TO: editor@cuisinefiend.com
+FROM: your-email@gmail.com
+SUBJECT: Quick suggestion for your Pan De Cristal readers
+
+Subject: Quick suggestion for your Pan De Cristal readers
+
+Hi there,
+
+I was just reading your article the sourdough article I found on your site on cuisinefiend.com and noticed you link to https://cuisinefiend.com or similar competitor for hydration calculations. Great article!
+
+I built a free alternative at sourdough-hydrationcalculator.com that might be a better fit:
+
+- **Faster** (calculations in <100ms)
+- **No signup, no cookies, no tracking** (privacy-friendly)
+- **6 recipe presets** (bagel, sandwich, classic, country, open crumb, ciabatta)
+- **Mobile-optimized** (works great on phones)
+- **Embeddable widget** - your readers can calculate without leaving your site
+
+The embed code is just 2 lines:
+<iframe src="https://sourdough-hydrationcalculator.com/embed" width="100%" height="600" style="border:0"></iframe>
+
+If you find it useful, would you consider updating the link? No pressure if you're happy with the current one — I just thought your readers might prefer a faster, ad-free option.
+
+Best,
+[your_name]
+SourdoughCalc
+https://sourdough-hydrationcalculator.com

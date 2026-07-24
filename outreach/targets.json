@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "domain": "cuisinefiend.com",
+    "name": "Pan De Cristal",
+    "type": "recipe blog",
+    "dr": 26,
+    "contact_email": "editor@cuisinefiend.com",
+    "url_with_calc": "https://www.cuisinefiend.com/945/pan-de-cristal",
+    "competitor_anchor": "Sourdough.co.uk",
+    "language": "English",
+    "status": "pending"
+  },
+  {
+    "id": 2,
+    "domain": "lemonsandanchovies.com",
+    "name": "Lemons + Anchovies",
+    "type": "food blog",
+    "dr": 38,
+    "contact_email": "hello@lemonsandanchovies.com",
+    "url_with_calc": "https://www.lemonsandanchovies.com/2019/05/a-sourdough-baking-guide-and-chocolate-cherry-sourdough-bread/",
+    "competitor_anchor": "Sourdough.co.uk",
+    "language": "English",
+    "status": "pending"
+  },
+  {
+    "id": 3,
+    "domain": "pantrymama.com",
+    "name": "The Pantry Mama",
+    "type": "sourdough guide",
+    "dr": 13,
+    "contact_email": "info@pantrymama.com",
+    "url_with_calc": "https://www.pantrymama.com/understanding-j hydration-in-sourdough-bread/",
+    "competitor_anchor": "Sourdough.co.uk",
+    "language": "English",
+    "status": "pending"
+  },
+  {
+    "id": 4,
+    "domain": "breadexperience.com",
+    "name": "Bread Experience",
+    "type": "sourdough resource",
+    "dr": 35,
+    "contact_email": "hello@breadexperience.com",
+    "url_with_calc": "https://breadexperience.com/sourdough-bread-recipe/",
+    "competitor_anchor": "Breadcalc.com",
+    "language": "English",
+    "status": "pending"
+  },
+  {
+    "id": 5,
+    "domain": "alexandracooks.com",
+    "name": "Alexandra Cooks",
+    "type": "food blog (DR 70)",
+    "dr": 70,
+    "contact_email": "alex@alexandracooks.com",
+    "url_with_calc": "https://alexandracooks.com/2017/10/24/artisan-simple-sourdough-bread-step-by-step-with-easy-recipe-very-easy-to-follow-and-truly-delicious/",
+    "competitor_anchor": "Breadcalc.com",
+    "language": "English",
+    "status": "pending"
+  },
+  {
+    "id": 6,
+    "domain": "theclevercarrot.com",
+    "name": "The Clever Carrot",
+    "type": "baking blog (DR 65)",
+    "dr": 65,
+    "contact_email": "hello@theclevercarrot.com",
+    "url_with_calc": "https://www.theclevercarrot.com/2014/01/sourdough-bread-a-beginners-guide/",
+    "competitor_anchor": "Breadcalc.com",
+    "language": "English",
+    "status": "pending"
+  },
+  {
+    "id": 7,
+    "domain": "thekitchen.com",
+    "name": "The Kitchen",
+    "type": "food site (DR 86)",
+    "dr": 86,
+    "contact_email": "editor@thekitchen.com",
+    "url_with_calc": "https://www.thekitchen.com/how-to-make-sourdough-bread-at-home/",
+    "competitor_anchor": "Breadcalc.com",
+    "language": "English",
+    "status": "pending"
+  },
+  {
+    "id": 8,
+    "domain": "cooking.nytimes.com",
+    "name": "NYT Cooking",
+    "type": "premium food (DR 91)",
+    "dr": 91,
+    "contact_email": "cookingcommunity@nytimes.com",
+    "url_with_calc": "https://cooking.nytimes.com/recipes/sourdough-bread",
+    "competitor_anchor": "Breadcalc.com",
+    "language": "English",
+    "status": "pending"
+  },
+  {
+    "id": 9,
+    "domain": "feastingathome.com",
+    "name": "Feasting at Home",
+    "type": "recipe blog",
+    "dr": 45,
+    "contact_email": "hello@feastingathome.com",
+    "url_with_calc": "https://feastingathome.com/sourdough-bread-recipe/",
+    "competitor_anchor": "Breadcalc.com",
+    "language": "English",
+    "status": "pending"
+  },
+  {
+    "id": 10,
+    "domain": "101cookbooks.com",
+    "name": "101 Cookbooks",
+    "type": "sourdough resource",
+    "dr": 67,
+    "contact_email": "heidi@101cookbooks.com",
+    "url_with_calc": "https://www.101cookbooks.com/whole-wheat-sourdough/",
+    "competitor_anchor": "Breadcalc.com",
+    "language": "English",
+    "status": "pending"
+  }
+]
