@@ -1,3 +1,36 @@
+============================================================
+中文备注 (read this BEFORE sending)
+============================================================
+
+收件网站: 101 Cookbooks (101cookbooks.com)
+类型: sourdough resource
+DR (Domain Rating 权威度): 67
+难度: 难（回复率 10-20%）
+语言: English
+
+为什么要联系:
+  - 这个网站已经链到了竞争对手 (Breadcalc.com)
+  - 文章 URL: https://www.101cookbooks.com/whole-wheat-sourdough/...
+  - 替换外链/嵌入你的计算器 = 1 个高质量 backlink
+
+发送时 (复制发件):
+  收件: heidi@101cookbooks.com
+  主题: Quick suggestion for your 101 Cookbooks readers
+
+DR 67 中高。101 Cookbooks 是 Heidij Swanson 创办，回复及时。
+
+替换必填项:
+  - [your_name] → 你的名字
+  - your-email@gmail.com → 你的 Gmail
+
+发件时间 (最佳):
+  - 美东时间: 周二/周三/周四 09:00-11:00 AM
+  - 你的时间: 周二/周三/周四 21:00-23:00
+
+============================================================
+英文邮件原文 (直接复制到 Gmail):
+============================================================
+
 TO: heidi@101cookbooks.com
 FROM: your-email@gmail.com
 SUBJECT: Quick suggestion for your 101 Cookbooks readers

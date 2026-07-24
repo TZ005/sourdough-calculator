@@ -1,3 +1,36 @@
+============================================================
+中文备注 (read this BEFORE sending)
+============================================================
+
+收件网站: The Kitchen (thekitchen.com)
+类型: food site (DR 86)
+DR (Domain Rating 权威度): 86
+难度: 极难（回复率 <10%）
+语言: English
+
+为什么要联系:
+  - 这个网站已经链到了竞争对手 (Breadcalc.com)
+  - 文章 URL: https://www.thekitchen.com/how-to-make-sourdough-bread-at-home/...
+  - 替换外链/嵌入你的计算器 = 1 个高质量 backlink
+
+发送时 (复制发件):
+  收件: editor@thekitchen.com
+  主题: Quick suggestion for your The Kitchen readers
+
+DR 86 顶级。The Kitchen 是大型食品网站，回复慢但回复了就是大外链。
+
+替换必填项:
+  - [your_name] → 你的名字
+  - your-email@gmail.com → 你的 Gmail
+
+发件时间 (最佳):
+  - 美东时间: 周二/周三/周四 09:00-11:00 AM
+  - 你的时间: 周二/周三/周四 21:00-23:00
+
+============================================================
+英文邮件原文 (直接复制到 Gmail):
+============================================================
+
 TO: editor@thekitchen.com
 FROM: your-email@gmail.com
 SUBJECT: Quick suggestion for your The Kitchen readers
