@@ -29,7 +29,7 @@ export default function RyeSourdough() {
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
-      <Link href="/blog/" className="text-brand-brown font-bold text-base inline-flex items-center gap-2 hover:underline"><span className="text-2xl">←</span> Back to Blog</Link>
+      <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline"><span className="text-2xl">←</span> Back to Blog</Link>
 
       <picture>
         <source srcSet="/images/blog/rye-sourdough.webp" type="image/webp" />

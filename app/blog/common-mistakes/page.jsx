@@ -31,7 +31,7 @@ export default function CommonMistakes() {
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
-      <Link href="/blog/" className="text-brand-brown font-bold text-base inline-flex items-center gap-2 hover:underline"><span className="text-2xl">←</span> Back to Blog</Link>
+      <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline"><span className="text-2xl">←</span> Back to Blog</Link>
 
       <h1 className="mt-4 mb-3">5 Common Sourdough Mistakes (and How to Fix Them)</h1>
       <p className="text-brand-muted text-sm mb-8">📖 12 min read · Updated July 2026</p>

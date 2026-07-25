@@ -12,8 +12,11 @@ export default function NextPostNav({ slug }) {
             href={`/blog/${prev.slug}/`}
             className="group block bg-white rounded-xl p-5 shadow hover:shadow-md transition-shadow"
           >
-            <div className="text-sm text-brand-muted mb-1 flex items-center gap-2"><span className="text-2xl">\u2190</span> Previous</div>
-            <div className="text-brand-brown font-semibold group-hover:underline">
+            <div className="text-base text-brand-muted mb-1 flex items-center gap-2">
+              <span className="text-2xl">←</span>
+              <span className="font-semibold">Previous</span>
+            </div>
+            <div className="text-lg text-brand-brown font-semibold group-hover:underline">
               {prev.title}
             </div>
           </Link>
@@ -25,8 +28,11 @@ export default function NextPostNav({ slug }) {
             href={`/blog/${next.slug}/`}
             className="group block bg-white rounded-xl p-5 shadow hover:shadow-md transition-shadow text-right"
           >
-            <div className="text-sm text-brand-muted mb-1 flex items-center gap-2 justify-end"><span className="text-2xl">\u2192</span> Next</div>
-            <div className="text-brand-brown font-semibold group-hover:underline">
+            <div className="text-base text-brand-muted mb-1 flex items-center gap-2 justify-end">
+              <span className="font-semibold">Next</span>
+              <span className="text-2xl">→</span>
+            </div>
+            <div className="text-lg text-brand-brown font-semibold group-hover:underline">
               {next.title}
             </div>
           </Link>
