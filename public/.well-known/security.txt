@@ -1,0 +1,4 @@
+Contact: mailto:yanxi001studio@sourdough-hydrationcalculator.com
+Expires: 2027-12-31T23:59:59z
+Preferred-Languages: en, zh
+Canonical: https://sourdough-hydrationcalculator.com/.well-known/security.txt
