@@ -1,4 +1,5 @@
 import Link from "next/link";
+import React from "react";
 
 const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Best 10 Free Sourdough Hydration Calculators (Tested and Ranked 2026)\",\"description\":\"I tested 10 popular sourdough hydration calculators. Here is which one is best for beginners, mobile users, and serious bakers. Free tools compared side-by-side.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/best-sourdough-calculators.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/best-sourdough-calculators/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/best-sourdough-calculators/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
 
@@ -16,7 +17,7 @@ export default function BestSourdoughCalculators() {
     
       
       {/* Schema.org: Article */}
-      <script dangerouslySetInnerHTML={{ __html: articleSchemaJson }} />
+      {React.createElement("script", { type: "application/ld+json", dangerouslySetInnerHTML: { __html: articleSchemaJson } })}
 
 
       <article className="max-w-3xl mx-auto px-6 py-16">

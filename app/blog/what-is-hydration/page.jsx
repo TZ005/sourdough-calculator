@@ -13,7 +13,7 @@ export default function WhatIsHydration() {
     
       
       {/* Schema.org: Article */}
-      <script dangerouslySetInnerHTML={{ __html: articleSchemaJson }} />
+      {React.createElement("script", { type: "application/ld+json", dangerouslySetInnerHTML: { __html: articleSchemaJson } })}
 
 
       <article className="max-w-3xl mx-auto px-6 py-16">
