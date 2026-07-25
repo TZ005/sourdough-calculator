@@ -142,12 +142,15 @@ export default function Blog() {
       </p>
 
       <div className="space-y-6">
-        {POSTS.map((post) => (
+        {POSTS.map((post, index) => (
           <Link
             key={post.slug}
             href={`/blog/${post.slug}/`}
-            className="block bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow hover:no-underline"
+            className="relative block bg-white rounded-xl pl-16 pr-6 py-6 shadow-md hover:shadow-lg transition-shadow hover:no-underline"
           >
+                        <span className="absolute top-3 left-3 w-12 h-12 flex items-center justify-center bg-brand-brown text-white rounded-full font-bold text-lg shadow-sm">
+              {String(index + 1).padStart(2, "0")}
+            </span>
             <h2 className="text-brand-brown mb-2">{post.title}</h2>
             <p className="text-[#5C4033] mb-3">{post.excerpt}</p>
             <span className="text-brand-muted text-sm">📖 {post.readTime} read</span>
