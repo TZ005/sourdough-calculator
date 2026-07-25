@@ -12,7 +12,7 @@ export default function NextPostNav({ slug }) {
             href={`/blog/${prev.slug}/`}
             className="group block bg-white rounded-xl p-5 shadow hover:shadow-md transition-shadow"
           >
-            <div className="text-sm text-brand-muted mb-1">\u2190 Previous</div>
+            <div className="text-sm text-brand-muted mb-1 flex items-center gap-2"><span className="text-2xl">\u2190</span> Previous</div>
             <div className="text-brand-brown font-semibold group-hover:underline">
               {prev.title}
             </div>
@@ -25,7 +25,7 @@ export default function NextPostNav({ slug }) {
             href={`/blog/${next.slug}/`}
             className="group block bg-white rounded-xl p-5 shadow hover:shadow-md transition-shadow text-right"
           >
-            <div className="text-sm text-brand-muted mb-1">Next \u2192</div>
+            <div className="text-sm text-brand-muted mb-1 flex items-center gap-2 justify-end"><span className="text-2xl">\u2192</span> Next</div>
             <div className="text-brand-brown font-semibold group-hover:underline">
               {next.title}
             </div>
