@@ -161,16 +161,53 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="py-16 bg-brand-tan text-center">
+      <section className="py-16 bg-brand-tan">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="mb-2">📚 Learn Sourdough Baking</h2>
-          <p className="text-[#5C4033] mb-6">Master hydration, ratios, and techniques with our free guides.</p>
-          <Link
-            href="/blog/"
-            className="inline-block px-7 py-3 bg-brand-wheat text-brand-dark rounded-lg font-semibold hover:bg-brand-wheat-dark transition-colors"
-          >
-            Browse All Articles →
-          </Link>
+          <h2 className="text-center mb-2">📚 Learn Sourdough Baking</h2>
+          <p className="text-center text-[#5C4033] mb-10">Master hydration, ratios, and techniques with our free guides.</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-8">
+            <Link href="/blog/sourdough-pizza-dough/" className="block bg-white rounded-xl shadow hover:shadow-lg transition-shadow overflow-hidden">
+              <picture>
+                <source srcSet="/images/blog/sourdough-pizza-dough.webp" type="image/webp" />
+                <img src="/images/blog/sourdough-pizza-dough.png" alt="Sourdough Pizza Dough Guide" width="600" height="400" className="w-full h-48 object-cover" loading="lazy" />
+              </picture>
+              <div className="p-5">
+                <h3 className="font-semibold text-lg mb-2">Sourdough Pizza Dough: Crispy & Chewy</h3>
+                <p className="text-sm text-brand-muted mb-3">Better flavor than commercial yeast, with the tang and texture of real sourdough.</p>
+                <span className="text-sm text-brand-brown font-medium">Read the Recipe →</span>
+              </div>
+            </Link>
+            <Link href="/blog/sourdough-discard/" className="block bg-white rounded-xl shadow hover:shadow-lg transition-shadow overflow-hidden">
+              <picture>
+                <source srcSet="/images/blog/sourdough-discard.webp" type="image/webp" />
+                <img src="/images/blog/sourdough-discard.png" alt="Sourdough Discard Recipes" width="600" height="400" className="w-full h-48 object-cover" loading="lazy" />
+              </picture>
+              <div className="p-5">
+                <h3 className="font-semibold text-lg mb-2">10 Sourdough Discard Recipes</h3>
+                <p className="text-sm text-brand-muted mb-3">Pancakes, crackers, waffles, pizza. Zero waste, full flavor.</p>
+                <span className="text-sm text-brand-brown font-medium">Browse Recipes →</span>
+              </div>
+            </Link>
+            <Link href="/blog/sourdough-for-beginners/" className="block bg-white rounded-xl shadow hover:shadow-lg transition-shadow overflow-hidden">
+              <picture>
+                <source srcSet="/images/blog/sourdough-for-beginners.webp" type="image/webp" />
+                <img src="/images/blog/sourdough-for-beginners.png" alt="Sourdough for Beginners Guide" width="600" height="400" className="w-full h-48 object-cover" loading="lazy" />
+              </picture>
+              <div className="p-5">
+                <h3 className="font-semibold text-lg mb-2">Sourdough for Beginners</h3>
+                <p className="text-sm text-brand-muted mb-3">The complete first-time guide. From starter to your first crusty boule.</p>
+                <span className="text-sm text-brand-brown font-medium">Start Baking →</span>
+              </div>
+            </Link>
+          </div>
+          <div className="text-center">
+            <Link
+              href="/blog/"
+              className="inline-block px-7 py-3 bg-brand-wheat text-brand-dark rounded-lg font-semibold hover:bg-brand-wheat-dark transition-colors"
+            >
+              Browse All Articles →
+            </Link>
+          </div>
         </div>
       </section>
     </>
