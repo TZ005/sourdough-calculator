@@ -112,7 +112,7 @@ export default function BlogPost() {
       <p className="mb-4">Use our <Link href="/" className="text-brand-brown font-medium">free hydration calculator</Link> to dial in the exact water amount for whatever whole wheat flour you use.</p>
       </article>
 
-      <section className="mt-10 pt-8 border-t border-brand-tan">
+      <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>
         <ol className="list-decimal pl-6 space-y-3 text-sm text-brand-muted">
           <li>Reinhart, P. (2010). The Bread Bakers Apprentice. Ten Speed Press. ISBN 978-1607741296.</li>
@@ -124,7 +124,7 @@ export default function BlogPost() {
         </ol>
       </section>
 
-      <section className="mt-12 pt-8 border-t border-brand-tan">
+      <section className="max-w-3xl mx-auto px-6 mt-12 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">Related Articles</h2>
         <ul className="space-y-2">
             <li><Link href="/blog/sourdough-starter/" className="text-brand-brown font-medium">How to Make Sourdough Starter →</Link></li>

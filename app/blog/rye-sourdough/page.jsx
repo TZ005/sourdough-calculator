@@ -142,7 +142,7 @@ export default function RyeSourdough() {
         (set 50/50 blend in the calculator).
       </p>
     
-      <section className="mt-12 pt-8 border-t border-brand-tan">
+      <section className="max-w-3xl mx-auto px-6 mt-12 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">Related Articles</h2>
         <ul className="space-y-2">
             <li><Link href="/blog/sourdough-starter/" className="text-brand-brown font-medium">How to Make Sourdough Starter →</Link></li>

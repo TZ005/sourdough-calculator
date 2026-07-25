@@ -159,7 +159,7 @@ export default function VsRegularBread() {
         to dial in the right ratios.
       </p>
     
-      <section className="mt-12 pt-8 border-t border-brand-tan">
+      <section className="max-w-3xl mx-auto px-6 mt-12 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">Related Articles</h2>
         <ul className="space-y-2">
             <li><Link href="/blog/what-is-hydration/" className="text-brand-brown font-medium">What is Sourdough Hydration →</Link></li>
