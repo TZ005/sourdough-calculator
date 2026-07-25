@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"How to Make Sourdough Starter from Scratch: A 7-Day Complete Guide (2026)\",\"description\":\"Day-by-day instructions for creating a healthy sourdough starter from just flour and water. Includes troubleshooting, feeding schedules, and signs of readiness.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/sourdough-starter.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/sourdough-starter/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/sourdough-starter/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
+
+
 export const metadata = {
   title: "How to Make Sourdough Starter from Scratch: A 7-Day Complete Guide (2026)",
   description: "Day-by-day instructions for creating a healthy sourdough starter from just flour and water. Includes troubleshooting, feeding schedules, and signs of readiness.",
@@ -13,7 +16,7 @@ export default function StarterGuide() {
       {/* Schema.org: Article */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"How to Make Sourdough Starter from Scratch: A 7-Day Complete Guide (2026)\",\"description\":\"Day-by-day instructions for creating a healthy sourdough starter from just flour and water. Includes troubleshooting, feeding schedules, and signs of readiness.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/sourdough-starter.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/sourdough-starter/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/sourdough-starter/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}" }}
+        dangerouslySetInnerHTML={{ __html: articleSchemaJson }}
       />
 
 
@@ -112,3 +115,5 @@ export default function StarterGuide() {
     </article>
   );
 }
+
+

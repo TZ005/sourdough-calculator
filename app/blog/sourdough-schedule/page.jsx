@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Sourdough Schedule: A 24-Hour Timeline for Your First Loaf\",\"description\":\"A day-by-day, hour-by-hour timeline for your first sourdough loaf. From starter feed to slicing, every step timed and explained.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/sourdough-schedule.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/sourdough-schedule/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/sourdough-schedule/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
+
+
 export const metadata = {
   title: "Sourdough Schedule: A 24-Hour Timeline for Your First Loaf",
   description: "A day-by-day, hour-by-hour timeline for your first sourdough loaf. From starter feed to slicing, every step timed and explained.",
@@ -13,7 +16,7 @@ export default function SourdoughSchedule() {
       {/* Schema.org: Article */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Sourdough Schedule: A 24-Hour Timeline for Your First Loaf\",\"description\":\"A day-by-day, hour-by-hour timeline for your first sourdough loaf. From starter feed to slicing, every step timed and explained.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/sourdough-schedule.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/sourdough-schedule/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/sourdough-schedule/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}" }}
+        dangerouslySetInnerHTML={{ __html: articleSchemaJson }}
       />
 
 
@@ -179,3 +182,5 @@ export default function SourdoughSchedule() {
 </article>
   );
 }
+
+

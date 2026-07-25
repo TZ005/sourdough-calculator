@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Sourdough vs Regular Bread: Nutrition, Digestibility, and Taste Compared\",\"description\":\"Is sourdough actually healthier than regular bread? A science-backed comparison of nutrition, glycemic index, digestibility, and flavor.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/vs-regular-bread.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/vs-regular-bread/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/vs-regular-bread/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
+
+
 export const metadata = {
   title: "Sourdough vs Regular Bread: Nutrition, Digestibility, and Taste Compared",
   description: "Is sourdough actually healthier than regular bread? A science-backed comparison of nutrition, glycemic index, digestibility, and flavor.",
@@ -13,7 +16,7 @@ export default function VsRegularBread() {
       {/* Schema.org: Article */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Sourdough vs Regular Bread: Nutrition, Digestibility, and Taste Compared\",\"description\":\"Is sourdough actually healthier than regular bread? A science-backed comparison of nutrition, glycemic index, digestibility, and flavor.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/vs-regular-bread.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/vs-regular-bread/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/vs-regular-bread/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}" }}
+        dangerouslySetInnerHTML={{ __html: articleSchemaJson }}
       />
 
 
@@ -146,3 +149,5 @@ export default function VsRegularBread() {
 </article>
   );
 }
+
+

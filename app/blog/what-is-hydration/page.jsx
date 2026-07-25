@@ -1,5 +1,8 @@
 ﻿import Link from "next/link";
 
+
+const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"What is Sourdough Hydration? A Complete Guide (2026)\",\"description\":\"Hydration is the most important number in sourdough baking. Learn what it means, how to calculate it, and how to choose the right level for your bread.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/what-is-hydration.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/what-is-hydration/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/what-is-hydration/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
+
 export const metadata = {
   title: "What is Sourdough Hydration? A Complete Guide (2026)",
   description: "Hydration is the most important number in sourdough baking. Learn what it means, how to calculate it, and how to choose the right level for your bread.",
@@ -12,7 +15,7 @@ export default function WhatIsHydration() {
       {/* Schema.org: Article */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"What is Sourdough Hydration? A Complete Guide (2026)\",\"description\":\"Hydration is the most important number in sourdough baking. Learn what it means, how to calculate it, and how to choose the right level for your bread.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/what-is-hydration.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/what-is-hydration/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/what-is-hydration/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}" }}
+        dangerouslySetInnerHTML={{ __html: articleSchemaJson }}
       />
 
 
@@ -103,3 +106,5 @@ export default function WhatIsHydration() {
     </article>
   );
 }
+
+
