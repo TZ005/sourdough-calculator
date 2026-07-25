@@ -56,6 +56,47 @@ gtag('config', 'G-58KC5RL1PG');`
       <body className="bg-brand-cream text-brand-dark">
         <Header />
         <main>{children}</main>
+        
+        {/* Schema.org: WebSite + Organization */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "WebSite",
+                  "@id": "https://sourdough-hydrationcalculator.com/#website",
+                  "url": "https://sourdough-hydrationcalculator.com/",
+                  "name": "SourdoughCalc",
+                  "description": "Free sourdough hydration calculator for home bakers.",
+                  "inLanguage": "en"
+                },
+                {
+                  "@type": "Organization",
+                  "@id": "https://sourdough-hydrationcalculator.com/#organization",
+                  "name": "SourdoughCalc",
+                  "url": "https://sourdough-hydrationcalculator.com/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://sourdough-hydrationcalculator.com/og-image.png",
+                    "width": 1200,
+                    "height": 630
+                  },
+                  "sameAs": [
+                    "https://x.com/sourdoughcalc"
+                  ],
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "email": "yanxi001studio@sourdough-hydrationcalculator.com",
+                    "contactType": "customer support"
+                  }
+                }
+              ]
+            })
+          }}
+        />
+
         <Footer />
       </body>
     </html>

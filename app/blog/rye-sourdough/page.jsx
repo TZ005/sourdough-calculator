@@ -8,7 +8,16 @@ export const metadata = {
 
 export default function RyeSourdough() {
   return (
-    <article className="max-w-3xl mx-auto px-6 py-16">
+    
+      
+      {/* Schema.org: Article */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Rye Sourdough: A Beginner's Guide to Dark, Flavorful, Traditional Bread\",\"description\":\"Rye sourdough is a different beast from wheat. Here's how to work with rye's unique properties for dark, moist, intensely flavored bread.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/rye-sourdough.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/rye-sourdough/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/rye-sourdough/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}" }}
+      />
+
+
+      <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-muted text-sm">← Back to Blog</Link>
 
       <h1 className="mt-4 mb-3">Rye Sourdough: A Beginner's Guide to Dark, Flavorful, Traditional Bread</h1>
@@ -108,6 +117,15 @@ export default function RyeSourdough() {
         <Link href="/" className="text-brand-brown font-medium">hydration calculator</Link>{" "}
         (set 50/50 blend in the calculator).
       </p>
-    </article>
+    
+      <section className="mt-12 pt-8 border-t border-brand-tan">
+        <h2 className="text-2xl mb-4">Related Articles</h2>
+        <ul className="space-y-2">
+            <li><Link href="/blog/sourdough-starter/" className="text-brand-brown font-medium">How to Make Sourdough Starter →</Link></li>
+            <li><Link href="/blog/hydration-guide/" className="text-brand-brown font-medium">Hydration Guide →</Link></li>
+            <li><Link href="/blog/best-flour/" className="text-brand-brown font-medium">Best Flour for Sourdough →</Link></li>
+        </ul>
+      </section>
+</article>
   );
 }

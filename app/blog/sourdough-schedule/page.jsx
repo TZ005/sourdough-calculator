@@ -8,7 +8,16 @@ export const metadata = {
 
 export default function SourdoughSchedule() {
   return (
-    <article className="max-w-3xl mx-auto px-6 py-16">
+    
+      
+      {/* Schema.org: Article */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Sourdough Schedule: A 24-Hour Timeline for Your First Loaf\",\"description\":\"A day-by-day, hour-by-hour timeline for your first sourdough loaf. From starter feed to slicing, every step timed and explained.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/sourdough-schedule.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/sourdough-schedule/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/sourdough-schedule/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}" }}
+      />
+
+
+      <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-muted text-sm">← Back to Blog</Link>
 
       <h1 className="mt-4 mb-3">Sourdough Schedule: A 24-Hour Timeline for Your First Loaf</h1>
@@ -158,6 +167,15 @@ export default function SourdoughSchedule() {
         </Link>{" "}
         keeps every bake consistent.
       </p>
-    </article>
+    
+      <section className="mt-12 pt-8 border-t border-brand-tan">
+        <h2 className="text-2xl mb-4">Related Articles</h2>
+        <ul className="space-y-2">
+            <li><Link href="/blog/sourdough-starter/" className="text-brand-brown font-medium">How to Make Sourdough Starter →</Link></li>
+            <li><Link href="/blog/bulk-fermentation/" className="text-brand-brown font-medium">Bulk Fermentation Guide →</Link></li>
+            <li><Link href="/blog/shaping-boule/" className="text-brand-brown font-medium">How to Shape a Boule →</Link></li>
+        </ul>
+      </section>
+</article>
   );
 }

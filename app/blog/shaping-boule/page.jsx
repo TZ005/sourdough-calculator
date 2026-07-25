@@ -8,7 +8,16 @@ export const metadata = {
 
 export default function ShapingBoule() {
   return (
-    <article className="max-w-3xl mx-auto px-6 py-16">
+    
+      
+      {/* Schema.org: Article */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"How to Shape a Sourdough Boule: 3 Methods for Beginners (2026)\",\"description\":\"Step-by-step instructions for shaping a tight, round boule. Three methods from simple to advanced, with photos and troubleshooting.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/shaping-boule.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/shaping-boule/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/shaping-boule/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}" }}
+      />
+
+
+      <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-muted text-sm">← Back to Blog</Link>
 
       <h1 className="mt-4 mb-3">How to Shape a Sourdough Boule: 3 Methods for Beginners</h1>
@@ -115,6 +124,15 @@ export default function ShapingBoule() {
         in the fridge for 8-16 hours for best flavor and easier scoring. If baking same-day,
         proof at room temperature for 2-4 hours until puffy but not doubled.
       </p>
-    </article>
+    
+      <section className="mt-12 pt-8 border-t border-brand-tan">
+        <h2 className="text-2xl mb-4">Related Articles</h2>
+        <ul className="space-y-2">
+            <li><Link href="/blog/sourdough-schedule/" className="text-brand-brown font-medium">Sourdough 24-Hour Schedule →</Link></li>
+            <li><Link href="/blog/bakers-percentage/" className="text-brand-brown font-medium">Baker's Percentage Guide →</Link></li>
+            <li><Link href="/blog/didnt-rise/" className="text-brand-brown font-medium">Why Your Sourdough Did Not Rise →</Link></li>
+        </ul>
+      </section>
+</article>
   );
 }

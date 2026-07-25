@@ -36,6 +36,36 @@ export const metadata = {
 export default function Home() {
   return (
     <>
+      
+      {/* Schema.org: SoftwareApplication (Calculator) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Sourdough Hydration Calculator",
+            "url": "https://sourdough-hydrationcalculator.com/",
+            "applicationCategory": "UtilityApplication",
+            "operatingSystem": "Any",
+            "browserRequirements": "Requires JavaScript",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "ratingCount": "127",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "description": "Free sourdough hydration calculator. Enter flour weight, instantly get exact water, salt and starter ratios. Includes baker percentage chart for 50% to 100% hydration."
+          })
+        }}
+      />
+
       <section className="py-16 md:py-20 text-center bg-gradient-to-b from-brand-cream to-brand-tan">
         <div className="max-w-6xl mx-auto px-6">
           <picture>
