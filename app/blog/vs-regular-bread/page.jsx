@@ -30,6 +30,20 @@ export default function VsRegularBread() {
       <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-muted text-sm">← Back to Blog</Link>
 
+      <picture>
+        <source srcSet="/images/blog/vs-regular-bread.webp" type="image/webp" />
+        <img
+          src="/images/blog/vs-regular-bread.png"
+          alt="Sourdough vs Regular Bread: Nutrition, Digestibility, and Taste Compared"
+          width="1200"
+          height="800"
+          className="w-full rounded-xl my-8"
+          loading="eager"
+          fetchPriority="high"
+        />
+      </picture>
+      
+
       <h1 className="mt-4 mb-3">Sourdough vs Regular Bread: Nutrition, Digestibility, and Taste Compared</h1>
       <p className="text-brand-muted text-sm mb-8">📖 8 min read · Updated July 2026</p>
 

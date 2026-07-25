@@ -30,6 +30,20 @@ export default function ShapingBoule() {
       <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-muted text-sm">← Back to Blog</Link>
 
+      <picture>
+        <source srcSet="/images/blog/shaping-boule.webp" type="image/webp" />
+        <img
+          src="/images/blog/shaping-boule.png"
+          alt="How to Shape a Sourdough Boule: 3 Methods for Beginners (2026)"
+          width="1200"
+          height="800"
+          className="w-full rounded-xl my-8"
+          loading="eager"
+          fetchPriority="high"
+        />
+      </picture>
+      
+
       <h1 className="mt-4 mb-3">How to Shape a Sourdough Boule: 3 Methods for Beginners</h1>
       <p className="text-brand-muted text-sm mb-8">📖 7 min read · Updated July 2026</p>
 
