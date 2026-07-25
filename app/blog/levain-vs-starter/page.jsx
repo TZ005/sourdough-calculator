@@ -28,6 +28,20 @@ export default function BlogPost() {
       <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-muted text-sm">← Back to Blog</Link>
 
+      <picture>
+        <source srcSet="/images/blog/levain-vs-starter.webp" type="image/webp" />
+        <img
+          src="/images/blog/levain-vs-starter.png"
+          alt="Sourdough Levain vs Starter: What Is the Difference? (2026)"
+          width="1200"
+          height="800"
+          className="w-full rounded-xl my-8"
+          loading="eager"
+          fetchPriority="high"
+        />
+      </picture>
+      
+
       <h1 className="mt-4 mb-3">Sourdough Levain vs Starter: What Is the Difference?</h1>
       <p className="text-brand-muted text-sm mb-8">📖 6 min read · Updated July 2026</p>
 

@@ -28,6 +28,20 @@ export default function BlogPost() {
       <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-muted text-sm">← Back to Blog</Link>
 
+      <picture>
+        <source srcSet="/images/blog/sourdough-for-beginners.webp" type="image/webp" />
+        <img
+          src="/images/blog/sourdough-for-beginners.png"
+          alt="Sourdough for Beginners: The Complete First-Time Guide (2026)"
+          width="1200"
+          height="800"
+          className="w-full rounded-xl my-8"
+          loading="eager"
+          fetchPriority="high"
+        />
+      </picture>
+      
+
       <h1 className="mt-4 mb-3">Sourdough for Beginners: The Complete First-Time Guide (2026)</h1>
       <p className="text-brand-muted text-sm mb-8">📖 12 min read · Updated July 2026</p>
 

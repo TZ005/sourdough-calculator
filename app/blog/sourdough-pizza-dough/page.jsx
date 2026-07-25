@@ -28,6 +28,20 @@ export default function SourdoughPizzaDough() {
       <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-muted text-sm">← Back to Blog</Link>
 
+      <picture>
+        <source srcSet="/images/blog/sourdough-pizza-dough.webp" type="image/webp" />
+        <img
+          src="/images/blog/sourdough-pizza-dough.png"
+          alt="Sourdough Pizza Dough: A Complete Guide for Crispy, Chewy Crust (2026)"
+          width="1200"
+          height="800"
+          className="w-full rounded-xl my-8"
+          loading="eager"
+          fetchPriority="high"
+        />
+      </picture>
+      
+
       <h1 className="mt-4 mb-3">Sourdough Pizza Dough: A Complete Guide for Crispy, Chewy Crust</h1>
       <p className="text-brand-muted text-sm mb-8">📖 9 min read · Updated July 2026</p>
 
