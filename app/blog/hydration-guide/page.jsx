@@ -13,14 +13,29 @@ export default function HydrationGuide() {
 
       <h1 className="mt-4 mb-3">Sourdough Hydration: The Complete Beginner's Guide (2026)</h1>
       <p className="text-brand-muted text-sm mb-8">📖 15 min read · Updated July 2026</p>
-      <img
-        src="/images/blog/hydration-guide.png"
-        alt="Hand-drawn watercolor illustration of a baker's hands gently folding sourdough dough on a floured wooden surface"
-        width="1200"
-        height="630"
-        className="w-full rounded-xl my-8"
-        loading="lazy"
-      />
+      <picture>
+
+        <source srcSet="/images/blog/hydration-guide.webp" type="image/webp" />
+
+        <img
+
+          src="/images/blog/hydration-guide.png"
+
+          alt="Hand-drawn watercolor illustration of a baker's hands gently folding sourdough dough on a floured wooden surface"
+
+          width="1200"
+
+          height="630"
+
+          className="w-full rounded-xl my-8"
+
+          loading="eager"
+
+          fetchPriority="high"
+
+        />
+
+      </picture>
 
 
       <p className="text-lg mb-6">
