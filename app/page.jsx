@@ -3,6 +3,36 @@ import HydrationChart from "@/components/HydrationChart";
 import Link from "next/link";
 import AffiliateLink from "@/components/AffiliateLink";
 
+export const metadata = {
+  title: "Sourdough Hydration Calculator - Free Instant Recipe Tool",
+  description: "Free sourdough hydration calculator. Enter flour weight, instantly get exact water, salt and starter ratios. Includes baker percentage chart for 50% to 100% hydration. No signup.",
+  keywords: ["sourdough hydration calculator", "sourdough calculator", "hydration calculator", "bakers percentage calculator", "sourdough recipe calculator"],
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/",
+  },
+  openGraph: {
+    title: "Sourdough Hydration Calculator - Free Instant Recipe Tool",
+    description: "Enter flour weight, instantly get exact water, salt and starter ratios for any sourdough recipe. Free, no signup.",
+    type: "website",
+    url: "https://sourdough-hydrationcalculator.com/",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "SourdoughCalc - Free Hydration Calculator for Bakers",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sourdough Hydration Calculator - Free Instant Recipe Tool",
+    description: "Enter flour weight, instantly get exact water, salt and starter ratios. Free, no signup.",
+    images: ["/og-image.png"],
+  },
+};
+
+
 export default function Home() {
   return (
     <>
