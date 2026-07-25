@@ -238,6 +238,36 @@ export default function SourdoughPizzaDough() {
       </p>
       </article>
 
+      
+      <section className="mt-10 pt-8 border-t border-brand-tan">
+        <h2 className="text-2xl mb-4">References</h2>
+        <ol className="list-decimal pl-6 space-y-3 text-sm text-brand-muted">
+          <li>
+            Reinhart, P. (2010). <em>The Bread Baker's Apprentice: Mastering the Art of Extraordinary Bread</em> (10th Anniversary Edition). Ten Speed Press. ISBN 978-1607741296. Chapter 8 covers pizza dough, including a 14-hour cold-fermented method using a stiff starter.
+          </li>
+          <li>
+            Forkish, K. (2012). <em>Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza</em>. Chronicle Books. ISBN 978-1607742736. Forkish's overnight pizza dough method (Chapter 9) uses a similar ratio to our recipe.
+          </li>
+          <li>
+            King Arthur Baking Company. "Sourdough Pizza Crust." King Arthur Baking. https://www.kingarthurbaking.com/recipes/breads/sourdough-pizza-crust. Accessed 2026.
+          </li>
+          <li>
+            Lopez-Alt, J.K. "The Food Lab: The Science of the Perfect Pizza." Serious Eats. https://www.seriouseats.com/the-pizza-lab. Accessed 2026. Covers oven temperature science and dough hydration tradeoffs.
+          </li>
+          <li>
+            Leo, M. "Sourdough Pizza Dough." The Perfect Loaf. https://www.theperfectloaf.com/sourdough-pizza-dough/. Accessed 2026. Detailed home-baker method with troubleshooting.
+          </li>
+          <li>
+            Robertson, C. (2013). <em>Tartine Bread</em>. Chronicle Books. ISBN 978-1452172867. Background on natural leavening and gluten development principles.
+          </li>
+        </ol>
+        <p className="mt-6 text-sm text-brand-muted italic">
+          The recipe and method in this article are based on standard sourdough baking practices
+          refined from these sources and adapted for home bakers. Adjust flour and timing to
+          your specific starter, flour brand, and ambient conditions.
+        </p>
+      </section>
+
       <section className="mt-12 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">Related Articles</h2>
         <ul className="space-y-2">
