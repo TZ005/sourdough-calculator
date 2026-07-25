@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -139,7 +140,9 @@ export default function BulkFermentation() {
         <Link href="/" className="text-brand-brown font-medium">hydration calculator</Link>{" "}
         helps with the hydration part of the equation.
       </p>
-      </article>
+      
+      <NextPostNav slug="bulk-fermentation" />
+    </article>
     </>
   );
 }

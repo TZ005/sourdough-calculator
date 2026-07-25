@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -162,7 +163,9 @@ export default function BakersPercentage() {
         </Link>{" "}
         for a guided day-by-day plan.
       </p>
-      </article>
+      
+      <NextPostNav slug="bakers-percentage" />
+    </article>
     </>
   );
 }

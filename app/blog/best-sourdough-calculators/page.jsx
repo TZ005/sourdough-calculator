@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -408,7 +409,9 @@ export default function BestSourdoughCalculators() {
         Whichever tool you choose, the most important thing is that you actually use it. Hydration
         math is the difference between guessing and baking with confidence.
       </p>
-      </article>
+      
+      <NextPostNav slug="best-sourdough-calculators" />
+    </article>
     </>
   );
 }

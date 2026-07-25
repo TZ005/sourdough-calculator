@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -156,7 +157,9 @@ export default function DidntRise() {
         to dial in the right hydration for your flour and conditions. The most common cause of
         flat/dense bread is a hydration that is too high for your flour strength.
       </p>
-      </article>
+      
+      <NextPostNav slug="didnt-rise" />
+    </article>
     </>
   );
 }

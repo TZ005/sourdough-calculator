@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -121,7 +122,9 @@ export default function CrispyCrust() {
         three, bake at 500°F. If you do all seven, your bread will sound like a drum and crackle
         when you cut it. That is the sourdough experience.
       </p>
-      </article>
+      
+      <NextPostNav slug="crispy-crust" />
+    </article>
     </>
   );
 }

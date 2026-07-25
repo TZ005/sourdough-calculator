@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -167,7 +168,9 @@ export default function VsRegularBread() {
             <li><Link href="/blog/best-flour/" className="text-brand-brown font-medium">Best Flour for Sourdough →</Link></li>
         </ul>
       </section>
-  </article>
+  
+      <NextPostNav slug="vs-regular-bread" />
+    </article>
     </>
   );
 }

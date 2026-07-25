@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -110,7 +111,9 @@ export default function BlogPost() {
       <h2 className="mt-10 mb-3">The Bottom Line</h2>
       <p className="mb-4">Whole wheat sourdough is not harder, just different. Adjust hydration up and fermentation time down. Fresh flour matters more than any technique change.</p>
       <p className="mb-4">Use our <Link href="/" className="text-brand-brown font-medium">free hydration calculator</Link> to dial in the exact water amount for whatever whole wheat flour you use.</p>
-      </article>
+      
+      <NextPostNav slug="whole-wheat-sourdough" />
+    </article>
 
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>

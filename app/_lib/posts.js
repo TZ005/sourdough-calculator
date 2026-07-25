@@ -1,4 +1,4 @@
-// Shared blog post data for pagination
+// Shared blog post data for pagination and navigation
 const emoji = "📖";
 const apostrophe = "’";
 
@@ -35,4 +35,17 @@ function getPostsForPage(page) {
   return POSTS.slice(start, start + PAGE_SIZE);
 }
 
-module.exports = { POSTS, PAGE_SIZE, TOTAL_PAGES, getPostsForPage, emoji, apostrophe };
+function getPostIndex(slug) {
+  return POSTS.findIndex((p) => p.slug === slug);
+}
+
+function getAdjacentPosts(slug) {
+  const idx = getPostIndex(slug);
+  if (idx < 0) return { prev: null, next: null };
+  return {
+    prev: idx > 0 ? POSTS[idx - 1] : null,
+    next: idx < POSTS.length - 1 ? POSTS[idx + 1] : null
+  };
+}
+
+module.exports = { POSTS, PAGE_SIZE, TOTAL_PAGES, getPostsForPage, getAdjacentPosts, getPostIndex, emoji, apostrophe };

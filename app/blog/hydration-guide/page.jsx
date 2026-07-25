@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -271,7 +272,9 @@ export default function HydrationGuide() {
         </Link>{" "}
         if you want a second opinion.
       </p>
-      </article>
+      
+      <NextPostNav slug="hydration-guide" />
+    </article>
     </>
   );
 }

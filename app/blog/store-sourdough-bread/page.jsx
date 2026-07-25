@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -258,7 +259,9 @@ export default function BlogPost() {
         Skip the refrigerator. Slice only what you need. Toast from frozen for the best
         results.
       </p>
-      </article>
+      
+      <NextPostNav slug="store-sourdough-bread" />
+    </article>
 
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -279,7 +280,9 @@ export default function CommonMistakes() {
         </Link>{" "}
         walks through the science.
       </p>
-      </article>
+      
+      <NextPostNav slug="common-mistakes" />
+    </article>
     </>
   );
 }

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -200,7 +201,9 @@ export default function SourdoughSchedule() {
             <li><Link href="/blog/shaping-boule/" className="text-brand-brown font-medium">How to Shape a Boule →</Link></li>
         </ul>
       </section>
-  </article>
+  
+      <NextPostNav slug="sourdough-schedule" />
+    </article>
     </>
   );
 }

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -195,7 +196,9 @@ export default function DiscardRecipes() {
             <li><Link href="/blog/sourdough-schedule/" className="text-brand-brown font-medium">24-Hour Sourdough Schedule →</Link></li>
         </ul>
       </section>
-  </article>
+  
+      <NextPostNav slug="sourdough-discard" />
+    </article>
     </>
   );
 }

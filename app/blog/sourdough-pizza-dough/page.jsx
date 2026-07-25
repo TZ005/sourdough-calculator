@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -250,7 +251,9 @@ export default function SourdoughPizzaDough() {
         <Link href="/" className="text-brand-brown font-medium">free hydration calculator</Link>{" "}
         handles any scaling or flour swap.
       </p>
-      </article>
+      
+      <NextPostNav slug="sourdough-pizza-dough" />
+    </article>
 
       
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">

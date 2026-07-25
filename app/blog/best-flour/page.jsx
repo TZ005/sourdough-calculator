@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -153,7 +154,9 @@ export default function BestFlour() {
         with adding 10-20% whole wheat or rye for more complex flavor. The flour aisle at the
         grocery store is a beginning, not a constraint.
       </p>
-      </article>
+      
+      <NextPostNav slug="best-flour" />
+    </article>
     </>
   );
 }

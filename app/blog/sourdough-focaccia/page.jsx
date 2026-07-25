@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -138,7 +139,9 @@ export default function BlogPost() {
       <p className="mb-4">
         Use our <Link href="/" className="text-brand-brown font-medium">free hydration calculator</Link> to scale the recipe to any pan size, and our <Link href="/blog/sourdough-discard/" className="text-brand-brown font-medium">discard recipes</Link> to use up what you remove when feeding your starter.
       </p>
-      </article>
+      
+      <NextPostNav slug="sourdough-focaccia" />
+    </article>
 
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>

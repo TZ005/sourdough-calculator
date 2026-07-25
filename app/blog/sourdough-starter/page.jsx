@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -133,7 +134,9 @@ export default function StarterGuide() {
         </Link>{" "}
         next.
       </p>
-      </article>
+      
+      <NextPostNav slug="sourdough-starter" />
+    </article>
     </>
   );
 }

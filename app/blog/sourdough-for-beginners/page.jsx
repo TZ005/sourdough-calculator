@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -132,7 +133,9 @@ export default function BlogPost() {
       <h2 className="mt-10 mb-3">The Bottom Line</h2>
       <p className="mb-4">Sourdough is not magic. It is flour, water, salt, and time. The starter does the work; you mostly wait. If you can commit 24 hours to a process that takes 30 minutes of your actual attention, you can make bread that tastes better than most bakeries. The hardest part is starting. Make the starter. Mix the dough. Trust the process.</p>
       <p className="mb-4">Use our <Link href="/" className="text-brand-brown font-medium">free hydration calculator</Link> to scale any recipe. And bookmark <Link href="/blog/hydration-guide/" className="text-brand-brown font-medium">our complete hydration guide</Link> for the next level.</p>
-      </article>
+      
+      <NextPostNav slug="sourdough-for-beginners" />
+    </article>
 
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>

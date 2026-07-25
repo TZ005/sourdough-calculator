@@ -1,4 +1,5 @@
 ﻿import Link from "next/link";
+import NextPostNav from "@/components/NextPostNav";
 
 
 
@@ -110,7 +111,9 @@ export default function WhatIsHydration() {
         Hydration is not a number to memorize — it is a dial you turn to get the bread you want. Lower for
         structure, higher for openness. The rest is practice.
       </p>
-      </article>
+      
+      <NextPostNav slug="what-is-hydration" />
+    </article>
     </>
   );
 }
