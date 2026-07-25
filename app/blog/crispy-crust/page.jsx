@@ -1,7 +1,6 @@
 import Link from "next/link";
-import React from "react";
 
-const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Sourdough Crust: 7 Tips for a Crispy, Crackling, Bakery-Style Crust\",\"description\":\"Want that signature crackling sourdough crust? Seven proven tips for oven spring, steam, and the perfect crackle every time.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/crispy-crust.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/crispy-crust/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/crispy-crust/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
+
 
 
 export const metadata = {
@@ -11,12 +10,22 @@ export const metadata = {
 };
 
 export default function CrispyCrust() {
+  
+
   return (
     
       
+    <>
       {/* Schema.org: Article */}
-      {React.createElement("script", { type: "application/ld+json", dangerouslySetInnerHTML: { __html: articleSchemaJson } })}
+      
 
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Sourdough Crust: 7 Tips for a Crispy, Crackling, Bakery-Style Crust","description":"Want that signature crackling sourdough crust? Seven proven tips for oven spring, steam, and the perfect crackle every time.","image":"https://sourdough-hydrationcalculator.com/images/blog/crispy-crust.png","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/og-image.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/crispy-crust/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/crispy-crust/"},"datePublished":"2026-07-15","dateModified":"2026-07-25"})
+        }}
+      />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-muted text-sm">← Back to Blog</Link>
@@ -98,7 +107,8 @@ export default function CrispyCrust() {
         three, bake at 500°F. If you do all seven, your bread will sound like a drum and crackle
         when you cut it. That is the sourdough experience.
       </p>
-    </article>
+      </article>
+    </>
   );
 }
 

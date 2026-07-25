@@ -1,7 +1,6 @@
 import Link from "next/link";
-import React from "react";
 
-const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Why Your Sourdough Did Not Rise: 12 Common Causes and How to Fix Each\",\"description\":\"Troubleshooting guide for flat, dense, or sunken sourdough. 12 common causes with specific fixes, from weak starter to oven temperature mistakes.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/didnt-rise.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/didnt-rise/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/didnt-rise/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
+
 
 
 export const metadata = {
@@ -11,12 +10,22 @@ export const metadata = {
 };
 
 export default function DidntRise() {
+  
+
   return (
     
       
+    <>
       {/* Schema.org: Article */}
-      {React.createElement("script", { type: "application/ld+json", dangerouslySetInnerHTML: { __html: articleSchemaJson } })}
+      
 
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Why Your Sourdough Did Not Rise: 12 Common Causes and How to Fix Each","description":"Troubleshooting guide for flat, dense, or sunken sourdough. 12 common causes with specific fixes, from weak starter to oven temperature mistakes.","image":"https://sourdough-hydrationcalculator.com/images/blog/didnt-rise.png","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/og-image.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/didnt-rise/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/didnt-rise/"},"datePublished":"2026-07-15","dateModified":"2026-07-25"})
+        }}
+      />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-muted text-sm">← Back to Blog</Link>
@@ -133,7 +142,8 @@ export default function DidntRise() {
         to dial in the right hydration for your flour and conditions. The most common cause of
         flat/dense bread is a hydration that is too high for your flour strength.
       </p>
-    </article>
+      </article>
+    </>
   );
 }
 

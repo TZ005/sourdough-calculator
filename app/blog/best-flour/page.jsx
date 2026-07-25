@@ -1,7 +1,6 @@
 import Link from "next/link";
-import React from "react";
 
-const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Best Flour for Sourdough: A Complete Guide for Home Bakers (2026)\",\"description\":\"Bread flour, all-purpose, whole wheat, rye: which flour makes the best sourdough? A practical guide to choosing flour based on your skill level and bread style.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/best-flour.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/best-flour/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/best-flour/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
+
 
 
 export const metadata = {
@@ -11,12 +10,22 @@ export const metadata = {
 };
 
 export default function BestFlour() {
+  
+
   return (
     
       
+    <>
       {/* Schema.org: Article */}
-      {React.createElement("script", { type: "application/ld+json", dangerouslySetInnerHTML: { __html: articleSchemaJson } })}
+      
 
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Best Flour for Sourdough: A Complete Guide for Home Bakers (2026)","description":"Bread flour, all-purpose, whole wheat, rye: which flour makes the best sourdough? A practical guide to choosing flour based on your skill level and bread style.","image":"https://sourdough-hydrationcalculator.com/images/blog/best-flour.png","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/og-image.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/best-flour/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/best-flour/"},"datePublished":"2026-07-15","dateModified":"2026-07-25"})
+        }}
+      />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-muted text-sm">← Back to Blog</Link>
@@ -130,7 +139,8 @@ export default function BestFlour() {
         with adding 10-20% whole wheat or rye for more complex flavor. The flour aisle at the
         grocery store is a beginning, not a constraint.
       </p>
-    </article>
+      </article>
+    </>
   );
 }
 

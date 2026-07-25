@@ -1,7 +1,6 @@
 import Link from "next/link";
-import React from "react";
 
-const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"5 Common Sourdough Mistakes (and How to Fix Them) - 2026 Guide\",\"description\":\"Dense crumb, flat loaf, gummy texture? These are the 5 most common sourdough mistakes and exactly how to fix each one. Includes troubleshooting tips and timing guides.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/common-mistakes.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/common-mistakes/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/common-mistakes/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
+
 
 
 
@@ -13,12 +12,22 @@ export const metadata = {
 };
 
 export default function CommonMistakes() {
+  
+
   return (
     
       
+    <>
       {/* Schema.org: Article */}
-      {React.createElement("script", { type: "application/ld+json", dangerouslySetInnerHTML: { __html: articleSchemaJson } })}
+      
 
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"5 Common Sourdough Mistakes (and How to Fix Them) - 2026 Guide","description":"Dense crumb, flat loaf, gummy texture? These are the 5 most common sourdough mistakes and exactly how to fix each one. Includes troubleshooting tips and timing guides.","image":"https://sourdough-hydrationcalculator.com/images/blog/common-mistakes.png","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/og-image.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/common-mistakes/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/common-mistakes/"},"datePublished":"2026-07-15","dateModified":"2026-07-25"})
+        }}
+      />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-muted text-sm">← Back to Blog</Link>
@@ -270,6 +279,7 @@ export default function CommonMistakes() {
         </Link>{" "}
         walks through the science.
       </p>
-    </article>
+      </article>
+    </>
   );
 }

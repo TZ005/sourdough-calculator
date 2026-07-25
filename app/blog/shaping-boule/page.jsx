@@ -1,7 +1,6 @@
 import Link from "next/link";
-import React from "react";
 
-const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"How to Shape a Sourdough Boule: 3 Methods for Beginners (2026)\",\"description\":\"Step-by-step instructions for shaping a tight, round boule. Three methods from simple to advanced, with photos and troubleshooting.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/shaping-boule.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/shaping-boule/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/shaping-boule/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
+
 
 
 export const metadata = {
@@ -11,12 +10,22 @@ export const metadata = {
 };
 
 export default function ShapingBoule() {
+  
+
   return (
     
       
+    <>
       {/* Schema.org: Article */}
-      {React.createElement("script", { type: "application/ld+json", dangerouslySetInnerHTML: { __html: articleSchemaJson } })}
+      
 
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"How to Shape a Sourdough Boule: 3 Methods for Beginners (2026)","description":"Step-by-step instructions for shaping a tight, round boule. Three methods from simple to advanced, with photos and troubleshooting.","image":"https://sourdough-hydrationcalculator.com/images/blog/shaping-boule.png","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/og-image.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/shaping-boule/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/shaping-boule/"},"datePublished":"2026-07-15","dateModified":"2026-07-25"})
+        }}
+      />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-muted text-sm">← Back to Blog</Link>
@@ -134,7 +143,8 @@ export default function ShapingBoule() {
             <li><Link href="/blog/didnt-rise/" className="text-brand-brown font-medium">Why Your Sourdough Did Not Rise →</Link></li>
         </ul>
       </section>
-</article>
+  </article>
+    </>
   );
 }
 
