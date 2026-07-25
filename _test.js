@@ -1,0 +1,1 @@
+const fs = require('fs'); fs.writeFileSync('G:\\video-tools\\sourdough-calculator\\test.txt', 'hello'); console.log('OK');
