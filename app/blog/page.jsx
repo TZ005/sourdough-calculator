@@ -5,7 +5,7 @@ const page = 1;
 const displayedPosts = getPostsForPage(page);
 
 export const metadata = {
-  title: "Blog - Page 1 of TOTAL_PAGES - SourdoughCalc",
+  title: "Blog - Page 1 of " + TOTAL_PAGES + " - SourdoughCalc",
   description: "Learn sourdough baking from the ground up. Hydration guides, recipes, and tips.",
 };
 
@@ -42,7 +42,7 @@ export default function BlogPage() {
           ← Previous
         </Link>
         <span className="text-brand-muted px-3">
-          Page 1 of TOTAL_PAGES
+          Page {page} of {TOTAL_PAGES}
         </span>
         <Link
           href={"/blog/page/2"}
