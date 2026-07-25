@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Script from "next/script";
 
 const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Why Your Sourdough Did Not Rise: 12 Common Causes and How to Fix Each\",\"description\":\"Troubleshooting guide for flat, dense, or sunken sourdough. 12 common causes with specific fixes, from weak starter to oven temperature mistakes.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/didnt-rise.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/didnt-rise/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/didnt-rise/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
 
@@ -14,10 +15,9 @@ export default function DidntRise() {
     
       
       {/* Schema.org: Article */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: articleSchemaJson }}
-      />
+      <Script id="article-schema" type="application/ld+json" strategy="beforeInteractive">
+        {articleSchemaJson}
+      </Script>
 
 
       <article className="max-w-3xl mx-auto px-6 py-16">

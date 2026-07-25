@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Script from "next/script";
 
 const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Sourdough vs Regular Bread: Nutrition, Digestibility, and Taste Compared\",\"description\":\"Is sourdough actually healthier than regular bread? A science-backed comparison of nutrition, glycemic index, digestibility, and flavor.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/vs-regular-bread.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/vs-regular-bread/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/vs-regular-bread/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
 
@@ -14,10 +15,9 @@ export default function VsRegularBread() {
     
       
       {/* Schema.org: Article */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: articleSchemaJson }}
-      />
+      <Script id="article-schema" type="application/ld+json" strategy="beforeInteractive">
+        {articleSchemaJson}
+      </Script>
 
 
       <article className="max-w-3xl mx-auto px-6 py-16">

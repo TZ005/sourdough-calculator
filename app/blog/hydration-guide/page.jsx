@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Script from "next/script";
 
 const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Sourdough Hydration: The Complete Beginner's Guide (2026)\",\"description\":\"Everything you need to know about sourdough hydration, from beginner-friendly 70% to advanced 100% doughs. Includes flour absorption tips, common mistakes, and a free calculator.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/hydration-guide.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/hydration-guide/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/hydration-guide/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
 
@@ -16,10 +17,9 @@ export default function HydrationGuide() {
     
       
       {/* Schema.org: Article */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: articleSchemaJson }}
-      />
+      <Script id="article-schema" type="application/ld+json" strategy="beforeInteractive">
+        {articleSchemaJson}
+      </Script>
 
 
       <article className="max-w-3xl mx-auto px-6 py-16">

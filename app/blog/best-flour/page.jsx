@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Script from "next/script";
 
 const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Best Flour for Sourdough: A Complete Guide for Home Bakers (2026)\",\"description\":\"Bread flour, all-purpose, whole wheat, rye: which flour makes the best sourdough? A practical guide to choosing flour based on your skill level and bread style.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/best-flour.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/best-flour/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/best-flour/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
 
@@ -14,10 +15,9 @@ export default function BestFlour() {
     
       
       {/* Schema.org: Article */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: articleSchemaJson }}
-      />
+      <Script id="article-schema" type="application/ld+json" strategy="beforeInteractive">
+        {articleSchemaJson}
+      </Script>
 
 
       <article className="max-w-3xl mx-auto px-6 py-16">
