@@ -16,7 +16,7 @@ export default function NextPostNav({ slug }) {
               <span className="text-2xl">←</span>
               <span className="font-semibold">Previous</span>
             </div>
-            <div className="text-lg text-brand-brown font-semibold group-hover:underline">
+            <div className="text-base text-brand-brown font-semibold group-hover:underline line-clamp-2">
               {prev.title}
             </div>
           </Link>
@@ -32,7 +32,7 @@ export default function NextPostNav({ slug }) {
               <span className="font-semibold">Next</span>
               <span className="text-2xl">→</span>
             </div>
-            <div className="text-lg text-brand-brown font-semibold group-hover:underline">
+            <div className="text-base text-brand-brown font-semibold group-hover:underline line-clamp-2">
               {next.title}
             </div>
           </Link>
