@@ -1,5 +1,4 @@
 ﻿import Link from "next/link";
-import Script from "next/script";
 
 
 const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"What is Sourdough Hydration? A Complete Guide (2026)\",\"description\":\"Hydration is the most important number in sourdough baking. Learn what it means, how to calculate it, and how to choose the right level for your bread.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/what-is-hydration.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/what-is-hydration/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/what-is-hydration/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
@@ -14,9 +13,7 @@ export default function WhatIsHydration() {
     
       
       {/* Schema.org: Article */}
-      <Script id="article-schema" type="application/ld+json" strategy="beforeInteractive">
-        {articleSchemaJson}
-      </Script>
+      <script dangerouslySetInnerHTML={{ __html: articleSchemaJson }} />
 
 
       <article className="max-w-3xl mx-auto px-6 py-16">

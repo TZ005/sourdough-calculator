@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Script from "next/script";
 
 const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Sourdough Crust: 7 Tips for a Crispy, Crackling, Bakery-Style Crust\",\"description\":\"Want that signature crackling sourdough crust? Seven proven tips for oven spring, steam, and the perfect crackle every time.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/crispy-crust.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/crispy-crust/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/crispy-crust/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
 
@@ -15,9 +14,7 @@ export default function CrispyCrust() {
     
       
       {/* Schema.org: Article */}
-      <Script id="article-schema" type="application/ld+json" strategy="beforeInteractive">
-        {articleSchemaJson}
-      </Script>
+      <script dangerouslySetInnerHTML={{ __html: articleSchemaJson }} />
 
 
       <article className="max-w-3xl mx-auto px-6 py-16">

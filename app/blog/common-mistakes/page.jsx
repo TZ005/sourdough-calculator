@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Script from "next/script";
 
 const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"5 Common Sourdough Mistakes (and How to Fix Them) - 2026 Guide\",\"description\":\"Dense crumb, flat loaf, gummy texture? These are the 5 most common sourdough mistakes and exactly how to fix each one. Includes troubleshooting tips and timing guides.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/common-mistakes.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/common-mistakes/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/common-mistakes/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
 
@@ -17,9 +16,7 @@ export default function CommonMistakes() {
     
       
       {/* Schema.org: Article */}
-      <Script id="article-schema" type="application/ld+json" strategy="beforeInteractive">
-        {articleSchemaJson}
-      </Script>
+      <script dangerouslySetInnerHTML={{ __html: articleSchemaJson }} />
 
 
       <article className="max-w-3xl mx-auto px-6 py-16">

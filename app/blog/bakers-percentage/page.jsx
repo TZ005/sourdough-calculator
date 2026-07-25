@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Script from "next/script";
 
 const articleSchemaJson = "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Baker's Percentage: How to Convert Any Recipe (With Calculator)\",\"description\":\"Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, and never guess hydration again.\",\"image\":\"https://sourdough-hydrationcalculator.com/images/blog/bakers-percentage.png\",\"author\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"url\":\"https://sourdough-hydrationcalculator.com/\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"SourdoughCalc\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://sourdough-hydrationcalculator.com/og-image.png\",\"width\":1200,\"height\":630}},\"url\":\"https://sourdough-hydrationcalculator.com/blog/bakers-percentage/\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://sourdough-hydrationcalculator.com/blog/bakers-percentage/\"},\"datePublished\":\"2026-07-15\",\"dateModified\":\"2026-07-25\"}";
 
@@ -15,9 +14,7 @@ export default function BakersPercentage() {
     
       
       {/* Schema.org: Article */}
-      <Script id="article-schema" type="application/ld+json" strategy="beforeInteractive">
-        {articleSchemaJson}
-      </Script>
+      <script dangerouslySetInnerHTML={{ __html: articleSchemaJson }} />
 
 
       <article className="max-w-3xl mx-auto px-6 py-16">
