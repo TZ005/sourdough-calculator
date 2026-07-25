@@ -148,7 +148,7 @@ export default function Blog() {
             href={`/blog/${post.slug}/`}
             className="relative block bg-white rounded-xl pl-16 pr-6 py-6 shadow-md hover:shadow-lg transition-shadow hover:no-underline"
           >
-                        <span className="absolute top-3 left-3 w-12 h-12 flex items-center justify-center bg-brand-brown text-white rounded-full font-bold text-lg shadow-sm">
+            <span className="absolute top-3 left-3 w-12 h-12 flex items-center justify-center bg-brand-brown text-white rounded-full font-bold text-lg shadow-sm">
               {String(index + 1).padStart(2, "0")}
             </span>
             <h2 className="text-brand-brown mb-2">{post.title}</h2>
