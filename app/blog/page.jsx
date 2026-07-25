@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 const POSTS = [
   {
@@ -9,8 +9,8 @@ const POSTS = [
   },
   {
     slug: "rye-sourdough",
-    title: "Rye Sourdough: A Beginner's Guide to Dark, Flavorful, Traditional Bread",
-    excerpt: "Rye sourdough is a different beast from wheat. Here's how to work with rye's unique properties for dark, moist, intensely flavored bread.",
+    title: "Rye Sourdough: A Beginner’s Guide to Dark, Flavorful, Traditional Bread",
+    excerpt: "Rye sourdough is a different beast from wheat. Here’s how to work with rye’s unique properties for dark, moist, intensely flavored bread.",
     readTime: "8 min",
   },
   {
@@ -45,26 +45,28 @@ const POSTS = [
   },
   {
     slug: "sourdough-discard",
-    title: "Sourdough Discard: 10 Easy Recipes That Don't Taste Sour",
-    excerpt: "Don't throw away your sourdough discard! 10 delicious recipes including pancakes, crackers, waffles, pizza dough and more. Zero waste, full flavor.",
+    title: "Sourdough Discard: 10 Easy Recipes That Don’t Taste Sour",
+    excerpt: "Don’t throw away your sourdough discard! 10 delicious recipes including pancakes, crackers, waffles, pizza dough and more. Zero waste, full flavor.",
     readTime: "8 min",
   },
-  { slug: "sourdough-starter",
+  {
+    slug: "sourdough-starter",
     title: "Sourdough Starter: A 7-Day Guide from Scratch",
     excerpt: "Day-by-day guide to creating your own starter from just flour + water. Includes feeding schedules and troubleshooting.",
     readTime: "10 min",
   },
-  { slug: "bakers-percentage",
-    title: "Baker's Percentage: Convert Any Recipe (With Calculator)",
-    excerpt: "Master baker's percentage in 8 minutes. Convert any bread recipe, scale to your loaf size, never guess hydration again.",
+  {
+    slug: "bakers-percentage",
+    title: "Baker’s Percentage: Convert Any Recipe (With Calculator)",
+    excerpt: "Master baker’s percentage in 8 minutes. Convert any bread recipe, scale to your loaf size, never guess hydration again.",
     readTime: "8 min",
   },
-  { slug: "sourdough-schedule",
+  {
+    slug: "sourdough-schedule",
     title: "Sourdough Schedule: A 24-Hour Timeline for Your First Loaf",
     excerpt: "Hour-by-hour timeline from starter feed to slicing. Perfect for first-time bakers.",
     readTime: "9 min",
   },
-
   {
     slug: "common-mistakes",
     title: "5 Common Sourdough Mistakes (and How to Fix Them)",
@@ -73,7 +75,7 @@ const POSTS = [
   },
   {
     slug: "hydration-guide",
-    title: "Sourdough Hydration: The Complete Beginner's Guide (2026)",
+    title: "Sourdough Hydration: The Complete Beginner’s Guide (2026)",
     excerpt: "Everything you need to know about sourdough hydration, from 70% beginner loaves to 100% ciabatta. Includes flour absorption tips and a free calculator.",
     readTime: "15 min",
   },
@@ -89,7 +91,6 @@ const POSTS = [
     excerpt: "Understand hydration, how it affects your dough, and how to choose the right percentage for your bread.",
     readTime: "8 min",
   },
-];
   { slug: "sourdough-pizza-dough",
     title: "Sourdough Pizza Dough: Crispy & Chewy",
     excerpt: "Use your starter for incredible pizza. Better flavor, easier digestibility, and that crackly crust. With a 65% hydration recipe that makes 4 pizzas.",
@@ -125,7 +126,7 @@ const POSTS = [
     excerpt: "Real New York bagels at home with sourdough. Chewy, shiny crust, deeper flavor than commercial bagels. The boiling method is the secret.",
     readTime: "8 min",
   },
-
+];
 
 export const metadata = {
   title: "Blog - SourdoughCalc",
@@ -149,7 +150,7 @@ export default function Blog() {
           >
             <h2 className="text-brand-brown mb-2">{post.title}</h2>
             <p className="text-[#5C4033] mb-3">{post.excerpt}</p>
-            <span className="text-brand-muted text-sm">📖 {post.readTime} read</span>
+            <span className="text-brand-muted text-sm">U0001F4D6 {post.readTime} read</span>
           </Link>
         ))}
       </div>
