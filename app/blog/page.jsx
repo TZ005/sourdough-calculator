@@ -150,7 +150,7 @@ export default function Blog() {
           >
             <h2 className="text-brand-brown mb-2">{post.title}</h2>
             <p className="text-[#5C4033] mb-3">{post.excerpt}</p>
-            <span className="text-brand-muted text-sm">U0001F4D6 {post.readTime} read</span>
+            <span className="text-brand-muted text-sm">📖 {post.readTime} read</span>
           </Link>
         ))}
       </div>
