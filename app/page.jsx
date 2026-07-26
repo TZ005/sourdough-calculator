@@ -1,4 +1,4 @@
-import Calculator from "@/components/Calculator";
+﻿import Calculator from "@/components/Calculator";
 import HydrationChart from "@/components/HydrationChart";
 import Link from "next/link";
 import AffiliateLink from "@/components/AffiliateLink";
@@ -81,7 +81,7 @@ export default function Home() {
           </picture>
           <h1 className="text-3xl md:text-5xl mb-4">Sourdough Hydration Calculator</h1>
           <p className="text-lg text-[#5C4033] max-w-2xl mx-auto">
-            Calculate water, salt, and starter ratios for any sourdough recipe — instantly, accurately, and free.
+            Calculate water, salt, and starter ratios for any sourdough recipe 鈥?instantly, accurately, and free.
           </p>
         </div>
       </section>
@@ -94,7 +94,7 @@ export default function Home() {
 
       <section className="py-12 bg-brand-tan">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-center text-3xl font-bold mb-3 text-brand-dark">🛒 Recommended Sourdough Tools</h2>
+          <h2 className="text-center text-3xl font-bold mb-3 text-brand-dark">馃洅 Recommended Sourdough Tools</h2>
           <p className="text-center text-[#5C4033] mb-8 max-w-2xl mx-auto">
             The exact tools and ingredients I recommend for baking perfect sourdough bread at home.
           </p>
@@ -102,35 +102,41 @@ export default function Home() {
             <AffiliateLink href="https://www.amazon.com/dp/B0FBZ64DVL?tag=sourdoughca0a-20" productName="King Arthur Bread Flour" source="homepage" aria-label="Buy King Arthur Bread Flour on Amazon - 100% Organic, Unbleached, 5 lb" title="King Arthur Bread Flour on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <picture><source srcSet="/images/product-flour.webp" type="image/webp" /><img src="/images/product-flour.png" alt="Hand-drawn watercolor illustration of a bag of bread flour" width="600" height="600" className="w-28 h-28 mx-auto mb-3 object-contain" loading="lazy" /></picture>
               <h3 className="font-semibold mb-1">King Arthur Bread Flour</h3>
-              <p className="text-sm text-brand-muted mb-2">100% Organic, Unbleached, 5 lb — Best Seller</p>
-              <span className="text-sm text-brand-brown font-medium">View on Amazon →</span>
+              <p className="text-sm text-brand-muted mb-2">100% Organic, Unbleached, 5 lb 鈥?Best Seller</p>
+              <span className="text-sm text-brand-brown font-medium">View on Amazon 鈫?/span>
             </AffiliateLink>
             <AffiliateLink href="https://www.amazon.com/dp/B00U1OCPWQ?tag=sourdoughca0a-20" productName="Lodge Dutch Oven" source="homepage" aria-label="Buy Lodge Dutch Oven on Amazon - 6 Quart Enameled Cast Iron" title="Lodge Dutch Oven on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <picture><source srcSet="/images/product-dutch-oven.webp" type="image/webp" /><img src="/images/product-dutch-oven.png" alt="Hand-drawn watercolor illustration of a cast iron Dutch oven" width="600" height="600" className="w-28 h-28 mx-auto mb-3 object-contain" loading="lazy" /></picture>
               <h3 className="font-semibold mb-1">Lodge Dutch Oven</h3>
-              <p className="text-sm text-brand-muted mb-2">6 Quart Enameled Cast Iron — Perfect for bread baking</p>
-              <span className="text-sm text-brand-brown font-medium">View on Amazon →</span>
+              <p className="text-sm text-brand-muted mb-2">6 Quart Enameled Cast Iron 鈥?Perfect for bread baking</p>
+              <span className="text-sm text-brand-brown font-medium">View on Amazon 鈫?/span>
             </AffiliateLink>
             <AffiliateLink href="https://www.amazon.com/dp/B07XXSYLL8?tag=sourdoughca0a-20" productName="ThermoPro TP19 Thermometer" source="homepage" aria-label="Buy ThermoPro TP19 Thermometer on Amazon - Instant read, waterproof" title="ThermoPro TP19 Thermometer on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <picture><source srcSet="/images/product-thermometer.webp" type="image/webp" /><img src="/images/product-thermometer.png" alt="Hand-drawn watercolor illustration of a kitchen thermometer" width="600" height="600" className="w-28 h-28 mx-auto mb-3 object-contain" loading="lazy" /></picture>
               <h3 className="font-semibold mb-1">ThermoPro TP19 Thermometer</h3>
-              <p className="text-sm text-brand-muted mb-2">Instant read, waterproof — For perfect dough temperature</p>
-              <span className="text-sm text-brand-brown font-medium">View on Amazon →</span>
+              <p className="text-sm text-brand-muted mb-2">Instant read, waterproof 鈥?For perfect dough temperature</p>
+              <span className="text-sm text-brand-brown font-medium">View on Amazon 鈫?/span>
             </AffiliateLink>
             <AffiliateLink href="https://www.amazon.com/dp/B01LY7NDQ9?tag=sourdoughca0a-20" productName="Sourdough Bread Lame" source="homepage" aria-label="Buy Sourdough Bread Lame on Amazon - Scoring tool with replacement blades" title="Sourdough Bread Lame on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <picture><source srcSet="/images/product-lame.webp" type="image/webp" /><img src="/images/product-lame.png" alt="Hand-drawn watercolor illustration of a sourdough bread lame" width="600" height="600" className="w-28 h-28 mx-auto mb-3 object-contain" loading="lazy" /></picture>
               <h3 className="font-semibold mb-1">Sourdough Bread Lame</h3>
-              <p className="text-sm text-brand-muted mb-2">Scoring tool with replacement blades — Authentic patterns</p>
-              <span className="text-sm text-brand-brown font-medium">View on Amazon →</span>
+              <p className="text-sm text-brand-muted mb-2">Scoring tool with replacement blades 鈥?Authentic patterns</p>
+              <span className="text-sm text-brand-brown font-medium">View on Amazon 鈫?/span>
             </AffiliateLink>
             <AffiliateLink href="https://www.amazon.com/dp/B0113UZJE2?tag=sourdoughca0a-20" productName="Etekcity Kitchen Scale" source="homepage" aria-label="Buy Etekcity Kitchen Scale on Amazon - Multifunction, stainless steel" title="Etekcity Kitchen Scale on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <picture><source srcSet="/images/product-scale.webp" type="image/webp" /><img src="/images/product-scale.png" alt="Hand-drawn watercolor illustration of a digital kitchen scale" width="600" height="600" className="w-28 h-28 mx-auto mb-3 object-contain" loading="lazy" /></picture>
               <h3 className="font-semibold mb-1">Etekcity Kitchen Scale</h3>
-              <p className="text-sm text-brand-muted mb-2">Multifunction, stainless steel — For precise baking</p>
+              <p className="text-sm text-brand-muted mb-2">Multifunction, stainless steel 鈥?For precise baking</p>
+              <span className="text-sm text-brand-brown font-medium">View on Amazon 鈫?/span>
+            </AffiliateLink>
+            <AffiliateLink href="https://www.amazon.com/dp/B07VXJVTR4?tag=sourdoughca0a-20" productName="Banneton Proofing Basket" source="homepage" aria-label="Buy Banneton Proofing Basket on Amazon - Handcrafted rattan basket" title="Banneton Proofing Basket on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
+              <picture><source srcSet="/images/product-banneton.webp" type="image/webp" /><img src="/images/product-banneton.png" alt="Hand-drawn watercolor illustration of a round banneton proofing basket, woven cane with spiral lines" width="600" height="600" className="w-28 h-28 mx-auto mb-3 object-contain" loading="lazy" /></picture>
+              <h3 className="font-semibold mb-1">Banneton Proofing Basket</h3>
+              <p className="text-sm text-brand-muted mb-2">Handcrafted rattan — For 75-85% hydration</p>
               <span className="text-sm text-brand-brown font-medium">View on Amazon →</span>
             </AffiliateLink>
             <div className="bg-brand-cream p-5 rounded-lg border-2 border-dashed border-brand-wheat flex flex-col items-center justify-center text-center">
-              <div className="text-2xl mb-2">💡</div>
+              <div className="text-2xl mb-2">馃挕</div>
               <p className="text-sm text-brand-muted">
                 As an Amazon Associate, we earn from qualifying purchases.
               </p>
@@ -149,21 +155,20 @@ export default function Home() {
         </p>
         <p>Hydration dramatically affects the final bread:</p>
         <ul className="list-disc pl-6 space-y-2 my-4">
-          <li><strong>Lower hydration (50–65%)</strong> produces a denser, tighter crumb — perfect for bagels and pretzels.</li>
-          <li><strong>Medium hydration (70–80%)</strong> gives the classic sourdough texture most home bakers aim for.</li>
-          <li><strong>Higher hydration (80–100%)</strong> creates an open, airy crumb with large irregular holes — the hallmark of artisan sourdough.</li>
+          <li><strong>Lower hydration (50鈥?5%)</strong> produces a denser, tighter crumb 鈥?perfect for bagels and pretzels.</li>
+          <li><strong>Medium hydration (70鈥?0%)</strong> gives the classic sourdough texture most home bakers aim for.</li>
+          <li><strong>Higher hydration (80鈥?00%)</strong> creates an open, airy crumb with large irregular holes 鈥?the hallmark of artisan sourdough.</li>
         </ul>
         <p>
           Use the calculator above to find the exact water, salt, and starter amounts for your recipe. Want to learn more?{" "}
           <Link href="/blog/what-is-hydration/" className="text-brand-brown font-medium">
-            Read our complete guide →
-          </Link>
+            Read our complete guide 鈫?          </Link>
         </p>
       </section>
 
       <section className="py-20 bg-brand-tan">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-center text-3xl mb-3">📚 Learn Sourdough Baking</h2>
+          <h2 className="text-center text-3xl mb-3">馃摎 Learn Sourdough Baking</h2>
           <p className="text-center text-lg text-[#5C4033] mb-12 max-w-2xl mx-auto">Master hydration, ratios, and techniques with our free guides.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <Link href="/blog/sourdough-pizza-dough/" className="group block bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all overflow-hidden">
@@ -174,7 +179,7 @@ export default function Home() {
               <div className="p-7">
                 <h3 className="font-semibold text-2xl mb-3 leading-tight">Sourdough Pizza Dough: Crispy &amp; Chewy</h3>
                 <p className="text-base text-brand-muted mb-5 leading-relaxed">Better flavor than commercial yeast, with the tang and texture of real sourdough.</p>
-                <span className="text-base text-brand-brown font-semibold">Read the Recipe →</span>
+                <span className="text-base text-brand-brown font-semibold">Read the Recipe 鈫?/span>
               </div>
             </Link>
             <Link href="/blog/sourdough-discard/" className="group block bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all overflow-hidden">
@@ -185,7 +190,7 @@ export default function Home() {
               <div className="p-7">
                 <h3 className="font-semibold text-2xl mb-3 leading-tight">10 Sourdough Discard Recipes</h3>
                 <p className="text-base text-brand-muted mb-5 leading-relaxed">Pancakes, crackers, waffles, pizza. Zero waste, full flavor.</p>
-                <span className="text-base text-brand-brown font-semibold">Browse Recipes →</span>
+                <span className="text-base text-brand-brown font-semibold">Browse Recipes 鈫?/span>
               </div>
             </Link>
             <Link href="/blog/sourdough-for-beginners/" className="group block bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all overflow-hidden">
@@ -196,7 +201,7 @@ export default function Home() {
               <div className="p-7">
                 <h3 className="font-semibold text-2xl mb-3 leading-tight">Sourdough for Beginners</h3>
                 <p className="text-base text-brand-muted mb-5 leading-relaxed">The complete first-time guide. From starter to your first crusty boule.</p>
-                <span className="text-base text-brand-brown font-semibold">Start Baking →</span>
+                <span className="text-base text-brand-brown font-semibold">Start Baking 鈫?/span>
               </div>
             </Link>
           </div>
@@ -205,11 +210,11 @@ export default function Home() {
               href="/blog/"
               className="inline-block px-8 py-4 bg-brand-wheat text-brand-dark rounded-lg font-semibold text-lg hover:bg-brand-wheat-dark transition-colors"
             >
-              Browse All Articles →
-            </Link>
+              Browse All Articles 鈫?            </Link>
           </div>
         </div>
       </section>
     </>
   );
 }
+
