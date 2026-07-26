@@ -94,7 +94,7 @@ export default function Home() {
 
       <section className="py-12 bg-brand-tan">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-center mb-3">🛒 Recommended Sourdough Tools</h2>
+          <h2 className="text-center text-3xl font-bold mb-3 text-brand-dark">🛒 Recommended Sourdough Tools</h2>
           <p className="text-center text-[#5C4033] mb-8 max-w-2xl mx-auto">
             The exact tools and ingredients I recommend for baking perfect sourdough bread at home.
           </p>
@@ -142,7 +142,7 @@ export default function Home() {
       <HydrationChart />
 
       <section className="py-16 max-w-3xl mx-auto px-6">
-        <h2 className="text-center mb-6">What is Sourdough Hydration?</h2>
+        <h2 className="text-center text-3xl font-bold mb-6 text-brand-dark">What is Sourdough Hydration?</h2>
         <p>
           <strong>Sourdough hydration</strong> is the ratio of water to flour in your dough, expressed as a percentage.
           For example, a 75% hydration dough has 75g of water for every 100g of flour.
