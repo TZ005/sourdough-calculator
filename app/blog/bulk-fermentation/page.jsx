@@ -45,7 +45,7 @@ export default function BulkFermentation() {
       </picture>
       
 
-      <h1 className="mt-4 mb-3">Sourdough Bulk Fermentation: A Complete Guide to Timing and Temperature</h1>
+      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough Bulk Fermentation: A Complete Guide to Timing and Temperature</h1>
       <p className="text-brand-muted text-sm mb-8">📖 9 min read · Updated July 2026</p>
 
       <p className="text-lg mb-6">

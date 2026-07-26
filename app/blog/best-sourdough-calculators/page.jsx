@@ -33,7 +33,7 @@ export default function BestSourdoughCalculators() {
       <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-muted text-sm">—Back to Blog</Link>
 
-      <h1 className="mt-4 mb-3">Best 10 Free Sourdough Hydration Calculators (Tested and Ranked 2026)</h1>
+      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Best 10 Free Sourdough Hydration Calculators (Tested and Ranked 2026)</h1>
       <p className="text-brand-muted text-sm mb-8">📖 12 min read · Updated July 2026</p>
       <picture>
 

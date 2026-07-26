@@ -45,7 +45,7 @@ export default function DidntRise() {
       </picture>
       
 
-      <h1 className="mt-4 mb-3">Why Your Sourdough Did Not Rise: 12 Common Causes and How to Fix Each</h1>
+      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Why Your Sourdough Did Not Rise: 12 Common Causes and How to Fix Each</h1>
       <p className="text-brand-muted text-sm mb-8">📖 10 min read · Updated July 2026</p>
 
       <p className="text-lg mb-6">

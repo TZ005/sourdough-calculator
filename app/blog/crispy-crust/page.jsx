@@ -45,7 +45,7 @@ export default function CrispyCrust() {
       </picture>
       
 
-      <h1 className="mt-4 mb-3">Sourdough Crust: 7 Tips for a Crispy, Crackling, Bakery-Style Crust</h1>
+      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough Crust: 7 Tips for a Crispy, Crackling, Bakery-Style Crust</h1>
       <p className="text-brand-muted text-sm mb-8">📖 7 min read · Updated July 2026</p>
 
       <p className="text-lg mb-6">
