@@ -252,7 +252,7 @@ export default function SourdoughPizzaDough() {
         handles any scaling or flour swap.
       </p>
       
-      <NextPostNav slug="sourdough-pizza-dough" />
+      
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>
         <ol className="list-decimal pl-6 space-y-3 text-sm text-brand-muted">
@@ -290,6 +290,7 @@ export default function SourdoughPizzaDough() {
             <li><Link href="/blog/sourdough-schedule/" className="text-brand-brown font-medium">24-Hour Sourdough Schedule →</Link></li>
         </ul>
       </section>
+      <NextPostNav slug="sourdough-pizza-dough" />
         </article>
     </>
   );

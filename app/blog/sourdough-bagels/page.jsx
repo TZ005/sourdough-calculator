@@ -141,7 +141,7 @@ export default function BlogPost() {
         Use our <Link href="/" className="text-brand-brown font-medium">free hydration calculator</Link> to scale the recipe, and our <Link href="/blog/sourdough-pizza-dough/" className="text-brand-brown font-medium">sourdough pizza guide</Link> if you want to try a different weekend bake.
       </p>
       
-      <NextPostNav slug="sourdough-bagels" />
+      
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>
         <ol className="list-decimal pl-6 space-y-3 text-sm text-brand-muted">
@@ -162,6 +162,7 @@ export default function BlogPost() {
             <li><Link href="/blog/sourdough-for-beginners/" className="text-brand-brown font-medium">Sourdough for Beginners →</Link></li>
         </ul>
       </section>
+      <NextPostNav slug="sourdough-bagels" />
         </article>
     </>
   );

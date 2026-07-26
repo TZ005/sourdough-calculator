@@ -134,7 +134,7 @@ export default function BlogPost() {
       <p className="mb-4">Sourdough is not magic. It is flour, water, salt, and time. The starter does the work; you mostly wait. If you can commit 24 hours to a process that takes 30 minutes of your actual attention, you can make bread that tastes better than most bakeries. The hardest part is starting. Make the starter. Mix the dough. Trust the process.</p>
       <p className="mb-4">Use our <Link href="/" className="text-brand-brown font-medium">free hydration calculator</Link> to scale any recipe. And bookmark <Link href="/blog/hydration-guide/" className="text-brand-brown font-medium">our complete hydration guide</Link> for the next level.</p>
       
-      <NextPostNav slug="sourdough-for-beginners" />
+      
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>
         <ol className="list-decimal pl-6 space-y-3 text-sm text-brand-muted">
@@ -155,6 +155,7 @@ export default function BlogPost() {
             <li><Link href="/blog/what-is-hydration/" className="text-brand-brown font-medium">What is Sourdough Hydration? →</Link></li>
         </ul>
       </section>
+      <NextPostNav slug="sourdough-for-beginners" />
         </article>
     </>
   );

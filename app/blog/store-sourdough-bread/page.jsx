@@ -260,7 +260,7 @@ export default function BlogPost() {
         results.
       </p>
       
-      <NextPostNav slug="store-sourdough-bread" />
+      
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>
         <ol className="list-decimal pl-6 space-y-3 text-sm text-brand-muted">
@@ -298,6 +298,7 @@ export default function BlogPost() {
             <li><Link href="/blog/what-is-hydration/" className="text-brand-brown font-medium">What is Sourdough Hydration? →</Link></li>
         </ul>
       </section>
+      <NextPostNav slug="store-sourdough-bread" />
         </article>
     </>
   );
