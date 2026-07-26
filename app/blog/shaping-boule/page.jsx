@@ -148,18 +148,7 @@ export default function ShapingBoule() {
         The shaped dough goes seam-side UP into the banneton or tea-towel-lined bowl. Cold retard
         in the fridge for 8-16 hours for best flavor and easier scoring. If baking same-day,
         proof at room temperature for 2-4 hours until puffy but not doubled.
-      </p>
-    
-      <section className="max-w-3xl mx-auto px-6 mt-12 pt-8 border-t border-brand-tan">
-        <h2 className="text-2xl mb-4">Related Articles</h2>
-        <ul className="space-y-2">
-            <li><Link href="/blog/sourdough-schedule/" className="text-brand-brown font-medium">Sourdough 24-Hour Schedule →</Link></li>
-            <li><Link href="/blog/bakers-percentage/" className="text-brand-brown font-medium">Baker's Percentage Guide →</Link></li>
-            <li><Link href="/blog/didnt-rise/" className="text-brand-brown font-medium">Why Your Sourdough Did Not Rise →</Link></li>
-        </ul>
-      </section>
-  
-      <NextPostNav slug="shaping-boule" />
+      </p><NextPostNav slug="shaping-boule" />
     </article>
     </>
   );

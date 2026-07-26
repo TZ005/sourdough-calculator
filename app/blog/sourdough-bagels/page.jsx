@@ -152,17 +152,7 @@ export default function BlogPost() {
           <li>King Arthur Baking. Sourdough Bagels. https://www.kingarthurbaking.com/recipes/breads/sourdough-bagels. Accessed 2026.</li>
           <li>Leo, M. The Perfect Loaf Sourdough Bagels. https://www.theperfectloaf.com/sourdough-bagels/. Accessed 2026.</li>
         </ol>
-      </section>
-
-      <section className="max-w-3xl mx-auto px-6 mt-12 pt-8 border-t border-brand-tan">
-        <h2 className="text-2xl mb-4">Related Articles</h2>
-        <ul className="space-y-2">
-            <li><Link href="/blog/sourdough-starter/" className="text-brand-brown font-medium">How to Make Sourdough Starter →</Link></li>
-            <li><Link href="/blog/sourdough-pizza-dough/" className="text-brand-brown font-medium">Sourdough Pizza Dough →</Link></li>
-            <li><Link href="/blog/sourdough-for-beginners/" className="text-brand-brown font-medium">Sourdough for Beginners →</Link></li>
-        </ul>
-      </section>
-      <NextPostNav slug="sourdough-bagels" />
+      </section><NextPostNav slug="sourdough-bagels" />
         </article>
     </>
   );

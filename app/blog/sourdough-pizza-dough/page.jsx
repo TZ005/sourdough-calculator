@@ -280,17 +280,7 @@ export default function SourdoughPizzaDough() {
           refined from these sources and adapted for home bakers. Adjust flour and timing to
           your specific starter, flour brand, and ambient conditions.
         </p>
-      </section>
-
-      <section className="max-w-3xl mx-auto px-6 mt-12 pt-8 border-t border-brand-tan">
-        <h2 className="text-2xl mb-4">Related Articles</h2>
-        <ul className="space-y-2">
-            <li><Link href="/blog/sourdough-starter/" className="text-brand-brown font-medium">How to Make Sourdough Starter →</Link></li>
-            <li><Link href="/blog/sourdough-discard/" className="text-brand-brown font-medium">10 Easy Sourdough Discard Recipes →</Link></li>
-            <li><Link href="/blog/sourdough-schedule/" className="text-brand-brown font-medium">24-Hour Sourdough Schedule →</Link></li>
-        </ul>
-      </section>
-      <NextPostNav slug="sourdough-pizza-dough" />
+      </section><NextPostNav slug="sourdough-pizza-dough" />
         </article>
     </>
   );

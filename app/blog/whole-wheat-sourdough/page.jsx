@@ -123,17 +123,7 @@ export default function BlogPost() {
           <li>Leo, M. The Perfect Loaf Whole Wheat Sourdough. https://www.theperfectloaf.com/whole-wheat-sourdough-bread/. Accessed 2026.</li>
           <li>King Arthur Baking. 100 Percent Whole Wheat Sourdough. https://www.kingarthurbaking.com/recipes/breads/100-whole-wheat-sourdough-bread. Accessed 2026.</li>
         </ol>
-      </section>
-
-      <section className="max-w-3xl mx-auto px-6 mt-12 pt-8 border-t border-brand-tan">
-        <h2 className="text-2xl mb-4">Related Articles</h2>
-        <ul className="space-y-2">
-            <li><Link href="/blog/sourdough-starter/" className="text-brand-brown font-medium">How to Make Sourdough Starter →</Link></li>
-            <li><Link href="/blog/best-flour/" className="text-brand-brown font-medium">Best Flour for Sourdough →</Link></li>
-            <li><Link href="/blog/what-is-hydration/" className="text-brand-brown font-medium">What is Sourdough Hydration? →</Link></li>
-        </ul>
-      </section>
-      <NextPostNav slug="whole-wheat-sourdough" />
+      </section><NextPostNav slug="whole-wheat-sourdough" />
         </article>
     </>
   );

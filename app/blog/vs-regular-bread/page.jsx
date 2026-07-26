@@ -158,18 +158,7 @@ export default function VsRegularBread() {
         For best results, mix your own blend: 80% bread flour + 20% whole wheat. Use our{" "}
         <Link href="/" className="text-brand-brown font-medium">hydration calculator</Link>{" "}
         to dial in the right ratios.
-      </p>
-    
-      <section className="max-w-3xl mx-auto px-6 mt-12 pt-8 border-t border-brand-tan">
-        <h2 className="text-2xl mb-4">Related Articles</h2>
-        <ul className="space-y-2">
-            <li><Link href="/blog/what-is-hydration/" className="text-brand-brown font-medium">What is Sourdough Hydration →</Link></li>
-            <li><Link href="/blog/hydration-guide/" className="text-brand-brown font-medium">Complete Hydration Guide →</Link></li>
-            <li><Link href="/blog/best-flour/" className="text-brand-brown font-medium">Best Flour for Sourdough →</Link></li>
-        </ul>
-      </section>
-  
-      <NextPostNav slug="vs-regular-bread" />
+      </p><NextPostNav slug="vs-regular-bread" />
     </article>
     </>
   );

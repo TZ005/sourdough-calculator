@@ -288,17 +288,7 @@ export default function BlogPost() {
           and home-baking practice as documented in these sources. Staling behavior varies
           by flour type, ambient humidity, and crumb density.
         </p>
-      </section>
-
-      <section className="max-w-3xl mx-auto px-6 mt-12 pt-8 border-t border-brand-tan">
-        <h2 className="text-2xl mb-4">Related Articles</h2>
-        <ul className="space-y-2">
-            <li><Link href="/blog/sourdough-starter/" className="text-brand-brown font-medium">How to Make Sourdough Starter →</Link></li>
-            <li><Link href="/blog/sourdough-schedule/" className="text-brand-brown font-medium">24-Hour Sourdough Schedule →</Link></li>
-            <li><Link href="/blog/what-is-hydration/" className="text-brand-brown font-medium">What is Sourdough Hydration? →</Link></li>
-        </ul>
-      </section>
-      <NextPostNav slug="store-sourdough-bread" />
+      </section><NextPostNav slug="store-sourdough-bread" />
         </article>
     </>
   );

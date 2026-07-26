@@ -145,17 +145,7 @@ export default function BlogPost() {
           <li>Leo, M. The Perfect Loaf. Beginner Sourdough Guide. https://www.theperfectloaf.com/beginners-sourdough-bread/. Accessed 2026.</li>
           <li>King Arthur Baking. Sourdough Bread Guide. https://www.kingarthurbaking.com/resources/sourdough. Accessed 2026.</li>
         </ol>
-      </section>
-
-      <section className="max-w-3xl mx-auto px-6 mt-12 pt-8 border-t border-brand-tan">
-        <h2 className="text-2xl mb-4">Related Articles</h2>
-        <ul className="space-y-2">
-            <li><Link href="/blog/sourdough-starter/" className="text-brand-brown font-medium">How to Make Sourdough Starter →</Link></li>
-            <li><Link href="/blog/best-flour/" className="text-brand-brown font-medium">Best Flour for Sourdough →</Link></li>
-            <li><Link href="/blog/what-is-hydration/" className="text-brand-brown font-medium">What is Sourdough Hydration? →</Link></li>
-        </ul>
-      </section>
-      <NextPostNav slug="sourdough-for-beginners" />
+      </section><NextPostNav slug="sourdough-for-beginners" />
         </article>
     </>
   );
