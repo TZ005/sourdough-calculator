@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
         </div>
         <p className="text-center pt-6 border-t border-[#5C4033] text-brand-muted text-sm">
-          ? 2026 SourdoughCalc. All rights reserved.
+          © 2026 SourdoughCalc. All rights reserved.
         </p>
       </div>
     </footer>
