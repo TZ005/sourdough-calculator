@@ -55,29 +55,6 @@ export default function WhatIsHydration() {
       </picture>
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">What is Sourdough Hydration?</h1>
       <p className="text-brand-muted text-sm mb-8">📖 8 min read · Updated 2026</p>
-      <picture>
-
-        <source srcSet="/images/blog/what-is-hydration.webp" type="image/webp" />
-
-        <img
-
-          src="/images/blog/what-is-hydration.png"
-
-          alt="Hand-drawn watercolor illustration of white flour being poured into a bowl of water, with a small spoon of salt beside it"
-
-          width="1200"
-
-          height="630"
-
-          className="w-full rounded-xl my-8"
-
-          loading="eager"
-
-          fetchPriority="high"
-
-        />
-
-      </picture>
 
 
       <p className="text-lg mb-6">
