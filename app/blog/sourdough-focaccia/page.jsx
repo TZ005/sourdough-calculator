@@ -141,8 +141,6 @@ export default function BlogPost() {
       </p>
       
       <NextPostNav slug="sourdough-focaccia" />
-    </article>
-
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>
         <ol className="list-decimal pl-6 space-y-3 text-sm text-brand-muted">
@@ -163,6 +161,7 @@ export default function BlogPost() {
             <li><Link href="/blog/sourdough-for-beginners/" className="text-brand-brown font-medium">Sourdough for Beginners →</Link></li>
         </ul>
       </section>
+        </article>
     </>
   );
 }

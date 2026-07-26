@@ -113,8 +113,6 @@ export default function BlogPost() {
       <p className="mb-4">Use our <Link href="/" className="text-brand-brown font-medium">free hydration calculator</Link> to dial in the exact water amount for whatever whole wheat flour you use.</p>
       
       <NextPostNav slug="whole-wheat-sourdough" />
-    </article>
-
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>
         <ol className="list-decimal pl-6 space-y-3 text-sm text-brand-muted">
@@ -135,6 +133,7 @@ export default function BlogPost() {
             <li><Link href="/blog/what-is-hydration/" className="text-brand-brown font-medium">What is Sourdough Hydration? →</Link></li>
         </ul>
       </section>
+        </article>
     </>
   );
 }
