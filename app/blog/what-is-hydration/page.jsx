@@ -30,6 +30,29 @@ export default function WhatIsHydration() {
       <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline"><span className="text-2xl">←</span> Back to Blog</Link>
 
+      <picture>
+
+        <source srcSet="/images/blog/what-is-hydration.webp" type="image/webp" />
+
+        <img
+
+          src="/images/blog/what-is-hydration.png"
+
+          alt="Hand-drawn watercolor illustration of white flour being poured into a bowl of water, with a small spoon of salt beside it"
+
+          width="1200"
+
+          height="630"
+
+          className="w-full rounded-xl my-8"
+
+          loading="eager"
+
+          fetchPriority="high"
+
+        />
+
+      </picture>
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">What is Sourdough Hydration?</h1>
       <p className="text-brand-muted text-sm mb-8">📖 8 min read · Updated 2026</p>
       <picture>
