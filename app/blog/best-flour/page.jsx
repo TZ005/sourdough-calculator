@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
+import AffiliateLink from "@/components/AffiliateLink";
 
 
 
@@ -155,6 +156,57 @@ export default function BestFlour() {
         grocery store is a beginning, not a constraint.
       </p>
       
+      
+      <aside className="mt-12 p-6 bg-brand-cream rounded-2xl border-2 border-brand-wheat">
+        <h3 className="text-xl font-bold mb-2 text-brand-dark">My Recommended Sourdough Flours</h3>
+        <p className="text-sm text-brand-muted mb-4">Once you have the right flour, you'll also need a scale to measure it, a banneton to shape it, and an oven to bake it.</p>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <AffiliateLink
+            href="https://www.amazon.com/s?k=king+arthur+bread+flour&tag=sourdoughca0a-20"
+            productName="King Arthur Bread Flour"
+            source="blog_best-flour"
+            aria-label="View King Arthur Bread Flour on Amazon"
+            className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
+          >
+            <div className="text-2xl mb-1">🌾</div>
+            <div className="font-semibold text-sm text-brand-dark">Bread Flour</div>
+            <div className="text-xs text-brand-brown">View on Amazon →</div>
+          </AffiliateLink>
+          <AffiliateLink
+            href="https://www.amazon.com/s?k=etekcity+kitchen+scale&tag=sourdoughca0a-20"
+            productName="Etekcity Kitchen Scale"
+            source="blog_best-flour"
+            aria-label="View Etekcity Kitchen Scale on Amazon"
+            className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
+          >
+            <div className="text-2xl mb-1">⚖️</div>
+            <div className="font-semibold text-sm text-brand-dark">Kitchen Scale</div>
+            <div className="text-xs text-brand-brown">View on Amazon →</div>
+          </AffiliateLink>
+          <AffiliateLink
+            href="https://www.amazon.com/s?k=banneton+proofing+basket&tag=sourdoughca0a-20"
+            productName="Banneton Proofing Basket"
+            source="blog_best-flour"
+            aria-label="View Banneton Proofing Basket on Amazon"
+            className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
+          >
+            <div className="text-2xl mb-1">🧺</div>
+            <div className="font-semibold text-sm text-brand-dark">Banneton</div>
+            <div className="text-xs text-brand-brown">View on Amazon →</div>
+          </AffiliateLink>
+          <AffiliateLink
+            href="https://www.amazon.com/s?k=lodge+dutch+oven&tag=sourdoughca0a-20"
+            productName="Lodge Dutch Oven"
+            source="blog_best-flour"
+            aria-label="View Lodge Dutch Oven on Amazon"
+            className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
+          >
+            <div className="text-2xl mb-1">🥘</div>
+            <div className="font-semibold text-sm text-brand-dark">Dutch Oven</div>
+            <div className="text-xs text-brand-brown">View on Amazon →</div>
+          </AffiliateLink>
+        </div>
+      </aside>
       <NextPostNav slug="best-flour" />
     </article>
     </>
