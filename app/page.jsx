@@ -157,7 +157,7 @@ export default function Home() {
             View all sourdough tools on Amazon →
           </AffiliateLink>
           <p className="text-sm text-brand-muted mt-2">
-            Search results page · Anything you buy within 24 hours counts as commission
+            From $5 starter kits to $200 ovens - see all my picks
           </p>
         </div>
       </section>
