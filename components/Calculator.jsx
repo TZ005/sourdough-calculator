@@ -131,15 +131,17 @@ export default function Calculator() {
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-tan rounded-lg">
+            <span className="text-2xl">🌾</span>
             <div>
-              <div className="text-xs text-brand-muted font-medium flex items-center"><span className="inline-block" style={{ width: "12px", height: "12px", borderLeft: "1.5px solid currentColor", borderBottom: "1.5px solid currentColor", marginRight: "6px", transform: "translateY(-1px)" }}></span><span>Starter Flour</span></div>
+              <div className="text-xs text-brand-muted font-medium">Starter Flour</div>
               <div className="text-xl font-bold text-brand-dark">{formatGrams(starterFlour)}</div>
             </div>
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-tan rounded-lg">
+            <span className="text-2xl">💧</span>
             <div>
-              <div className="text-xs text-brand-muted font-medium flex items-center"><span className="inline-block" style={{ width: "12px", height: "12px", borderLeft: "1.5px solid currentColor", borderBottom: "1.5px solid currentColor", marginRight: "6px", transform: "translateY(-1px)" }}></span><span>Starter Water</span></div>
+              <div className="text-xs text-brand-muted font-medium">Starter Water</div>
               <div className="text-xl font-bold text-brand-dark">{formatGrams(starterWater)}</div>
             </div>
           </div>
