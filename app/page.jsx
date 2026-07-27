@@ -135,12 +135,7 @@ export default function Home() {
               <p className="text-sm text-brand-muted mb-2">Handcrafted rattan — For 75-85% hydration</p>
               <span className="text-sm text-brand-brown font-medium">View on Amazon →</span>
             </AffiliateLink>
-            <div className="bg-brand-cream p-5 rounded-lg border-2 border-dashed border-brand-wheat flex flex-col items-center justify-center text-center">
-              <div className="text-2xl mb-2">🛒</div>
-              <p className="text-sm text-brand-muted">
-                As an Amazon Associate, we earn from qualifying purchases. Prices stay the same for you.
-              </p>
-            </div>
+
           </div>
         </div>
 
