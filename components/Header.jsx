@@ -33,7 +33,7 @@ export default function Header() {
                 className={
                   "relative pb-1 font-medium transition-colors " +
                   (active
-                    ? "text-brand-brown after:absolute after:left-0 after:right-0 after:-bottom-[18px] after:h-[3px] after:bg-red-500 after:rounded-full"
+                    ? "text-brand-brown after:absolute after:left-0 after:right-0 after:-bottom-[18px] after:h-[3px] after:bg-brand-brown after:rounded-full"
                     : "text-brand-dark hover:text-brand-brown")
                 }
               >
