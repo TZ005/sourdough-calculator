@@ -1,6 +1,22 @@
-﻿import Link from "next/link";
+"use client";
+
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+const NAV_ITEMS = [
+  { href: "/", label: "Calculator" },
+  { href: "/blog/", label: "Blog" },
+  { href: "/about/", label: "About" },
+  { href: "/contact/", label: "Contact" },
+];
+
+function isActive(pathname, href) {
+  if (href === "/") return pathname === "/";
+  return pathname === href || pathname.startsWith(href);
+}
 
 export default function Header() {
+  const pathname = usePathname();
   return (
     <header className="sticky top-0 z-50 bg-brand-cream/95 backdrop-blur-sm border-b border-[#E8DDC8]">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -8,18 +24,23 @@ export default function Header() {
           🥖 SourdoughCalc
         </Link>
         <nav className="flex gap-7">
-          <Link href="/" className="text-brand-dark font-medium hover:text-brand-brown">
-            Calculator
-          </Link>
-          <Link href="/blog/" className="text-brand-dark font-medium hover:text-brand-brown">
-            Blog
-          </Link>
-          <Link href="/about/" className="text-brand-dark font-medium hover:text-brand-brown">
-            About
-          </Link>
-          <Link href="/contact/" className="text-brand-dark font-medium hover:text-brand-brown">
-            Contact
-          </Link>
+          {NAV_ITEMS.map((item) => {
+            const active = isActive(pathname, item.href);
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={
+                  "relative pb-1 font-medium transition-colors " +
+                  (active
+                    ? "text-brand-brown after:absolute after:left-0 after:right-0 after:-bottom-[18px] after:h-[3px] after:bg-red-500 after:rounded-full"
+                    : "text-brand-dark hover:text-brand-brown")
+                }
+              >
+                {item.label}
+              </Link>
+            );
+          })}
         </nav>
       </div>
     </header>
