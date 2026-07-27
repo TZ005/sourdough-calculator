@@ -37,7 +37,7 @@ export default function Calculator() {
 
   return (
     <div className="bg-white rounded-2xl shadow-lg shadow-brand-brown/10 p-8 max-w-3xl mx-auto">
-      <h2 className="text-center mb-8">🥖 Calculate Your Recipe</h2>
+      <h2 className="text-center text-2xl md:text-3xl mb-8">🥖 Calculate Your Recipe</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-7">
         <div className="flex flex-col">
@@ -93,7 +93,7 @@ export default function Calculator() {
       </div>
 
       <div className="mt-8 pt-8 border-t border-[#E8DDC8]">
-        <h3 className="text-center text-brand-brown mb-6">Your Recipe</h3>
+        <h3 className="text-center text-brand-brown text-xl mb-6">Your Recipe</h3>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
@@ -155,7 +155,7 @@ export default function Calculator() {
         </div>
 
         <div className="text-center pt-4 border-t border-dashed border-[#E8DDC8]">
-          <p className="text-brand-muted text-sm mb-3">Try a preset:</p>
+          <p className="text-brand-muted text-base mb-3">Try a preset:</p>
           <div className="flex flex-wrap justify-center gap-2">
             {PRESETS.map((p) => (
               <button
