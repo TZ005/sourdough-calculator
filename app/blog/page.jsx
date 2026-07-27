@@ -12,7 +12,7 @@ export const metadata = {
 export default function BlogPage() {
   return (
     <article className="max-w-3xl mx-auto px-6 py-16">
-      <h1 className="mb-3">Sourdough Baking Blog</h1>
+      <h1 className="text-4xl md:text-6xl font-extrabold mb-3">Sourdough Baking Blog</h1>
       <p className="text-lg text-[#5C4033] mb-10">
         Learn the science and craft of sourdough baking. Free guides, practical tips, and tested recipes.
       </p>
