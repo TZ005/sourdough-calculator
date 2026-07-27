@@ -6,7 +6,7 @@ export const metadata = {
 export default function Contact() {
   return (
     <article className="max-w-2xl mx-auto px-6 py-16">
-      <h1 className="mb-6">Contact Us</h1>
+      <h1 className="text-4xl md:text-6xl font-extrabold mb-6">Contact Us</h1>
       <p className="mb-6">
         Have questions, feedback, or a recipe suggestion? We would love to hear from you.
       </p>
