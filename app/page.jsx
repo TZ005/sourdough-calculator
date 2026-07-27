@@ -1,4 +1,4 @@
-﻿import Calculator from "@/components/Calculator";
+import Calculator from "@/components/Calculator";
 import HydrationChart from "@/components/HydrationChart";
 import Link from "next/link";
 import AffiliateLink from "@/components/AffiliateLink";
@@ -99,37 +99,37 @@ export default function Home() {
             The exact tools and ingredients I recommend for baking perfect sourdough bread at home.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
-            <AffiliateLink href="https://www.amazon.com/dp/B0FBZ64DVL?tag=sourdoughca0a-20" productName="King Arthur Bread Flour" source="homepage" aria-label="Buy King Arthur Bread Flour on Amazon - 100% Organic, Unbleached, 5 lb" title="King Arthur Bread Flour on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
+            <AffiliateLink href="https://www.amazon.com/s?k=king+arthur+bread+flour&tag=sourdoughca0a-20" productName="King Arthur Bread Flour" source="homepage" aria-label="Buy King Arthur Bread Flour on Amazon - 100% Organic, Unbleached, 5 lb" title="King Arthur Bread Flour on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <picture><source srcSet="/images/product-flour.webp" type="image/webp" /><img src="/images/product-flour.png" alt="Hand-drawn watercolor illustration of a bag of bread flour" width="600" height="600" className="w-28 h-28 mx-auto mb-3 object-contain" loading="lazy" /></picture>
               <h3 className="font-semibold mb-1">King Arthur Bread Flour</h3>
               <p className="text-sm text-brand-muted mb-2">100% Organic, Unbleached, 5 lb — Best Seller</p>
               <span className="text-sm text-brand-brown font-medium">View on Amazon →</span>
             </AffiliateLink>
-            <AffiliateLink href="https://www.amazon.com/dp/B00U1OCPWQ?tag=sourdoughca0a-20" productName="Lodge Dutch Oven" source="homepage" aria-label="Buy Lodge Dutch Oven on Amazon - 6 Quart Enameled Cast Iron" title="Lodge Dutch Oven on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
+            <AffiliateLink href="https://www.amazon.com/s?k=lodge+dutch+oven&tag=sourdoughca0a-20" productName="Lodge Dutch Oven" source="homepage" aria-label="Buy Lodge Dutch Oven on Amazon - 6 Quart Enameled Cast Iron" title="Lodge Dutch Oven on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <picture><source srcSet="/images/product-dutch-oven.webp" type="image/webp" /><img src="/images/product-dutch-oven.png" alt="Hand-drawn watercolor illustration of a cast iron Dutch oven" width="600" height="600" className="w-28 h-28 mx-auto mb-3 object-contain" loading="lazy" /></picture>
               <h3 className="font-semibold mb-1">Lodge Dutch Oven</h3>
               <p className="text-sm text-brand-muted mb-2">6 Quart Enameled Cast Iron — Perfect for bread baking</p>
               <span className="text-sm text-brand-brown font-medium">View on Amazon →</span>
             </AffiliateLink>
-            <AffiliateLink href="https://www.amazon.com/dp/B07XXSYLL8?tag=sourdoughca0a-20" productName="ThermoPro TP19 Thermometer" source="homepage" aria-label="Buy ThermoPro TP19 Thermometer on Amazon - Instant read, waterproof" title="ThermoPro TP19 Thermometer on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
+            <AffiliateLink href="https://www.amazon.com/s?k=thermopro+tp19+thermometer&tag=sourdoughca0a-20" productName="ThermoPro TP19 Thermometer" source="homepage" aria-label="Buy ThermoPro TP19 Thermometer on Amazon - Instant read, waterproof" title="ThermoPro TP19 Thermometer on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <picture><source srcSet="/images/product-thermometer.webp" type="image/webp" /><img src="/images/product-thermometer.png" alt="Hand-drawn watercolor illustration of a kitchen thermometer" width="600" height="600" className="w-28 h-28 mx-auto mb-3 object-contain" loading="lazy" /></picture>
               <h3 className="font-semibold mb-1">ThermoPro TP19 Thermometer</h3>
               <p className="text-sm text-brand-muted mb-2">Instant read, waterproof — For perfect dough temperature</p>
               <span className="text-sm text-brand-brown font-medium">View on Amazon →</span>
             </AffiliateLink>
-            <AffiliateLink href="https://www.amazon.com/dp/B01LY7NDQ9?tag=sourdoughca0a-20" productName="Sourdough Bread Lame" source="homepage" aria-label="Buy Sourdough Bread Lame on Amazon - Scoring tool with replacement blades" title="Sourdough Bread Lame on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
+            <AffiliateLink href="https://www.amazon.com/s?k=sourdough+bread+lame&tag=sourdoughca0a-20" productName="Sourdough Bread Lame" source="homepage" aria-label="Buy Sourdough Bread Lame on Amazon - Scoring tool with replacement blades" title="Sourdough Bread Lame on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <picture><source srcSet="/images/product-lame.webp" type="image/webp" /><img src="/images/product-lame.png" alt="Hand-drawn watercolor illustration of a sourdough bread lame" width="600" height="600" className="w-28 h-28 mx-auto mb-3 object-contain" loading="lazy" /></picture>
               <h3 className="font-semibold mb-1">Sourdough Bread Lame</h3>
               <p className="text-sm text-brand-muted mb-2">Scoring tool with replacement blades — Authentic patterns</p>
               <span className="text-sm text-brand-brown font-medium">View on Amazon →</span>
             </AffiliateLink>
-            <AffiliateLink href="https://www.amazon.com/dp/B0113UZJE2?tag=sourdoughca0a-20" productName="Etekcity Kitchen Scale" source="homepage" aria-label="Buy Etekcity Kitchen Scale on Amazon - Multifunction, stainless steel" title="Etekcity Kitchen Scale on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
+            <AffiliateLink href="https://www.amazon.com/s?k=etekcity+kitchen+scale&tag=sourdoughca0a-20" productName="Etekcity Kitchen Scale" source="homepage" aria-label="Buy Etekcity Kitchen Scale on Amazon - Multifunction, stainless steel" title="Etekcity Kitchen Scale on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <picture><source srcSet="/images/product-scale.webp" type="image/webp" /><img src="/images/product-scale.png" alt="Hand-drawn watercolor illustration of a digital kitchen scale" width="600" height="600" className="w-28 h-28 mx-auto mb-3 object-contain" loading="lazy" /></picture>
               <h3 className="font-semibold mb-1">Etekcity Kitchen Scale</h3>
               <p className="text-sm text-brand-muted mb-2">Multifunction, stainless steel — For precise baking</p>
               <span className="text-sm text-brand-brown font-medium">View on Amazon →</span>
             </AffiliateLink>
-            <AffiliateLink href="https://www.amazon.com/dp/B07VXJVTR4?tag=sourdoughca0a-20" productName="Banneton Proofing Basket" source="homepage" aria-label="Buy Banneton Proofing Basket on Amazon - Handcrafted rattan basket" title="Banneton Proofing Basket on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
+            <AffiliateLink href="https://www.amazon.com/s?k=banneton+proofing+basket&tag=sourdoughca0a-20" productName="Banneton Proofing Basket" source="homepage" aria-label="Buy Banneton Proofing Basket on Amazon - Handcrafted rattan basket" title="Banneton Proofing Basket on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
               <picture><source srcSet="/images/product-banneton.webp" type="image/webp" /><img src="/images/product-banneton.png" alt="Hand-drawn watercolor illustration of a round banneton proofing basket, woven cane with spiral lines" width="600" height="600" className="w-28 h-28 mx-auto mb-3 object-contain" loading="lazy" /></picture>
               <h3 className="font-semibold mb-1">Banneton Proofing Basket</h3>
               <p className="text-sm text-brand-muted mb-2">Handcrafted rattan — For 75-85% hydration</p>
