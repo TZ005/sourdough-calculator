@@ -143,6 +143,23 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Wide-search CTA: any Amazon purchase within 24h counts as commission */}
+        <div className="text-center mt-8">
+          <AffiliateLink
+            href="https://www.amazon.com/s?k=sourdough+baking+tools&tag=sourdoughca0a-20"
+            productName="All Sourdough Baking Tools"
+            source="homepage_wide_search"
+            aria-label="Browse all sourdough baking tools on Amazon"
+            title="Browse all sourdough baking tools on Amazon"
+            className="inline-block px-6 py-3 bg-brand-brown text-white rounded-lg font-semibold hover:bg-brand-brown-dark transition-colors"
+          >
+            View all sourdough tools on Amazon →
+          </AffiliateLink>
+          <p className="text-sm text-brand-muted mt-2">
+            Search results page · Anything you buy within 24 hours counts as commission
+          </p>
+        </div>
       </section>
 
       <HydrationChart />
