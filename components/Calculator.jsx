@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 
@@ -27,7 +27,9 @@ export default function Calculator() {
   const totalStarter = flour * (starter / 100);
   const starterFlour = totalStarter * 0.5;
   const starterWater = totalStarter * 0.5;
-  const totalDough = flour + water + saltGrams;
+  const flourToAdd = flour - starterFlour;
+  const waterToAdd = water - starterWater;
+  const totalDough = flourToAdd + waterToAdd + saltGrams + totalStarter;
 
   const applyPreset = (h) => {
     setHydration(h);
@@ -97,8 +99,9 @@ export default function Calculator() {
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
             <span className="text-2xl">💧</span>
             <div>
-              <div className="text-xs text-brand-muted font-medium">Water</div>
-              <div className="text-xl font-bold text-brand-dark">{formatGrams(water)}</div>
+              <div className="text-xs text-brand-muted font-medium">Water to Add</div>
+              <div className="text-xl font-bold text-brand-dark">{formatGrams(waterToAdd)}</div>
+              <div className="text-[10px] text-brand-muted mt-0.5">total {formatGrams(water)} incl. starter</div>
             </div>
           </div>
 
@@ -107,6 +110,15 @@ export default function Calculator() {
             <div>
               <div className="text-xs text-brand-muted font-medium">Salt</div>
               <div className="text-xl font-bold text-brand-dark">{formatGrams(saltGrams)}</div>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
+            <span className="text-2xl">🥣</span>
+            <div>
+              <div className="text-xs text-brand-muted font-medium">Flour to Add</div>
+              <div className="text-xl font-bold text-brand-dark">{formatGrams(flourToAdd)}</div>
+              <div className="text-[10px] text-brand-muted mt-0.5">excl. {formatGrams(starterFlour)} in starter</div>
             </div>
           </div>
 
