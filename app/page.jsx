@@ -96,7 +96,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-center text-3xl font-bold mb-3 text-brand-dark">🛒 Recommended Sourdough Tools</h2>
           <p className="text-center text-[#5C4033] mb-8 max-w-2xl mx-auto">
-            The exact tools and ingredients I recommend for baking perfect sourdough bread at home.
+            As an Amazon Associate, we earn from qualifying purchases. Prices stay the same for you.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
             <AffiliateLink href="https://www.amazon.com/s?k=king+arthur+bread+flour&tag=sourdoughca0a-20" productName="King Arthur Bread Flour" source="homepage" aria-label="Buy King Arthur Bread Flour on Amazon - 100% Organic, Unbleached, 5 lb" title="King Arthur Bread Flour on Amazon" className="bg-white p-5 rounded-lg shadow hover:shadow-lg transition-shadow">
