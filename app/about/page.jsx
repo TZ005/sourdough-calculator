@@ -6,7 +6,7 @@ export const metadata = {
 export default function About() {
   return (
     <article className="max-w-3xl mx-auto px-6 py-16">
-      <h1 className="text-4xl md:text-6xl font-extrabold mb-6">About SourdoughCalc</h1>
+      <h1 className="text-3xl md:text-5xl mb-4">About SourdoughCalc</h1>
       <p className="text-lg mb-4">
         SourdoughCalc is a free, fast, and accurate sourdough hydration calculator built for home bakers.
       </p>
