@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
+import AffiliateLink from "@/components/AffiliateLink";
 
 
 
@@ -147,8 +148,50 @@ export default function ShapingBoule() {
       <p className="mb-4">
         The shaped dough goes seam-side UP into the banneton or tea-towel-lined bowl. Cold retard
         in the fridge for 8-16 hours for best flavor and easier scoring. If baking same-day,
-        proof at room temperature for 2-4 hours until puffy but not doubled.
-      </p><NextPostNav slug="shaping-boule" />
+        proof at room temperature for 2-4 hours until puffy but not doubled.</p>
+
+      
+      <aside className="mt-12 p-6 bg-brand-cream rounded-2xl border-2 border-brand-wheat">
+        <h3 className="text-xl font-bold mb-2 text-brand-dark">Tools I Use for Shaping</h3>
+        <p className="text-sm text-brand-muted mb-4">The exact tools I recommend for shaping, proofing, and baking sourdough at home.</p>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <AffiliateLink
+            href="https://www.amazon.com/s?k=banneton+proofing+basket&tag=sourdoughca0a-20"
+            productName="Banneton Proofing Basket"
+            source="blog_shaping-boule"
+            aria-label="View Banneton Proofing Basket on Amazon"
+            className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
+          >
+            <div className="text-2xl mb-1">🥖</div>
+            <div className="font-semibold text-sm text-brand-dark">Banneton</div>
+            <div className="text-xs text-brand-brown">View on Amazon →</div>
+          </AffiliateLink>
+          <AffiliateLink
+            href="https://www.amazon.com/s?k=sourdough+bread+lame&tag=sourdoughca0a-20"
+            productName="Sourdough Bread Lame"
+            source="blog_shaping-boule"
+            aria-label="View Sourdough Bread Lame on Amazon"
+            className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
+          >
+            <div className="text-2xl mb-1">🔪</div>
+            <div className="font-semibold text-sm text-brand-dark">Bread Lame</div>
+            <div className="text-xs text-brand-brown">View on Amazon →</div>
+          </AffiliateLink>
+          <AffiliateLink
+            href="https://www.amazon.com/s?k=lodge+dutch+oven&tag=sourdoughca0a-20"
+            productName="Lodge Dutch Oven"
+            source="blog_shaping-boule"
+            aria-label="View Lodge Dutch Oven on Amazon"
+            className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
+          >
+            <div className="text-2xl mb-1">🥘</div>
+            <div className="font-semibold text-sm text-brand-dark">Dutch Oven</div>
+            <div className="text-xs text-brand-brown">View on Amazon →</div>
+          </AffiliateLink>
+        </div>
+      </aside>
+
+      <NextPostNav slug="shaping-boule" />
     </article>
     </>
   );
