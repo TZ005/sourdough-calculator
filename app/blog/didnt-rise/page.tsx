@@ -1,11 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Why Your Sourdough Did Not Rise: 12 Common Causes and How to Fix Each",
   description: "Troubleshooting guide for flat, dense, or sunken sourdough. 12 common causes with specific fixes, from weak starter to oven temperature mistakes.",
   keywords: ["sourdough did not rise", "sourdough flat", "dense sourdough", "sourdough not rising", "sourdough troubleshooting"],

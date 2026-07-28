@@ -1,4 +1,5 @@
-export const metadata = {
+import type { Metadata } from "next";
+export const metadata: Metadata = {
   title: "Privacy Policy - SourdoughCalc",
   description: "Privacy policy for SourdoughCalc - we do not track, collect, or sell your data.",
 };

@@ -1,11 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "What is Sourdough Hydration? A Complete Guide (2026)",
   description: "Hydration is the most important number in sourdough baking. Learn what it means, how to calculate it, and how to choose the right level for your bread.",
 };

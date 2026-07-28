@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 import AffiliateLink from "@/components/AffiliateLink";
@@ -7,7 +8,7 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Sourdough Bulk Fermentation: A Complete Guide to Timing and Temperature (2026)",
   description: "When to end bulk fermentation: visual cues, temperature effects, and timing guidelines. Stop guessing and start baking by feel.",
   keywords: ["sourdough bulk fermentation", "bulk fermentation time", "sourdough rise time", "when to end bulk", "sourdough bulk fermentation temperature"],

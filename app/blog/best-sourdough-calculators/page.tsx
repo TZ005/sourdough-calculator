@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
@@ -7,7 +8,7 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Best 10 Free Sourdough Hydration Calculators (Tested and Ranked 2026)",
   description: "I tested 10 popular sourdough hydration calculators. Here is which one is best for beginners, mobile users, and serious bakers. Free tools compared side-by-side.",
   keywords: ["sourdough hydration calculator", "best sourdough calculator", "free sourdough calculator", "bakers percentage calculator"],

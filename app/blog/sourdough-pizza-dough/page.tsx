@@ -1,10 +1,11 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Sourdough Pizza Dough: A Complete Guide for Crispy, Chewy Crust (2026)",
   description: "Use your sourdough starter to make incredible pizza dough at home. Better flavor, easier digestibility, and crispy-chewy texture. Step-by-step recipe plus troubleshooting.",
   keywords: ["sourdough pizza dough","sourdough pizza crust","pizza with sourdough starter","wild yeast pizza","naturally leavened pizza"],

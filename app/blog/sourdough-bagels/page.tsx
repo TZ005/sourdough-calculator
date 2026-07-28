@@ -1,10 +1,11 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Sourdough Bagels: Chewy, Shiny, and Easier Than You Think (2026)",
   description: "Real New York bagels at home with sourdough. Chewy, shiny crust, deeper flavor than commercial bagels. Step-by-step recipe with boiling method.",
   keywords: ["sourdough bagels","homemade bagels","bagel recipe","sourdough bagel recipe","new york bagels"],

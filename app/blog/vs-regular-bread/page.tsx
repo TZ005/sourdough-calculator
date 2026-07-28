@@ -1,11 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Sourdough vs Regular Bread: Nutrition, Digestibility, and Taste Compared",
   description: "Is sourdough actually healthier than regular bread? A science-backed comparison of nutrition, glycemic index, digestibility, and flavor.",
   keywords: ["sourdough vs regular bread", "sourdough benefits", "is sourdough healthier", "sourdough nutrition", "sourdough digestibility"],

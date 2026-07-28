@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 import AffiliateLink from "@/components/AffiliateLink";
@@ -6,7 +7,7 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Sourdough for Beginners: The Complete First-Time Guide (2026)",
   description: "Want to make your first sourdough loaf? This step-by-step guide takes you from building a starter to baking your first crusty boule. No experience needed.",
   keywords: ["sourdough for beginners","first sourdough loaf","sourdough starter recipe","beginner sourdough","how to make sourdough"],

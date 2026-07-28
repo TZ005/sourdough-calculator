@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 import AffiliateLink from "@/components/AffiliateLink";
@@ -7,7 +8,7 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Best Flour for Sourdough: A Complete Guide for Home Bakers (2026)",
   description: "Bread flour, all-purpose, whole wheat, rye: which flour makes the best sourdough? A practical guide to choosing flour based on your skill level and bread style.",
   keywords: ["best flour for sourdough", "bread flour vs all purpose", "sourdough flour guide", "what flour for sourdough", "rye sourdough flour"],

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 import AffiliateLink from "@/components/AffiliateLink";
@@ -7,7 +8,7 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "How to Shape a Sourdough Boule: 3 Methods for Beginners (2026)",
   description: "Step-by-step instructions for shaping a tight, round boule. Three methods from simple to advanced, with photos and troubleshooting.",
   keywords: ["shaping sourdough", "how to shape boule", "sourdough shaping", "shaping bread boule", "boule shaping technique"],

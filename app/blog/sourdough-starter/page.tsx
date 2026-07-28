@@ -1,11 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "How to Make Sourdough Starter from Scratch: A 7-Day Complete Guide (2026)",
   description: "Day-by-day instructions for creating a healthy sourdough starter from just flour and water. Includes troubleshooting, feeding schedules, and signs of readiness.",
   keywords: ["sourdough starter", "sourdough starter from scratch", "make sourdough starter", "how to feed sourdough starter", "wild yeast starter"],

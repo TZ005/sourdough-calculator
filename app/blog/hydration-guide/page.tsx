@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
@@ -7,7 +8,7 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Sourdough Hydration: The Complete Beginner's Guide (2026)",
   description: "Everything you need to know about sourdough hydration, from beginner-friendly 70% to advanced 100% doughs. Includes flour absorption tips, common mistakes, and a free calculator.",
   keywords: ["sourdough hydration guide", "sourdough for beginners", "sourdough hydration chart", "beginner sourdough", "sourdough water ratio"],

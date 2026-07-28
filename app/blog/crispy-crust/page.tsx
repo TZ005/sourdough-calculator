@@ -1,11 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Sourdough Crust: 7 Tips for a Crispy, Crackling, Bakery-Style Crust",
   description: "Want that signature crackling sourdough crust? Seven proven tips for oven spring, steam, and the perfect crackle every time.",
   keywords: ["sourdough crust", "crispy sourdough crust", "sourdough oven spring", "crusty bread", "sourdough steam"],

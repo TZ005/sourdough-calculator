@@ -1,10 +1,11 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "How to Store Sourdough Bread: Complete Guide to Keeping It Fresh (2026)",
   description: "Room temperature, frozen, or as dough. The right way to store sourdough bread at every stage so it stays fresh and crusty for days, not hours.",
   keywords: ["store sourdough bread","keep sourdough fresh","freeze sourdough","sourdough shelf life","bread storage"],

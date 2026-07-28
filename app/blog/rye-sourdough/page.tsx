@@ -1,11 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Rye Sourdough: A Beginner's Guide to Dark, Flavorful, Traditional Bread",
   description: "Rye sourdough is a different beast from wheat. Here's how to work with rye's unique properties for dark, moist, intensely flavored bread.",
   keywords: ["rye sourdough", "rye sourdough recipe", "rye bread recipe", "rye flour sourdough", "traditional rye bread"],

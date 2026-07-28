@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 import AffiliateLink from "@/components/AffiliateLink";
@@ -7,7 +8,7 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Baker's Percentage: How to Convert Any Recipe (With Calculator)",
   description: "Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, and never guess hydration again.",
   keywords: ["bakers percentage", "bakers percentage calculator", "convert to bakers percentage", "bread formula", "sourdough ratio"],

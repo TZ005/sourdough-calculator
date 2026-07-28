@@ -1,7 +1,8 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import Calculator from "@/components/Calculator";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Sourdough Hydration Calculator - Embed",
   robots: { index: false },
   description: "Embeddable sourdough hydration calculator widget. Add a free interactive calculator to your website or blog with one line of HTML.",

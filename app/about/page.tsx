@@ -1,4 +1,5 @@
-export const metadata = {
+import type { Metadata } from "next";
+export const metadata: Metadata = {
   title: "About - SourdoughCalc",
   description: "About SourdoughCalc - the free sourdough hydration calculator for home bakers.",
 };

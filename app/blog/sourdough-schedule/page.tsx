@@ -1,11 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Sourdough Schedule: A 24-Hour Timeline for Your First Loaf",
   description: "A day-by-day, hour-by-hour timeline for your first sourdough loaf. From starter feed to slicing, every step timed and explained.",
   keywords: ["sourdough schedule", "sourdough timeline", "sourdough day before", "when to bulk ferment", "sourdough overnight"],

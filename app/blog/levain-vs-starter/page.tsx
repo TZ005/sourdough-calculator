@@ -1,10 +1,11 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Sourdough Levain vs Starter: What Is the Difference? (2026)",
   description: "Starter is what you keep. Levain is what you build. Learn the difference, when to use each, and how to build a levain that peaks exactly when you need it.",
   keywords: ["sourdough levain","sourdough starter vs levain","levain vs starter","building a levain","sourdough mother dough"],

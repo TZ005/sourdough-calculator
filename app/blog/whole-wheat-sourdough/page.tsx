@@ -1,10 +1,11 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Whole Wheat Sourdough: A Complete Guide to 100% Whole Grain Bread (2026)",
   description: "100% whole wheat sourdough is doable at home. Higher hydration, shorter ferment, and a few simple adjustments give you a loaf that is open, chewy, and packed with flavor.",
   keywords: ["whole wheat sourdough","whole grain bread","whole wheat recipe","100% whole wheat","sourdough whole wheat"],

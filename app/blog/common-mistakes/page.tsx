@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
@@ -7,7 +8,7 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "5 Common Sourdough Mistakes (and How to Fix Them) - 2026 Guide",
   description: "Dense crumb, flat loaf, gummy texture? These are the 5 most common sourdough mistakes and exactly how to fix each one. Includes troubleshooting tips and timing guides.",
   keywords: ["sourdough mistakes", "sourdough troubleshooting", "dense sourdough", "flat sourdough loaf", "sourdough not rising"],

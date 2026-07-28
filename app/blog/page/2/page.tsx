@@ -1,10 +1,11 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { POSTS, PAGE_SIZE, TOTAL_PAGES, getPostsForPage, emoji } from "../../../_lib/posts";
 
 const page = 2;
 const displayedPosts = getPostsForPage(page);
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Blog - Page 2 of " + TOTAL_PAGES + " - SourdoughCalc",
   description: "Learn sourdough baking from the ground up. Hydration guides, recipes, and tips.",
 };

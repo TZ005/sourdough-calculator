@@ -1,10 +1,11 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import NextPostNav from "@/components/NextPostNav";
 import ArticleSchema from "@/components/ArticleSchema";
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Sourdough Focaccia: The Easiest Sourdough Bread You Will Ever Bake (2026)",
   description: "Sourdough focaccia is the easiest sourdough bread to make. No shaping, no scoring, no Dutch oven. Mix, rise, dimple, bake. Restaurant-quality results at home.",
   keywords: ["sourdough focaccia","focaccia recipe","easy sourdough","focaccia bread","sourdough flatbread"],
