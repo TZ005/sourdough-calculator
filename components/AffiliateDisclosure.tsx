@@ -1,10 +1,20 @@
 "use client";
 
+type Variant = "centered" | "inline";
+
+interface AffiliateDisclosureProps {
+  variant?: Variant;
+  className?: string;
+}
+
 // Shared FTC/Amazon disclosure, required wherever affiliate links appear.
 // Usage:
 //   <AffiliateDisclosure />                        // centered, like homepage
 //   <AffiliateDisclosure variant="inline" />       // compact, for blog callouts
-export default function AffiliateDisclosure({ variant = "centered", className = "" }) {
+export default function AffiliateDisclosure({
+  variant = "centered",
+  className = "",
+}: AffiliateDisclosureProps): JSX.Element {
   const base =
     "As an Amazon Associate, we earn from qualifying purchases. Prices stay the same for you.";
   if (variant === "inline") {

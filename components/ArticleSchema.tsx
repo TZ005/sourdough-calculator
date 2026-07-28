@@ -11,15 +11,25 @@ const ORG = {
   url: SITE + "/",
 };
 
+export interface ArticleSchemaProps {
+  slug: string;
+  title: string;
+  description: string;
+  image: string;            // relative path like /images/blog/<slug>.png
+  datePublished: string;    // "YYYY-MM-DD"
+  dateModified?: string;    // "YYYY-MM-DD" or "YYYY-MM-DDTHH:MM:SSZ"
+  articleSection?: string;
+}
+
 export default function ArticleSchema({
   slug,
   title,
   description,
-  image,            // relative path like /images/blog/<slug>.png
-  datePublished,    // "YYYY-MM-DD"
-  dateModified,     // "YYYY-MM-DD" or "YYYY-MM-DDTHH:MM:SSZ"
+  image,
+  datePublished,
+  dateModified,
   articleSection = "Sourdough Baking",
-}) {
+}: ArticleSchemaProps): JSX.Element {
   const url = SITE + "/blog/" + slug + "/";
   const fullImage = image && image.startsWith("http") ? image : SITE + (image || "/images/blog/" + slug + ".png");
 

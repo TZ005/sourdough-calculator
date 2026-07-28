@@ -3,19 +3,19 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const NAV_ITEMS = [
+const NAV_ITEMS: { href: string; label: string }[] = [
   { href: "/", label: "Calculator" },
   { href: "/blog/", label: "Blog" },
   { href: "/about/", label: "About" },
   { href: "/contact/", label: "Contact" },
 ];
 
-function isActive(pathname, href) {
+function isActive(pathname: string, href: string): boolean {
   if (href === "/") return pathname === "/";
   return pathname === href || pathname.startsWith(href);
 }
 
-export default function Header() {
+export default function Header(): JSX.Element {
   const pathname = usePathname();
   return (
     <header className="sticky top-0 z-50 bg-brand-cream/95 backdrop-blur-sm border-b border-[#E8DDC8]">
