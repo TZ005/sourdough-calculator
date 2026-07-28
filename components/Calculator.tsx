@@ -120,7 +120,7 @@ export default function Calculator(): JSX.Element {
   return (
     <div className="bg-white rounded-2xl shadow-lg shadow-brand-brown/10 p-8 max-w-3xl mx-auto print:shadow-none print:p-0 print:rounded-none">
       <div className="flex items-center justify-between mb-8 flex-wrap gap-3 print:justify-start">
-        <h2 className="text-center text-[25px] flex-1">馃 Calculate Your Recipe</h2>
+        <h2 className="text-center text-[25px] flex-1">Calculate Your Recipe</h2>
         <div className="flex gap-1 text-xs print:hidden">
           <button
             type="button"
@@ -174,7 +174,7 @@ export default function Calculator(): JSX.Element {
             max="150"
             className="px-3.5 py-3 border-2 border-[#E8DDC8] rounded-lg text-base focus:outline-none focus:border-brand-brown"
           />
-          <small className="text-brand-muted text-sm mt-1">Beginner: 70% 路 Classic: 75% 路 Open crumb: 85%</small>
+          <small className="text-brand-muted text-sm mt-1">Beginner: 70% | Classic: 75% | Open crumb: 85%</small>
         </div>
 
         <div className="flex flex-col">
@@ -210,7 +210,7 @@ export default function Calculator(): JSX.Element {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
-            <span className="text-2xl">馃拑</span>
+            <span className="text-2xl"></span>
             <div>
               <div className="text-xs text-brand-muted font-medium">Water to Add</div>
               <div className="text-xl font-bold text-brand-dark">{fmt(waterToAdd, "water", unit)}</div>
@@ -219,7 +219,7 @@ export default function Calculator(): JSX.Element {
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
-            <span className="text-2xl">馃徚</span>
+            <span className="text-2xl"></span>
             <div>
               <div className="text-xs text-brand-muted font-medium">Salt</div>
               <div className="text-xl font-bold text-brand-dark">{fmt(saltGrams, "salt", unit)}</div>
@@ -227,7 +227,7 @@ export default function Calculator(): JSX.Element {
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
-            <span className="text-2xl">馃尦</span>
+            <span className="text-2xl"></span>
             <div>
               <div className="text-xs text-brand-muted font-medium">Flour to Add</div>
               <div className="text-xl font-bold text-brand-dark">{fmt(flourToAdd, "flour", unit)}</div>
@@ -236,7 +236,7 @@ export default function Calculator(): JSX.Element {
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
-            <span className="text-2xl">馃尯</span>
+            <span className="text-2xl"></span>
             <div>
               <div className="text-xs text-brand-muted font-medium">Total Starter</div>
               <div className="text-xl font-bold text-brand-dark">{fmt(totalStarter, "starter", unit)}</div>
@@ -244,7 +244,7 @@ export default function Calculator(): JSX.Element {
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-tan rounded-lg">
-            <span className="text-2xl">馃</span>
+            <span className="text-2xl"></span>
             <div>
               <div className="text-xs text-brand-muted font-medium">Starter Flour</div>
               <div className="text-xl font-bold text-brand-dark">{fmt(starterFlour, "flour", unit)}</div>
@@ -252,7 +252,7 @@ export default function Calculator(): JSX.Element {
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-tan rounded-lg">
-            <span className="text-2xl">馃</span>
+            <span className="text-2xl"></span>
             <div>
               <div className="text-xs text-brand-muted font-medium">Starter Water</div>
               <div className="text-xl font-bold text-brand-dark">{fmt(starterWater, "water", unit)}</div>
@@ -273,14 +273,14 @@ export default function Calculator(): JSX.Element {
             onClick={handlePrint}
             className="px-5 py-2.5 bg-brand-wheat text-brand-dark rounded-md font-semibold hover:bg-brand-wheat-dark transition-colors"
           >
-            馃勦馃嵁 Print Recipe
+            Print Recipe
           </button>
           <button
             type="button"
             onClick={handleCopy}
             className="px-5 py-2.5 bg-white text-brand-brown border-2 border-brand-brown rounded-md font-semibold hover:bg-brand-brown hover:text-white transition-colors"
           >
-            {copied ? "馃帀 Copied!" : "馃抄 Copy Recipe"}
+            {copied ? "Copied!" : "Copy Recipe"}
           </button>
         </div>
 
