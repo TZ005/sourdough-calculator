@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
+import ArticleSchema from "@/components/ArticleSchema";
 
 
 
@@ -16,14 +17,13 @@ export default function BlogPost() {
     
       
     <>
-      {/* Schema.org: Article */}
-      
-      
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify( {"@context":"https://schema.org","@type":"Article","headline":"How to Store Sourdough Bread: Complete Guide to Keeping It Fresh (2026)","description":"Room temperature, frozen, or as dough. The right way to store sourdough bread at every stage so it stays fresh and crusty for days, not hours.","image":"https://sourdough-hydrationcalculator.com/images/blog/store-sourdough-bread.png","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/sourdough-baking-tools.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/store-sourdough-bread/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/store-sourdough-bread/"},"datePublished":"2026-07-25T08:00:00Z","dateModified":"2026-07-25T08:00:00Z"})
-        }}
+      <ArticleSchema
+        slug="store-sourdough-bread"
+        title="How to Store Sourdough Bread: Complete Guide to Keeping It Fresh (2026)"
+        description="Room temperature, frozen, or as dough. The right way to store sourdough bread at every stage so it stays fresh and crusty for days, not hours."
+        image="/images/blog/store-sourdough-bread.png"
+        datePublished="2026-07-25T08:00:00Z"
+        dateModified="2026-07-25T08:00:00Z"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">

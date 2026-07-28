@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
+import ArticleSchema from "@/components/ArticleSchema";
 
 
 
@@ -17,15 +18,14 @@ export default function StarterGuide() {
     
       
     <>
-      {/* Schema.org: Article */}
-      
 
-      
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"How to Make Sourdough Starter from Scratch: A 7-Day Complete Guide (2026)","description":"Day-by-day instructions for creating a healthy sourdough starter from just flour and water. Includes troubleshooting, feeding schedules, and signs of readiness.","image":"https://sourdough-hydrationcalculator.com/images/blog/sourdough-starter.png","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/sourdough-baking-tools.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/sourdough-starter/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/sourdough-starter/"},"datePublished":"2026-07-15","dateModified":"2026-07-25T08:00:00Z"})
-        }}
+      <ArticleSchema
+        slug="sourdough-starter"
+        title="How to Make Sourdough Starter from Scratch: A 7-Day Complete Guide (2026)"
+        description="Day-by-day instructions for creating a healthy sourdough starter from just flour and water. Includes troubleshooting, feeding schedules, and signs of readiness."
+        image="/images/blog/sourdough-starter.png"
+        datePublished="2026-07-15"
+        dateModified="2026-07-25T08:00:00Z"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">

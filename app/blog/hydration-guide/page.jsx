@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
+import ArticleSchema from "@/components/ArticleSchema";
 
 
 
@@ -19,15 +20,14 @@ export default function HydrationGuide() {
     
       
     <>
-      {/* Schema.org: Article */}
-      
 
-      
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Sourdough Hydration: The Complete Beginner's Guide (2026)","description":"Everything you need to know about sourdough hydration, from beginner-friendly 70% to advanced 100% doughs. Includes flour absorption tips, common mistakes, and a free calculator.","image":"https://sourdough-hydrationcalculator.com/images/blog/hydration-guide.png","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/sourdough-baking-tools.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/hydration-guide/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/hydration-guide/"},"datePublished":"2026-07-15","dateModified":"2026-07-25T08:00:00Z"})
-        }}
+      <ArticleSchema
+        slug="hydration-guide"
+        title="Sourdough Hydration: The Complete Beginner's Guide (2026)"
+        description="Everything you need to know about sourdough hydration, from beginner-friendly 70% to advanced 100% doughs. Includes flour absorption tips, common mistakes, and a free calculator."
+        image="/images/blog/hydration-guide.png"
+        datePublished="2026-07-15"
+        dateModified="2026-07-25T08:00:00Z"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">

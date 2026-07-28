@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
+import ArticleSchema from "@/components/ArticleSchema";
 
 
 
@@ -16,14 +17,13 @@ export default function BlogPost() {
     
       
     <>
-      {/* Schema.org: Article */}
-      
-      
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify( {"@context":"https://schema.org","@type":"Article","headline":"Whole Wheat Sourdough: A Complete Guide to 100% Whole Grain Bread (2026)","description":"100% whole wheat sourdough is doable at home. Higher hydration, shorter ferment, and a few simple adjustments give you a loaf that is open, chewy, and packed with flavor.","image":"https://sourdough-hydrationcalculator.com/images/blog/whole-wheat-sourdough.png","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/sourdough-baking-tools.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/whole-wheat-sourdough/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/whole-wheat-sourdough/"},"datePublished":"2026-07-25T08:00:00Z","dateModified":"2026-07-25T08:00:00Z"})
-        }}
+      <ArticleSchema
+        slug="whole-wheat-sourdough"
+        title="Whole Wheat Sourdough: A Complete Guide to 100% Whole Grain Bread (2026)"
+        description="100% whole wheat sourdough is doable at home. Higher hydration, shorter ferment, and a few simple adjustments give you a loaf that is open, chewy, and packed with flavor."
+        image="/images/blog/whole-wheat-sourdough.png"
+        datePublished="2026-07-25T08:00:00Z"
+        dateModified="2026-07-25T08:00:00Z"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">

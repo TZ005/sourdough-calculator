@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
+import ArticleSchema from "@/components/ArticleSchema";
 
 
 
@@ -17,15 +18,14 @@ export default function DiscardRecipes() {
     
       
     <>
-      {/* Schema.org: Article */}
-      
 
-      
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Sourdough Discard: 10 Easy Recipes That Don't Taste Sour (2026)","description":"Don't throw away your sourdough discard! 10 delicious recipes including pancakes, crackers, waffles, pizza dough and more. Zero waste, full flavor.","image":"https://sourdough-hydrationcalculator.com/images/blog/sourdough-discard.png","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/sourdough-baking-tools.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/sourdough-discard/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/sourdough-discard/"},"datePublished":"2026-07-15","dateModified":"2026-07-25T08:00:00Z"})
-        }}
+      <ArticleSchema
+        slug="sourdough-discard"
+        title="Sourdough Discard: 10 Easy Recipes That Don't Taste Sour (2026)"
+        description="Don't throw away your sourdough discard! 10 delicious recipes including pancakes, crackers, waffles, pizza dough and more. Zero waste, full flavor."
+        image="/images/blog/sourdough-discard.png"
+        datePublished="2026-07-15"
+        dateModified="2026-07-25T08:00:00Z"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">

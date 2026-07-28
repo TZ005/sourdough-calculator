@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
+import ArticleSchema from "@/components/ArticleSchema";
 
 
 
@@ -16,14 +17,13 @@ export default function BlogPost() {
     
       
     <>
-      {/* Schema.org: Article */}
-      
-      
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify( {"@context":"https://schema.org","@type":"Article","headline":"Sourdough Levain vs Starter: What Is the Difference? (2026)","description":"Starter is what you keep. Levain is what you build. Learn the difference, when to use each, and how to build a levain that peaks exactly when you need it.","image":"https://sourdough-hydrationcalculator.com/images/blog/levain-vs-starter.png","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/sourdough-baking-tools.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/levain-vs-starter/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/levain-vs-starter/"},"datePublished":"2026-07-25T08:00:00Z","dateModified":"2026-07-25T08:00:00Z"})
-        }}
+      <ArticleSchema
+        slug="levain-vs-starter"
+        title="Sourdough Levain vs Starter: What Is the Difference? (2026)"
+        description="Starter is what you keep. Levain is what you build. Learn the difference, when to use each, and how to build a levain that peaks exactly when you need it."
+        image="/images/blog/levain-vs-starter.png"
+        datePublished="2026-07-25T08:00:00Z"
+        dateModified="2026-07-25T08:00:00Z"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">

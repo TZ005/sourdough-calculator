@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
+import ArticleSchema from "@/components/ArticleSchema";
 import AffiliateLink from "@/components/AffiliateLink";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
@@ -19,15 +20,14 @@ export default function ShapingBoule() {
     
       
     <>
-      {/* Schema.org: Article */}
-      
 
-      
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"How to Shape a Sourdough Boule: 3 Methods for Beginners (2026)","description":"Step-by-step instructions for shaping a tight, round boule. Three methods from simple to advanced, with photos and troubleshooting.","image":"https://sourdough-hydrationcalculator.com/images/blog/shaping-boule.png","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/sourdough-baking-tools.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/shaping-boule/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/shaping-boule/"},"datePublished":"2026-07-15","dateModified":"2026-07-25T08:00:00Z"})
-        }}
+      <ArticleSchema
+        slug="shaping-boule"
+        title="How to Shape a Sourdough Boule: 3 Methods for Beginners (2026)"
+        description="Step-by-step instructions for shaping a tight, round boule. Three methods from simple to advanced, with photos and troubleshooting."
+        image="/images/blog/shaping-boule.png"
+        datePublished="2026-07-15"
+        dateModified="2026-07-25T08:00:00Z"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">

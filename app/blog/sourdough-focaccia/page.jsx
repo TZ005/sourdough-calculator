@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
+import ArticleSchema from "@/components/ArticleSchema";
 
 
 
@@ -16,14 +17,13 @@ export default function BlogPost() {
     
       
     <>
-      {/* Schema.org: Article */}
-      
-      
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify( {"@context":"https://schema.org","@type":"Article","headline":"Sourdough Focaccia: The Easiest Sourdough Bread You Will Ever Bake (2026)","description":"Sourdough focaccia is the easiest sourdough bread to make. No shaping, no scoring, no Dutch oven. Mix, rise, dimple, bake. Restaurant-quality results at home.","image":"https://sourdough-hydrationcalculator.com/images/blog/sourdough-focaccia.webp","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/sourdough-baking-tools.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/sourdough-focaccia/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/sourdough-focaccia/"},"datePublished":"2026-07-25T08:00:00Z","dateModified":"2026-07-25T08:00:00Z"})
-        }}
+      <ArticleSchema
+        slug="sourdough-focaccia"
+        title="Sourdough Focaccia: The Easiest Sourdough Bread You Will Ever Bake (2026)"
+        description="Sourdough focaccia is the easiest sourdough bread to make. No shaping, no scoring, no Dutch oven. Mix, rise, dimple, bake. Restaurant-quality results at home."
+        image="/images/blog/sourdough-focaccia.webp"
+        datePublished="2026-07-25T08:00:00Z"
+        dateModified="2026-07-25T08:00:00Z"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">

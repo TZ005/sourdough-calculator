@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
+import ArticleSchema from "@/components/ArticleSchema";
 import AffiliateLink from "@/components/AffiliateLink";
 import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
@@ -18,14 +19,13 @@ export default function BlogPost() {
     
       
     <>
-      {/* Schema.org: Article */}
-      
-      
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify( {"@context":"https://schema.org","@type":"Article","headline":"Sourdough for Beginners: The Complete First-Time Guide (2026)","description":"Want to make your first sourdough loaf? This step-by-step guide takes you from building a starter to baking your first crusty boule. No experience needed.","image":"https://sourdough-hydrationcalculator.com/images/blog/sourdough-for-beginners.png","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/sourdough-baking-tools.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/sourdough-for-beginners/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/sourdough-for-beginners/"},"datePublished":"2026-07-25T08:00:00Z","dateModified":"2026-07-25T08:00:00Z"})
-        }}
+      <ArticleSchema
+        slug="sourdough-for-beginners"
+        title="Sourdough for Beginners: The Complete First-Time Guide (2026)"
+        description="Want to make your first sourdough loaf? This step-by-step guide takes you from building a starter to baking your first crusty boule. No experience needed."
+        image="/images/blog/sourdough-for-beginners.png"
+        datePublished="2026-07-25T08:00:00Z"
+        dateModified="2026-07-25T08:00:00Z"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
+import ArticleSchema from "@/components/ArticleSchema";
 
 
 
@@ -17,15 +18,14 @@ export default function RyeSourdough() {
     
       
     <>
-      {/* Schema.org: Article */}
-      
 
-      
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":"Rye Sourdough: A Beginner's Guide to Dark, Flavorful, Traditional Bread","description":"Rye sourdough is a different beast from wheat. Here's how to work with rye's unique properties for dark, moist, intensely flavored bread.","image":"https://sourdough-hydrationcalculator.com/images/blog/rye-sourdough.png","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/sourdough-baking-tools.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/rye-sourdough/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/rye-sourdough/"},"datePublished":"2026-07-15","dateModified":"2026-07-25T08:00:00Z"})
-        }}
+      <ArticleSchema
+        slug="rye-sourdough"
+        title="Rye Sourdough: A Beginner's Guide to Dark, Flavorful, Traditional Bread"
+        description="Rye sourdough is a different beast from wheat. Here's how to work with rye's unique properties for dark, moist, intensely flavored bread."
+        image="/images/blog/rye-sourdough.png"
+        datePublished="2026-07-15"
+        dateModified="2026-07-25T08:00:00Z"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">

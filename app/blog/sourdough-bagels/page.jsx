@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
+import ArticleSchema from "@/components/ArticleSchema";
 
 
 
@@ -16,14 +17,13 @@ export default function BlogPost() {
     
       
     <>
-      {/* Schema.org: Article */}
-      
-      
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify( {"@context":"https://schema.org","@type":"Article","headline":"Sourdough Bagels: Chewy, Shiny, and Easier Than You Think (2026)","description":"Real New York bagels at home with sourdough. Chewy, shiny crust, deeper flavor than commercial bagels. Step-by-step recipe with boiling method.","image":"https://sourdough-hydrationcalculator.com/images/blog/sourdough-bagels.webp","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/sourdough-baking-tools.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/sourdough-bagels/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/sourdough-bagels/"},"datePublished":"2026-07-25T08:00:00Z","dateModified":"2026-07-25T08:00:00Z"})
-        }}
+      <ArticleSchema
+        slug="sourdough-bagels"
+        title="Sourdough Bagels: Chewy, Shiny, and Easier Than You Think (2026)"
+        description="Real New York bagels at home with sourdough. Chewy, shiny crust, deeper flavor than commercial bagels. Step-by-step recipe with boiling method."
+        image="/images/blog/sourdough-bagels.webp"
+        datePublished="2026-07-25T08:00:00Z"
+        dateModified="2026-07-25T08:00:00Z"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">

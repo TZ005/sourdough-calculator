@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
+import ArticleSchema from "@/components/ArticleSchema";
 
 
 
@@ -16,14 +17,13 @@ export default function SourdoughPizzaDough() {
     
       
     <>
-      {/* Schema.org: Article */}
-      
-      
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify( {"@context":"https://schema.org","@type":"Article","headline":"Sourdough Pizza Dough: A Complete Guide for Crispy, Chewy Crust (2026)","description":"Use your sourdough starter to make incredible pizza dough at home. Better flavor, easier digestibility, and crispy-chewy texture. Step-by-step recipe plus troubleshooting.","image":"https://sourdough-hydrationcalculator.com/images/blog/sourdough-pizza-dough.png","author":{"@type":"Organization","name":"SourdoughCalc","url":"https://sourdough-hydrationcalculator.com/"},"publisher":{"@type":"Organization","name":"SourdoughCalc","logo":{"@type":"ImageObject","url":"https://sourdough-hydrationcalculator.com/sourdough-baking-tools.png","width":1200,"height":630}},"url":"https://sourdough-hydrationcalculator.com/blog/sourdough-pizza-dough/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sourdough-hydrationcalculator.com/blog/sourdough-pizza-dough/"},"datePublished":"2026-07-25T08:00:00Z","dateModified":"2026-07-25T08:00:00Z"})
-        }}
+      <ArticleSchema
+        slug="sourdough-pizza-dough"
+        title="Sourdough Pizza Dough: A Complete Guide for Crispy, Chewy Crust (2026)"
+        description="Use your sourdough starter to make incredible pizza dough at home. Better flavor, easier digestibility, and crispy-chewy texture. Step-by-step recipe plus troubleshooting."
+        image="/images/blog/sourdough-pizza-dough.png"
+        datePublished="2026-07-25T08:00:00Z"
+        dateModified="2026-07-25T08:00:00Z"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
