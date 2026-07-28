@@ -30,7 +30,7 @@ export default function BlogPost() {
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
-      <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline"><span className="text-2xl">←</span> Back to Blog</Link>
+      <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline">Back to Blog</Link>
 
       <picture>
 
@@ -56,7 +56,7 @@ export default function BlogPost() {
 
       </picture>
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Why Is My Sourdough Gummy Inside? 7 Causes and How to Fix Each</h1>
-      <p className="text-brand-muted text-sm mb-8">📖 10 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">📖 10 min read | Updated July 2026</p>
 
       <p className="text-lg mb-6">
         You cut into your sourdough expecting that crackly crust and open crumb, but the inside is a sticky, dense, gummy mess. This is the single most common complaint from home sourdough bakers, and it has a small set of well-understood causes. Almost every gummy loaf comes back to the same handful of issues: not enough fermentation, cutting too early, or a hydration that your flour cannot support.

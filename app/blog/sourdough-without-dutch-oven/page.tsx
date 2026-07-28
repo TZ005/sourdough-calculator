@@ -30,7 +30,7 @@ export default function BlogPost() {
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
-      <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline"><span className="text-2xl">←</span> Back to Blog</Link>
+      <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline">Back to Blog</Link>
 
       <picture>
 
@@ -56,7 +56,7 @@ export default function BlogPost() {
 
       </picture>
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">How to Bake Sourdough Without a Dutch Oven</h1>
-      <p className="text-brand-muted text-sm mb-8">📖 11 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">📖 11 min read | Updated July 2026</p>
 
       <p className="text-lg mb-6">
         Every sourdough recipe tells you to bake in a Dutch oven, but not everyone has one. The good news: a Dutch oven is convenient, but it is not the only way to get a crackly crust and good oven spring. With the right technique, you can bake excellent sourdough in any oven using equipment you probably already have.
