@@ -1,7 +1,11 @@
 import Link from "next/link";
 import { getAdjacentPosts } from "@/app/_lib/posts";
 
-export default function NextPostNav({ slug }) {
+interface NextPostNavProps {
+  slug: string;
+}
+
+export default function NextPostNav({ slug }: NextPostNavProps): JSX.Element | null {
   const { prev, next } = getAdjacentPosts(slug);
   if (!prev && !next) return null;
   return (
