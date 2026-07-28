@@ -1,9 +1,9 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, type RefObject } from "react";
 
-export default function Comments() {
-  const containerRef = useRef(null);
+export default function Comments(): JSX.Element {
+  const containerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -27,7 +27,7 @@ export default function Comments() {
 
     containerRef.current.appendChild(script);
 
-    return () => {
+    return (): void => {
       const existing = containerRef.current?.querySelector("script[data-repo]");
       if (existing && existing.parentNode) {
         existing.parentNode.removeChild(existing);

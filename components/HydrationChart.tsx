@@ -1,22 +1,33 @@
 "use client";
 
-const LEVELS = [
-  { range: "50-60%", color: "#E8C9A0", name: "Stiff / Bagels", diff: "easy", emoji: "🟢", desc: "Tight dough, easiest to shape" },
-  { range: "60-70%", color: "#E5B98A", name: "Standard Sandwich", diff: "easy", emoji: "🟢", desc: "Soft, even crumb. Great for daily loaves" },
-  { range: "70-75%", color: "#D9A574", name: "Beginner Classic", diff: "medium", emoji: "🟡", desc: "Balanced hydration, easy to handle" },
-  { range: "75-80%", color: "#C58F5E", name: "Artisan Country", diff: "medium", emoji: "🟡", desc: "Open crumb, rustic texture" },
-  { range: "80-90%", color: "#B07A48", name: "Open Crumb", diff: "hard", emoji: "🔴", desc: "Large holes, requires skill" },
-  { range: "90-100%", color: "#8B5A2B", name: "Ciabatta / Focaccia", diff: "hard", emoji: "🔴", desc: "Very wet, sticky. Advanced technique" },
+type Difficulty = "easy" | "medium" | "hard";
+
+interface Level {
+  range: string;
+  color: string;
+  name: string;
+  diff: Difficulty;
+  emoji: string;
+  desc: string;
+}
+
+const LEVELS: Level[] = [
+  { range: "50-60%", color: "#E8C9A0", name: "Stiff / Bagels", diff: "easy", emoji: "🍞", desc: "Tight dough, easiest to shape" },
+  { range: "60-70%", color: "#E5B98A", name: "Standard Sandwich", diff: "easy", emoji: "🍞", desc: "Soft, even crumb. Great for daily loaves" },
+  { range: "70-75%", color: "#D9A574", name: "Beginner Classic", diff: "medium", emoji: "🥖", desc: "Balanced hydration, easy to handle" },
+  { range: "75-80%", color: "#C58F5E", name: "Artisan Country", diff: "medium", emoji: "🥖", desc: "Open crumb, rustic texture" },
+  { range: "80-90%", color: "#B07A48", name: "Open Crumb", diff: "hard", emoji: "🍞", desc: "Large holes, requires skill" },
+  { range: "90-100%", color: "#8B5A2B", name: "Ciabatta / Focaccia", diff: "hard", emoji: "🍞", desc: "Very wet, sticky. Advanced technique" },
 ];
 
-const DIFF_LABEL = { easy: "Easy", medium: "Medium", hard: "Hard" };
-const DIFF_STYLE = {
+const DIFF_LABEL: Record<Difficulty, string> = { easy: "Easy", medium: "Medium", hard: "Hard" };
+const DIFF_STYLE: Record<Difficulty, string> = {
   easy: "bg-green-100 text-green-800",
   medium: "bg-amber-100 text-amber-800",
   hard: "bg-red-100 text-red-800",
 };
 
-export default function HydrationChart() {
+export default function HydrationChart(): JSX.Element {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-6">
