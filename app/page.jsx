@@ -18,7 +18,7 @@ export const metadata = {
     url: "https://sourdough-hydrationcalculator.com/",
     images: [
       {
-        url: "/og-image.png",
+        url: "/sourdough-baking-tools.png",
         width: 1200,
         height: 630,
         alt: "SourdoughCalc - Free Hydration Calculator for Bakers",
@@ -29,7 +29,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Sourdough Hydration Calculator - Free Instant Recipe Tool",
     description: "Enter flour weight, instantly get exact water, salt and starter ratios. Free, no signup.",
-    images: ["/og-image.png"],
+    images: ["/sourdough-baking-tools.png"],
   },
 };
 
@@ -70,10 +70,10 @@ export default function Home() {
       <section className="py-16 md:py-20 text-center bg-gradient-to-b from-brand-cream to-brand-tan">
         <div className="max-w-6xl mx-auto px-6">
           <picture>
-            <source srcSet="/og-image.webp" type="image/webp" />
+            <source srcSet="/sourdough-baking-tools.webp" type="image/webp" />
             <img
-              src="/og-image.png"
-              alt="Hand-drawn watercolor illustration of sourdough baking tools and a fresh loaf"
+              src="/sourdough-baking-tools.png"
+              alt="Sourdough loaf with measuring cups and a kitchen scale"
               width="1200"
               height="630"
               className="w-full max-w-4xl mx-auto rounded-2xl shadow-lg mb-10"

@@ -15,7 +15,7 @@ export const metadata = {
     siteName: 'SourdoughCalc',
     images: [
       {
-        url: '/og-image.png',
+        url: '/sourdough-baking-tools.png',
         width: 1200,
         height: 630,
         alt: 'SourdoughCalc - Free Hydration Calculator for Bakers',
@@ -26,7 +26,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Sourdough Hydration Calculator - Free Tool',
     description: 'Calculate water, salt, and starter ratios for any sourdough recipe instantly.',
-    images: ['/og-image.png'],
+    images: ['/sourdough-baking-tools.png'],
   },
 };
 
@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="preload" as="image" href="/og-image.webp" type="image/webp" />
+        <link rel="preload" as="image" href="/sourdough-baking-tools.webp" type="image/webp" />
         <link rel="preconnect" href="https://www.amazon.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://m.media-amazon.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.amazon.com" />
@@ -79,7 +79,7 @@ gtag('config', 'G-58KC5RL1PG');`
                   "url": "https://sourdough-hydrationcalculator.com/",
                   "logo": {
                     "@type": "ImageObject",
-                    "url": "https://sourdough-hydrationcalculator.com/og-image.png",
+                    "url": "https://sourdough-hydrationcalculator.com/sourdough-baking-tools.png",
                     "width": 1200,
                     "height": 630
                   },
