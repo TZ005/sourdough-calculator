@@ -1,8 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type ChangeEvent } from "react";
 
-const PRESETS = [
+interface Preset {
+  name: string;
+  h: number;
+}
+
+const PRESETS: Preset[] = [
   { name: "Bagel (65%)", h: 65 },
   { name: "Sandwich (70%)", h: 70 },
   { name: "Classic (75%)", h: 75 },
@@ -11,16 +16,16 @@ const PRESETS = [
   { name: "Ciabatta (100%)", h: 100 },
 ];
 
-export default function Calculator() {
-  const [flour, setFlour] = useState(500);
-  const [hydration, setHydration] = useState(75);
-  const [salt, setSalt] = useState(2);
-  const [starter, setStarter] = useState(20);
+function formatGrams(n: number): string {
+  if (n >= 1000) return (n / 1000).toFixed(2) + " kg";
+  return n.toFixed(1) + " g";
+}
 
-  const formatGrams = (n) => {
-    if (n >= 1000) return (n / 1000).toFixed(2) + " kg";
-    return n.toFixed(1) + " g";
-  };
+export default function Calculator(): JSX.Element {
+  const [flour, setFlour] = useState<number>(500);
+  const [hydration, setHydration] = useState<number>(75);
+  const [salt, setSalt] = useState<number>(2);
+  const [starter, setStarter] = useState<number>(20);
 
   const water = flour * (hydration / 100);
   const saltGrams = flour * (salt / 100);
@@ -31,9 +36,12 @@ export default function Calculator() {
   const waterToAdd = water - starterWater;
   const totalDough = flourToAdd + waterToAdd + saltGrams + totalStarter;
 
-  const applyPreset = (h) => {
+  const applyPreset = (h: number): void => {
     setHydration(h);
   };
+
+  const onNumber = (setter: (n: number) => void) =>
+    (e: ChangeEvent<HTMLInputElement>): void => setter(parseFloat(e.target.value) || 0);
 
   return (
     <div className="bg-white rounded-2xl shadow-lg shadow-brand-brown/10 p-8 max-w-3xl mx-auto">
@@ -45,7 +53,7 @@ export default function Calculator() {
           <input
             type="number"
             value={flour}
-            onChange={(e) => setFlour(parseFloat(e.target.value) || 0)}
+            onChange={onNumber(setFlour)}
             min="1"
             className="px-3.5 py-3 border-2 border-[#E8DDC8] rounded-lg text-base focus:outline-none focus:border-brand-brown"
           />
@@ -56,7 +64,7 @@ export default function Calculator() {
           <input
             type="number"
             value={hydration}
-            onChange={(e) => setHydration(parseFloat(e.target.value) || 0)}
+            onChange={onNumber(setHydration)}
             min="50"
             max="150"
             className="px-3.5 py-3 border-2 border-[#E8DDC8] rounded-lg text-base focus:outline-none focus:border-brand-brown"
@@ -69,7 +77,7 @@ export default function Calculator() {
           <input
             type="number"
             value={salt}
-            onChange={(e) => setSalt(parseFloat(e.target.value) || 0)}
+            onChange={onNumber(setSalt)}
             min="0"
             max="5"
             step="0.1"
@@ -83,7 +91,7 @@ export default function Calculator() {
           <input
             type="number"
             value={starter}
-            onChange={(e) => setStarter(parseFloat(e.target.value) || 0)}
+            onChange={onNumber(setStarter)}
             min="0"
             max="50"
             className="px-3.5 py-3 border-2 border-[#E8DDC8] rounded-lg text-base focus:outline-none focus:border-brand-brown"
@@ -114,7 +122,7 @@ export default function Calculator() {
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
-            <span className="text-2xl">🥣</span>
+            <span className="text-2xl">🌾</span>
             <div>
               <div className="text-xs text-brand-muted font-medium">Flour to Add</div>
               <div className="text-xl font-bold text-brand-dark">{formatGrams(flourToAdd)}</div>
@@ -123,7 +131,7 @@ export default function Calculator() {
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
-            <span className="text-2xl">🌾</span>
+            <span className="text-2xl">🫙</span>
             <div>
               <div className="text-xs text-brand-muted font-medium">Total Starter</div>
               <div className="text-xl font-bold text-brand-dark">{formatGrams(totalStarter)}</div>
