@@ -131,7 +131,7 @@ export default function Calculator(): JSX.Element {
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
-            <span className="text-2xl">🫙</span>
+            <span className="text-2xl">🏺</span>
             <div>
               <div className="text-xs text-brand-muted font-medium">Total Starter</div>
               <div className="text-xl font-bold text-brand-dark">{formatGrams(totalStarter)}</div>
