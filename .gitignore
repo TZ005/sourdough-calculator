@@ -28,3 +28,7 @@ yarn-error.log*
 
 # local dev logs
 dev-err.log
+
+# playwright tests
+playwright-report/
+test-results/
