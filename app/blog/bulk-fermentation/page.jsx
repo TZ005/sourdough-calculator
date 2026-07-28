@@ -1,6 +1,7 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
 import AffiliateLink from "@/components/AffiliateLink";
+import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 
@@ -146,6 +147,7 @@ export default function BulkFermentation() {
       <aside className="mt-12 p-6 bg-brand-cream rounded-2xl border-2 border-brand-wheat">
         <h3 className="text-xl font-bold mb-2 text-brand-dark">Tools for Tracking Bulk Fermentation</h3>
         <p className="text-sm text-brand-muted mb-4">Bulk fermentation is all about temperature control. A good thermometer and scale make the difference between guessing and knowing.</p>
+        <AffiliateDisclosure variant="inline" />
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
           <AffiliateLink
             href="https://www.amazon.com/s?k=thermopro+tp19+thermometer&tag=sourdoughca0a-20"

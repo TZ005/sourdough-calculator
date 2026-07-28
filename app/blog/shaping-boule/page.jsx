@@ -1,6 +1,7 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
 import AffiliateLink from "@/components/AffiliateLink";
+import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 
@@ -154,6 +155,7 @@ export default function ShapingBoule() {
       <aside className="mt-12 p-6 bg-brand-cream rounded-2xl border-2 border-brand-wheat">
         <h3 className="text-xl font-bold mb-2 text-brand-dark">Tools I Use for Shaping</h3>
         <p className="text-sm text-brand-muted mb-4">The exact tools I recommend for shaping, proofing, and baking sourdough at home.</p>
+        <AffiliateDisclosure variant="inline" />
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
           <AffiliateLink
             href="https://www.amazon.com/s?k=banneton+proofing+basket&tag=sourdoughca0a-20"

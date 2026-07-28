@@ -1,6 +1,7 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
 import AffiliateLink from "@/components/AffiliateLink";
+import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 
@@ -150,6 +151,7 @@ export default function BlogPost() {
       <aside className="mt-12 p-6 bg-brand-cream rounded-2xl border-2 border-brand-wheat">
         <h3 className="text-xl font-bold mb-2 text-brand-dark">My Complete Beginner Toolkit</h3>
         <p className="text-sm text-brand-muted mb-4">The exact 6 tools I recommend for your first sourdough setup. Click any to see the search results on Amazon.</p>
+        <AffiliateDisclosure variant="inline" />
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
           <AffiliateLink
             href="https://www.amazon.com/s?k=king+arthur+bread+flour&tag=sourdoughca0a-20"

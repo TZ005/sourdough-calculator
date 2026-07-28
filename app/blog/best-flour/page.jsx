@@ -1,6 +1,7 @@
 import Link from "next/link";
 import NextPostNav from "@/components/NextPostNav";
 import AffiliateLink from "@/components/AffiliateLink";
+import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 
@@ -160,6 +161,7 @@ export default function BestFlour() {
       <aside className="mt-12 p-6 bg-brand-cream rounded-2xl border-2 border-brand-wheat">
         <h3 className="text-xl font-bold mb-2 text-brand-dark">My Recommended Sourdough Flours</h3>
         <p className="text-sm text-brand-muted mb-4">Once you have the right flour, you'll also need a scale to measure it, a banneton to shape it, and an oven to bake it.</p>
+        <AffiliateDisclosure variant="inline" />
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
           <AffiliateLink
             href="https://www.amazon.com/s?k=king+arthur+bread+flour&tag=sourdoughca0a-20"
