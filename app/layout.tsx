@@ -1,8 +1,9 @@
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-export const metadata = {
+export const metadata: Metadata = {
   metadataBase: new URL('https://sourdough-hydrationcalculator.com/'),
   title: 'Sourdough Hydration Calculator - Free Tool (2026) | SourdoughCalc',
   description: 'Free sourdough hydration calculator. Input flour weight, get water, salt & starter ratios instantly. Includes hydration chart for 50 percent to 100 percent.',
@@ -30,7 +31,7 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }): JSX.Element {
   return (
     <html lang="en">
       <head>

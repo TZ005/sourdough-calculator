@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import Comments from "@/components/Comments";
 
-export default function BlogLayout({ children }) {
+export default function BlogLayout({ children }: { children: React.ReactNode }): JSX.Element {
   const pathname = usePathname();
   const isListPage = pathname === "/blog" || pathname === "/blog/";
 
