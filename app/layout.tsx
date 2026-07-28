@@ -44,7 +44,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }):
         {/* End Cloudflare Web Analytics */}
 
         {/* Google Analytics 4 */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-58KC5RL1PG"></script>
+        <meta name="msvalidate.01" content="84E8964BD8ED98FC77391F61BC3B0433" />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-58KC5RL1PG"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer = window.dataLayer || [];
