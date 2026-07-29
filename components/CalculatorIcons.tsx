@@ -127,6 +127,30 @@ export function CopyIcon({ className = "", size = 18 }: IconProps) {
   );
 }
 
+export function OliveOilIcon({ className = "", size = 28 }: IconProps) {
+  return (
+    <svg {...baseProps(size)} className={className}>
+      <ellipse cx="11.5" cy="13" rx="3.2" ry="4.5" transform="rotate(-20 11.5 13)" />
+      <line x1="11" y1="9" x2="11" y2="6" />
+      <path d="M9 6 L 11 6 L 10 4" />
+      <path d="M9 13 L 14 13" />
+    </svg>
+  );
+}
+
+export function SugarIcon({ className = "", size = 28 }: IconProps) {
+  return (
+    <svg {...baseProps(size)} className={className}>
+      <rect x="6" y="10" width="12" height="9" rx="0.5" />
+      <path d="M6 10 L 4 7 L 8 6 L 10 9" />
+      <path d="M18 10 L 20 7 L 16 6 L 14 9" />
+      <line x1="9" y1="14" x2="9" y2="16" />
+      <line x1="12" y1="14" x2="12" y2="16" />
+      <line x1="15" y1="14" x2="15" y2="16" />
+    </svg>
+  );
+}
+
 export function CheckIcon({ className = "", size = 18 }: IconProps) {
   return (
     <svg {...baseProps(size)} className={className}>

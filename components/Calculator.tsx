@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type ChangeEvent } from "react";
-import { WaterIcon, SaltIcon, FlourIcon, JarIcon, BreadIcon, GlassIcon, ScaleIcon, PrinterIcon, CopyIcon, CheckIcon } from "./CalculatorIcons";
+import { WaterIcon, SaltIcon, FlourIcon, JarIcon, BreadIcon, GlassIcon, ScaleIcon, PrinterIcon, CopyIcon, CheckIcon, OliveOilIcon, SugarIcon } from "./CalculatorIcons";
 
 interface Preset {
   name: string;
@@ -27,20 +27,29 @@ const CUP_GRAMS: Record<"flour" | "water" | "salt" | "starter", number> = {
   starter: 240,
 };
 
-function fmt(n: number, kind: "flour" | "water" | "salt" | "starter", unit: Unit): string {
+function fmt(n: number, kind: "flour" | "water" | "salt" | "starter" | "oil" | "sugar", unit: Unit): string {
+  if (n <= 0) return unit === "g" ? "0 g" : "0";
   if (unit === "g") {
     if (n >= 1000) return (n / 1000).toFixed(2) + " kg";
     return n.toFixed(1) + " g";
   }
-  // cup mode: salt -> tsp, others -> cup
+  // cup mode
   if (kind === "salt") {
     const tsp = n / 6;
     if (tsp >= 1) return tsp.toFixed(1) + " tsp";
     return (tsp * 3).toFixed(1) + " dash";
   }
+  if (kind === "oil" || kind === "sugar") {
+    // oil: 1 cup ~= 216g; sugar: 1 cup ~= 200g
+    const perCup = kind === "oil" ? 216 : 200;
+    const cups = n / perCup;
+    if (cups >= 1) return cups.toFixed(2) + " cup" + (cups >= 2 ? "s" : "");
+    const tbsp = cups * 16;
+    if (tbsp >= 1) return tbsp.toFixed(1) + " tbsp";
+    return (tbsp * 3).toFixed(1) + " tsp";
+  }
   const cups = n / CUP_GRAMS[kind];
   if (cups >= 1) return cups.toFixed(2) + " cup" + (cups >= 2 ? "s" : "");
-  // small amounts -> tablespoons
   return (cups * 16).toFixed(1) + " tbsp";
 }
 
@@ -58,6 +67,8 @@ export default function Calculator(): JSX.Element {
   const [hydration, setHydration] = useState<number>(75);
   const [salt, setSalt] = useState<number>(2);
   const [starter, setStarter] = useState<number>(20);
+  const [oliveOil, setOliveOil] = useState<number>(0);
+  const [sugar, setSugar] = useState<number>(0);
   const [unit, setUnit] = useState<Unit>("g");
   const [copied, setCopied] = useState<boolean>(false);
 
@@ -68,7 +79,9 @@ export default function Calculator(): JSX.Element {
   const starterWater = totalStarter * 0.5;
   const flourToAdd = flour - starterFlour;
   const waterToAdd = water - starterWater;
-  const totalDough = flourToAdd + waterToAdd + saltGrams + totalStarter;
+  const oliveOilGrams = flour * (oliveOil / 100);
+  const sugarGrams = flour * (sugar / 100);
+  const totalDough = flourToAdd + waterToAdd + saltGrams + totalStarter + oliveOilGrams + sugarGrams;
 
   const applyPreset = (h: number): void => {
     setHydration(h);
@@ -89,8 +102,10 @@ export default function Calculator(): JSX.Element {
       `Hydration:            ${hydration.toFixed(0)} %`,
       `Salt:                 ${saltGrams.toFixed(1)} g  (${(salt).toFixed(1)} % of flour)`,
       `Starter (total):      ${totalStarter.toFixed(0)} g  (${(starter).toFixed(0)} % of flour)`,
+      `Olive oil:            ${oliveOilGrams.toFixed(0)} g  (${oliveOil.toFixed(0)} % of flour)`,
+      `Sugar:                ${sugarGrams.toFixed(0)} g  (${sugar.toFixed(0)} % of flour)`,
       "",
-      "To add:",
+      "Other (added directly to dough):",
       `  Flour:              ${flourToAdd.toFixed(0)} g  (excl. ${starterFlour.toFixed(0)} g in starter)`,
       `  Water:              ${waterToAdd.toFixed(0)} g  (incl. ${starterWater.toFixed(0)} g in starter, total ${water.toFixed(0)} g)`,
       `  Salt:               ${saltGrams.toFixed(1)} g`,
@@ -204,6 +219,32 @@ export default function Calculator(): JSX.Element {
           />
           <small className="text-brand-muted text-sm mt-1">Standard: 20%</small>
         </div>
+
+        <div className="flex flex-col">
+          <label className="font-semibold mb-1.5 text-brand-dark">Olive Oil (% of flour)</label>
+          <input
+            type="number"
+            value={oliveOil}
+            onChange={onNumber(setOliveOil)}
+            min="0"
+            max="20"
+            className="px-3.5 py-3 border-2 border-[#E8DDC8] rounded-lg text-base focus:outline-none focus:border-brand-brown"
+          />
+          <small className="text-brand-muted text-sm mt-1">Optional: 2-5% for Italian breads</small>
+        </div>
+
+        <div className="flex flex-col">
+          <label className="font-semibold mb-1.5 text-brand-dark">Sugar (% of flour)</label>
+          <input
+            type="number"
+            value={sugar}
+            onChange={onNumber(setSugar)}
+            min="0"
+            max="20"
+            className="px-3.5 py-3 border-2 border-[#E8DDC8] rounded-lg text-base focus:outline-none focus:border-brand-brown"
+          />
+          <small className="text-brand-muted text-sm mt-1">Optional: 1-5% for enriched doughs</small>
+        </div>
       </div>
 
       <div className="mt-8 pt-8 border-t border-[#E8DDC8]">
@@ -241,6 +282,24 @@ export default function Calculator(): JSX.Element {
             <div>
               <div className="text-xs text-brand-muted font-medium">Total Starter</div>
               <div className="text-xl font-bold text-brand-dark">{fmt(totalStarter, "starter", unit)}</div>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
+            <OliveOilIcon className="text-brand-brown flex-shrink-0" size={28} />
+            <div>
+              <div className="text-xs text-brand-muted font-medium">Olive Oil</div>
+              <div className="text-xl font-bold text-brand-dark">{fmt(oliveOilGrams, "oil", unit)}</div>
+              {oliveOil > 0 && <div className="text-[10px] text-brand-muted mt-0.5">{oliveOil}% of flour</div>}
+            </div>
+          </div>
+
+          <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
+            <SugarIcon className="text-brand-brown flex-shrink-0" size={28} />
+            <div>
+              <div className="text-xs text-brand-muted font-medium">Sugar</div>
+              <div className="text-xl font-bold text-brand-dark">{fmt(sugarGrams, "sugar", unit)}</div>
+              {sugar > 0 && <div className="text-[10px] text-brand-muted mt-0.5">{sugar}% of flour</div>}
             </div>
           </div>
 
