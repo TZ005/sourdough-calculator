@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type ChangeEvent } from "react";
+import { WaterIcon, SaltIcon, FlourIcon, JarIcon, BreadIcon, GlassIcon, ScaleIcon, PrinterIcon, CopyIcon, CheckIcon } from "./CalculatorIcons";
 
 interface Preset {
   name: string;
@@ -210,7 +211,7 @@ export default function Calculator(): JSX.Element {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
-            <span className="text-2xl"></span>
+            <WaterIcon className="text-brand-brown flex-shrink-0" size={28} />
             <div>
               <div className="text-xs text-brand-muted font-medium">Water to Add</div>
               <div className="text-xl font-bold text-brand-dark">{fmt(waterToAdd, "water", unit)}</div>
@@ -219,7 +220,7 @@ export default function Calculator(): JSX.Element {
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
-            <span className="text-2xl"></span>
+            <SaltIcon className="text-brand-brown flex-shrink-0" size={28} />
             <div>
               <div className="text-xs text-brand-muted font-medium">Salt</div>
               <div className="text-xl font-bold text-brand-dark">{fmt(saltGrams, "salt", unit)}</div>
@@ -227,7 +228,7 @@ export default function Calculator(): JSX.Element {
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
-            <span className="text-2xl"></span>
+            <FlourIcon className="text-brand-brown flex-shrink-0" size={28} />
             <div>
               <div className="text-xs text-brand-muted font-medium">Flour to Add</div>
               <div className="text-xl font-bold text-brand-dark">{fmt(flourToAdd, "flour", unit)}</div>
@@ -236,7 +237,7 @@ export default function Calculator(): JSX.Element {
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-cream rounded-lg">
-            <span className="text-2xl"></span>
+            <JarIcon className="text-brand-brown flex-shrink-0" size={28} />
             <div>
               <div className="text-xs text-brand-muted font-medium">Total Starter</div>
               <div className="text-xl font-bold text-brand-dark">{fmt(totalStarter, "starter", unit)}</div>
@@ -244,7 +245,7 @@ export default function Calculator(): JSX.Element {
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-tan rounded-lg">
-            <span className="text-2xl"></span>
+            <BreadIcon className="text-brand-brown flex-shrink-0" size={28} />
             <div>
               <div className="text-xs text-brand-muted font-medium">Starter Flour</div>
               <div className="text-xl font-bold text-brand-dark">{fmt(starterFlour, "flour", unit)}</div>
@@ -252,7 +253,7 @@ export default function Calculator(): JSX.Element {
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-tan rounded-lg">
-            <span className="text-2xl"></span>
+            <GlassIcon className="text-brand-brown flex-shrink-0" size={28} />
             <div>
               <div className="text-xs text-brand-muted font-medium">Starter Water</div>
               <div className="text-xl font-bold text-brand-dark">{fmt(starterWater, "water", unit)}</div>
@@ -260,6 +261,7 @@ export default function Calculator(): JSX.Element {
           </div>
 
           <div className="flex items-center gap-3 px-4 py-3.5 bg-brand-brown text-white rounded-lg md:col-span-2">
+            <ScaleIcon className="text-brand-cream flex-shrink-0" size={28} />
             <div>
               <div className="text-xs text-white/80 font-medium">Total Dough Weight</div>
               <div className="text-xl font-bold">{fmtSimpleGrams(totalDough, unit)}</div>
@@ -271,16 +273,17 @@ export default function Calculator(): JSX.Element {
           <button
             type="button"
             onClick={handlePrint}
-            className="px-5 py-2.5 bg-brand-wheat text-brand-dark rounded-md font-semibold hover:bg-brand-wheat-dark transition-colors"
+            className="px-5 py-2.5 bg-brand-wheat text-brand-dark rounded-md font-semibold hover:bg-brand-wheat-dark transition-colors inline-flex items-center gap-2"
           >
-            Print Recipe
+            <PrinterIcon size={18} />
+            <span>Print Recipe</span>
           </button>
           <button
             type="button"
             onClick={handleCopy}
             className="px-5 py-2.5 bg-white text-brand-brown border-2 border-brand-brown rounded-md font-semibold hover:bg-brand-brown hover:text-white transition-colors"
           >
-            {copied ? "Copied!" : "Copy Recipe"}
+            <span className="inline-flex items-center gap-2">{copied ? <><CheckIcon size={18} /> Copied!</> : <><CopyIcon size={18} /> Copy Recipe</>}</span>
           </button>
         </div>
 
