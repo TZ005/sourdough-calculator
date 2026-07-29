@@ -18,7 +18,7 @@ function isActive(pathname: string, href: string): boolean {
 export default function Header(): JSX.Element {
   const pathname = usePathname();
   return (
-    <header className="sticky top-0 z-50 bg-brand-cream/95 backdrop-blur-sm border-b border-[#E8DDC8]">
+    <header className="print:hidden sticky top-0 z-50 bg-brand-cream/95 backdrop-blur-sm border-b border-[#E8DDC8]">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="font-serif text-xl font-bold text-brand-brown hover:no-underline">
           🥖 SourdoughCalc

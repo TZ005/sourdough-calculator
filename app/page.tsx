@@ -68,7 +68,7 @@ export default function Home() {
         }}
       />
 
-      <section className="py-16 md:py-20 text-center bg-gradient-to-b from-brand-cream to-brand-tan">
+      <section className="print:hidden py-16 md:py-20 text-center bg-gradient-to-b from-brand-cream to-brand-tan">
         <div className="max-w-6xl mx-auto px-6">
           <picture>
             <source srcSet="/sourdough-baking-tools.avif" type="image/avif" />
@@ -89,13 +89,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-10 md:py-16">
+      <section className="py-10 md:py-16 print:py-4">
         <div className="max-w-6xl mx-auto px-6">
           <Calculator />
         </div>
       </section>
 
-      <section className="py-12 bg-brand-tan">
+      <section className="print:hidden py-12 bg-brand-tan">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-center text-3xl font-bold mb-3 text-brand-dark">🛒 Recommended Sourdough Tools</h2>
           <AffiliateDisclosure />
@@ -158,9 +158,9 @@ export default function Home() {
         </div>
       </section>
 
-      <HydrationChart />
+      <div className="print:hidden"><HydrationChart /></div>
 
-      <section className="py-16 max-w-3xl mx-auto px-6">
+      <section className="print:hidden py-16 max-w-3xl mx-auto px-6">
         <h2 className="text-center text-3xl font-bold mb-6 text-brand-dark">What is Sourdough Hydration?</h2>
         <p>
           <strong>Sourdough hydration</strong> is the ratio of water to flour in your dough, expressed as a percentage.
@@ -179,7 +179,7 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="py-20 bg-brand-tan">
+      <section className="print:hidden py-20 bg-brand-tan">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-center text-3xl mb-3">📚 Learn Sourdough Baking</h2>
           <p className="text-center text-lg text-[#5C4033] mb-12 max-w-2xl mx-auto">Master hydration, ratios, and techniques with our free guides.</p>
