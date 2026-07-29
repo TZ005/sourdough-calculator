@@ -71,6 +71,7 @@ export default function Home() {
       <section className="py-16 md:py-20 text-center bg-gradient-to-b from-brand-cream to-brand-tan">
         <div className="max-w-6xl mx-auto px-6">
           <picture>
+            <source srcSet="/sourdough-baking-tools.avif" type="image/avif" />
             <source srcSet="/sourdough-baking-tools.webp" type="image/webp" />
             <img
               src="/sourdough-baking-tools.png"
@@ -229,4 +230,3 @@ export default function Home() {
     </>
   );
 }
-

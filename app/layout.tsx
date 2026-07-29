@@ -35,8 +35,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }):
   return (
     <html lang="en">
       <head>
-        <link rel="preload" as="image" href="/sourdough-baking-tools.webp" type="image/webp" />
-        <link rel="preconnect" href="https://www.amazon.com" crossOrigin="anonymous" />
+        <link rel="preload" as="image" type="image/avif" href="/sourdough-baking-tools.avif" fetchPriority="high"/>
+      <link rel="preconnect" href="https://www.amazon.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://m.media-amazon.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.amazon.com" />
         {/* Cloudflare Web Analytics */}
