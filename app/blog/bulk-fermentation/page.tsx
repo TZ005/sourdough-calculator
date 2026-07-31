@@ -275,7 +275,7 @@ export default function BulkFermentation() {
             aria-label="View ThermoPro TP19 Thermometer on Amazon"
             className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
           >
-            <div className="w-10 h-10 mx-auto mb-2 rounded-full bg-brand-tan text-brand-brown font-bold flex items-center justify-center">T</div>
+            <div className="text-2xl mb-1">🌡</div>
             <div className="font-semibold text-sm text-brand-dark">Thermometer</div>
             <div className="text-xs text-brand-brown">View on Amazon →</div>
           </AffiliateLink>
@@ -286,7 +286,7 @@ export default function BulkFermentation() {
             aria-label="View Etekcity Kitchen Scale on Amazon"
             className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
           >
-            <div className="w-10 h-10 mx-auto mb-2 rounded-full bg-brand-tan text-brand-brown font-bold flex items-center justify-center">S</div>
+            <div className="text-2xl mb-1">⚖️</div>
             <div className="font-semibold text-sm text-brand-dark">Kitchen Scale</div>
             <div className="text-xs text-brand-brown">View on Amazon →</div>
           </AffiliateLink>
@@ -297,7 +297,7 @@ export default function BulkFermentation() {
             aria-label="View Lodge Dutch Oven on Amazon"
             className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
           >
-            <div className="w-10 h-10 mx-auto mb-2 rounded-full bg-brand-tan text-brand-brown font-bold flex items-center justify-center">D</div>
+            <div className="text-2xl mb-1">🥘</div>
             <div className="font-semibold text-sm text-brand-dark">Dutch Oven</div>
             <div className="text-xs text-brand-brown">View on Amazon →</div>
           </AffiliateLink>
