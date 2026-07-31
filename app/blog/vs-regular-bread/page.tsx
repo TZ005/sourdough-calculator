@@ -8,15 +8,15 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 export const metadata: Metadata = {
   title: "Sourdough vs Regular Bread: What's Different?",
-  description: "Is sourdough actually healthier than regular bread? A science-backed comparison of nutrition, glycemic index, digestibility, and flavor.",
-  keywords: ["sourdough vs regular bread", "sourdough benefits", "is sourdough healthier", "sourdough nutrition", "sourdough digestibility"],
+  description: "Sourdough vs regular bread: nutrition, glycemic index, digestibility, and flavor compared with science. See where sourdough wins and where it does not.",
+  keywords: ["sourdough vs regular bread", "sourdough benefits", "sourdough nutrition", "sourdough digestibility"],
 
   alternates: {
     canonical: "https://sourdough-hydrationcalculator.com/blog/vs-regular-bread/",
   },
   openGraph: {
     title: "Sourdough vs Regular Bread: What's Different?",
-    description: "Is sourdough actually healthier than regular bread? A science-backed comparison of nutrition, glycemic index, digestibility, and flavor.",
+    description: "Sourdough vs regular bread: nutrition, glycemic index, digestibility, and flavor compared with science. See where sourdough wins and where it does not.",
     type: "article",
     url: "https://sourdough-hydrationcalculator.com/blog/vs-regular-bread/",
     publishedTime: "2026-07-15",
@@ -24,14 +24,14 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blog/vs-regular-bread.webp",
-        alt: "Sourdough vs Regular Bread: What's Different?",
+        alt: "Sourdough bread and regular sandwich bread compared side by side",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Sourdough vs Regular Bread: What's Different?",
-    description: "Is sourdough actually healthier than regular bread? A science-backed comparison of nutrition, glycemic index, digestibility, and flavor.",
+    description: "Sourdough vs regular bread: nutrition, glycemic index, digestibility, and flavor compared with science. See where sourdough wins and where it does not.",
     images: ["/images/blog/vs-regular-bread.webp"],
   },
 };
@@ -47,10 +47,46 @@ export default function VsRegularBread() {
       <ArticleSchema
         slug="vs-regular-bread"
         title="Sourdough vs Regular Bread: What's Different?"
-        description="Is sourdough actually healthier than regular bread? A science-backed comparison of nutrition, glycemic index, digestibility, and flavor."
+        description="Sourdough vs regular bread: nutrition, glycemic index, digestibility, and flavor compared with science. See where sourdough wins and where it does not."
         image="/images/blog/vs-regular-bread.webp"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is sourdough bread healthier than regular bread?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sourdough is not significantly higher in calories, protein, or fiber, but it can be easier to digest and has a lower glycemic response for many people. It also contains more available minerals when made with whole wheat."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is sourdough bread gluten-free?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Sourdough made from wheat still contains gluten. The fermentation breaks down some gluten proteins, which helps some people with mild sensitivity, but it is not safe for people with celiac disease."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does sourdough have a lower glycemic index than regular bread?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Regular white bread has a GI around 75, while sourdough is usually in the 54-65 range because the organic acids from fermentation slow glucose absorption."
+                }
+              }
+            ]
+          })
+        }}
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
@@ -60,7 +96,7 @@ export default function VsRegularBread() {
         <source srcSet="/images/blog/vs-regular-bread.webp" type="image/webp" />
         <img
           src="/images/blog/vs-regular-bread.webp"
-          alt="Sourdough vs Regular Bread: What's Different?"
+          alt="Sourdough bread and regular sandwich bread compared side by side"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"
@@ -139,8 +175,6 @@ export default function VsRegularBread() {
       <h3 className="mt-6 mb-2">5. Better Flavor, Longer Shelf Life</h3>
       <p className="mb-4">
         Sourdough has a tangy, complex flavor. Some people prefer it; others prefer simpler breads. The lactic acid in sourdough also acts as a natural preservative, so sourdough stays fresh for 3-5 days compared to 1-2 days for commercial bread. The lactic acid
-        in sourdough also acts as a natural preservative, so sourdough stays fresh for 3-5 days
-        compared to 1-2 days for commercial bread.
       </p>
 
       <h2 className="mt-10 mb-3">Where Regular Bread Wins</h2>
@@ -182,8 +216,32 @@ export default function VsRegularBread() {
       <p className="mb-4">
         For best results, mix your own blend: 80% bread flour + 20% whole wheat. Use our{" "}
         <Link href="/" className="text-brand-brown font-medium">hydration calculator</Link>{" "}
-        to dial in the right ratios.
-      </p><NextPostNav slug="vs-regular-bread" />
+        to dial in the right ratios. The <Link href="/blog/hydration-guide/">hydration guide</Link>{" "}
+        explains how water level changes texture and nutrition.
+      </p>
+
+      <h2 className="mt-10 mb-3">Sourdough vs Regular Bread FAQ</h2>
+      <div className="mb-4">
+        <h3 className="font-semibold text-brand-brown mb-1">Is sourdough bread healthier than regular bread?</h3>
+        <p>Sourdough is not significantly higher in calories, protein, or fiber, but it can be easier to digest and has a lower glycemic response for many people. It also contains more available minerals when made with whole wheat.</p>
+      </div>
+      <div className="mb-4">
+        <h3 className="font-semibold text-brand-brown mb-1">Is sourdough bread gluten-free?</h3>
+        <p>No. Sourdough made from wheat still contains gluten. The fermentation breaks down some gluten proteins, which helps some people with mild sensitivity, but it is not safe for people with celiac disease.</p>
+      </div>
+      <div className="mb-4">
+        <h3 className="font-semibold text-brand-brown mb-1">Does sourdough have a lower glycemic index than regular bread?</h3>
+        <p>Yes. Regular white bread has a GI around 75, while sourdough is usually in the 54-65 range because the organic acids from fermentation slow glucose absorption.</p>
+      </div>
+
+      <h2 className="mt-10 mb-3">Related Reading</h2>
+      <ul className="list-disc pl-6 space-y-2 mb-8">
+        <li><Link href="/blog/hydration-guide/">Sourdough Hydration: The Complete Beginner's Guide</Link></li>
+        <li><Link href="/blog/best-flour/">Best Flour for Sourdough: A Complete Guide</Link></li>
+        <li><Link href="/blog/what-is-hydration/">What is Sourdough Hydration?</Link></li>
+        <li><Link href="/blog/whole-wheat-sourdough/">Whole Wheat Sourdough: Complete Grain Guide</Link></li>
+      </ul>
+      <NextPostNav slug="vs-regular-bread" />
     </article>
     </>
   );
