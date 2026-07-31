@@ -10,7 +10,7 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 export const metadata: Metadata = {
   title: "Sourdough Bulk Fermentation: Timing and Temperature",
-  description: "When to end bulk fermentation: visual cues, temperature effects, and timing guidelines. Stop guessing and start baking by feel.",
+  description: "When to end sourdough bulk fermentation: 5 visual cues, temperature timing from 65-80°F, and common mistakes that make bread dense, flat, or sour.",
   keywords: ["sourdough bulk fermentation", "bulk fermentation time", "sourdough rise time", "when to end bulk", "sourdough bulk fermentation temperature"],
 
   alternates: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Sourdough Bulk Fermentation: Timing and Temperature",
-    description: "When to end bulk fermentation: visual cues, temperature effects, and timing guidelines. Stop guessing and start baking by feel.",
+    description: "When to end sourdough bulk fermentation: 5 visual cues, temperature timing from 65-80°F, and common mistakes that make bread dense, flat, or sour.",
     type: "article",
     url: "https://sourdough-hydrationcalculator.com/blog/bulk-fermentation/",
     publishedTime: "2026-07-15",
@@ -26,14 +26,14 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blog/bulk-fermentation.webp",
-        alt: "Sourdough Bulk Fermentation: Timing and Temperature",
+        alt: "Sourdough dough rising in a bowl with bubbles during bulk fermentation",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Sourdough Bulk Fermentation: Timing and Temperature",
-    description: "When to end bulk fermentation: visual cues, temperature effects, and timing guidelines. Stop guessing and start baking by feel.",
+    description: "When to end sourdough bulk fermentation: 5 visual cues, temperature timing from 65-80°F, and common mistakes that make bread dense, flat, or sour.",
     images: ["/images/blog/bulk-fermentation.webp"],
   },
 };
@@ -49,10 +49,46 @@ export default function BulkFermentation() {
       <ArticleSchema
         slug="bulk-fermentation"
         title="Sourdough Bulk Fermentation: Timing and Temperature"
-        description="When to end bulk fermentation: visual cues, temperature effects, and timing guidelines. Stop guessing and start baking by feel."
+        description="When to end sourdough bulk fermentation: 5 visual cues, temperature timing from 65-80°F, and common mistakes that make bread dense, flat, or sour."
         image="/images/blog/bulk-fermentation.webp"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How long should sourdough bulk fermentation take?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "At 70-74°F expect 3-4 hours, at 65-68°F allow 4-6 hours, and at 75-80°F plan for 2-3 hours. Judge readiness by visual cues rather than the clock."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What temperature is best for bulk fermentation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "70-74°F is the sweet spot for most home bakers: flavorful but predictable. Warmer dough ferments faster, while cooler dough develops more acidity."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Should bulk fermentation happen in the fridge?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Cold bulk fermentation, also called cold retard, slows the dough dramatically so the same step can take 12-16 hours at 38°F. It is a great scheduling tool and builds flavor."
+                }
+              }
+            ]
+          })
+        }}
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
@@ -62,7 +98,7 @@ export default function BulkFermentation() {
         <source srcSet="/images/blog/bulk-fermentation.webp" type="image/webp" />
         <img
           src="/images/blog/bulk-fermentation.webp"
-          alt="Sourdough Bulk Fermentation: Timing and Temperature"
+          alt="Sourdough dough rising in a bowl with bubbles during bulk fermentation"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"
@@ -94,7 +130,8 @@ export default function BulkFermentation() {
       <h3 className="mt-6 mb-2">1. Temperature</h3>
       <p className="mb-4">
         Temperature is the most important factor. Warmer dough ferments faster, cooler dough
-        ferments slower. Warmer dough ferments faster, cooler dough slower. A dough at 75°F might bulk for 3-4 hours, while the same dough at 65°F might need 5-7 hours.
+        ferments slower. A dough at 75°F might bulk for 3-4 hours, while the same dough at
+        65°F might need 5-7 hours.
       </p>
 
       <h3 className="mt-6 mb-2">2. Time</h3>
@@ -135,6 +172,41 @@ export default function BulkFermentation() {
         easily over-proof. Summer baking in warm homes.
       </p>
 
+      <h2 className="mt-10 mb-3">Bulk Fermentation at a Glance</h2>
+      <div className="overflow-x-auto my-6">
+        <table className="w-full text-left border-collapse border border-[#E8DDC8]">
+          <thead>
+            <tr className="bg-brand-tan">
+              <th className="border border-[#E8DDC8] px-3 py-2">Temperature</th>
+              <th className="border border-[#E8DDC8] px-3 py-2">Expected bulk time</th>
+              <th className="border border-[#E8DDC8] px-3 py-2">Best for</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-[#E8DDC8] px-3 py-2">65-68°F / 18-20°C</td>
+              <td className="border border-[#E8DDC8] px-3 py-2">4-6 hours</td>
+              <td className="border border-[#E8DDC8] px-3 py-2">Complex flavor and winter kitchens</td>
+            </tr>
+            <tr>
+              <td className="border border-[#E8DDC8] px-3 py-2">70-74°F / 21-23°C</td>
+              <td className="border border-[#E8DDC8] px-3 py-2">3-4 hours</td>
+              <td className="border border-[#E8DDC8] px-3 py-2">Standard sourdough schedules</td>
+            </tr>
+            <tr>
+              <td className="border border-[#E8DDC8] px-3 py-2">75-80°F / 24-27°C</td>
+              <td className="border border-[#E8DDC8] px-3 py-2">2-3 hours</td>
+              <td className="border border-[#E8DDC8] px-3 py-2">Fast bakes with careful watching</td>
+            </tr>
+            <tr>
+              <td className="border border-[#E8DDC8] px-3 py-2">38°F / 3°C fridge</td>
+              <td className="border border-[#E8DDC8] px-3 py-2">12-16 hours</td>
+              <td className="border border-[#E8DDC8] px-3 py-2">Overnight cold retard and scheduling</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <h2 className="mt-10 mb-3">Adjusting Your Schedule</h2>
       <p className="mb-4">
         To make bulk end at a specific time, work backward:
@@ -167,6 +239,28 @@ export default function BulkFermentation() {
         <Link href="/" className="text-brand-brown font-medium">hydration calculator</Link>{" "}
         helps with the hydration part of the equation.
       </p>
+
+      <h2 className="mt-10 mb-3">Bulk Fermentation FAQ</h2>
+      <div className="mb-4">
+        <h3 className="font-semibold text-brand-brown mb-1">How long should sourdough bulk fermentation take?</h3>
+        <p>At 70-74°F expect 3-4 hours, at 65-68°F allow 4-6 hours, and at 75-80°F plan for 2-3 hours. Judge readiness by visual cues rather than the clock.</p>
+      </div>
+      <div className="mb-4">
+        <h3 className="font-semibold text-brand-brown mb-1">What temperature is best for bulk fermentation?</h3>
+        <p>70-74°F is the sweet spot for most home bakers: flavorful but predictable. Warmer dough ferments faster, while cooler dough develops more acidity.</p>
+      </div>
+      <div className="mb-4">
+        <h3 className="font-semibold text-brand-brown mb-1">Should bulk fermentation happen in the fridge?</h3>
+        <p>Cold bulk fermentation, also called cold retard, slows the dough dramatically so the same step can take 12-16 hours at 38°F. It is a great scheduling tool and builds flavor.</p>
+      </div>
+
+      <h2 className="mt-10 mb-3">Related Reading</h2>
+      <ul className="list-disc pl-6 space-y-2 mb-8">
+        <li><Link href="/blog/hydration-guide/">Sourdough Hydration: The Complete Beginner's Guide</Link></li>
+        <li><Link href="/blog/sourdough-schedule/">Sourdough Schedule: A 24-Hour Timeline</Link></li>
+        <li><Link href="/blog/shaping-boule/">How to Shape a Sourdough Boule</Link></li>
+        <li><Link href="/blog/common-mistakes/">5 Common Sourdough Mistakes and How to Fix Them</Link></li>
+      </ul>
       
       
       <aside className="mt-12 p-6 bg-brand-cream rounded-2xl border-2 border-brand-wheat">
@@ -181,7 +275,7 @@ export default function BulkFermentation() {
             aria-label="View ThermoPro TP19 Thermometer on Amazon"
             className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
           >
-            <div className="text-2xl mb-1">🌡</div>
+            <div className="w-10 h-10 mx-auto mb-2 rounded-full bg-brand-tan text-brand-brown font-bold flex items-center justify-center">T</div>
             <div className="font-semibold text-sm text-brand-dark">Thermometer</div>
             <div className="text-xs text-brand-brown">View on Amazon →</div>
           </AffiliateLink>
@@ -192,7 +286,7 @@ export default function BulkFermentation() {
             aria-label="View Etekcity Kitchen Scale on Amazon"
             className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
           >
-            <div className="text-2xl mb-1">⚖️</div>
+            <div className="w-10 h-10 mx-auto mb-2 rounded-full bg-brand-tan text-brand-brown font-bold flex items-center justify-center">S</div>
             <div className="font-semibold text-sm text-brand-dark">Kitchen Scale</div>
             <div className="text-xs text-brand-brown">View on Amazon →</div>
           </AffiliateLink>
@@ -203,7 +297,7 @@ export default function BulkFermentation() {
             aria-label="View Lodge Dutch Oven on Amazon"
             className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
           >
-            <div className="text-2xl mb-1">🥘</div>
+            <div className="w-10 h-10 mx-auto mb-2 rounded-full bg-brand-tan text-brand-brown font-bold flex items-center justify-center">D</div>
             <div className="font-semibold text-sm text-brand-dark">Dutch Oven</div>
             <div className="text-xs text-brand-brown">View on Amazon →</div>
           </AffiliateLink>
