@@ -75,8 +75,8 @@ export default function BlogPost() {
 
       <p className="text-lg mb-6">Whole wheat sourdough is harder than white sourdough. The bran and germ cut gluten strands, the dough drinks more water, and the crumb comes out denser if you follow the same recipe as white bread. But once you understand what whole wheat actually does to dough, you can make a 100% whole wheat loaf that is open, chewy, and packed with the nutty flavor that makes whole grain bread worth the effort.</p>
 
-      <h2 className="mt-10 mb-3">Why Whole Wheat Sourdough Is Different</h2>
-      <p className="mb-4">Whole wheat flour contains the bran (outer shell), germ (embryo), and endosperm (starchy core). White flour uses only the endosperm. The extra material changes three things in your dough:</p>
+      <h2 className="mt-10 mb-3">Why Is Whole Wheat Sourdough Different?</h2>
+      <p className="mb-4">Whole wheat sourdough is different because the bran and germ change hydration, gluten development, and fermentation speed. Whole wheat flour contains the bran (outer shell), germ (embryo), and endosperm (starchy core). White flour uses only the endosperm. The extra material changes three things in your dough:</p>
       <ul className="list-disc pl-6 space-y-2 my-4">
         <li><strong>Bran cuts gluten.</strong> Sharp edges of bran particles shred gluten strands. Less gluten means less structure.</li>
         <li><strong>Bran absorbs water.</strong> Whole wheat absorbs 10-15% more water than white flour. Same water ratio means drier dough.</li>
@@ -84,8 +84,8 @@ export default function BlogPost() {
       </ul>
       <p className="mb-4">The fix: higher hydration, longer autolyse, shorter bulk ferment, slightly warmer dough.</p>
 
-      <h2 className="mt-10 mb-3">The Recipe (1 Loaf, 900g)</h2>
-      <p className="mb-4">85% hydration, higher than white bread (70-75%) because bran absorbs more water.</p>
+      <h2 className="mt-10 mb-3">What Is the Best Whole Wheat Sourdough Recipe?</h2>
+      <p className="mb-4">Use 85% hydration, higher than white bread (70-75%), because whole wheat bran absorbs more water. This recipe makes one loaf of about 900g.</p>
       <p className="mb-4"><strong>Bakers percentages:</strong></p>
       <ul className="list-disc pl-6 space-y-2 my-4">
         <li>Whole wheat flour: 100%</li>
@@ -101,7 +101,7 @@ export default function BlogPost() {
         <li>Sea salt: 10g</li>
       </ul>
 
-      <h2 className="mt-10 mb-3">Method</h2>
+      <h2 className="mt-10 mb-3">How Do You Make Whole Wheat Sourdough?</h2>
 
       <h3 className="mt-6 mb-3 text-xl font-semibold">Step 1: Long Autolyse (1 hour)</h3>
       <p className="mb-4">Mix just the flour and water. Cover and rest for 1 hour. The long autolyse gives enzymes time to break down bran and for gluten to start developing without kneading.</p>
@@ -121,21 +121,22 @@ export default function BlogPost() {
       <h3 className="mt-6 mb-3 text-xl font-semibold">Step 6: Bake</h3>
       <p className="mb-4">Preheat Dutch oven in 500F oven for at least 45 minutes. Score and bake covered for 25 minutes, then uncovered for 20 minutes until internal temp reaches 210F.</p>
 
-      <h2 className="mt-10 mb-3">Common Problems</h2>
+      <h2 className="mt-10 mb-3">Why Is My Whole Wheat Sourdough Dense?</h2>
+      <p className="mb-4">Most whole wheat sourdough problems come from under-hydration, under-baking, or fermentation mistakes. Match your symptom to the fix below.</p>
       <p className="mb-4"><strong>Dense, heavy crumb:</strong> insufficient hydration or under-fermented. Fix: increase water to 90%, extend autolyse to 90 minutes.</p>
       <p className="mb-4"><strong>Dense top, gummy bottom:</strong> under-baked. Fix: bake to 210F internal.</p>
       <p className="mb-4"><strong>Strong wheaty or bitter taste:</strong> old flour or over-fermented. Fix: use freshly milled flour.</p>
       <p className="mb-4"><strong>Dough collapses during baking:</strong> over-proofed. Fix: shorten cold proof to 12 hours.</p>
 
-      <h2 className="mt-10 mb-3">Sourcing Whole Wheat Flour</h2>
-      <p className="mb-4">What to look for:</p>
+      <h2 className="mt-10 mb-3">What Flour Should I Use for Whole Wheat Sourdough?</h2>
+      <p className="mb-4">Use freshly milled hard red wheat with 12-14% protein for the strongest whole wheat dough. What to look for:</p>
       <ul className="list-disc pl-6 space-y-2 my-4">
         <li><strong>Freshly milled.</strong> Whole wheat goes rancid faster than white flour.</li>
         <li><strong>Hard red wheat.</strong> Higher protein (12-14%) than hard white wheat (10-12%).</li>
         <li><strong>Stone-milled (optional).</strong> Preserves more germ and enzymes.</li>
       </ul>
 
-      <h2 className="mt-10 mb-3">The Bottom Line</h2>
+      <h2 className="mt-10 mb-3">Is Whole Wheat Sourdough Worth It?</h2>
       <p className="mb-4">Whole wheat sourdough is not harder, just different. Adjust hydration up and fermentation time down. Fresh flour matters more than any technique change.</p>
       <p className="mb-4">Use our <Link href="/" className="text-brand-brown font-medium">free hydration calculator</Link> to dial in the exact water amount for whatever whole wheat flour you use.</p>
       
@@ -143,12 +144,12 @@ export default function BlogPost() {
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>
         <ol className="list-decimal pl-6 space-y-3 text-sm text-brand-muted">
-          <li>Reinhart, P. (2010). The Bread Bakers Apprentice. Ten Speed Press. ISBN 978-1607741296.</li>
-          <li>Forkish, K. (2012). Flour Water Salt Yeast. Chronicle Books. ISBN 978-1607742736.</li>
-          <li>Suas, M. (2009). Advanced Bread and Pastry. Delmar Cengage Learning. ISBN 978-1417420440.</li>
-          <li>Slanski, J. Breadtopia Whole Grain Sourdough Guide. https://www.breadtopia.com/whole-grain-sourdough-bread/. Accessed 2026.</li>
-          <li>Leo, M. The Perfect Loaf Whole Wheat Sourdough. https://www.theperfectloaf.com/whole-wheat-sourdough-bread/. Accessed 2026.</li>
-          <li>King Arthur Baking. 100 Percent Whole Wheat Sourdough. https://www.kingarthurbaking.com/recipes/breads/100-whole-wheat-sourdough-bread. Accessed 2026.</li>
+          <li>Reinhart, P. (2010). The Bread Baker's Apprentice. Ten Speed Press.</li>
+          <li>Forkish, K. (2012). Flour Water Salt Yeast. Chronicle Books.</li>
+          <li>Suas, M. (2009). Advanced Bread and Pastry. Delmar Cengage Learning.</li>
+          <li>Slanski, J. <a href="https://www.breadtopia.com/whole-grain-sourdough-bread/" target="_blank" rel="noopener">Breadtopia: Whole Grain Sourdough Bread</a>. Accessed August 2026.</li>
+          <li>Leo, M. <a href="https://www.theperfectloaf.com/fifty-fifty-whole-wheat-sourdough-bread/" target="_blank" rel="noopener">The Perfect Loaf: Fifty-Fifty Whole Wheat Sourdough Bread</a>. Accessed August 2026.</li>
+          <li>King Arthur Baking. <a href="https://www.kingarthurbaking.com/learn/sourdough" target="_blank" rel="noopener">Sourdough: A Complete Guide</a>. Accessed August 2026.</li>
         </ol>
       </section><NextPostNav slug="whole-wheat-sourdough" />
         </article>
