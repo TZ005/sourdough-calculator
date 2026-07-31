@@ -247,7 +247,14 @@ export default function BlogPost() {
           </AffiliateLink>
         </div>
       </aside>
-      </section><NextPostNav slug="sourdough-for-beginners" />
+      </section>
+
+      <h2 className="mt-10 mb-3">Sources</h2>
+      <ul className="list-disc pl-6 space-y-2 mb-8">
+        <li><a href="https://www.kingarthurbaking.com/recipes/sourdough-starter-recipe" target="_blank" rel="noopener">King Arthur Baking: Sourdough Starter Recipe</a></li>
+        <li><a href="https://www.theperfectloaf.com/beginners-sourdough-bread/" target="_blank" rel="noopener">The Perfect Loaf: Beginner Sourdough Bread</a></li>
+      </ul>
+<NextPostNav slug="sourdough-for-beginners" />
         </article>
     </>
   );
