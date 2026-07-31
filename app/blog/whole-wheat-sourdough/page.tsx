@@ -70,6 +70,7 @@ export default function BlogPost() {
 
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Whole Wheat Sourdough: A Complete Guide to 100% Whole Grain Bread</h1>
       <p className="text-brand-muted text-sm mb-8">📖 10 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">Whole wheat sourdough is harder than white sourdough. The bran and germ cut gluten strands, the dough drinks more water, and the crumb comes out denser if you follow the same recipe as white bread. But once you understand what whole wheat actually does to dough, you can make a 100% whole wheat loaf that is open, chewy, and packed with the nutty flavor that makes whole grain bread worth the effort.</p>
 

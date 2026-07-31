@@ -72,6 +72,7 @@ export default function CrispyCrust() {
 
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough Crust: 7 Tips for a Bakery-Style Crackle</h1>
       <p className="text-brand-muted text-sm mb-8">📖 7 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">
         Sourdough's signature crackling crust is what makes it special. Achieving it is not magic,

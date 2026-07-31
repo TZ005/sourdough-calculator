@@ -46,7 +46,7 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
-            "name": "Sourdough Hydration Calculator",
+            "name": "SourdoughCalc",
             "url": "https://sourdough-hydrationcalculator.com/",
             "applicationCategory": "UtilityApplication",
             "operatingSystem": "Any",
@@ -300,6 +300,7 @@ export default function Home() {
             >
               Browse All Articles →            </Link>
           </div>
+          <p className="text-center text-sm text-brand-muted mt-10">Last updated: August 1, 2026</p>
         </div>
       </section>
     </>

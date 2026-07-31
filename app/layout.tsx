@@ -75,6 +75,7 @@ gtag('config', 'G-58KC5RL1PG');`
                   "url": "https://sourdough-hydrationcalculator.com/",
                   "name": "SourdoughCalc",
                   "description": "Free sourdough hydration calculator for home bakers.",
+                  "dateModified": "2026-08-01",
                   "inLanguage": "en"
                 },
                 {

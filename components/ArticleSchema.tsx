@@ -9,6 +9,7 @@ const ORG = {
   "@type": "Organization",
   name: "SourdoughCalc",
   url: SITE + "/",
+  sameAs: ["https://x.com/sourdoughcalc"],
 };
 
 export interface ArticleSchemaProps {

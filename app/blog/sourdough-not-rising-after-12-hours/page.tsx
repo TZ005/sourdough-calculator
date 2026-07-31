@@ -81,6 +81,7 @@ export default function BlogPost() {
       </picture>
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough Not Rising After 12 Hours? 8 Reasons and What to Do</h1>
       <p className="text-brand-muted text-sm mb-8">📖 9 min read | Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">
         You mixed your dough last night, expecting it to be doubled and bubbly by morning. Twelve hours later, it looks exactly the same. The starter is fine, the dough smells fine, but it is not rising. This is one of the most common sourdough problems, and it almost always has a simple explanation.

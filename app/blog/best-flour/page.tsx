@@ -74,6 +74,7 @@ export default function BestFlour() {
 
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Best Flour for Sourdough: A Complete Guide for Home Bakers</h1>
       <p className="text-brand-muted text-sm mb-8">📖 9 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">
         Walk into a flour aisle and you face 30+ bags of flour. Which one is right for

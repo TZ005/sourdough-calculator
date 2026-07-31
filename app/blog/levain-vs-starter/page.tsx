@@ -70,6 +70,7 @@ export default function BlogPost() {
 
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough Levain vs Starter: What Is the Difference?</h1>
       <p className="text-brand-muted text-sm mb-8">📖 6 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">If you have read more than two sourdough recipes, you have probably seen the words <em>starter</em> and <em>levain</em> used interchangeably. They are not the same thing. The starter is the permanent culture you keep alive in your fridge. The levain is what you build from that starter to bake a specific loaf. Mixing them up leads to confusion about ratios, timing, and what to do with your discard. This guide clears it up.</p>
 

@@ -108,6 +108,7 @@ export default function DidntRise() {
 
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Why Your Sourdough Did Not Rise: 12 Causes and Fixes</h1>
       <p className="text-brand-muted text-sm mb-8">📖 10 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">
         Sourdough is supposed to rise. When it does not, there is always a reason. Here are the

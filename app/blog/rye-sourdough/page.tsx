@@ -72,6 +72,7 @@ export default function RyeSourdough() {
 
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Rye Sourdough: A Beginner's Guide to Traditional Bread</h1>
       <p className="text-brand-muted text-sm mb-8">📖 8 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">
         Rye sourdough is the original. Before wheat bread was common in Northern Europe, rye was

@@ -108,6 +108,7 @@ export default function VsRegularBread() {
 
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough vs Regular Bread: What's Different?</h1>
       <p className="text-brand-muted text-sm mb-8">📖 8 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">
         Sourdough has a reputation as the healthier, more digestible bread. Is this reputation

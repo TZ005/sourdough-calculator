@@ -22,6 +22,8 @@ export default function Footer(): JSX.Element {
             <h4 className="text-brand-wheat mb-3">Resources</h4>
             <ul className="space-y-2">
               <li><Link href="/blog/what-is-hydration/" className="text-brand-wheat hover:text-white">What is Hydration?</Link></li>
+              <li><Link href="/privacy/" className="text-brand-wheat hover:text-white">Privacy Policy</Link></li>
+              <li><Link href="/terms/" className="text-brand-wheat hover:text-white">Terms</Link></li>
             </ul>
           </div>
         </div>

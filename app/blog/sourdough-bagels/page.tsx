@@ -56,6 +56,7 @@ export default function BlogPost() {
 
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough Bagels: Chewy, Shiny, and Easier Than You Think</h1>
       <p className="text-brand-muted text-sm mb-8">📖 8 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">
         Real New York bagels are made by boiling the dough before baking. That step is what gives bagels their signature chewy interior and shiny, blistered crust. Sourdough bagels combine that classic technique with the flavor and digestibility of wild fermentation. The result is a bagel that is denser than a baguette, more flavorful than a commercial bagel, and surprisingly easy to make at home.

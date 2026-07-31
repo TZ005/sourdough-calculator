@@ -72,6 +72,7 @@ export default function DiscardRecipes() {
 
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough Discard: 10 Easy Recipes That Don't Taste Sour</h1>
       <p className="text-brand-muted text-sm mb-8">📖 8 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">
         Every sourdough baker faces the same dilemma: you feed your starter and throw half of it

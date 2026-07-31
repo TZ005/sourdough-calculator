@@ -74,6 +74,7 @@ export default function ShapingBoule() {
 
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">How to Shape a Sourdough Boule: 3 Methods for Beginners</h1>
       <p className="text-brand-muted text-sm mb-8">📖 7 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">
         Shaping is the step that intimidates most home bakers. A loaf that spreads flat in the

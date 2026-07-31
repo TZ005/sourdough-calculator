@@ -110,6 +110,7 @@ export default function BulkFermentation() {
 
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough Bulk Fermentation: A Complete Guide to Timing and Temperature</h1>
       <p className="text-brand-muted text-sm mb-8">📖 9 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">
         Bulk fermentation is the most critical and most misunderstood step in sourdough. Get it

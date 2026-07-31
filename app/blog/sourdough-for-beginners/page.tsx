@@ -72,6 +72,7 @@ export default function BlogPost() {
 
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough for Beginners: Your First Loaf Guide</h1>
       <p className="text-brand-muted text-sm mb-8">📖 12 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">Sourdough has a reputation for being hard. It is not. The process is long but mostly hands-off: mix, wait, fold, wait, shape, wait, bake. If you can read a clock and stir a spoon, you can make sourdough bread. This guide walks you through the entire first loaf, from building your starter to pulling a hot, crackling boule from the oven. No prior baking experience required.</p>
 

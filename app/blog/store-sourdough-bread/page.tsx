@@ -70,6 +70,7 @@ export default function BlogPost() {
 
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">How to Store Sourdough Bread: Keep It Fresh for Days</h1>
       <p className="text-brand-muted text-sm mb-8">📖 8 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">
         You spent 24 hours baking a beautiful sourdough loaf. Now what? Store it wrong and

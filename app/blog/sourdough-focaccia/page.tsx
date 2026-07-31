@@ -56,6 +56,7 @@ export default function BlogPost() {
 
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough Focaccia: The Easiest Sourdough Bread You Will Ever Bake</h1>
       <p className="text-brand-muted text-sm mb-8">📖 7 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">
         Focaccia is the easiest sourdough bread to make. No shaping, no scoring, no banneton. You mix the dough, let it rise, dimple it with your fingers, and bake. The result is a thick, fluffy, golden slab of bread with a crispy bottom and an oily, herby top. This guide gives you the recipe, the timeline, and every trick to get restaurant-quality focaccia at home.

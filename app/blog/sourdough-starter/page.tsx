@@ -72,6 +72,7 @@ export default function StarterGuide() {
 
       <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">How to Make Sourdough Starter from Scratch: A 7-Day Complete Guide</h1>
       <p className="text-brand-muted text-sm mb-8">📖 10 min read · Updated July 2026</p>
+      <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
       <p className="text-lg mb-6">
         A sourdough starter is a living culture of wild yeast and lactobacilli bacteria, captured
