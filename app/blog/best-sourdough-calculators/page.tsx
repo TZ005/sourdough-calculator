@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/best-sourdough-calculators/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Best 10 Free Sourdough Hydration Calculators",
     description: "I tested 10 popular sourdough hydration calculators. Which one is best for beginners, mobile users, and serious bakers? Free tools compared side-by-side.",
     type: "article",

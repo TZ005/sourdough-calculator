@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/vs-regular-bread/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Sourdough vs Regular Bread: What's Different?",
     description: "Sourdough vs regular bread: nutrition, glycemic index, digestibility, and flavor compared with science. See where sourdough wins and where it does not.",
     type: "article",

@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-focaccia/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Sourdough Focaccia: The Easiest Bread to Bake",
     description: "Sourdough focaccia is the easiest sourdough bread to make. No shaping, no scoring, no Dutch oven. Mix, rise, dimple, bake. Restaurant-quality results at home.",
     type: "article",

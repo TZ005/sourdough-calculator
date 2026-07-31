@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-starter/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "How to Make Sourdough Starter: 7-Day Guide",
     description: "Day-by-day instructions for creating a healthy sourdough starter from just flour and water. Includes troubleshooting, feeding schedules, and signs of readiness.",
     type: "article",

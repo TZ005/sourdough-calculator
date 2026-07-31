@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/store-sourdough-bread/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "How to Store Sourdough Bread: Keep It Fresh",
     description: "Room temperature, frozen, or as dough. The right way to store sourdough bread at every stage so it stays fresh and crusty for days, not hours.",
     type: "article",

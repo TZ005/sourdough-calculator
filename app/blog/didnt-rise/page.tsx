@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/didnt-rise/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Why Your Sourdough Did Not Rise: 12 Causes and Fixes",
     description: "Troubleshooting guide for flat, dense, or sunken sourdough. 12 common causes with specific fixes, from weak starter to oven temperature mistakes.",
     type: "article",

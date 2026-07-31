@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/why-is-sourdough-gummy/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Why Is My Sourdough Gummy? 7 Causes and Fixes",
     description: "Gummy, dense, sticky sourdough crumb? These are the 7 most common causes and exactly how to fix each. Includes diagnostic flowchart and timing guides.",
     type: "article",

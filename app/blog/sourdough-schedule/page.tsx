@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-schedule/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Sourdough Schedule: A 24-Hour Timeline for Your First Loaf",
     description: "A day-by-day, hour-by-hour timeline for your first sourdough loaf. From starter feed to slicing, every step timed and explained.",
     type: "article",

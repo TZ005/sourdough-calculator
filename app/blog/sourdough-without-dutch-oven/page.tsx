@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-without-dutch-oven/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "How to Bake Sourdough Without a Dutch Oven",
     description: "No Dutch oven? No problem. Five proven methods to bake crusty, well-risen sourdough using equipment you already have, ranked from easiest to pro.",
     type: "article",

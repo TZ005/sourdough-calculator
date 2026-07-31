@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-bagels/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Sourdough Bagels: Chewy, Shiny, and Easy to Make",
     description: "Real New York bagels at home with sourdough. Chewy, shiny crust, deeper flavor than commercial bagels. Step-by-step recipe with boiling method.",
     type: "article",

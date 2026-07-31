@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-pizza-dough/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Sourdough Pizza Dough: Crispy, Chewy Crust",
     description: "Use your sourdough starter to make incredible pizza dough with better flavor and a crispy-chewy crust. Step-by-step recipe plus troubleshooting.",
     type: "article",

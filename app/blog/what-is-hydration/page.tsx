@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/what-is-hydration/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "What is Sourdough Hydration? A Complete Guide (2026)",
     description: "Hydration is the most important number in sourdough baking. Learn what it means, how to calculate it, and how to choose the right level for your bread.",
     type: "article",

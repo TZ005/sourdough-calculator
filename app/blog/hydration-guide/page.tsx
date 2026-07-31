@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/hydration-guide/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Sourdough Hydration: The Complete Beginner's Guide (2026)",
     description: "Everything you need to know about sourdough hydration, from beginner 70% loaves to advanced 100% doughs, with flour absorption tips and a free calculator.",
     type: "article",

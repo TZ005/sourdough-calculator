@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/levain-vs-starter/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Sourdough Levain vs Starter: What Is the Difference? (2026)",
     description: "Starter is what you keep. Levain is what you build. Learn the difference, when to use each, and how to build a levain that peaks exactly when you need it.",
     type: "article",

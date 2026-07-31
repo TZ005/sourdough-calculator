@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/shaping-boule/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "How to Shape a Sourdough Boule: 3 Methods",
     description: "Step-by-step instructions for shaping a tight, round boule. Three methods from simple to advanced, with photos and troubleshooting.",
     type: "article",

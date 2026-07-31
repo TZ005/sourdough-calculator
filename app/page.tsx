@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Sourdough Hydration Calculator - Free Instant Recipe Tool",
     description: "Enter flour weight, instantly get exact water, salt and starter ratios for any sourdough recipe. Free, no signup.",
     type: "website",

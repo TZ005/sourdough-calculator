@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/whole-wheat-sourdough/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Whole Wheat Sourdough: Complete Grain Guide",
     description: "100% whole wheat sourdough is doable at home. Higher hydration and a few simple adjustments give you an open, chewy, flavor-packed loaf.",
     type: "article",

@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-for-beginners/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Sourdough for Beginners: Your First Loaf Guide",
     description: "Want to make your first sourdough loaf? This step-by-step guide takes you from building a starter to baking your first crusty boule. No experience needed.",
     type: "article",

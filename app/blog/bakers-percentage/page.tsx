@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/bakers-percentage/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Baker's Percentage: Convert Any Recipe (With Calculator)",
     description: "Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, and never guess hydration again.",
     type: "article",

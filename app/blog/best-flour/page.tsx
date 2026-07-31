@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/best-flour/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Best Flour for Sourdough: A Complete Guide for Home Bakers",
     description: "Bread flour, all-purpose, whole wheat, rye: which flour makes the best sourdough? A practical guide to choosing flour based on your skill level and bread style.",
     type: "article",

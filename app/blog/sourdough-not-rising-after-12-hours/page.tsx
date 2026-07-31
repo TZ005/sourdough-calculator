@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-not-rising-after-12-hours/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Sourdough Not Rising After 12 Hours? 8 Fixes",
     description: "Dough sitting 12 hours with no rise? Here are the 8 most common causes (cold kitchen, weak starter, bad flour) and exactly how to fix each one.",
     type: "article",

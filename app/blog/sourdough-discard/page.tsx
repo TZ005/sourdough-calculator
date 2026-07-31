@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-discard/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Sourdough Discard: 10 Easy Recipes",
     description: "Don't throw away your sourdough discard! 10 delicious recipes including pancakes, crackers, waffles, pizza dough and more. Zero waste, full flavor.",
     type: "article",

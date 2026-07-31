@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/rye-sourdough/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "Rye Sourdough: A Beginner's Guide to Traditional Bread",
     description: "Rye sourdough is a different beast from wheat. Here's how to work with rye's unique properties for dark, moist, intensely flavored bread.",
     type: "article",

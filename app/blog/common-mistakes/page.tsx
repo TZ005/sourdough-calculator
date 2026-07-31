@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     canonical: "https://sourdough-hydrationcalculator.com/blog/common-mistakes/",
   },
   openGraph: {
+    siteName: "SourdoughCalc",
     title: "5 Common Sourdough Mistakes and How to Fix Them",
     description: "Dense crumb, flat loaf, gummy texture? These are the 5 most common sourdough mistakes and exactly how to fix each one, with troubleshooting and timing guides.",
     type: "article",
