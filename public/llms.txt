@@ -1,0 +1,9 @@
+# SourdoughCalc
+
+> Free sourdough hydration calculator for home bakers. Enter flour weight to get exact water, salt and starter ratios, plus a 50%-100% hydration chart.
+
+https://sourdough-hydrationcalculator.com/
+https://sourdough-hydrationcalculator.com/blog/
+https://sourdough-hydrationcalculator.com/blog/hydration-guide/
+https://sourdough-hydrationcalculator.com/blog/what-is-hydration/
+https://sourdough-hydrationcalculator.com/blog/bulk-fermentation/
