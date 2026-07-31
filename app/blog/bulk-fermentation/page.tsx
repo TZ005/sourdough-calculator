@@ -11,7 +11,7 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 export const metadata: Metadata = {
   title: "Sourdough Bulk Fermentation: Timing and Temperature",
   description: "When to end sourdough bulk fermentation: 5 visual cues, temperature timing from 65-80°F, and common mistakes that make bread dense, flat, or sour.",
-  keywords: ["sourdough bulk fermentation", "bulk fermentation time", "sourdough rise time", "when to end bulk", "sourdough bulk fermentation temperature"],
+  keywords: ["sourdough bulk fermentation", "bulk fermentation time", "sourdough bulk fermentation temperature"],
 
   alternates: {
     canonical: "https://sourdough-hydrationcalculator.com/blog/bulk-fermentation/",
