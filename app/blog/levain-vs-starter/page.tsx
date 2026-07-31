@@ -8,7 +8,7 @@ import ArticleSchema from "@/components/ArticleSchema";
 export const metadata: Metadata = {
   title: "Sourdough Levain vs Starter: What Is the Difference? (2026)",
   description: "Starter is what you keep. Levain is what you build. Learn the difference, when to use each, and how to build a levain that peaks exactly when you need it.",
-  keywords: ["sourdough levain","sourdough starter vs levain","levain vs starter","building a levain","sourdough mother dough"],
+  keywords: ["sourdough levain","sourdough starter vs levain","levain vs starter","building a levain"],
 
   alternates: {
     canonical: "https://sourdough-hydrationcalculator.com/blog/levain-vs-starter/",
@@ -58,7 +58,7 @@ export default function BlogPost() {
         <source srcSet="/images/blog/levain-vs-starter.webp" type="image/webp" />
         <img
           src="/images/blog/levain-vs-starter.webp"
-          alt="Sourdough Levain vs Starter: What Is the Difference? (2026)"
+          alt="Sourdough starter and levain in glass jars"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"

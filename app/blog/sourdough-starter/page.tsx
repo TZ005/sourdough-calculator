@@ -9,7 +9,7 @@ import ArticleSchema from "@/components/ArticleSchema";
 export const metadata: Metadata = {
   title: "How to Make Sourdough Starter: 7-Day Guide",
   description: "Day-by-day instructions for creating a healthy sourdough starter from just flour and water. Includes troubleshooting, feeding schedules, and signs of readiness.",
-  keywords: ["sourdough starter", "sourdough starter from scratch", "make sourdough starter", "how to feed sourdough starter", "wild yeast starter"],
+  keywords: ["sourdough starter","sourdough starter from scratch","how to feed sourdough starter","wild yeast starter"],
 
   alternates: {
     canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-starter/",
@@ -60,7 +60,7 @@ export default function StarterGuide() {
         <source srcSet="/images/blog/sourdough-starter.webp" type="image/webp" />
         <img
           src="/images/blog/sourdough-starter.webp"
-          alt="How to Make Sourdough Starter: 7-Day Guide"
+          alt="Glass jar of active sourdough starter"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"

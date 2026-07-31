@@ -10,7 +10,7 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 export const metadata: Metadata = {
   title: "Sourdough for Beginners: Your First Loaf Guide",
   description: "Want to make your first sourdough loaf? This step-by-step guide takes you from building a starter to baking your first crusty boule. No experience needed.",
-  keywords: ["sourdough for beginners","first sourdough loaf","sourdough starter recipe","beginner sourdough","how to make sourdough"],
+  keywords: ["sourdough for beginners","first sourdough loaf","sourdough starter recipe","how to make sourdough"],
 
   alternates: {
     canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-for-beginners/",
@@ -60,7 +60,7 @@ export default function BlogPost() {
         <source srcSet="/images/blog/sourdough-for-beginners.webp" type="image/webp" />
         <img
           src="/images/blog/sourdough-for-beginners.webp"
-          alt="Sourdough for Beginners: Your First Loaf Guide"
+          alt="Beginner sourdough loaf with a rustic crust"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"

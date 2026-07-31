@@ -9,7 +9,7 @@ import ArticleSchema from "@/components/ArticleSchema";
 export const metadata: Metadata = {
   title: "Sourdough Not Rising After 12 Hours? 8 Fixes",
   description: "Dough sitting 12 hours with no rise? Here are the 8 most common causes (cold kitchen, weak starter, bad flour) and exactly how to fix each one.",
-  keywords: ["sourdough not rising","sourdough starter not rising","sourdough not doubling","12 hour sourdough","sourdough bulk fermentation","weak starter"],
+  keywords: ["sourdough not rising","sourdough starter not rising","weak starter","sourdough bulk fermentation"],
 
   alternates: {
     canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-not-rising-after-12-hours/",

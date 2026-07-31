@@ -10,15 +10,15 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 export const metadata: Metadata = {
   title: "Sourdough Hydration: The Complete Beginner's Guide (2026)",
-  description: "Everything you need to know about sourdough hydration, from beginner-friendly 70% to advanced 100% doughs. Includes flour absorption tips, common mistakes, and a free calculator.",
-  keywords: ["sourdough hydration guide", "sourdough for beginners", "sourdough hydration chart", "beginner sourdough", "sourdough water ratio"],
+  description: "Everything you need to know about sourdough hydration, from beginner 70% loaves to advanced 100% doughs, with flour absorption tips and a free calculator.",
+  keywords: ["sourdough hydration guide","sourdough for beginners","sourdough hydration chart","sourdough water ratio"],
 
   alternates: {
     canonical: "https://sourdough-hydrationcalculator.com/blog/hydration-guide/",
   },
   openGraph: {
     title: "Sourdough Hydration: The Complete Beginner's Guide (2026)",
-    description: "Everything you need to know about sourdough hydration, from beginner-friendly 70% to advanced 100% doughs. Includes flour absorption tips, common mistakes, and a free calculator.",
+    description: "Everything you need to know about sourdough hydration, from beginner 70% loaves to advanced 100% doughs, with flour absorption tips and a free calculator.",
     type: "article",
     url: "https://sourdough-hydrationcalculator.com/blog/hydration-guide/",
     publishedTime: "2026-07-15",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Sourdough Hydration: The Complete Beginner's Guide (2026)",
-    description: "Everything you need to know about sourdough hydration, from beginner-friendly 70% to advanced 100% doughs. Includes flour absorption tips, common mistakes, and a free calculator.",
+    description: "Everything you need to know about sourdough hydration, from beginner 70% loaves to advanced 100% doughs, with flour absorption tips and a free calculator.",
     images: ["/images/blog/hydration-guide.png"],
   },
 };
@@ -49,7 +49,7 @@ export default function HydrationGuide() {
       <ArticleSchema
         slug="hydration-guide"
         title="Sourdough Hydration: The Complete Beginner's Guide (2026)"
-        description="Everything you need to know about sourdough hydration, from beginner-friendly 70% to advanced 100% doughs. Includes flour absorption tips, common mistakes, and a free calculator."
+        description="Everything you need to know about sourdough hydration, from beginner 70% loaves to advanced 100% doughs, with flour absorption tips and a free calculator."
         image="/images/blog/hydration-guide.png"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"

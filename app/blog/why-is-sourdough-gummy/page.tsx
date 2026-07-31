@@ -9,7 +9,7 @@ import ArticleSchema from "@/components/ArticleSchema";
 export const metadata: Metadata = {
   title: "Why Is My Sourdough Gummy? 7 Causes and Fixes",
   description: "Gummy, dense, sticky sourdough crumb? These are the 7 most common causes and exactly how to fix each. Includes diagnostic flowchart and timing guides.",
-  keywords: ["sourdough gummy","gummy sourdough","sourdough gummy inside","dense sourdough crumb","sourdough texture","sourdough underbaked"],
+  keywords: ["sourdough gummy","gummy sourdough","sourdough gummy inside","dense sourdough crumb"],
 
   alternates: {
     canonical: "https://sourdough-hydrationcalculator.com/blog/why-is-sourdough-gummy/",

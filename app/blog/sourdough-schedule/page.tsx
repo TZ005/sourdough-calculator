@@ -60,7 +60,7 @@ export default function SourdoughSchedule() {
         <source srcSet="/images/blog/sourdough-schedule.webp" type="image/webp" />
         <img
           src="/images/blog/sourdough-schedule.webp"
-          alt="Sourdough Schedule: A 24-Hour Timeline for Your First Loaf"
+          alt="Sourdough dough proofing on a baking schedule"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"

@@ -11,7 +11,7 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 export const metadata: Metadata = {
   title: "Baker's Percentage: Convert Any Recipe (With Calculator)",
   description: "Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, and never guess hydration again.",
-  keywords: ["bakers percentage", "bakers percentage calculator", "convert to bakers percentage", "bread formula", "sourdough ratio"],
+  keywords: ["bakers percentage","bakers percentage calculator","convert to bakers percentage","bread formula"],
 
   alternates: {
     canonical: "https://sourdough-hydrationcalculator.com/blog/bakers-percentage/",

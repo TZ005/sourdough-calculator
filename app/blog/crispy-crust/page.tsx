@@ -60,7 +60,7 @@ export default function CrispyCrust() {
         <source srcSet="/images/blog/crispy-crust.webp" type="image/webp" />
         <img
           src="/images/blog/crispy-crust.webp"
-          alt="Sourdough Crust: 7 Tips for a Bakery-Style Crackle"
+          alt="Sourdough loaf with a crackling golden crust"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"

@@ -11,7 +11,7 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 export const metadata: Metadata = {
   title: "Best Flour for Sourdough: A Complete Guide for Home Bakers",
   description: "Bread flour, all-purpose, whole wheat, rye: which flour makes the best sourdough? A practical guide to choosing flour based on your skill level and bread style.",
-  keywords: ["best flour for sourdough", "bread flour vs all purpose", "sourdough flour guide", "what flour for sourdough", "rye sourdough flour"],
+  keywords: ["best flour for sourdough","bread flour vs all purpose","what flour for sourdough","rye sourdough flour"],
 
   alternates: {
     canonical: "https://sourdough-hydrationcalculator.com/blog/best-flour/",
@@ -62,7 +62,7 @@ export default function BestFlour() {
         <source srcSet="/images/blog/best-flour.webp" type="image/webp" />
         <img
           src="/images/blog/best-flour.webp"
-          alt="Best Flour for Sourdough: A Complete Guide for Home Bakers"
+          alt="Bags of different flours used for sourdough baking"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"

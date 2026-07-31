@@ -62,7 +62,7 @@ export default function ShapingBoule() {
         <source srcSet="/images/blog/shaping-boule.webp" type="image/webp" />
         <img
           src="/images/blog/shaping-boule.webp"
-          alt="How to Shape a Sourdough Boule: 3 Methods"
+          alt="Hands shaping a round sourdough boule"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"

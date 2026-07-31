@@ -7,15 +7,15 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 export const metadata: Metadata = {
   title: "Sourdough Pizza Dough: Crispy, Chewy Crust",
-  description: "Use your sourdough starter to make incredible pizza dough at home. Better flavor, easier digestibility, and crispy-chewy texture. Step-by-step recipe plus troubleshooting.",
-  keywords: ["sourdough pizza dough","sourdough pizza crust","pizza with sourdough starter","wild yeast pizza","naturally leavened pizza"],
+  description: "Use your sourdough starter to make incredible pizza dough with better flavor and a crispy-chewy crust. Step-by-step recipe plus troubleshooting.",
+  keywords: ["sourdough pizza dough","sourdough pizza crust","pizza with sourdough starter"],
 
   alternates: {
     canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-pizza-dough/",
   },
   openGraph: {
     title: "Sourdough Pizza Dough: Crispy, Chewy Crust",
-    description: "Use your sourdough starter to make incredible pizza dough at home. Better flavor, easier digestibility, and crispy-chewy texture. Step-by-step recipe plus troubleshooting.",
+    description: "Use your sourdough starter to make incredible pizza dough with better flavor and a crispy-chewy crust. Step-by-step recipe plus troubleshooting.",
     type: "article",
     url: "https://sourdough-hydrationcalculator.com/blog/sourdough-pizza-dough/",
     publishedTime: "2026-07-25T08:00:00Z",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Sourdough Pizza Dough: Crispy, Chewy Crust",
-    description: "Use your sourdough starter to make incredible pizza dough at home. Better flavor, easier digestibility, and crispy-chewy texture. Step-by-step recipe plus troubleshooting.",
+    description: "Use your sourdough starter to make incredible pizza dough with better flavor and a crispy-chewy crust. Step-by-step recipe plus troubleshooting.",
     images: ["/images/blog/sourdough-pizza-dough.webp"],
   },
 };
@@ -45,7 +45,7 @@ export default function SourdoughPizzaDough() {
       <ArticleSchema
         slug="sourdough-pizza-dough"
         title="Sourdough Pizza Dough: Crispy, Chewy Crust"
-        description="Use your sourdough starter to make incredible pizza dough at home. Better flavor, easier digestibility, and crispy-chewy texture. Step-by-step recipe plus troubleshooting."
+        description="Use your sourdough starter to make incredible pizza dough with better flavor and a crispy-chewy crust. Step-by-step recipe plus troubleshooting."
         image="/images/blog/sourdough-pizza-dough.webp"
         datePublished="2026-07-25T08:00:00Z"
         dateModified="2026-07-25T08:00:00Z"
@@ -58,7 +58,7 @@ export default function SourdoughPizzaDough() {
         <source srcSet="/images/blog/sourdough-pizza-dough.webp" type="image/webp" />
         <img
           src="/images/blog/sourdough-pizza-dough.webp"
-          alt="Sourdough Pizza Dough: Crispy, Chewy Crust"
+          alt="Sourdough pizza with a crispy crust on a baking tray"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"

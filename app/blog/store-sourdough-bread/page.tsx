@@ -58,7 +58,7 @@ export default function BlogPost() {
         <source srcSet="/images/blog/store-sourdough-bread.webp" type="image/webp" />
         <img
           src="/images/blog/store-sourdough-bread.webp"
-          alt="How to Store Sourdough Bread: Keep It Fresh"
+          alt="Sourdough loaf wrapped in a linen cloth for storage"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"

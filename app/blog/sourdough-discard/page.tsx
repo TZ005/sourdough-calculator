@@ -9,7 +9,7 @@ import ArticleSchema from "@/components/ArticleSchema";
 export const metadata: Metadata = {
   title: "Sourdough Discard: 10 Easy Recipes",
   description: "Don't throw away your sourdough discard! 10 delicious recipes including pancakes, crackers, waffles, pizza dough and more. Zero waste, full flavor.",
-  keywords: ["sourdough discard", "sourdough discard recipes", "sourdough starter discard", "discarded sourdough", "sourdough discard pancakes"],
+  keywords: ["sourdough discard","sourdough discard recipes","sourdough starter discard"],
 
   alternates: {
     canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-discard/",

@@ -9,7 +9,7 @@ import ArticleSchema from "@/components/ArticleSchema";
 export const metadata: Metadata = {
   title: "How to Bake Sourdough Without a Dutch Oven",
   description: "No Dutch oven? No problem. Five proven methods to bake crusty, well-risen sourdough using equipment you already have, ranked from easiest to pro.",
-  keywords: ["sourdough without dutch oven","bake sourdough no dutch oven","sourdough without dutch","sourdough baking methods","sourdough without dutch oven alternative"],
+  keywords: ["sourdough without dutch oven","bake sourdough no dutch oven","sourdough baking methods"],
 
   alternates: {
     canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-without-dutch-oven/",
