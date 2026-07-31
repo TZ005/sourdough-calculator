@@ -7,9 +7,33 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 export const metadata: Metadata = {
-  title: "Why Is My Sourdough Gummy Inside? 7 Causes and How to Fix Each (2026)",
+  title: "Why Is My Sourdough Gummy? 7 Causes and Fixes",
   description: "Gummy, dense, sticky sourdough crumb? These are the 7 most common causes and exactly how to fix each. Includes diagnostic flowchart and timing guides.",
   keywords: ["sourdough gummy","gummy sourdough","sourdough gummy inside","dense sourdough crumb","sourdough texture","sourdough underbaked"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/why-is-sourdough-gummy/",
+  },
+  openGraph: {
+    title: "Why Is My Sourdough Gummy? 7 Causes and Fixes",
+    description: "Gummy, dense, sticky sourdough crumb? These are the 7 most common causes and exactly how to fix each. Includes diagnostic flowchart and timing guides.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/why-is-sourdough-gummy/",
+    publishedTime: "2026-07-28",
+    modifiedTime: "2026-07-28T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/why-is-sourdough-gummy.png",
+        alt: "Why Is My Sourdough Gummy? 7 Causes and Fixes",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Why Is My Sourdough Gummy? 7 Causes and Fixes",
+    description: "Gummy, dense, sticky sourdough crumb? These are the 7 most common causes and exactly how to fix each. Includes diagnostic flowchart and timing guides.",
+    images: ["/images/blog/why-is-sourdough-gummy.png"],
+  },
 };
 
 export default function BlogPost() {
@@ -22,7 +46,7 @@ export default function BlogPost() {
 
       <ArticleSchema
         slug="why-is-sourdough-gummy"
-        title="Why Is My Sourdough Gummy Inside? 7 Causes and How to Fix Each (2026)"
+        title="Why Is My Sourdough Gummy? 7 Causes and Fixes"
         description="Gummy, dense, sticky sourdough crumb? These are the 7 most common causes and exactly how to fix each. Includes diagnostic flowchart and timing guides."
         image="/images/blog/why-is-sourdough-gummy.png"
         datePublished="2026-07-28"

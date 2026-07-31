@@ -7,9 +7,33 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 export const metadata: Metadata = {
-  title: "Sourdough Not Rising After 12 Hours? 8 Reasons and What to Do (2026)",
+  title: "Sourdough Not Rising After 12 Hours? 8 Fixes",
   description: "Dough sitting 12 hours with no rise? Here are the 8 most common causes (cold kitchen, weak starter, bad flour) and exactly how to fix each one.",
   keywords: ["sourdough not rising","sourdough starter not rising","sourdough not doubling","12 hour sourdough","sourdough bulk fermentation","weak starter"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-not-rising-after-12-hours/",
+  },
+  openGraph: {
+    title: "Sourdough Not Rising After 12 Hours? 8 Fixes",
+    description: "Dough sitting 12 hours with no rise? Here are the 8 most common causes (cold kitchen, weak starter, bad flour) and exactly how to fix each one.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/sourdough-not-rising-after-12-hours/",
+    publishedTime: "2026-07-28",
+    modifiedTime: "2026-07-28T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/sourdough-not-rising-after-12-hours.png",
+        alt: "Sourdough Not Rising After 12 Hours? 8 Fixes",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sourdough Not Rising After 12 Hours? 8 Fixes",
+    description: "Dough sitting 12 hours with no rise? Here are the 8 most common causes (cold kitchen, weak starter, bad flour) and exactly how to fix each one.",
+    images: ["/images/blog/sourdough-not-rising-after-12-hours.png"],
+  },
 };
 
 export default function BlogPost() {
@@ -22,7 +46,7 @@ export default function BlogPost() {
 
       <ArticleSchema
         slug="sourdough-not-rising-after-12-hours"
-        title="Sourdough Not Rising After 12 Hours? 8 Reasons and What to Do (2026)"
+        title="Sourdough Not Rising After 12 Hours? 8 Fixes"
         description="Dough sitting 12 hours with no rise? Here are the 8 most common causes (cold kitchen, weak starter, bad flour) and exactly how to fix each one."
         image="/images/blog/sourdough-not-rising-after-12-hours.png"
         datePublished="2026-07-28"

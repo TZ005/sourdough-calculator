@@ -9,6 +9,30 @@ export const metadata: Metadata = {
   title: "Sourdough Levain vs Starter: What Is the Difference? (2026)",
   description: "Starter is what you keep. Levain is what you build. Learn the difference, when to use each, and how to build a levain that peaks exactly when you need it.",
   keywords: ["sourdough levain","sourdough starter vs levain","levain vs starter","building a levain","sourdough mother dough"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/levain-vs-starter/",
+  },
+  openGraph: {
+    title: "Sourdough Levain vs Starter: What Is the Difference? (2026)",
+    description: "Starter is what you keep. Levain is what you build. Learn the difference, when to use each, and how to build a levain that peaks exactly when you need it.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/levain-vs-starter/",
+    publishedTime: "2026-07-25T08:00:00Z",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/levain-vs-starter.webp",
+        alt: "Sourdough Levain vs Starter: What Is the Difference? (2026)",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sourdough Levain vs Starter: What Is the Difference? (2026)",
+    description: "Starter is what you keep. Levain is what you build. Learn the difference, when to use each, and how to build a levain that peaks exactly when you need it.",
+    images: ["/images/blog/levain-vs-starter.webp"],
+  },
 };
 
 export default function BlogPost() {
@@ -22,7 +46,7 @@ export default function BlogPost() {
         slug="levain-vs-starter"
         title="Sourdough Levain vs Starter: What Is the Difference? (2026)"
         description="Starter is what you keep. Levain is what you build. Learn the difference, when to use each, and how to build a levain that peaks exactly when you need it."
-        image="/images/blog/levain-vs-starter.png"
+        image="/images/blog/levain-vs-starter.webp"
         datePublished="2026-07-25T08:00:00Z"
         dateModified="2026-07-25T08:00:00Z"
       />
@@ -33,7 +57,7 @@ export default function BlogPost() {
       <picture>
         <source srcSet="/images/blog/levain-vs-starter.webp" type="image/webp" />
         <img
-          src="/images/blog/levain-vs-starter.png"
+          src="/images/blog/levain-vs-starter.webp"
           alt="Sourdough Levain vs Starter: What Is the Difference? (2026)"
           width="1200"
           height="800"

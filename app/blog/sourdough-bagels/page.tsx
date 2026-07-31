@@ -6,9 +6,33 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 export const metadata: Metadata = {
-  title: "Sourdough Bagels: Chewy, Shiny, and Easier Than You Think (2026)",
+  title: "Sourdough Bagels: Chewy, Shiny, and Easy to Make",
   description: "Real New York bagels at home with sourdough. Chewy, shiny crust, deeper flavor than commercial bagels. Step-by-step recipe with boiling method.",
   keywords: ["sourdough bagels","homemade bagels","bagel recipe","sourdough bagel recipe","new york bagels"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-bagels/",
+  },
+  openGraph: {
+    title: "Sourdough Bagels: Chewy, Shiny, and Easy to Make",
+    description: "Real New York bagels at home with sourdough. Chewy, shiny crust, deeper flavor than commercial bagels. Step-by-step recipe with boiling method.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/sourdough-bagels/",
+    publishedTime: "2026-07-25T08:00:00Z",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/sourdough-bagels.webp",
+        alt: "Sourdough Bagels: Chewy, Shiny, and Easy to Make",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sourdough Bagels: Chewy, Shiny, and Easy to Make",
+    description: "Real New York bagels at home with sourdough. Chewy, shiny crust, deeper flavor than commercial bagels. Step-by-step recipe with boiling method.",
+    images: ["/images/blog/sourdough-bagels.webp"],
+  },
 };
 
 export default function BlogPost() {
@@ -20,7 +44,7 @@ export default function BlogPost() {
     <>
       <ArticleSchema
         slug="sourdough-bagels"
-        title="Sourdough Bagels: Chewy, Shiny, and Easier Than You Think (2026)"
+        title="Sourdough Bagels: Chewy, Shiny, and Easy to Make"
         description="Real New York bagels at home with sourdough. Chewy, shiny crust, deeper flavor than commercial bagels. Step-by-step recipe with boiling method."
         image="/images/blog/sourdough-bagels.webp"
         datePublished="2026-07-25T08:00:00Z"

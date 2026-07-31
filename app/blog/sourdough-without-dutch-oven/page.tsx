@@ -7,9 +7,33 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 export const metadata: Metadata = {
-  title: "How to Bake Sourdough Without a Dutch Oven: 5 Methods That Work (2026)",
+  title: "How to Bake Sourdough Without a Dutch Oven",
   description: "No Dutch oven? No problem. Five proven methods to bake crusty, well-risen sourdough using equipment you already have, ranked from easiest to pro.",
   keywords: ["sourdough without dutch oven","bake sourdough no dutch oven","sourdough without dutch","sourdough baking methods","sourdough without dutch oven alternative"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-without-dutch-oven/",
+  },
+  openGraph: {
+    title: "How to Bake Sourdough Without a Dutch Oven",
+    description: "No Dutch oven? No problem. Five proven methods to bake crusty, well-risen sourdough using equipment you already have, ranked from easiest to pro.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/sourdough-without-dutch-oven/",
+    publishedTime: "2026-07-28",
+    modifiedTime: "2026-07-28T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/sourdough-without-dutch-oven.png",
+        alt: "How to Bake Sourdough Without a Dutch Oven",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How to Bake Sourdough Without a Dutch Oven",
+    description: "No Dutch oven? No problem. Five proven methods to bake crusty, well-risen sourdough using equipment you already have, ranked from easiest to pro.",
+    images: ["/images/blog/sourdough-without-dutch-oven.png"],
+  },
 };
 
 export default function BlogPost() {
@@ -22,7 +46,7 @@ export default function BlogPost() {
 
       <ArticleSchema
         slug="sourdough-without-dutch-oven"
-        title="How to Bake Sourdough Without a Dutch Oven: 5 Methods That Work (2026)"
+        title="How to Bake Sourdough Without a Dutch Oven"
         description="No Dutch oven? No problem. Five proven methods to bake crusty, well-risen sourdough using equipment you already have, ranked from easiest to pro."
         image="/images/blog/sourdough-without-dutch-oven.png"
         datePublished="2026-07-28"

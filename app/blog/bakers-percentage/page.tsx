@@ -9,9 +9,33 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 export const metadata: Metadata = {
-  title: "Baker's Percentage: How to Convert Any Recipe (With Calculator)",
+  title: "Baker's Percentage: Convert Any Recipe (With Calculator)",
   description: "Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, and never guess hydration again.",
   keywords: ["bakers percentage", "bakers percentage calculator", "convert to bakers percentage", "bread formula", "sourdough ratio"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/bakers-percentage/",
+  },
+  openGraph: {
+    title: "Baker's Percentage: Convert Any Recipe (With Calculator)",
+    description: "Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, and never guess hydration again.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/bakers-percentage/",
+    publishedTime: "2026-07-15",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/bakers-percentage.webp",
+        alt: "Baker's Percentage: Convert Any Recipe (With Calculator)",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Baker's Percentage: Convert Any Recipe (With Calculator)",
+    description: "Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, and never guess hydration again.",
+    images: ["/images/blog/bakers-percentage.webp"],
+  },
 };
 
 export default function BakersPercentage() {
@@ -24,9 +48,9 @@ export default function BakersPercentage() {
 
       <ArticleSchema
         slug="bakers-percentage"
-        title="Baker's Percentage: How to Convert Any Recipe (With Calculator)"
+        title="Baker's Percentage: Convert Any Recipe (With Calculator)"
         description="Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, and never guess hydration again."
-        image="/images/blog/bakers-percentage.png"
+        image="/images/blog/bakers-percentage.webp"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"
       />
@@ -37,7 +61,7 @@ export default function BakersPercentage() {
       <picture>
         <source srcSet="/images/blog/bakers-percentage.webp" type="image/webp" />
         <img
-          src="/images/blog/bakers-percentage.png"
+          src="/images/blog/bakers-percentage.webp"
           alt="Baker"
           width="1200"
           height="800"
@@ -48,7 +72,7 @@ export default function BakersPercentage() {
       </picture>
       
 
-      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Baker's Percentage: How to Convert Any Recipe (With Calculator)</h1>
+      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Baker's Percentage: Convert Any Recipe (With Calculator)</h1>
       <p className="text-brand-muted text-sm mb-8">📖 8 min read · Updated July 2026</p>
 
       <p className="text-lg mb-6">

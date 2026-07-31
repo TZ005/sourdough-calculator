@@ -7,9 +7,33 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 export const metadata: Metadata = {
-  title: "Rye Sourdough: A Beginner's Guide to Dark, Flavorful, Traditional Bread",
+  title: "Rye Sourdough: A Beginner's Guide to Traditional Bread",
   description: "Rye sourdough is a different beast from wheat. Here's how to work with rye's unique properties for dark, moist, intensely flavored bread.",
   keywords: ["rye sourdough", "rye sourdough recipe", "rye bread recipe", "rye flour sourdough", "traditional rye bread"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/rye-sourdough/",
+  },
+  openGraph: {
+    title: "Rye Sourdough: A Beginner's Guide to Traditional Bread",
+    description: "Rye sourdough is a different beast from wheat. Here's how to work with rye's unique properties for dark, moist, intensely flavored bread.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/rye-sourdough/",
+    publishedTime: "2026-07-15",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/rye-sourdough.webp",
+        alt: "Rye Sourdough: A Beginner's Guide to Traditional Bread",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Rye Sourdough: A Beginner's Guide to Traditional Bread",
+    description: "Rye sourdough is a different beast from wheat. Here's how to work with rye's unique properties for dark, moist, intensely flavored bread.",
+    images: ["/images/blog/rye-sourdough.webp"],
+  },
 };
 
 export default function RyeSourdough() {
@@ -22,9 +46,9 @@ export default function RyeSourdough() {
 
       <ArticleSchema
         slug="rye-sourdough"
-        title="Rye Sourdough: A Beginner's Guide to Dark, Flavorful, Traditional Bread"
+        title="Rye Sourdough: A Beginner's Guide to Traditional Bread"
         description="Rye sourdough is a different beast from wheat. Here's how to work with rye's unique properties for dark, moist, intensely flavored bread."
-        image="/images/blog/rye-sourdough.png"
+        image="/images/blog/rye-sourdough.webp"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"
       />
@@ -35,7 +59,7 @@ export default function RyeSourdough() {
       <picture>
         <source srcSet="/images/blog/rye-sourdough.webp" type="image/webp" />
         <img
-          src="/images/blog/rye-sourdough.png"
+          src="/images/blog/rye-sourdough.webp"
           alt="Rye Sourdough: A Beginner"
           width="1200"
           height="800"
@@ -46,7 +70,7 @@ export default function RyeSourdough() {
       </picture>
       
 
-      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Rye Sourdough: A Beginner's Guide to Dark, Flavorful, Traditional Bread</h1>
+      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Rye Sourdough: A Beginner's Guide to Traditional Bread</h1>
       <p className="text-brand-muted text-sm mb-8">📖 8 min read · Updated July 2026</p>
 
       <p className="text-lg mb-6">

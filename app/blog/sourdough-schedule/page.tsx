@@ -10,6 +10,30 @@ export const metadata: Metadata = {
   title: "Sourdough Schedule: A 24-Hour Timeline for Your First Loaf",
   description: "A day-by-day, hour-by-hour timeline for your first sourdough loaf. From starter feed to slicing, every step timed and explained.",
   keywords: ["sourdough schedule", "sourdough timeline", "sourdough day before", "when to bulk ferment", "sourdough overnight"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-schedule/",
+  },
+  openGraph: {
+    title: "Sourdough Schedule: A 24-Hour Timeline for Your First Loaf",
+    description: "A day-by-day, hour-by-hour timeline for your first sourdough loaf. From starter feed to slicing, every step timed and explained.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/sourdough-schedule/",
+    publishedTime: "2026-07-15",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/sourdough-schedule.webp",
+        alt: "Sourdough Schedule: A 24-Hour Timeline for Your First Loaf",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sourdough Schedule: A 24-Hour Timeline for Your First Loaf",
+    description: "A day-by-day, hour-by-hour timeline for your first sourdough loaf. From starter feed to slicing, every step timed and explained.",
+    images: ["/images/blog/sourdough-schedule.webp"],
+  },
 };
 
 export default function SourdoughSchedule() {
@@ -24,7 +48,7 @@ export default function SourdoughSchedule() {
         slug="sourdough-schedule"
         title="Sourdough Schedule: A 24-Hour Timeline for Your First Loaf"
         description="A day-by-day, hour-by-hour timeline for your first sourdough loaf. From starter feed to slicing, every step timed and explained."
-        image="/images/blog/sourdough-schedule.png"
+        image="/images/blog/sourdough-schedule.webp"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"
       />
@@ -35,7 +59,7 @@ export default function SourdoughSchedule() {
       <picture>
         <source srcSet="/images/blog/sourdough-schedule.webp" type="image/webp" />
         <img
-          src="/images/blog/sourdough-schedule.png"
+          src="/images/blog/sourdough-schedule.webp"
           alt="Sourdough Schedule: A 24-Hour Timeline for Your First Loaf"
           width="1200"
           height="800"

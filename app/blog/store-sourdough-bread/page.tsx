@@ -6,9 +6,33 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 export const metadata: Metadata = {
-  title: "How to Store Sourdough Bread: Complete Guide to Keeping It Fresh (2026)",
+  title: "How to Store Sourdough Bread: Keep It Fresh",
   description: "Room temperature, frozen, or as dough. The right way to store sourdough bread at every stage so it stays fresh and crusty for days, not hours.",
   keywords: ["store sourdough bread","keep sourdough fresh","freeze sourdough","sourdough shelf life","bread storage"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/store-sourdough-bread/",
+  },
+  openGraph: {
+    title: "How to Store Sourdough Bread: Keep It Fresh",
+    description: "Room temperature, frozen, or as dough. The right way to store sourdough bread at every stage so it stays fresh and crusty for days, not hours.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/store-sourdough-bread/",
+    publishedTime: "2026-07-25T08:00:00Z",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/store-sourdough-bread.webp",
+        alt: "How to Store Sourdough Bread: Keep It Fresh",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How to Store Sourdough Bread: Keep It Fresh",
+    description: "Room temperature, frozen, or as dough. The right way to store sourdough bread at every stage so it stays fresh and crusty for days, not hours.",
+    images: ["/images/blog/store-sourdough-bread.webp"],
+  },
 };
 
 export default function BlogPost() {
@@ -20,9 +44,9 @@ export default function BlogPost() {
     <>
       <ArticleSchema
         slug="store-sourdough-bread"
-        title="How to Store Sourdough Bread: Complete Guide to Keeping It Fresh (2026)"
+        title="How to Store Sourdough Bread: Keep It Fresh"
         description="Room temperature, frozen, or as dough. The right way to store sourdough bread at every stage so it stays fresh and crusty for days, not hours."
-        image="/images/blog/store-sourdough-bread.png"
+        image="/images/blog/store-sourdough-bread.webp"
         datePublished="2026-07-25T08:00:00Z"
         dateModified="2026-07-25T08:00:00Z"
       />
@@ -33,8 +57,8 @@ export default function BlogPost() {
       <picture>
         <source srcSet="/images/blog/store-sourdough-bread.webp" type="image/webp" />
         <img
-          src="/images/blog/store-sourdough-bread.png"
-          alt="How to Store Sourdough Bread: Complete Guide to Keeping It Fresh (2026)"
+          src="/images/blog/store-sourdough-bread.webp"
+          alt="How to Store Sourdough Bread: Keep It Fresh"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"

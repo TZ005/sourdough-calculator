@@ -9,9 +9,33 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 export const metadata: Metadata = {
-  title: "How to Shape a Sourdough Boule: 3 Methods for Beginners (2026)",
+  title: "How to Shape a Sourdough Boule: 3 Methods",
   description: "Step-by-step instructions for shaping a tight, round boule. Three methods from simple to advanced, with photos and troubleshooting.",
   keywords: ["shaping sourdough", "how to shape boule", "sourdough shaping", "shaping bread boule", "boule shaping technique"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/shaping-boule/",
+  },
+  openGraph: {
+    title: "How to Shape a Sourdough Boule: 3 Methods",
+    description: "Step-by-step instructions for shaping a tight, round boule. Three methods from simple to advanced, with photos and troubleshooting.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/shaping-boule/",
+    publishedTime: "2026-07-15",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/shaping-boule.webp",
+        alt: "How to Shape a Sourdough Boule: 3 Methods",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How to Shape a Sourdough Boule: 3 Methods",
+    description: "Step-by-step instructions for shaping a tight, round boule. Three methods from simple to advanced, with photos and troubleshooting.",
+    images: ["/images/blog/shaping-boule.webp"],
+  },
 };
 
 export default function ShapingBoule() {
@@ -24,9 +48,9 @@ export default function ShapingBoule() {
 
       <ArticleSchema
         slug="shaping-boule"
-        title="How to Shape a Sourdough Boule: 3 Methods for Beginners (2026)"
+        title="How to Shape a Sourdough Boule: 3 Methods"
         description="Step-by-step instructions for shaping a tight, round boule. Three methods from simple to advanced, with photos and troubleshooting."
-        image="/images/blog/shaping-boule.png"
+        image="/images/blog/shaping-boule.webp"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"
       />
@@ -37,8 +61,8 @@ export default function ShapingBoule() {
       <picture>
         <source srcSet="/images/blog/shaping-boule.webp" type="image/webp" />
         <img
-          src="/images/blog/shaping-boule.png"
-          alt="How to Shape a Sourdough Boule: 3 Methods for Beginners (2026)"
+          src="/images/blog/shaping-boule.webp"
+          alt="How to Shape a Sourdough Boule: 3 Methods"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"

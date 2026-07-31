@@ -7,9 +7,33 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 export const metadata: Metadata = {
-  title: "Sourdough Crust: 7 Tips for a Crispy, Crackling, Bakery-Style Crust",
+  title: "Sourdough Crust: 7 Tips for a Bakery-Style Crackle",
   description: "Want that signature crackling sourdough crust? Seven proven tips for oven spring, steam, and the perfect crackle every time.",
   keywords: ["sourdough crust", "crispy sourdough crust", "sourdough oven spring", "crusty bread", "sourdough steam"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/crispy-crust/",
+  },
+  openGraph: {
+    title: "Sourdough Crust: 7 Tips for a Bakery-Style Crackle",
+    description: "Want that signature crackling sourdough crust? Seven proven tips for oven spring, steam, and the perfect crackle every time.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/crispy-crust/",
+    publishedTime: "2026-07-15",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/crispy-crust.webp",
+        alt: "Sourdough Crust: 7 Tips for a Bakery-Style Crackle",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sourdough Crust: 7 Tips for a Bakery-Style Crackle",
+    description: "Want that signature crackling sourdough crust? Seven proven tips for oven spring, steam, and the perfect crackle every time.",
+    images: ["/images/blog/crispy-crust.webp"],
+  },
 };
 
 export default function CrispyCrust() {
@@ -22,9 +46,9 @@ export default function CrispyCrust() {
 
       <ArticleSchema
         slug="crispy-crust"
-        title="Sourdough Crust: 7 Tips for a Crispy, Crackling, Bakery-Style Crust"
+        title="Sourdough Crust: 7 Tips for a Bakery-Style Crackle"
         description="Want that signature crackling sourdough crust? Seven proven tips for oven spring, steam, and the perfect crackle every time."
-        image="/images/blog/crispy-crust.png"
+        image="/images/blog/crispy-crust.webp"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"
       />
@@ -35,8 +59,8 @@ export default function CrispyCrust() {
       <picture>
         <source srcSet="/images/blog/crispy-crust.webp" type="image/webp" />
         <img
-          src="/images/blog/crispy-crust.png"
-          alt="Sourdough Crust: 7 Tips for a Crispy, Crackling, Bakery-Style Crust"
+          src="/images/blog/crispy-crust.webp"
+          alt="Sourdough Crust: 7 Tips for a Bakery-Style Crackle"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"
@@ -46,7 +70,7 @@ export default function CrispyCrust() {
       </picture>
       
 
-      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough Crust: 7 Tips for a Crispy, Crackling, Bakery-Style Crust</h1>
+      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough Crust: 7 Tips for a Bakery-Style Crackle</h1>
       <p className="text-brand-muted text-sm mb-8">📖 7 min read · Updated July 2026</p>
 
       <p className="text-lg mb-6">

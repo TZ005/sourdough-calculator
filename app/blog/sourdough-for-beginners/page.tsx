@@ -8,9 +8,33 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 export const metadata: Metadata = {
-  title: "Sourdough for Beginners: The Complete First-Time Guide (2026)",
+  title: "Sourdough for Beginners: Your First Loaf Guide",
   description: "Want to make your first sourdough loaf? This step-by-step guide takes you from building a starter to baking your first crusty boule. No experience needed.",
   keywords: ["sourdough for beginners","first sourdough loaf","sourdough starter recipe","beginner sourdough","how to make sourdough"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-for-beginners/",
+  },
+  openGraph: {
+    title: "Sourdough for Beginners: Your First Loaf Guide",
+    description: "Want to make your first sourdough loaf? This step-by-step guide takes you from building a starter to baking your first crusty boule. No experience needed.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/sourdough-for-beginners/",
+    publishedTime: "2026-07-25T08:00:00Z",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/sourdough-for-beginners.webp",
+        alt: "Sourdough for Beginners: Your First Loaf Guide",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sourdough for Beginners: Your First Loaf Guide",
+    description: "Want to make your first sourdough loaf? This step-by-step guide takes you from building a starter to baking your first crusty boule. No experience needed.",
+    images: ["/images/blog/sourdough-for-beginners.webp"],
+  },
 };
 
 export default function BlogPost() {
@@ -22,9 +46,9 @@ export default function BlogPost() {
     <>
       <ArticleSchema
         slug="sourdough-for-beginners"
-        title="Sourdough for Beginners: The Complete First-Time Guide (2026)"
+        title="Sourdough for Beginners: Your First Loaf Guide"
         description="Want to make your first sourdough loaf? This step-by-step guide takes you from building a starter to baking your first crusty boule. No experience needed."
-        image="/images/blog/sourdough-for-beginners.png"
+        image="/images/blog/sourdough-for-beginners.webp"
         datePublished="2026-07-25T08:00:00Z"
         dateModified="2026-07-25T08:00:00Z"
       />
@@ -35,8 +59,8 @@ export default function BlogPost() {
       <picture>
         <source srcSet="/images/blog/sourdough-for-beginners.webp" type="image/webp" />
         <img
-          src="/images/blog/sourdough-for-beginners.png"
-          alt="Sourdough for Beginners: The Complete First-Time Guide (2026)"
+          src="/images/blog/sourdough-for-beginners.webp"
+          alt="Sourdough for Beginners: Your First Loaf Guide"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"
@@ -46,7 +70,7 @@ export default function BlogPost() {
       </picture>
       
 
-      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough for Beginners: The Complete First-Time Guide (2026)</h1>
+      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough for Beginners: Your First Loaf Guide</h1>
       <p className="text-brand-muted text-sm mb-8">📖 12 min read · Updated July 2026</p>
 
       <p className="text-lg mb-6">Sourdough has a reputation for being hard. It is not. The process is long but mostly hands-off: mix, wait, fold, wait, shape, wait, bake. If you can read a clock and stir a spoon, you can make sourdough bread. This guide walks you through the entire first loaf, from building your starter to pulling a hot, crackling boule from the oven. No prior baking experience required.</p>

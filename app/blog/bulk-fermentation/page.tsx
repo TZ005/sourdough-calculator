@@ -9,9 +9,33 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 export const metadata: Metadata = {
-  title: "Sourdough Bulk Fermentation: A Complete Guide to Timing and Temperature (2026)",
+  title: "Sourdough Bulk Fermentation: Timing and Temperature",
   description: "When to end bulk fermentation: visual cues, temperature effects, and timing guidelines. Stop guessing and start baking by feel.",
   keywords: ["sourdough bulk fermentation", "bulk fermentation time", "sourdough rise time", "when to end bulk", "sourdough bulk fermentation temperature"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/bulk-fermentation/",
+  },
+  openGraph: {
+    title: "Sourdough Bulk Fermentation: Timing and Temperature",
+    description: "When to end bulk fermentation: visual cues, temperature effects, and timing guidelines. Stop guessing and start baking by feel.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/bulk-fermentation/",
+    publishedTime: "2026-07-15",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/bulk-fermentation.webp",
+        alt: "Sourdough Bulk Fermentation: Timing and Temperature",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sourdough Bulk Fermentation: Timing and Temperature",
+    description: "When to end bulk fermentation: visual cues, temperature effects, and timing guidelines. Stop guessing and start baking by feel.",
+    images: ["/images/blog/bulk-fermentation.webp"],
+  },
 };
 
 export default function BulkFermentation() {
@@ -24,9 +48,9 @@ export default function BulkFermentation() {
 
       <ArticleSchema
         slug="bulk-fermentation"
-        title="Sourdough Bulk Fermentation: A Complete Guide to Timing and Temperature (2026)"
+        title="Sourdough Bulk Fermentation: Timing and Temperature"
         description="When to end bulk fermentation: visual cues, temperature effects, and timing guidelines. Stop guessing and start baking by feel."
-        image="/images/blog/bulk-fermentation.png"
+        image="/images/blog/bulk-fermentation.webp"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"
       />
@@ -37,8 +61,8 @@ export default function BulkFermentation() {
       <picture>
         <source srcSet="/images/blog/bulk-fermentation.webp" type="image/webp" />
         <img
-          src="/images/blog/bulk-fermentation.png"
-          alt="Sourdough Bulk Fermentation: A Complete Guide to Timing and Temperature (2026)"
+          src="/images/blog/bulk-fermentation.webp"
+          alt="Sourdough Bulk Fermentation: Timing and Temperature"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"

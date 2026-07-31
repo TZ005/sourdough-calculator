@@ -9,6 +9,30 @@ import ArticleSchema from "@/components/ArticleSchema";
 export const metadata: Metadata = {
   title: "What is Sourdough Hydration? A Complete Guide (2026)",
   description: "Hydration is the most important number in sourdough baking. Learn what it means, how to calculate it, and how to choose the right level for your bread.",
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/what-is-hydration/",
+  },
+  openGraph: {
+    title: "What is Sourdough Hydration? A Complete Guide (2026)",
+    description: "Hydration is the most important number in sourdough baking. Learn what it means, how to calculate it, and how to choose the right level for your bread.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/what-is-hydration/",
+    publishedTime: "2026-07-15",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/what-is-hydration.png",
+        alt: "What is Sourdough Hydration? A Complete Guide (2026)",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "What is Sourdough Hydration? A Complete Guide (2026)",
+    description: "Hydration is the most important number in sourdough baking. Learn what it means, how to calculate it, and how to choose the right level for your bread.",
+    images: ["/images/blog/what-is-hydration.png"],
+  },
 };
 
 export default function WhatIsHydration() {

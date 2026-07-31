@@ -9,9 +9,33 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 export const metadata: Metadata = {
-  title: "Best Flour for Sourdough: A Complete Guide for Home Bakers (2026)",
+  title: "Best Flour for Sourdough: A Complete Guide for Home Bakers",
   description: "Bread flour, all-purpose, whole wheat, rye: which flour makes the best sourdough? A practical guide to choosing flour based on your skill level and bread style.",
   keywords: ["best flour for sourdough", "bread flour vs all purpose", "sourdough flour guide", "what flour for sourdough", "rye sourdough flour"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/best-flour/",
+  },
+  openGraph: {
+    title: "Best Flour for Sourdough: A Complete Guide for Home Bakers",
+    description: "Bread flour, all-purpose, whole wheat, rye: which flour makes the best sourdough? A practical guide to choosing flour based on your skill level and bread style.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/best-flour/",
+    publishedTime: "2026-07-15",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/best-flour.webp",
+        alt: "Best Flour for Sourdough: A Complete Guide for Home Bakers",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Flour for Sourdough: A Complete Guide for Home Bakers",
+    description: "Bread flour, all-purpose, whole wheat, rye: which flour makes the best sourdough? A practical guide to choosing flour based on your skill level and bread style.",
+    images: ["/images/blog/best-flour.webp"],
+  },
 };
 
 export default function BestFlour() {
@@ -24,9 +48,9 @@ export default function BestFlour() {
 
       <ArticleSchema
         slug="best-flour"
-        title="Best Flour for Sourdough: A Complete Guide for Home Bakers (2026)"
+        title="Best Flour for Sourdough: A Complete Guide for Home Bakers"
         description="Bread flour, all-purpose, whole wheat, rye: which flour makes the best sourdough? A practical guide to choosing flour based on your skill level and bread style."
-        image="/images/blog/best-flour.png"
+        image="/images/blog/best-flour.webp"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"
       />
@@ -37,8 +61,8 @@ export default function BestFlour() {
       <picture>
         <source srcSet="/images/blog/best-flour.webp" type="image/webp" />
         <img
-          src="/images/blog/best-flour.png"
-          alt="Best Flour for Sourdough: A Complete Guide for Home Bakers (2026)"
+          src="/images/blog/best-flour.webp"
+          alt="Best Flour for Sourdough: A Complete Guide for Home Bakers"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"

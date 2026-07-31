@@ -6,9 +6,33 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 export const metadata: Metadata = {
-  title: "Whole Wheat Sourdough: A Complete Guide to 100% Whole Grain Bread (2026)",
+  title: "Whole Wheat Sourdough: Complete Grain Guide",
   description: "100% whole wheat sourdough is doable at home. Higher hydration, shorter ferment, and a few simple adjustments give you a loaf that is open, chewy, and packed with flavor.",
   keywords: ["whole wheat sourdough","whole grain bread","whole wheat recipe","100% whole wheat","sourdough whole wheat"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/whole-wheat-sourdough/",
+  },
+  openGraph: {
+    title: "Whole Wheat Sourdough: Complete Grain Guide",
+    description: "100% whole wheat sourdough is doable at home. Higher hydration, shorter ferment, and a few simple adjustments give you a loaf that is open, chewy, and packed with flavor.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/whole-wheat-sourdough/",
+    publishedTime: "2026-07-25T08:00:00Z",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/whole-wheat-sourdough.webp",
+        alt: "Whole Wheat Sourdough: Complete Grain Guide",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Whole Wheat Sourdough: Complete Grain Guide",
+    description: "100% whole wheat sourdough is doable at home. Higher hydration, shorter ferment, and a few simple adjustments give you a loaf that is open, chewy, and packed with flavor.",
+    images: ["/images/blog/whole-wheat-sourdough.webp"],
+  },
 };
 
 export default function BlogPost() {
@@ -20,9 +44,9 @@ export default function BlogPost() {
     <>
       <ArticleSchema
         slug="whole-wheat-sourdough"
-        title="Whole Wheat Sourdough: A Complete Guide to 100% Whole Grain Bread (2026)"
+        title="Whole Wheat Sourdough: Complete Grain Guide"
         description="100% whole wheat sourdough is doable at home. Higher hydration, shorter ferment, and a few simple adjustments give you a loaf that is open, chewy, and packed with flavor."
-        image="/images/blog/whole-wheat-sourdough.png"
+        image="/images/blog/whole-wheat-sourdough.webp"
         datePublished="2026-07-25T08:00:00Z"
         dateModified="2026-07-25T08:00:00Z"
       />
@@ -33,8 +57,8 @@ export default function BlogPost() {
       <picture>
         <source srcSet="/images/blog/whole-wheat-sourdough.webp" type="image/webp" />
         <img
-          src="/images/blog/whole-wheat-sourdough.png"
-          alt="Whole Wheat Sourdough: A Complete Guide to 100% Whole Grain Bread (2026)"
+          src="/images/blog/whole-wheat-sourdough.webp"
+          alt="Whole Wheat Sourdough: Complete Grain Guide"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"

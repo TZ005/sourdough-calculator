@@ -6,9 +6,33 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 export const metadata: Metadata = {
-  title: "Sourdough Focaccia: The Easiest Sourdough Bread You Will Ever Bake (2026)",
+  title: "Sourdough Focaccia: The Easiest Bread to Bake",
   description: "Sourdough focaccia is the easiest sourdough bread to make. No shaping, no scoring, no Dutch oven. Mix, rise, dimple, bake. Restaurant-quality results at home.",
   keywords: ["sourdough focaccia","focaccia recipe","easy sourdough","focaccia bread","sourdough flatbread"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-focaccia/",
+  },
+  openGraph: {
+    title: "Sourdough Focaccia: The Easiest Bread to Bake",
+    description: "Sourdough focaccia is the easiest sourdough bread to make. No shaping, no scoring, no Dutch oven. Mix, rise, dimple, bake. Restaurant-quality results at home.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/sourdough-focaccia/",
+    publishedTime: "2026-07-25T08:00:00Z",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/sourdough-focaccia.webp",
+        alt: "Sourdough Focaccia: The Easiest Bread to Bake",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sourdough Focaccia: The Easiest Bread to Bake",
+    description: "Sourdough focaccia is the easiest sourdough bread to make. No shaping, no scoring, no Dutch oven. Mix, rise, dimple, bake. Restaurant-quality results at home.",
+    images: ["/images/blog/sourdough-focaccia.webp"],
+  },
 };
 
 export default function BlogPost() {
@@ -20,7 +44,7 @@ export default function BlogPost() {
     <>
       <ArticleSchema
         slug="sourdough-focaccia"
-        title="Sourdough Focaccia: The Easiest Sourdough Bread You Will Ever Bake (2026)"
+        title="Sourdough Focaccia: The Easiest Bread to Bake"
         description="Sourdough focaccia is the easiest sourdough bread to make. No shaping, no scoring, no Dutch oven. Mix, rise, dimple, bake. Restaurant-quality results at home."
         image="/images/blog/sourdough-focaccia.webp"
         datePublished="2026-07-25T08:00:00Z"

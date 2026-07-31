@@ -7,9 +7,33 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 export const metadata: Metadata = {
-  title: "Sourdough vs Regular Bread: Nutrition, Digestibility, and Taste Compared",
+  title: "Sourdough vs Regular Bread: What's Different?",
   description: "Is sourdough actually healthier than regular bread? A science-backed comparison of nutrition, glycemic index, digestibility, and flavor.",
   keywords: ["sourdough vs regular bread", "sourdough benefits", "is sourdough healthier", "sourdough nutrition", "sourdough digestibility"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/vs-regular-bread/",
+  },
+  openGraph: {
+    title: "Sourdough vs Regular Bread: What's Different?",
+    description: "Is sourdough actually healthier than regular bread? A science-backed comparison of nutrition, glycemic index, digestibility, and flavor.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/vs-regular-bread/",
+    publishedTime: "2026-07-15",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/vs-regular-bread.webp",
+        alt: "Sourdough vs Regular Bread: What's Different?",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sourdough vs Regular Bread: What's Different?",
+    description: "Is sourdough actually healthier than regular bread? A science-backed comparison of nutrition, glycemic index, digestibility, and flavor.",
+    images: ["/images/blog/vs-regular-bread.webp"],
+  },
 };
 
 export default function VsRegularBread() {
@@ -22,9 +46,9 @@ export default function VsRegularBread() {
 
       <ArticleSchema
         slug="vs-regular-bread"
-        title="Sourdough vs Regular Bread: Nutrition, Digestibility, and Taste Compared"
+        title="Sourdough vs Regular Bread: What's Different?"
         description="Is sourdough actually healthier than regular bread? A science-backed comparison of nutrition, glycemic index, digestibility, and flavor."
-        image="/images/blog/vs-regular-bread.png"
+        image="/images/blog/vs-regular-bread.webp"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"
       />
@@ -35,8 +59,8 @@ export default function VsRegularBread() {
       <picture>
         <source srcSet="/images/blog/vs-regular-bread.webp" type="image/webp" />
         <img
-          src="/images/blog/vs-regular-bread.png"
-          alt="Sourdough vs Regular Bread: Nutrition, Digestibility, and Taste Compared"
+          src="/images/blog/vs-regular-bread.webp"
+          alt="Sourdough vs Regular Bread: What's Different?"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"
@@ -46,7 +70,7 @@ export default function VsRegularBread() {
       </picture>
       
 
-      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough vs Regular Bread: Nutrition, Digestibility, and Taste Compared</h1>
+      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough vs Regular Bread: What's Different?</h1>
       <p className="text-brand-muted text-sm mb-8">📖 8 min read · Updated July 2026</p>
 
       <p className="text-lg mb-6">

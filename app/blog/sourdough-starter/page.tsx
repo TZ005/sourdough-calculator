@@ -7,9 +7,33 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 export const metadata: Metadata = {
-  title: "How to Make Sourdough Starter from Scratch: A 7-Day Complete Guide (2026)",
+  title: "How to Make Sourdough Starter: 7-Day Guide",
   description: "Day-by-day instructions for creating a healthy sourdough starter from just flour and water. Includes troubleshooting, feeding schedules, and signs of readiness.",
   keywords: ["sourdough starter", "sourdough starter from scratch", "make sourdough starter", "how to feed sourdough starter", "wild yeast starter"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-starter/",
+  },
+  openGraph: {
+    title: "How to Make Sourdough Starter: 7-Day Guide",
+    description: "Day-by-day instructions for creating a healthy sourdough starter from just flour and water. Includes troubleshooting, feeding schedules, and signs of readiness.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/sourdough-starter/",
+    publishedTime: "2026-07-15",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/sourdough-starter.webp",
+        alt: "How to Make Sourdough Starter: 7-Day Guide",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How to Make Sourdough Starter: 7-Day Guide",
+    description: "Day-by-day instructions for creating a healthy sourdough starter from just flour and water. Includes troubleshooting, feeding schedules, and signs of readiness.",
+    images: ["/images/blog/sourdough-starter.webp"],
+  },
 };
 
 export default function StarterGuide() {
@@ -22,9 +46,9 @@ export default function StarterGuide() {
 
       <ArticleSchema
         slug="sourdough-starter"
-        title="How to Make Sourdough Starter from Scratch: A 7-Day Complete Guide (2026)"
+        title="How to Make Sourdough Starter: 7-Day Guide"
         description="Day-by-day instructions for creating a healthy sourdough starter from just flour and water. Includes troubleshooting, feeding schedules, and signs of readiness."
-        image="/images/blog/sourdough-starter.png"
+        image="/images/blog/sourdough-starter.webp"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"
       />
@@ -35,8 +59,8 @@ export default function StarterGuide() {
       <picture>
         <source srcSet="/images/blog/sourdough-starter.webp" type="image/webp" />
         <img
-          src="/images/blog/sourdough-starter.png"
-          alt="How to Make Sourdough Starter from Scratch: A 7-Day Complete Guide (2026)"
+          src="/images/blog/sourdough-starter.webp"
+          alt="How to Make Sourdough Starter: 7-Day Guide"
           width="1200"
           height="800"
           className="w-full rounded-xl my-8"

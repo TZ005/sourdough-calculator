@@ -7,9 +7,33 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 export const metadata: Metadata = {
-  title: "Sourdough Discard: 10 Easy Recipes That Don't Taste Sour (2026)",
+  title: "Sourdough Discard: 10 Easy Recipes",
   description: "Don't throw away your sourdough discard! 10 delicious recipes including pancakes, crackers, waffles, pizza dough and more. Zero waste, full flavor.",
   keywords: ["sourdough discard", "sourdough discard recipes", "sourdough starter discard", "discarded sourdough", "sourdough discard pancakes"],
+
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/sourdough-discard/",
+  },
+  openGraph: {
+    title: "Sourdough Discard: 10 Easy Recipes",
+    description: "Don't throw away your sourdough discard! 10 delicious recipes including pancakes, crackers, waffles, pizza dough and more. Zero waste, full flavor.",
+    type: "article",
+    url: "https://sourdough-hydrationcalculator.com/blog/sourdough-discard/",
+    publishedTime: "2026-07-15",
+    modifiedTime: "2026-07-25T08:00:00Z",
+    images: [
+      {
+        url: "/images/blog/sourdough-discard.webp",
+        alt: "Sourdough Discard: 10 Easy Recipes",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sourdough Discard: 10 Easy Recipes",
+    description: "Don't throw away your sourdough discard! 10 delicious recipes including pancakes, crackers, waffles, pizza dough and more. Zero waste, full flavor.",
+    images: ["/images/blog/sourdough-discard.webp"],
+  },
 };
 
 export default function DiscardRecipes() {
@@ -22,9 +46,9 @@ export default function DiscardRecipes() {
 
       <ArticleSchema
         slug="sourdough-discard"
-        title="Sourdough Discard: 10 Easy Recipes That Don't Taste Sour (2026)"
+        title="Sourdough Discard: 10 Easy Recipes"
         description="Don't throw away your sourdough discard! 10 delicious recipes including pancakes, crackers, waffles, pizza dough and more. Zero waste, full flavor."
-        image="/images/blog/sourdough-discard.png"
+        image="/images/blog/sourdough-discard.webp"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"
       />
@@ -35,7 +59,7 @@ export default function DiscardRecipes() {
       <picture>
         <source srcSet="/images/blog/sourdough-discard.webp" type="image/webp" />
         <img
-          src="/images/blog/sourdough-discard.png"
+          src="/images/blog/sourdough-discard.webp"
           alt="Sourdough Discard: 10 Easy Recipes That Don"
           width="1200"
           height="800"
