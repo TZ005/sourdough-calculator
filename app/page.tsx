@@ -7,7 +7,7 @@ import AffiliateLink from "@/components/AffiliateLink";
 
 export const metadata: Metadata = {
   title: "Sourdough Hydration Calculator - Free Instant Recipe Tool",
-  description: "Free sourdough hydration calculator. Enter flour weight, instantly get exact water, salt and starter ratios. Includes baker percentage chart for 50% to 100% hydration. No signup.",
+  description: "Free sourdough hydration calculator. Enter flour weight to get exact water, salt and starter ratios, plus a 50%-100% hydration chart. No signup.",
   keywords: ["sourdough hydration calculator", "sourdough calculator", "hydration calculator", "bakers percentage calculator", "sourdough recipe calculator"],
   alternates: {
     canonical: "https://sourdough-hydrationcalculator.com/",
@@ -56,13 +56,6 @@ export default function Home() {
               "price": "0",
               "priceCurrency": "USD"
             },
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.8",
-              "ratingCount": "127",
-              "bestRating": "5",
-              "worstRating": "1"
-            },
             "description": "Free sourdough hydration calculator. Enter flour weight, instantly get exact water, salt and starter ratios. Includes baker percentage chart for 50% to 100% hydration."
           })
         }}
@@ -92,6 +85,109 @@ export default function Home() {
       <section className="py-10 md:py-16 print:py-4">
         <div className="max-w-6xl mx-auto px-6">
           <Calculator />
+        </div>
+      </section>
+
+      <div className="print:hidden"><HydrationChart /></div>
+
+      <section className="print:hidden py-16 max-w-3xl mx-auto px-6">
+        <h2 className="text-center text-3xl font-bold mb-6 text-brand-dark">What is Sourdough Hydration?</h2>
+        <p>
+          <strong>Sourdough hydration</strong> is the ratio of water to flour in your dough, expressed as a percentage.
+          For example, a 75% hydration dough has 75g of water for every 100g of flour.
+        </p>
+        <p>Hydration dramatically affects the final bread:</p>
+        <ul className="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Lower hydration (50–75%)</strong> produces a denser, tighter crumb — perfect for bagels and pretzels.</li>
+          <li><strong>Medium hydration (70–80%)</strong> gives the classic sourdough texture most home bakers aim for.</li>
+          <li><strong>Higher hydration (80–100%)</strong> creates an open, airy crumb with large irregular holes — the hallmark of artisan sourdough.</li>
+        </ul>
+        <p>
+          Use the calculator above to find the exact water, salt, and starter amounts for your recipe. Want to learn more?{" "}
+          <Link href="/blog/what-is-hydration/" className="text-brand-brown font-medium">
+            Read our complete guide →          </Link>
+        </p>
+      </section>
+
+      {/* Schema.org: FAQPage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is 75% hydration sourdough?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A 75% hydration dough uses 75g of water for every 100g of flour. It is a popular middle ground for home bakers: wet enough for an open crumb, dry enough to handle without excessive sticking."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I calculate hydration percentage?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Divide the water weight by the flour weight and multiply by 100. For example, 350g of water with 500g of flour is 70% hydration."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is 70% or 75% hydration better for beginners?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "70% is easier to shape and less sticky, while 75% is still manageable and gives a more open crumb. Start at 70% and work up as your dough handling improves."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does 100% hydration mean?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "It means equal weights of water and flour, such as 500g of water with 500g of flour. This creates a very wet dough suited to ciabatta, focaccia, and experienced bakers."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much starter should I use?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "20% of the flour weight is a common default. Use less starter for a longer, slower fermentation and more starter for a faster rise."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
+      <section className="print:hidden py-16">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="text-center text-3xl font-bold mb-2 text-brand-dark">Sourdough Hydration FAQ</h2>
+          <p className="text-center text-[#5C4033] mb-10">Quick answers to the questions home bakers ask most.</p>
+          <div className="divide-y divide-[#E8DDC8] border-y border-[#E8DDC8]">
+            <div className="py-5">
+              <h3 className="font-semibold text-lg text-brand-brown mb-1.5">What is 75% hydration sourdough?</h3>
+              <p>A 75% hydration dough uses 75g of water for every 100g of flour. It is a popular middle ground: wet enough for an open crumb, dry enough to handle without excessive sticking.</p>
+            </div>
+            <div className="py-5">
+              <h3 className="font-semibold text-lg text-brand-brown mb-1.5">How do I calculate hydration percentage?</h3>
+              <p>Divide the water weight by the flour weight and multiply by 100. For example, 350g of water with 500g of flour is 70% hydration.</p>
+            </div>
+            <div className="py-5">
+              <h3 className="font-semibold text-lg text-brand-brown mb-1.5">Is 70% or 75% hydration better for beginners?</h3>
+              <p>70% is easier to shape and less sticky, while 75% is still manageable and gives a more open crumb. Start at 70% and work up as your dough handling improves.</p>
+            </div>
+            <div className="py-5">
+              <h3 className="font-semibold text-lg text-brand-brown mb-1.5">What does 100% hydration mean?</h3>
+              <p>It means equal weights of water and flour, such as 500g of water with 500g of flour. This creates a very wet dough suited to ciabatta, focaccia, and experienced bakers.</p>
+            </div>
+            <div className="py-5">
+              <h3 className="font-semibold text-lg text-brand-brown mb-1.5">How much starter should I use?</h3>
+              <p>20% of the flour weight is a common default. Use less starter for a longer, slower fermentation and more starter for a faster rise.</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -156,27 +252,6 @@ export default function Home() {
             From $5 starter kits to $200 ovens - see all my picks
           </p>
         </div>
-      </section>
-
-      <div className="print:hidden"><HydrationChart /></div>
-
-      <section className="print:hidden py-16 max-w-3xl mx-auto px-6">
-        <h2 className="text-center text-3xl font-bold mb-6 text-brand-dark">What is Sourdough Hydration?</h2>
-        <p>
-          <strong>Sourdough hydration</strong> is the ratio of water to flour in your dough, expressed as a percentage.
-          For example, a 75% hydration dough has 75g of water for every 100g of flour.
-        </p>
-        <p>Hydration dramatically affects the final bread:</p>
-        <ul className="list-disc pl-6 space-y-2 my-4">
-          <li><strong>Lower hydration (50–75%)</strong> produces a denser, tighter crumb — perfect for bagels and pretzels.</li>
-          <li><strong>Medium hydration (70–80%)</strong> gives the classic sourdough texture most home bakers aim for.</li>
-          <li><strong>Higher hydration (80–100%)</strong> creates an open, airy crumb with large irregular holes — the hallmark of artisan sourdough.</li>
-        </ul>
-        <p>
-          Use the calculator above to find the exact water, salt, and starter amounts for your recipe. Want to learn more?{" "}
-          <Link href="/blog/what-is-hydration/" className="text-brand-brown font-medium">
-            Read our complete guide →          </Link>
-        </p>
       </section>
 
       <section className="print:hidden py-20 bg-brand-tan">

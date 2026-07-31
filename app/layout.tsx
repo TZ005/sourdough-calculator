@@ -36,6 +36,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }):
     <html lang="en">
       <head>
         <link rel="preload" as="image" type="image/avif" href="/sourdough-baking-tools.avif" fetchPriority="high"/>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       <link rel="preconnect" href="https://www.amazon.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://m.media-amazon.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.amazon.com" />
