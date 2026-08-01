@@ -82,7 +82,7 @@ export default function SourdoughSchedule() {
         afternoon.
       </p>
 
-      <h2 className="mt-10 mb-3">Assumptions</h2>
+      <h2 className="mt-10 mb-3">What Do You Need for This Sourdough Schedule?</h2>
       <ul className="list-disc pl-6 space-y-1 my-4">
         <li>Kitchen at 70-74°F (21-23°C). Warmer kitchens shorten all times by 20-30%. Cooler kitchens extend them.</li>
         <li>Active, ripe starter (peaked in the last 4-8 hours).</li>
@@ -90,14 +90,14 @@ export default function SourdoughSchedule() {
         <li>Single 1kg loaf (about 800g baked weight).</li>
       </ul>
 
-      <h2 className="mt-10 mb-3">Day Before (Night Before, ~9:00 PM)</h2>
+      <h2 className="mt-10 mb-3">What Should You Do the Night Before?</h2>
       <p className="mb-4"><strong>9:00 PM — Feed your starter</strong></p>
       <p className="mb-4">
         Take 10g of ripe starter, add 20g flour and 20g water. Stir, cover loosely, leave on the
         counter. By morning it should be doubled and domed, ready to bake with.
       </p>
 
-      <h2 className="mt-10 mb-3">Bake Day (Morning)</h2>
+      <h2 className="mt-10 mb-3">What Happens on Bake Day Morning?</h2>
       <p className="mb-4"><strong>8:00 AM — Autolyse (mix flour + water)</strong></p>
       <p className="mb-4">
         In a large bowl, mix 500g bread flour with 375g water (75%). Stir until no dry flour
@@ -116,7 +116,7 @@ export default function SourdoughSchedule() {
         four times. After 4 sets, the dough will be noticeably smoother and more elastic.
       </p>
 
-      <h2 className="mt-10 mb-3">Bake Day (Midday)</h2>
+      <h2 className="mt-10 mb-3">When Is Bulk Fermentation Done?</h2>
       <p className="mb-4"><strong>11:00 AM - 2:00 PM — Bulk fermentation</strong></p>
       <p className="mb-4">
         Cover the dough and let it bulk for 3-5 hours at room temperature. Look for these signs of
@@ -133,7 +133,7 @@ export default function SourdoughSchedule() {
         by time alone, go by feel.
       </p>
 
-      <h2 className="mt-10 mb-3">Bake Day (Afternoon)</h2>
+      <h2 className="mt-10 mb-3">How Do You Shape and Retard the Dough?</h2>
       <p className="mb-4"><strong>2:00 PM — Pre-shape</strong></p>
       <p className="mb-4">
         Tip the dough onto an unfloured counter. Using a bench scraper (or a large spatula), shape
@@ -153,7 +153,7 @@ export default function SourdoughSchedule() {
         at this time and bake the next morning.
       </p>
 
-      <h2 className="mt-10 mb-3">Bake Day (Evening) OR Next Morning</h2>
+      <h2 className="mt-10 mb-3">How Do You Bake the Loaf?</h2>
       <p className="mb-4"><strong>6:00 PM (same day) OR 6:00 AM (next day) — Preheat</strong></p>
       <p className="mb-4">
         Place a Dutch oven (or any heavy oven-safe pot with lid) on the middle rack. Preheat at
@@ -175,14 +175,14 @@ export default function SourdoughSchedule() {
         Internal temperature should reach 205-210°F (96-99°C) for a fully baked loaf.
       </p>
 
-      <h2 className="mt-10 mb-3">Cool and Eat</h2>
+      <h2 className="mt-10 mb-3">How Long Should Sourdough Cool Before Cutting?</h2>
       <p className="mb-4">
         <strong>Cool on a wire rack for at least 1 hour before cutting.</strong> Cutting too early
         leaves the crumb gummy because the crumb is still setting. The hardest part of sourdough
         is the wait, but it is worth it.
       </p>
 
-      <h2 className="mt-10 mb-3">The Two Variables That Matter Most</h2>
+      <h2 className="mt-10 mb-3">What Affects the Schedule the Most?</h2>
       <p className="mb-4">
         1. <strong>Bulk fermentation time</strong> (temperature-driven). Too short and the crumb
         is dense. Too long and it collapses. Aim for 50-75% rise and jiggly edges.
@@ -193,7 +193,7 @@ export default function SourdoughSchedule() {
         from that baseline.
       </p>
 
-      <h2 className="mt-10 mb-3">If You Skip the Cold Retard</h2>
+      <h2 className="mt-10 mb-3">Can I Bake the Same Day?</h2>
       <p className="mb-4">
         You can bake the same day at around 6:00 PM. Skip the fridge step and let the shaped loaf
         proof at room temperature for 2-3 hours instead, until it passes the poke test (a floured
@@ -202,23 +202,30 @@ export default function SourdoughSchedule() {
         excellent.
       </p>
 
-      <h2 className="mt-10 mb-3">The Day After</h2>
+      <h2 className="mt-10 mb-3">How Do You Store Sourdough Bread?</h2>
       <p className="mb-4">
         Store leftover bread cut-side down on a wooden board, or in a paper bag. Sourdough stays
         fresh for 2-3 days at room temperature because of its natural acidity. For longer
         storage, slice and freeze in a zip bag; toast directly from frozen.
       </p>
 
-      <h2 className="mt-10 mb-3">Your Turn</h2>
+      <h2 className="mt-10 mb-3">What Should You Do Next?</h2>
       <p className="mb-4">
         Print this page, set alarms on your phone, and bake. After 2-3 rounds you will not need
         the timeline anymore. Your hands will know. For hydration, ratios, and baker's percentage
         math, our{" "}
         <Link href="/" className="text-brand-brown font-medium">
-          free calculator
+        free calculator
         </Link>{" "}
         keeps every bake consistent.
-      </p><NextPostNav slug="sourdough-schedule" />
+      </p>
+
+      <h2 className="mt-10 mb-3">Sources</h2>
+      <ul className="list-disc pl-6 space-y-2 mb-8">
+        <li><a href="https://www.theperfectloaf.com/guides/the-ultimate-guide-to-bread-dough-bulk-fermentation/" target="_blank" rel="noopener">The Perfect Loaf: The Ultimate Guide to Bread Dough Bulk Fermentation</a></li>
+        <li><a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="noopener">King Arthur Baking: Sourdough Guide</a></li>
+      </ul>
+      <NextPostNav slug="sourdough-schedule" />
     </article>
     </>
   );
