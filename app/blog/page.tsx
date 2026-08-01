@@ -6,17 +6,55 @@ const page = 1;
 const displayedPosts = getPostsForPage(page);
 
 export const metadata: Metadata = {
-  title: "Blog - Page 1 of " + TOTAL_PAGES + " - SourdoughCalc",
-  description: "Learn sourdough baking from the ground up. Hydration guides, recipes, and tips.",
+  title: "Sourdough Baking Blog - Free Guides and Recipes",
+  description: "Free sourdough baking guides: hydration, recipes, troubleshooting, and tips for home bakers. New articles added regularly.",
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/",
+  },
 };
 
 export default function BlogPage() {
   return (
-    <article className="max-w-3xl mx-auto px-6 py-16">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Blog",
+            "@id": "https://sourdough-hydrationcalculator.com/blog/#blog",
+            "name": "Sourdough Baking Blog",
+            "url": "https://sourdough-hydrationcalculator.com/blog/",
+            "description": "Free sourdough baking guides, recipes, and troubleshooting for home bakers.",
+            "inLanguage": "en",
+            "dateModified": "2026-08-01",
+            "author": {
+              "@type": "Organization",
+              "name": "SourdoughCalc",
+              "url": "https://sourdough-hydrationcalculator.com/"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "SourdoughCalc",
+              "url": "https://sourdough-hydrationcalculator.com/"
+            },
+            "mainEntity": displayedPosts.map((post) => ({
+              "@type": "BlogPosting",
+              "headline": post.title,
+              "url": "https://sourdough-hydrationcalculator.com/blog/" + post.slug + "/"
+            }))
+          })
+        }}
+      />
+      <article className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl md:text-5xl mb-4">Sourdough Baking Blog</h1>
-      <p className="text-lg text-[#5C4033] mb-10">
-        Learn the science and craft of sourdough baking. Free guides, practical tips, and tested recipes.
+      <p className="text-lg text-[#5C4033] mb-4">
+        This is the SourdoughCalc blog: free, tested guides for baking better sourdough at home.
       </p>
+      <p className="text-lg text-[#5C4033] mb-10">
+        Start with hydration and a simple loaf, then move on to recipes and troubleshooting.
+      </p>
+      <p className="text-brand-muted text-sm mb-10">By SourdoughCalc Team</p>
 
       <div className="space-y-6">
         {displayedPosts.map((post, i) => (
@@ -56,6 +94,13 @@ export default function BlogPage() {
       <p className="mt-10 text-brand-muted text-sm text-center">
         More articles coming soon. Subscribe to our newsletter to get notified.
       </p>
-    </article>
+
+      <h2 className="mt-10 mb-3">Sources</h2>
+      <ul className="list-disc pl-6 space-y-2">
+        <li><a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="noopener">King Arthur Baking: Sourdough Guide</a></li>
+        <li><a href="https://www.theperfectloaf.com/beginners-sourdough-bread/" target="_blank" rel="noopener">The Perfect Loaf: Beginner Sourdough Bread</a></li>
+      </ul>
+      </article>
+    </>
   );
 }

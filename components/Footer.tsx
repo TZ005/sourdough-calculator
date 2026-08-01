@@ -6,11 +6,11 @@ export default function Footer(): JSX.Element {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-8">
           <div>
-            <h4 className="text-brand-wheat mb-3">SourdoughCalc</h4>
+            <h3 className="text-brand-wheat mb-3">SourdoughCalc</h3>
             <p className="text-[#B8A88A]">The free hydration calculator for sourdough bakers.</p>
           </div>
           <div>
-            <h4 className="text-brand-wheat mb-3">Quick Links</h4>
+            <h3 className="text-brand-wheat mb-3">Quick Links</h3>
             <ul className="space-y-2">
               <li><Link href="/" className="text-brand-wheat hover:text-white">Calculator</Link></li>
               <li><Link href="/blog/" className="text-brand-wheat hover:text-white">Blog</Link></li>
@@ -19,7 +19,7 @@ export default function Footer(): JSX.Element {
             </ul>
           </div>
           <div>
-            <h4 className="text-brand-wheat mb-3">Resources</h4>
+            <h3 className="text-brand-wheat mb-3">Resources</h3>
             <ul className="space-y-2">
               <li><Link href="/blog/what-is-hydration/" className="text-brand-wheat hover:text-white">What is Hydration?</Link></li>
               <li><Link href="/privacy/" className="text-brand-wheat hover:text-white">Privacy Policy</Link></li>

@@ -6,17 +6,55 @@ const page = 2;
 const displayedPosts = getPostsForPage(page);
 
 export const metadata: Metadata = {
-  title: "Blog - Page 2 of " + TOTAL_PAGES + " - SourdoughCalc",
-  description: "Learn sourdough baking from the ground up. Hydration guides, recipes, and tips.",
+  title: "Sourdough Baking Blog - Page 2",
+  description: "More free sourdough baking guides, recipes, and troubleshooting articles for home bakers.",
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/blog/page/2/",
+  },
 };
 
 export default function BlogPage() {
   return (
-    <article className="max-w-3xl mx-auto px-6 py-16">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Blog",
+            "@id": "https://sourdough-hydrationcalculator.com/blog/page/2/#blog",
+            "name": "Sourdough Baking Blog - Page 2",
+            "url": "https://sourdough-hydrationcalculator.com/blog/page/2/",
+            "description": "More free sourdough baking guides, recipes, and troubleshooting for home bakers.",
+            "inLanguage": "en",
+            "dateModified": "2026-08-01",
+            "author": {
+              "@type": "Organization",
+              "name": "SourdoughCalc",
+              "url": "https://sourdough-hydrationcalculator.com/"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "SourdoughCalc",
+              "url": "https://sourdough-hydrationcalculator.com/"
+            },
+            "mainEntity": displayedPosts.map((post) => ({
+              "@type": "BlogPosting",
+              "headline": post.title,
+              "url": "https://sourdough-hydrationcalculator.com/blog/" + post.slug + "/"
+            }))
+          })
+        }}
+      />
+      <article className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="mb-3">Sourdough Baking Blog</h1>
-      <p className="text-lg text-[#5C4033] mb-10">
-        Learn the science and craft of sourdough baking. Free guides, practical tips, and tested recipes.
+      <p className="text-lg text-[#5C4033] mb-4">
+        This is the SourdoughCalc blog: free, tested guides for baking better sourdough at home.
       </p>
+      <p className="text-lg text-[#5C4033] mb-10">
+        More recipes and troubleshooting guides are listed on this page.
+      </p>
+      <p className="text-brand-muted text-sm mb-10">By SourdoughCalc Team</p>
 
       <div className="space-y-6">
         {displayedPosts.map((post, i) => (
@@ -57,5 +95,6 @@ export default function BlogPage() {
         More articles coming soon. Subscribe to our newsletter to get notified.
       </p>
     </article>
+    </>
   );
 }
