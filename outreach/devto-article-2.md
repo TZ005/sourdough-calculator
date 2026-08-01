@@ -3,7 +3,6 @@ title: "What an SEO Audit Taught Me About Shipping a Next.js Static Site"
 description: "I ran an SEO audit on my Next.js 14 static site and found 20+ issues. Here is exactly what I fixed, what broke, and what actually mattered."
 tags: [nextjs, seo, static, cloudflarepages]
 cover_image: https://sourdough-hydrationcalculator.com/sourdough-baking-tools.png
-canonical_url: https://sourdough-hydrationcalculator.com/
 published: false
 ---
 
