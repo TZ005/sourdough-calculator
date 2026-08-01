@@ -128,7 +128,7 @@ export default function CrispyCrust() {
         <li>Push hydration higher for extra crackle.</li>
       </ol>
 
-      <h2 className="mt-10 mb-3">Crust Problems Quick Fix</h2>
+      <h2 className="mt-10 mb-3">Why Is My Sourdough Crust Soft or Doughy?</h2>
       <div className="overflow-x-auto my-6">
         <table className="w-full text-left border-collapse border border-[#E8DDC8]">
           <thead>
@@ -163,7 +163,7 @@ export default function CrispyCrust() {
         </table>
       </div>
 
-      <h2 className="mt-10 mb-3">1. Bake in a Dutch Oven (or Similar)</h2>
+      <h2 className="mt-10 mb-3">Why Bake in a Dutch Oven?</h2>
       <p className="mb-4">
         This is the single biggest upgrade you can make. A Dutch oven traps the steam that the
         bread releases during baking, which keeps the crust soft and pliable during oven spring.
@@ -176,7 +176,7 @@ export default function CrispyCrust() {
         combo cooker, ceramic baker. Even a metal bowl with foil over the top works in a pinch.
       </p>
 
-      <h2 className="mt-10 mb-3">2. Add Steam (Without a Dutch Oven)</h2>
+      <h2 className="mt-10 mb-3">How Do You Add Steam Without a Dutch Oven?</h2>
       <p className="mb-4">
         Place a metal pan or cast iron skillet on the bottom rack of the oven. When you put the
         bread in, pour 1 cup of boiling water into the pan and quickly close the door. The
@@ -184,7 +184,7 @@ export default function CrispyCrust() {
         You can also throw 4-5 ice cubes onto the hot pan for an even more dramatic burst of steam.
       </p>
 
-      <h2 className="mt-10 mb-3">3. Score Aggressively (Not Shy)</h2>
+      <h2 className="mt-10 mb-3">How Deep Should You Score Sourdough?</h2>
       <p className="mb-4">
         A deep, confident score is essential. Use a sharp lame or razor blade, and cut at a
         <strong>30-45 degree angle</strong>, <strong>1/2 to 3/4 inch deep</strong>. A single cut at the
@@ -193,7 +193,7 @@ export default function CrispyCrust() {
         decisively.
       </p>
 
-      <h2 className="mt-10 mb-3">4. Bake Hot (At Least 450°F)</h2>
+      <h2 className="mt-10 mb-3">What Temperature Should You Bake Sourdough?</h2>
       <p className="mb-4">
         Crust forms at high temperatures. 450-500°F is the standard. Lower temperatures produce a
         soft, pale crust. Higher temperatures produce a deep, dark, crackly crust. Don't be afraid
@@ -201,7 +201,7 @@ export default function CrispyCrust() {
         purely aesthetic. Darker crust = more flavor.
       </p>
 
-      <h2 className="mt-10 mb-3">5. Pre-heat Properly (At Least 45 Minutes)</h2>
+      <h2 className="mt-10 mb-3">How Long Should You Preheat the Oven?</h2>
       <p className="mb-4">
         The oven needs to be <strong>thoroughly pre-heated</strong> for at least 45 minutes. A Dutch
         oven or pizza stone needs this time to fully saturate with heat. If you put bread into a
@@ -209,7 +209,7 @@ export default function CrispyCrust() {
         verify the actual temperature. Most home ovens are 25-50°F off from the dial.
       </p>
 
-      <h2 className="mt-10 mb-3">6. Cool Completely (At Least 1 Hour)</h2>
+      <h2 className="mt-10 mb-3">How Long Must the Bread Cool?</h2>
       <p className="mb-4">
         Sourdough continues to bake internally as it cools. The interior is still setting when
         you take it out. Cut too early and the crumb will be gummy and the crust will feel doughy.
@@ -217,7 +217,7 @@ export default function CrispyCrust() {
         hardest part.
       </p>
 
-      <h2 className="mt-10 mb-3">7. Hydration Matters Too</h2>
+      <h2 className="mt-10 mb-3">Does Hydration Affect the Crust?</h2>
       <p className="mb-4">
         Higher hydration doughs (78%+) produce thinner, more crackly crusts because the higher
         water content evaporates more during baking, creating more steam inside the crust. If
@@ -225,7 +225,7 @@ export default function CrispyCrust() {
         makes this easy.
       </p>
 
-      <h2 className="mt-10 mb-3">The Cheat Sheet</h2>
+      <h2 className="mt-10 mb-3">What If You Only Do One Thing?</h2>
       <p className="mb-4">
         If you do only one thing, buy a Dutch oven. If you do two, score deeper. If you do
         three, bake at 500°F. If you do all seven, your bread will sound like a drum and crackle
