@@ -90,7 +90,7 @@ export default function WhatIsHydration() {
         variable in your dough, and understanding it will transform your baking.
       </p>
 
-      <h2 className="mt-10 mb-3">Hydration, Simply</h2>
+      <h2 className="mt-10 mb-3">What Does Hydration Mean in Sourdough?</h2>
       <p className="mb-4">
         Hydration is the ratio of water to flour in your dough, expressed as a percentage. The formula is:
       </p>
@@ -101,7 +101,7 @@ export default function WhatIsHydration() {
         So if you have 500g of flour and 375g of water, your hydration is (375 ÷ 500) × 100 = 75%.
       </p>
 
-      <h2 className="mt-10 mb-3">How Hydration Affects Your Bread</h2>
+      <h2 className="mt-10 mb-3">How Does Hydration Affect Your Bread?</h2>
       <p className="mb-4">Different hydration levels produce dramatically different results:</p>
 
       <h3 className="mt-6 mb-2">Low Hydration (50–65%)</h3>
@@ -122,7 +122,7 @@ export default function WhatIsHydration() {
         associated with the best bakeries. Requires longer fermentation and stronger flour.
       </p>
 
-      <h2 className="mt-10 mb-3">How to Choose Your Hydration</h2>
+      <h2 className="mt-10 mb-3">What Hydration Should a Beginner Use?</h2>
       <p className="mb-4">
         If you are a beginner, start at 70–75%. As you gain confidence, push toward 80% for more open crumb.
         Professional bakers often go to 85–100% for showstopping loaves.
@@ -133,11 +133,17 @@ export default function WhatIsHydration() {
         find the exact water, salt, and starter amounts for any recipe.
       </p>
 
-      <h2 className="mt-10 mb-3">The Bottom Line</h2>
+      <h2 className="mt-10 mb-3">Does Hydration Matter That Much?</h2>
       <p className="mb-4">
         Hydration is not a number to memorize — it is a dial you turn to get the bread you want. Lower for
         structure, higher for openness. The rest is practice.
       </p>
+
+      <h2 className="mt-10 mb-3">Sources</h2>
+      <ul className="list-disc pl-6 space-y-2 mb-8">
+        <li><a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="noopener">King Arthur Baking: Sourdough Guide</a></li>
+        <li><a href="https://www.theperfectloaf.com/guides/the-ultimate-guide-to-bread-dough-bulk-fermentation/" target="_blank" rel="noopener">The Perfect Loaf: The Ultimate Guide to Bread Dough Bulk Fermentation</a></li>
+      </ul>
       
       <NextPostNav slug="what-is-hydration" />
     </article>
