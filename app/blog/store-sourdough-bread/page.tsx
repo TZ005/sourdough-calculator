@@ -294,9 +294,9 @@ export default function BlogPost() {
           <li>Reinhart, P. (2010). <em>The Bread Baker's Apprentice: Mastering the Art of Extraordinary Bread</em>. Ten Speed Press.</li>
           <li>Forkish, K. (2012). <em>Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza</em>. Chronicle Books.</li>
           <li>Calvel, R. (2001). <em>The Taste of Bread</em>. Aspen Publishers.</li>
-          <li>Leo, M. <a href="https://www.theperfectloaf.com/beginners-sourdough-bread/" target="_blank" rel="noopener">Beginner Sourdough Bread</a>. The Perfect Loaf. Accessed August 2026.</li>
-          <li>King Arthur Baking. <a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="noopener">Sourdough Guide</a>. Accessed August 2026.</li>
-          <li>Breadtopia. <a href="https://www.breadtopia.com/whole-grain-sourdough-bread/" target="_blank" rel="noopener">Whole Grain Sourdough Bread</a>. Accessed August 2026.</li>
+          <li>Leo, M. <a href="https://www.theperfectloaf.com/beginners-sourdough-bread/" target="_blank" rel="nofollow noopener">Beginner Sourdough Bread</a>. The Perfect Loaf. Accessed August 2026.</li>
+          <li>King Arthur Baking. <a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="nofollow noopener">Sourdough Guide</a>. Accessed August 2026.</li>
+          <li>Breadtopia. <a href="https://www.breadtopia.com/whole-grain-sourdough-bread/" target="_blank" rel="nofollow noopener">Whole Grain Sourdough Bread</a>. Accessed August 2026.</li>
         </ol>
         <p className="mt-6 text-sm text-brand-muted italic">
           The storage recommendations in this article are based on standard bread science

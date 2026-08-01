@@ -147,9 +147,9 @@ export default function BlogPost() {
           <li>Reinhart, P. (2010). The Bread Baker's Apprentice. Ten Speed Press.</li>
           <li>Forkish, K. (2012). Flour Water Salt Yeast. Chronicle Books.</li>
           <li>Suas, M. (2009). Advanced Bread and Pastry. Delmar Cengage Learning.</li>
-          <li>Slanski, J. <a href="https://www.breadtopia.com/whole-grain-sourdough-bread/" target="_blank" rel="noopener">Breadtopia: Whole Grain Sourdough Bread</a>. Accessed August 2026.</li>
-          <li>Leo, M. <a href="https://www.theperfectloaf.com/fifty-fifty-whole-wheat-sourdough-bread/" target="_blank" rel="noopener">The Perfect Loaf: Fifty-Fifty Whole Wheat Sourdough Bread</a>. Accessed August 2026.</li>
-          <li>King Arthur Baking. <a href="https://www.kingarthurbaking.com/learn/sourdough" target="_blank" rel="noopener">Sourdough: A Complete Guide</a>. Accessed August 2026.</li>
+          <li>Slanski, J. <a href="https://www.breadtopia.com/whole-grain-sourdough-bread/" target="_blank" rel="nofollow noopener">Breadtopia: Whole Grain Sourdough Bread</a>. Accessed August 2026.</li>
+          <li>Leo, M. <a href="https://www.theperfectloaf.com/fifty-fifty-whole-wheat-sourdough-bread/" target="_blank" rel="nofollow noopener">The Perfect Loaf: Fifty-Fifty Whole Wheat Sourdough Bread</a>. Accessed August 2026.</li>
+          <li>King Arthur Baking. <a href="https://www.kingarthurbaking.com/learn/sourdough" target="_blank" rel="nofollow noopener">Sourdough: A Complete Guide</a>. Accessed August 2026.</li>
         </ol>
       </section><NextPostNav slug="whole-wheat-sourdough" />
         </article>

@@ -309,8 +309,8 @@ export default function BulkFermentation() {
 
       <h2 className="mt-10 mb-3">Sources</h2>
       <ul className="list-disc pl-6 space-y-2 mb-8">
-        <li><a href="https://www.theperfectloaf.com/guides/the-ultimate-guide-to-bread-dough-bulk-fermentation/" target="_blank" rel="noopener">The Perfect Loaf: The Ultimate Guide to Bread Dough Bulk Fermentation</a></li>
-        <li><a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="noopener">King Arthur Baking: Sourdough Guide</a></li>
+        <li><a href="https://www.theperfectloaf.com/guides/the-ultimate-guide-to-bread-dough-bulk-fermentation/" target="_blank" rel="nofollow noopener">The Perfect Loaf: The Ultimate Guide to Bread Dough Bulk Fermentation</a></li>
+        <li><a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="nofollow noopener">King Arthur Baking: Sourdough Guide</a></li>
       </ul>
 <NextPostNav slug="bulk-fermentation" />
     </article>

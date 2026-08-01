@@ -440,16 +440,16 @@ export default function BestSourdoughCalculators() {
       <h2 className="mt-10 mb-3">Sources</h2>
       <p className="text-sm text-brand-muted mb-4">Official sites reviewed for this comparison, accessed August 2026:</p>
       <ul className="list-disc pl-6 space-y-2 mb-8">
-        <li><a href="https://sourdough-hydrationcalculator.com/" target="_blank" rel="noopener">SourdoughCalc</a></li>
-        <li><a href="https://www.sourdough.co.uk/" target="_blank" rel="noopener">Sourdough.co.uk</a></li>
-        <li><a href="https://sourdoughcalculator.info/" target="_blank" rel="noopener">Simple Sourdough Calculator</a></li>
-        <li><a href="https://www.breadcalc.com/" target="_blank" rel="noopener">Bread Hydration and Conversion Calculator</a></li>
-        <li><a href="https://www.theperfectloaf.com/" target="_blank" rel="noopener">The Perfect Loaf</a></li>
-        <li><a href="https://cravethegood.com/" target="_blank" rel="noopener">Crave The Good</a></li>
-        <li><a href="https://thatsourdoughgal.com/" target="_blank" rel="noopener">That Sourdough Gal</a></li>
-        <li><a href="https://www.kingarthurbaking.com/" target="_blank" rel="noopener">King Arthur Baking</a></li>
-        <li><a href="https://apps.apple.com/" target="_blank" rel="noopener">Apple App Store</a></li>
-        <li><a href="https://play.google.com/" target="_blank" rel="noopener">Google Play</a></li>
+        <li><a href="https://sourdough-hydrationcalculator.com/" target="_blank" rel="nofollow noopener">SourdoughCalc</a></li>
+        <li><a href="https://www.sourdough.co.uk/" target="_blank" rel="nofollow noopener">Sourdough.co.uk</a></li>
+        <li><a href="https://sourdoughcalculator.info/" target="_blank" rel="nofollow noopener">Simple Sourdough Calculator</a></li>
+        <li><a href="https://www.breadcalc.com/" target="_blank" rel="nofollow noopener">Bread Hydration and Conversion Calculator</a></li>
+        <li><a href="https://www.theperfectloaf.com/" target="_blank" rel="nofollow noopener">The Perfect Loaf</a></li>
+        <li><a href="https://cravethegood.com/" target="_blank" rel="nofollow noopener">Crave The Good</a></li>
+        <li><a href="https://thatsourdoughgal.com/" target="_blank" rel="nofollow noopener">That Sourdough Gal</a></li>
+        <li><a href="https://www.kingarthurbaking.com/" target="_blank" rel="nofollow noopener">King Arthur Baking</a></li>
+        <li><a href="https://apps.apple.com/" target="_blank" rel="nofollow noopener">Apple App Store</a></li>
+        <li><a href="https://play.google.com/" target="_blank" rel="nofollow noopener">Google Play</a></li>
       </ul>
       
       <NextPostNav slug="best-sourdough-calculators" />

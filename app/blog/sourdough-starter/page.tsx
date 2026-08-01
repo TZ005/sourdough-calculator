@@ -166,8 +166,8 @@ export default function StarterGuide() {
 
       <h2 className="mt-10 mb-3">Sources</h2>
       <ul className="list-disc pl-6 space-y-2 mb-8">
-        <li><a href="https://www.kingarthurbaking.com/recipes/sourdough-starter-recipe" target="_blank" rel="noopener">King Arthur Baking: Sourdough Starter Recipe</a></li>
-        <li><a href="https://www.theperfectloaf.com/sourdough-starter/" target="_blank" rel="noopener">The Perfect Loaf: Sourdough Starter Guide</a></li>
+        <li><a href="https://www.kingarthurbaking.com/recipes/sourdough-starter-recipe" target="_blank" rel="nofollow noopener">King Arthur Baking: Sourdough Starter Recipe</a></li>
+        <li><a href="https://www.theperfectloaf.com/sourdough-starter/" target="_blank" rel="nofollow noopener">The Perfect Loaf: Sourdough Starter Guide</a></li>
       </ul>
 <NextPostNav slug="sourdough-starter" />
     </article>

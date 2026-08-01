@@ -285,9 +285,9 @@ export default function SourdoughPizzaDough() {
         <ol className="list-decimal pl-6 space-y-3 text-sm text-brand-muted">
           <li>Reinhart, P. (2010). <em>The Bread Baker's Apprentice: Mastering the Art of Extraordinary Bread</em>. Ten Speed Press.</li>
           <li>Forkish, K. (2012). <em>Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza</em>. Chronicle Books.</li>
-          <li>King Arthur Baking. <a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="noopener">Sourdough Guide</a>. Accessed August 2026.</li>
-          <li>Serious Eats. <a href="https://www.seriouseats.com/" target="_blank" rel="noopener">Serious Eats: Pizza Science and Recipes</a>. Accessed August 2026.</li>
-          <li>Leo, M. <a href="https://www.theperfectloaf.com/sourdough-pizza-dough/" target="_blank" rel="noopener">Sourdough Pizza Dough</a>. The Perfect Loaf. Accessed August 2026.</li>
+          <li>King Arthur Baking. <a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="nofollow noopener">Sourdough Guide</a>. Accessed August 2026.</li>
+          <li>Serious Eats. <a href="https://www.seriouseats.com/" target="_blank" rel="nofollow noopener">Serious Eats: Pizza Science and Recipes</a>. Accessed August 2026.</li>
+          <li>Leo, M. <a href="https://www.theperfectloaf.com/sourdough-pizza-dough/" target="_blank" rel="nofollow noopener">Sourdough Pizza Dough</a>. The Perfect Loaf. Accessed August 2026.</li>
           <li>Robertson, C. (2013). <em>Tartine Bread</em>. Chronicle Books.</li>
         </ol>
         <p className="mt-6 text-sm text-brand-muted italic">

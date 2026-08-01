@@ -175,8 +175,8 @@ export default function BlogPost() {
           <li>Forkish, K. (2012). Flour Water Salt Yeast. Chronicle Books.</li>
           <li>Hamelman, J. (2004). Bread: A Baker's Book of Techniques and Recipes. John Wiley and Sons.</li>
           <li>Suas, M. (2009). Advanced Bread and Pastry. Delmar Cengage Learning.</li>
-          <li>King Arthur Baking. <a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="noopener">Sourdough Guide</a>. Accessed August 2026.</li>
-          <li>Leo, M. <a href="https://www.theperfectloaf.com/beginners-sourdough-bread/" target="_blank" rel="noopener">Beginner Sourdough Bread</a>. The Perfect Loaf. Accessed August 2026.</li>
+          <li>King Arthur Baking. <a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="nofollow noopener">Sourdough Guide</a>. Accessed August 2026.</li>
+          <li>Leo, M. <a href="https://www.theperfectloaf.com/beginners-sourdough-bread/" target="_blank" rel="nofollow noopener">Beginner Sourdough Bread</a>. The Perfect Loaf. Accessed August 2026.</li>
         </ol>
       </section><NextPostNav slug="sourdough-focaccia" />
         </article>

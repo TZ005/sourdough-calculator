@@ -141,8 +141,8 @@ export default function BlogPost() {
           <li>Forkish, K. (2012). Flour Water Salt Yeast. Chronicle Books.</li>
           <li>Suas, M. (2009). Advanced Bread and Pastry. Delmar Cengage Learning.</li>
           <li>Hamelman, J. (2004). Bread: A Baker's Book of Techniques and Recipes. John Wiley and Sons.</li>
-          <li>Leo, M. <a href="https://www.theperfectloaf.com/sourdough-starter/" target="_blank" rel="noopener">Sourdough Starter Guide</a>. The Perfect Loaf. Accessed August 2026.</li>
-          <li>King Arthur Baking. <a href="https://www.kingarthurbaking.com/recipes/sourdough-starter-recipe" target="_blank" rel="noopener">Sourdough Starter Recipe</a>. Accessed August 2026.</li>
+          <li>Leo, M. <a href="https://www.theperfectloaf.com/sourdough-starter/" target="_blank" rel="nofollow noopener">Sourdough Starter Guide</a>. The Perfect Loaf. Accessed August 2026.</li>
+          <li>King Arthur Baking. <a href="https://www.kingarthurbaking.com/recipes/sourdough-starter-recipe" target="_blank" rel="nofollow noopener">Sourdough Starter Recipe</a>. Accessed August 2026.</li>
         </ol>
       </section><NextPostNav slug="levain-vs-starter" />
         </article>

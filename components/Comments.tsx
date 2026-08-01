@@ -43,7 +43,7 @@ export default function Comments(): JSX.Element {
         <a
           href="https://giscus.app"
           target="_blank"
-          rel="noreferrer noopener"
+          rel="nofollow noreferrer noopener"
           className="text-brand-brown underline"
         >
           giscus

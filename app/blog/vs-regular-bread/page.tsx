@@ -247,11 +247,11 @@ export default function VsRegularBread() {
 
       <h2 className="mt-10 mb-3">Sources</h2>
       <ul className="list-disc pl-6 space-y-2 mb-8">
-        <li><a href="https://fdc.nal.usda.gov/" target="_blank" rel="noopener">USDA FoodData Central</a></li>
-        <li><a href="https://pubmed.ncbi.nlm.nih.gov/42143512/" target="_blank" rel="noopener">Impact of fermentation regime and metabolically defined LAB consortia on sourdough bread nutritional and volatile composition (PubMed)</a></li>
-        <li><a href="https://pubmed.ncbi.nlm.nih.gov/42163962/" target="_blank" rel="noopener">Effects of sourdough- or regular-bread fermentation, and phytate reduction on iron bioavailability, absorption, and iron status (PubMed, 2026)</a></li>
-        <li><a href="https://pubmed.ncbi.nlm.nih.gov/42008894/" target="_blank" rel="noopener">Mechanistic insights into the impact of ferulic acid on starch digestibility and structural properties (PubMed, 2026)</a></li>
-        <li><a href="https://celiac.org/" target="_blank" rel="noopener">Celiac Disease Foundation</a></li>
+        <li><a href="https://fdc.nal.usda.gov/" target="_blank" rel="nofollow noopener">USDA FoodData Central</a></li>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov/42143512/" target="_blank" rel="nofollow noopener">Impact of fermentation regime and metabolically defined LAB consortia on sourdough bread nutritional and volatile composition (PubMed)</a></li>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov/42163962/" target="_blank" rel="nofollow noopener">Effects of sourdough- or regular-bread fermentation, and phytate reduction on iron bioavailability, absorption, and iron status (PubMed, 2026)</a></li>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov/42008894/" target="_blank" rel="nofollow noopener">Mechanistic insights into the impact of ferulic acid on starch digestibility and structural properties (PubMed, 2026)</a></li>
+        <li><a href="https://celiac.org/" target="_blank" rel="nofollow noopener">Celiac Disease Foundation</a></li>
       </ul>
 <NextPostNav slug="vs-regular-bread" />
     </article>

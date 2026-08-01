@@ -312,8 +312,8 @@ export default function CommonMistakes() {
 
       <h2 className="mt-10 mb-3">Sources</h2>
       <ul className="list-disc pl-6 space-y-2 mb-8">
-        <li><a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="noopener">King Arthur Baking: Sourdough Guide</a></li>
-        <li><a href="https://www.theperfectloaf.com/beginners-sourdough-bread/" target="_blank" rel="noopener">The Perfect Loaf: Beginner Sourdough Bread</a></li>
+        <li><a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="nofollow noopener">King Arthur Baking: Sourdough Guide</a></li>
+        <li><a href="https://www.theperfectloaf.com/beginners-sourdough-bread/" target="_blank" rel="nofollow noopener">The Perfect Loaf: Beginner Sourdough Bread</a></li>
       </ul>
 <NextPostNav slug="common-mistakes" />
     </article>
