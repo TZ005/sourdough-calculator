@@ -183,7 +183,7 @@ export default function ShapingBoule() {
         <h3 className="text-xl font-bold mb-2 text-brand-dark">Tools I Use for Shaping</h3>
         <p className="text-sm text-brand-muted mb-4">The exact tools I recommend for shaping, proofing, and baking sourdough at home.</p>
         <AffiliateDisclosure variant="inline" />
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <AffiliateLink
             href="https://www.amazon.com/s?k=banneton+proofing+basket&tag=sourdoughca0a-20"
             productName="Banneton Proofing Basket"
@@ -206,17 +206,7 @@ export default function ShapingBoule() {
             <div className="font-semibold text-sm text-brand-dark">Bread Lame</div>
             <div className="text-xs text-brand-brown">View on Amazon →</div>
           </AffiliateLink>
-          <AffiliateLink
-            href="https://www.amazon.com/s?k=lodge+dutch+oven&tag=sourdoughca0a-20"
-            productName="Lodge Dutch Oven"
-            source="blog_shaping-boule"
-            aria-label="View Lodge Dutch Oven on Amazon"
-            className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
-          >
-            <div className="text-2xl mb-1">🥘</div>
-            <div className="font-semibold text-sm text-brand-dark">Dutch Oven</div>
-            <div className="text-xs text-brand-brown">View on Amazon →</div>
-          </AffiliateLink>
+          
         </div>
       </aside>
 

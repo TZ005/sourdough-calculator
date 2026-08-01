@@ -269,7 +269,7 @@ export default function BulkFermentation() {
         <h3 className="text-xl font-bold mb-2 text-brand-dark">Tools for Tracking Bulk Fermentation</h3>
         <p className="text-sm text-brand-muted mb-4">Bulk fermentation is all about temperature control. A good thermometer and scale make the difference between guessing and knowing.</p>
         <AffiliateDisclosure variant="inline" />
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <AffiliateLink
             href="https://www.amazon.com/s?k=thermopro+tp19+thermometer&tag=sourdoughca0a-20"
             productName="ThermoPro TP19 Thermometer"
@@ -292,17 +292,7 @@ export default function BulkFermentation() {
             <div className="font-semibold text-sm text-brand-dark">Kitchen Scale</div>
             <div className="text-xs text-brand-brown">View on Amazon →</div>
           </AffiliateLink>
-          <AffiliateLink
-            href="https://www.amazon.com/s?k=lodge+dutch+oven&tag=sourdoughca0a-20"
-            productName="Lodge Dutch Oven"
-            source="blog_bulk-fermentation"
-            aria-label="View Lodge Dutch Oven on Amazon"
-            className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
-          >
-            <div className="text-2xl mb-1">🥘</div>
-            <div className="font-semibold text-sm text-brand-dark">Dutch Oven</div>
-            <div className="text-xs text-brand-brown">View on Amazon →</div>
-          </AffiliateLink>
+          
         </div>
       </aside>
       

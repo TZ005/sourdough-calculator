@@ -179,7 +179,7 @@ export default function BlogPost() {
         <h3 className="text-xl font-bold mb-2 text-brand-dark">My Complete Beginner Toolkit</h3>
         <p className="text-sm text-brand-muted mb-4">The exact 6 tools I recommend for your first sourdough setup. Click any to see the search results on Amazon.</p>
         <AffiliateDisclosure variant="inline" />
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 gap-3">
           <AffiliateLink
             href="https://www.amazon.com/s?k=king+arthur+bread+flour&tag=sourdoughca0a-20"
             productName="King Arthur Bread Flour"
@@ -202,50 +202,10 @@ export default function BlogPost() {
             <div className="font-semibold text-sm text-brand-dark">Kitchen Scale</div>
             <div className="text-xs text-brand-brown">View on Amazon →</div>
           </AffiliateLink>
-          <AffiliateLink
-            href="https://www.amazon.com/s?k=thermopro+tp19+thermometer&tag=sourdoughca0a-20"
-            productName="ThermoPro TP19 Thermometer"
-            source="blog_sourdough-for-beginners"
-            aria-label="View ThermoPro TP19 Thermometer on Amazon"
-            className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
-          >
-            <div className="text-2xl mb-1">🌡</div>
-            <div className="font-semibold text-sm text-brand-dark">Thermometer</div>
-            <div className="text-xs text-brand-brown">View on Amazon →</div>
-          </AffiliateLink>
-          <AffiliateLink
-            href="https://www.amazon.com/s?k=banneton+proofing+basket&tag=sourdoughca0a-20"
-            productName="Banneton Proofing Basket"
-            source="blog_sourdough-for-beginners"
-            aria-label="View Banneton Proofing Basket on Amazon"
-            className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
-          >
-            <div className="text-2xl mb-1">🧺</div>
-            <div className="font-semibold text-sm text-brand-dark">Banneton</div>
-            <div className="text-xs text-brand-brown">View on Amazon →</div>
-          </AffiliateLink>
-          <AffiliateLink
-            href="https://www.amazon.com/s?k=sourdough+bread+lame&tag=sourdoughca0a-20"
-            productName="Sourdough Bread Lame"
-            source="blog_sourdough-for-beginners"
-            aria-label="View Sourdough Bread Lame on Amazon"
-            className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
-          >
-            <div className="text-2xl mb-1">🔪</div>
-            <div className="font-semibold text-sm text-brand-dark">Bread Lame</div>
-            <div className="text-xs text-brand-brown">View on Amazon →</div>
-          </AffiliateLink>
-          <AffiliateLink
-            href="https://www.amazon.com/s?k=lodge+dutch+oven&tag=sourdoughca0a-20"
-            productName="Lodge Dutch Oven"
-            source="blog_sourdough-for-beginners"
-            aria-label="View Lodge Dutch Oven on Amazon"
-            className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
-          >
-            <div className="text-2xl mb-1">🥘</div>
-            <div className="font-semibold text-sm text-brand-dark">Dutch Oven</div>
-            <div className="text-xs text-brand-brown">View on Amazon →</div>
-          </AffiliateLink>
+          
+          
+          
+          
         </div>
       </aside>
       </section>

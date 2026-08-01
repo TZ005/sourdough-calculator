@@ -198,7 +198,7 @@ export default function BakersPercentage() {
         <h3 className="text-xl font-bold mb-2 text-brand-dark">Tools for Baker's Percentage</h3>
         <p className="text-sm text-brand-muted mb-4">To use baker's percentage confidently you only need three things: an accurate scale, a base flour, and a way to track dough temperature.</p>
         <AffiliateDisclosure variant="inline" />
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <AffiliateLink
             href="https://www.amazon.com/s?k=etekcity+kitchen+scale&tag=sourdoughca0a-20"
             productName="Etekcity Kitchen Scale"
@@ -210,17 +210,7 @@ export default function BakersPercentage() {
             <div className="font-semibold text-sm text-brand-dark">Kitchen Scale</div>
             <div className="text-xs text-brand-brown">View on Amazon →</div>
           </AffiliateLink>
-          <AffiliateLink
-            href="https://www.amazon.com/s?k=king+arthur+bread+flour&tag=sourdoughca0a-20"
-            productName="King Arthur Bread Flour"
-            source="blog_bakers-percentage"
-            aria-label="View King Arthur Bread Flour on Amazon"
-            className="block p-3 bg-white rounded-lg text-center hover:shadow transition-shadow"
-          >
-            <div className="text-2xl mb-1">🌾</div>
-            <div className="font-semibold text-sm text-brand-dark">Bread Flour</div>
-            <div className="text-xs text-brand-brown">View on Amazon →</div>
-          </AffiliateLink>
+          
           <AffiliateLink
             href="https://www.amazon.com/s?k=thermopro+tp19+thermometer&tag=sourdoughca0a-20"
             productName="ThermoPro TP19 Thermometer"
