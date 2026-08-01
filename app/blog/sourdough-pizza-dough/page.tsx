@@ -82,7 +82,7 @@ export default function SourdoughPizzaDough() {
         common problems.
       </p>
 
-      <h2 className="mt-10 mb-3">Why Sourdough Pizza Works So Well</h2>
+      <h2 className="mt-10 mb-3">Why Does Sourdough Make Better Pizza Dough?</h2>
       <p className="mb-4">
         Commercial yeast gives you <strong>rise</strong>. Sourdough starter gives you <strong>flavor and texture</strong>
         at the same time. The wild yeast and bacteria in your starter produce lactic and acetic acid
@@ -100,7 +100,7 @@ export default function SourdoughPizzaDough() {
         open crumb that makes Neapolitan pizza so addictive.
       </p>
 
-      <h2 className="mt-10 mb-3">The Recipe (Makes 4 Pizzas, 250g Each)</h2>
+      <h2 className="mt-10 mb-3">What Is the Best Sourdough Pizza Dough Recipe?</h2>
       <p className="mb-4">
         This is a 65% hydration dough. Lower than bread because pizza needs to hold its shape when
         stretched and cooked at high heat. Adjust water up to 70% if you prefer a thinner, more
@@ -131,7 +131,7 @@ export default function SourdoughPizzaDough() {
         if you want to scale this recipe up or down. It handles the math so you can focus on the baking.
       </p>
 
-      <h2 className="mt-10 mb-3">Method: Mix, Bulk Ferment, Shape, Bake</h2>
+      <h2 className="mt-10 mb-3">How Do You Make Sourdough Pizza Dough?</h2>
 
       <h3 className="mt-6 mb-3 text-xl font-semibold">Step 1: Mix (5 minutes)</h3>
       <p className="mb-4">
@@ -182,7 +182,7 @@ export default function SourdoughPizzaDough() {
         overcooking the bottom.
       </p>
 
-      <h2 className="mt-10 mb-3">Troubleshooting Common Problems</h2>
+      <h2 className="mt-10 mb-3">How Do You Fix Sourdough Pizza Problems?</h2>
 
       <h3 className="mt-6 mb-3 text-xl font-semibold">Dough springs back when I stretch it</h3>
       <p className="mb-4">
@@ -226,7 +226,7 @@ export default function SourdoughPizzaDough() {
         transfers heat faster and cooks the bottom in less time.
       </p>
 
-      <h2 className="mt-10 mb-3">Equipment That Actually Helps</h2>
+      <h2 className="mt-10 mb-3">What Equipment Do You Need for Sourdough Pizza?</h2>
       <p className="mb-4">
         You can make great sourdough pizza with a regular baking sheet. But if you bake pizza
         often, two upgrades are worth it:
@@ -269,7 +269,7 @@ export default function SourdoughPizzaDough() {
         want truly Neapolitan-style pizza, 00 is the traditional choice.
       </p>
 
-      <h2 className="mt-10 mb-3">The Bottom Line</h2>
+      <h2 className="mt-10 mb-3">Is Sourdough Pizza Worth Making at Home?</h2>
       <p className="mb-4">
         Sourdough pizza is one of those rare recipes that is genuinely easier than the
         commercial-yeast version. You mix, you wait, you bake. The starter does all the hard work
@@ -283,24 +283,12 @@ export default function SourdoughPizzaDough() {
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>
         <ol className="list-decimal pl-6 space-y-3 text-sm text-brand-muted">
-          <li>
-            Reinhart, P. (2010). <em>The Bread Baker's Apprentice: Mastering the Art of Extraordinary Bread</em> (10th Anniversary Edition). Ten Speed Press. ISBN 978-1607741296. Chapter 8 covers pizza dough, including a 14-hour cold-fermented method using a stiff starter.
-          </li>
-          <li>
-            Forkish, K. (2012). <em>Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza</em>. Chronicle Books. ISBN 978-1607742736. Forkish's overnight pizza dough method (Chapter 9) uses a similar ratio to our recipe.
-          </li>
-          <li>
-            King Arthur Baking Company. "Sourdough Pizza Crust." King Arthur Baking. https://www.kingarthurbaking.com/recipes/breads/sourdough-pizza-crust. Accessed 2026.
-          </li>
-          <li>
-            Lopez-Alt, J.K. "The Food Lab: The Science of the Perfect Pizza." Serious Eats. https://www.seriouseats.com/the-pizza-lab. Accessed 2026. Covers oven temperature science and dough hydration tradeoffs.
-          </li>
-          <li>
-            Leo, M. "Sourdough Pizza Dough." The Perfect Loaf. https://www.theperfectloaf.com/sourdough-pizza-dough/. Accessed 2026. Detailed home-baker method with troubleshooting.
-          </li>
-          <li>
-            Robertson, C. (2013). <em>Tartine Bread</em>. Chronicle Books. ISBN 978-1452172867. Background on natural leavening and gluten development principles.
-          </li>
+          <li>Reinhart, P. (2010). <em>The Bread Baker's Apprentice: Mastering the Art of Extraordinary Bread</em>. Ten Speed Press.</li>
+          <li>Forkish, K. (2012). <em>Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza</em>. Chronicle Books.</li>
+          <li>King Arthur Baking. <a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="noopener">Sourdough Guide</a>. Accessed August 2026.</li>
+          <li>Serious Eats. <a href="https://www.seriouseats.com/" target="_blank" rel="noopener">Serious Eats: Pizza Science and Recipes</a>. Accessed August 2026.</li>
+          <li>Leo, M. <a href="https://www.theperfectloaf.com/sourdough-pizza-dough/" target="_blank" rel="noopener">Sourdough Pizza Dough</a>. The Perfect Loaf. Accessed August 2026.</li>
+          <li>Robertson, C. (2013). <em>Tartine Bread</em>. Chronicle Books.</li>
         </ol>
         <p className="mt-6 text-sm text-brand-muted italic">
           The recipe and method in this article are based on standard sourdough baking practices
