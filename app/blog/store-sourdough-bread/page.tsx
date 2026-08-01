@@ -80,7 +80,7 @@ export default function BlogPost() {
         freezer, and how to store the dough itself before you bake.
       </p>
 
-      <h2 className="mt-10 mb-3">The Short Answer</h2>
+      <h2 className="mt-10 mb-3">What Is the Best Way to Store Sourdough Bread?</h2>
       <p className="mb-4">
         <strong>Cut loaf:</strong> store at room temperature in a cotton bag or paper bag for 2-3 days. Never
         in plastic unless you want a soft, gummy crust.
@@ -95,7 +95,7 @@ export default function BlogPost() {
         That is the 30-second version. Below is the why and the how for each scenario.
       </p>
 
-      <h2 className="mt-10 mb-3">Why Sourdough Goes Stale (The Science)</h2>
+      <h2 className="mt-10 mb-3">Why Does Sourdough Go Stale?</h2>
       <p className="mb-4">
         Bread goes stale through a process called <strong>starch retrogradation</strong>. When bread cools,
         the gelatinized starch molecules in the crumb start to re-crystallize and squeeze out
@@ -112,7 +112,7 @@ export default function BlogPost() {
         even under the same storage conditions.
       </p>
 
-      <h2 className="mt-10 mb-3">Storage by Scenario</h2>
+      <h2 className="mt-10 mb-3">How Should You Store Sourdough Bread?</h2>
 
       <h3 className="mt-6 mb-3 text-xl font-semibold">1. Room Temperature, Cut Side Down (Best for 1-3 Days)</h3>
       <p className="mb-4">
@@ -210,7 +210,7 @@ export default function BlogPost() {
         crumb is slightly tighter, but most people cannot tell the difference.
       </p>
 
-      <h2 className="mt-10 mb-3">Common Storage Mistakes to Avoid</h2>
+      <h2 className="mt-10 mb-3">What Storage Mistakes Ruin Sourdough?</h2>
 
       <h3 className="mt-6 mb-3 text-xl font-semibold">Slicing before you need it</h3>
       <p className="mb-4">
@@ -236,7 +236,7 @@ export default function BlogPost() {
         and turns rancid quickly, especially at room temperature.
       </p>
 
-      <h2 className="mt-10 mb-3">Quick Reference Table</h2>
+      <h2 className="mt-10 mb-3">How Long Does Sourdough Bread Last?</h2>
       <p className="mb-4">
         <strong>Whole loaf, room temperature:</strong> cotton bag, 2-3 days<br/>
         <strong>Whole loaf, bread box:</strong> wooden box, 4-5 days<br/>
@@ -276,7 +276,7 @@ export default function BlogPost() {
         allowing some airflow.
       </p>
 
-      <h2 className="mt-10 mb-3">The Bottom Line</h2>
+      <h2 className="mt-10 mb-3">What Is the One Rule for Storing Sourdough?</h2>
       <p className="mb-4">
         For most home bakers: <strong>keep it at room temperature in a cotton bag or
         bread box for 2-3 days, then freeze the rest sliced.</strong> That single rule will
@@ -291,24 +291,12 @@ export default function BlogPost() {
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>
         <ol className="list-decimal pl-6 space-y-3 text-sm text-brand-muted">
-          <li>
-            Reinhart, P. (2010). <em>The Bread Baker's Apprentice: Mastering the Art of Extraordinary Bread</em> (10th Anniversary Edition). Ten Speed Press. ISBN 978-1607741296. Covers staling science and long fermentation storage.
-          </li>
-          <li>
-            Forkish, K. (2012). <em>Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza</em>. Chronicle Books. ISBN 978-1607742736. Detailed discussion of retarding dough and storage temperatures.
-          </li>
-          <li>
-            Calvel, R. (2001). <em>The Taste of Bread</em>. Translated by Ronald Wirtz. Aspen Publishers. ISBN 978-0834216450. The original French work on bread science, including retrogradation.
-          </li>
-          <li>
-            Leo, M. "How to Store Sourdough Bread So It Lasts." The Perfect Loaf. https://www.theperfectloaf.com/how-to-store-sourdough-bread/. Accessed 2026.
-          </li>
-          <li>
-            King Arthur Baking Company. "How to Store Bread." https://www.kingarthurbaking.com/learn/guides/storing-bread. Accessed 2026.
-          </li>
-          <li>
-            Rogers, R. "Sourdough Bread Storage Guide." Breadtopia. https://www.breadtopia.com/sourdough-bread-storage/. Accessed 2026.
-          </li>
+          <li>Reinhart, P. (2010). <em>The Bread Baker's Apprentice: Mastering the Art of Extraordinary Bread</em>. Ten Speed Press.</li>
+          <li>Forkish, K. (2012). <em>Flour Water Salt Yeast: The Fundamentals of Artisan Bread and Pizza</em>. Chronicle Books.</li>
+          <li>Calvel, R. (2001). <em>The Taste of Bread</em>. Aspen Publishers.</li>
+          <li>Leo, M. <a href="https://www.theperfectloaf.com/beginners-sourdough-bread/" target="_blank" rel="noopener">Beginner Sourdough Bread</a>. The Perfect Loaf. Accessed August 2026.</li>
+          <li>King Arthur Baking. <a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="noopener">Sourdough Guide</a>. Accessed August 2026.</li>
+          <li>Breadtopia. <a href="https://www.breadtopia.com/whole-grain-sourdough-bread/" target="_blank" rel="noopener">Whole Grain Sourdough Bread</a>. Accessed August 2026.</li>
         </ol>
         <p className="mt-6 text-sm text-brand-muted italic">
           The storage recommendations in this article are based on standard bread science
