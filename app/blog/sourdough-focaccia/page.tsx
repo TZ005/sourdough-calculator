@@ -63,7 +63,7 @@ export default function BlogPost() {
         Focaccia is the easiest sourdough bread to make. No shaping, no scoring, no banneton. You mix the dough, let it rise, dimple it with your fingers, and bake. The result is a thick, fluffy, golden slab of bread with a crispy bottom and an oily, herby top. This guide gives you the recipe, the timeline, and every trick to get restaurant-quality focaccia at home.
       </p>
 
-      <h2 className="mt-10 mb-3">Why Focaccia Is Perfect for Beginners</h2>
+      <h2 className="mt-10 mb-3">Why Is Focaccia Perfect for Beginners?</h2>
       <p className="mb-4">
         Most sourdough breads require shaping, scoring, and a Dutch oven. Focaccia skips all of that. You pour the dough into a pan, let it rise, poke it with your fingers to create the classic dimples, and bake. The dimples hold olive oil, herbs, and salt. There is no way to mess up the shape because the pan contains it.
       </p>
@@ -71,7 +71,7 @@ export default function BlogPost() {
         Focaccia is also the most forgiving sourdough recipe. Over-fermented dough? It still works. Under-fermented? Still works. Forgot to score? Nothing to score. Focaccia forgives almost every mistake a beginner makes.
       </p>
 
-      <h2 className="mt-10 mb-3">The Recipe (1 Pan, 9x13 inch)</h2>
+      <h2 className="mt-10 mb-3">What Is the Best Sourdough Focaccia Recipe?</h2>
       <p className="mb-4">
         This is a 75% hydration dough, lower than a round loaf because focaccia needs to hold its shape when you dimple it. The higher the hydration, the more the dough spreads in the pan.
       </p>
@@ -92,7 +92,7 @@ export default function BlogPost() {
         <li>Extra virgin olive oil: 25g (dough) + 30g (pan)</li>
       </ul>
 
-      <h2 className="mt-10 mb-3">Method</h2>
+      <h2 className="mt-10 mb-3">How Do You Make Sourdough Focaccia?</h2>
 
       <h3 className="mt-6 mb-3 text-xl font-semibold">Step 1: Mix (5 minutes)</h3>
       <p className="mb-4">
@@ -130,7 +130,7 @@ export default function BlogPost() {
         Let cool in the pan for 10 minutes, then transfer to a wire rack. Focaccia is best eaten warm but keeps well at room temperature for 2 days wrapped in a tea towel.
       </p>
 
-      <h2 className="mt-10 mb-3">Topping Ideas</h2>
+      <h2 className="mt-10 mb-3">What Toppings Work Best on Focaccia?</h2>
       <p className="mb-4">Classic focaccia uses just olive oil, flaky salt, and rosemary. But you can top with almost anything savory:</p>
       <ul className="list-disc pl-6 space-y-2 my-4">
         <li><strong>Classic:</strong> olive oil, flaky sea salt, fresh rosemary</li>
@@ -141,7 +141,7 @@ export default function BlogPost() {
         <li><strong>Caramelized onion:</strong> slow-cooked onions, thyme, gruyere</li>
       </ul>
 
-      <h2 className="mt-10 mb-3">Common Problems and Fixes</h2>
+      <h2 className="mt-10 mb-3">Why Is My Focaccia Dense or Gummy?</h2>
 
       <h3 className="mt-6 mb-3 text-xl font-semibold">Focaccia is dense and gummy</h3>
       <p className="mb-4"><strong>Cause:</strong> under-proofed or under-baked.</p>
@@ -159,7 +159,7 @@ export default function BlogPost() {
       <p className="mb-4"><strong>Cause:</strong> not enough oil, or wrong pan material.</p>
       <p className="mb-4"><strong>Fix:</strong> use a metal pan (not glass or silicone, which stick more). Use plenty of oil. Cut and remove focaccia from the pan within 15 minutes of baking.</p>
 
-      <h2 className="mt-10 mb-3">The Bottom Line</h2>
+      <h2 className="mt-10 mb-3">Is Focaccia the Easiest Sourdough Bread?</h2>
       <p className="mb-4">
         Focaccia is the gateway sourdough bread. If you are new to sourdough, make this before anything else. No shaping, no scoring, no Dutch oven. Just mix, rise, dimple, bake. The result is a thick, fluffy, golden slab that will make you look like a professional baker.
       </p>
@@ -171,12 +171,12 @@ export default function BlogPost() {
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>
         <ol className="list-decimal pl-6 space-y-3 text-sm text-brand-muted">
-          <li>Reinhart, P. (2010). The Bread Bakers Apprentice. Ten Speed Press. ISBN 978-1607741296. Focaccia formula and method.</li>
-          <li>Forkish, K. (2012). Flour Water Salt Yeast. Chronicle Books. ISBN 978-1607742736. Overnight focaccia technique.</li>
-          <li>Hamelman, J. (2004). Bread: A Bakers Book of Techniques and Recipes. John Wiley and Sons. ISBN 978-0471292857.</li>
-          <li>Suas, M. (2009). Advanced Bread and Pastry. Delmar Cengage Learning. ISBN 978-1417420440.</li>
-          <li>King Arthur Baking. Sourdough Focaccia. https://www.kingarthurbaking.com/recipes/breads/sourdough-focaccia. Accessed 2026.</li>
-          <li>Leo, M. The Perfect Loaf Sourdough Focaccia. https://www.theperfectloaf.com/sourdough-focaccia/. Accessed 2026.</li>
+          <li>Reinhart, P. (2010). The Bread Baker's Apprentice. Ten Speed Press.</li>
+          <li>Forkish, K. (2012). Flour Water Salt Yeast. Chronicle Books.</li>
+          <li>Hamelman, J. (2004). Bread: A Baker's Book of Techniques and Recipes. John Wiley and Sons.</li>
+          <li>Suas, M. (2009). Advanced Bread and Pastry. Delmar Cengage Learning.</li>
+          <li>King Arthur Baking. <a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="noopener">Sourdough Guide</a>. Accessed August 2026.</li>
+          <li>Leo, M. <a href="https://www.theperfectloaf.com/beginners-sourdough-bread/" target="_blank" rel="noopener">Beginner Sourdough Bread</a>. The Perfect Loaf. Accessed August 2026.</li>
         </ol>
       </section><NextPostNav slug="sourdough-focaccia" />
         </article>

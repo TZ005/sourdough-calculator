@@ -63,7 +63,7 @@ export default function BlogPost() {
         Real New York bagels are made by boiling the dough before baking. That step is what gives bagels their signature chewy interior and shiny, blistered crust. Sourdough bagels combine that classic technique with the flavor and digestibility of wild fermentation. The result is a bagel that is denser than a baguette, more flavorful than a commercial bagel, and surprisingly easy to make at home.
       </p>
 
-      <h2 className="mt-10 mb-3">Why Sourdough Bagels Are Different</h2>
+      <h2 className="mt-10 mb-3">Why Are Sourdough Bagels Different?</h2>
       <p className="mb-4">
         A traditional New York bagel uses commercial yeast, a high-protein flour, and a short fermentation. Sourdough bagels use a longer, cooler fermentation that develops the same lactic tang you get in sourdough bread. The longer ferment also breaks down more of the gluten, which makes bagels easier to digest than their commercial cousins.
       </p>
@@ -71,7 +71,7 @@ export default function BlogPost() {
         The key technique is unchanged: high-protein dough, shaped into rings, briefly boiled in alkaline water (baking soda or malt), then baked at high heat. The boiling step is what gives bagels their distinctive chewy texture and glossy crust. Skipping the boil is a common mistake that produces a bread roll, not a bagel.
       </p>
 
-      <h2 className="mt-10 mb-3">The Recipe (8 Bagels)</h2>
+      <h2 className="mt-10 mb-3">What Is the Best Sourdough Bagel Recipe?</h2>
       <p className="mb-4">
         This is a stiff, 55% hydration dough. Bagels need less water than other breads because the dough has to hold its shape when shaped and when boiled. Use bread flour or high-gluten flour for the chewiest result.
       </p>
@@ -92,7 +92,7 @@ export default function BlogPost() {
         <li>Barley malt syrup (or brown sugar): 20g</li>
       </ul>
 
-      <h2 className="mt-10 mb-3">Method</h2>
+      <h2 className="mt-10 mb-3">How Do You Make Sourdough Bagels?</h2>
 
       <h3 className="mt-6 mb-3 text-xl font-semibold">Step 1: Mix (10 minutes)</h3>
       <p className="mb-4">
@@ -130,7 +130,7 @@ export default function BlogPost() {
         Let cool on a wire rack for at least 15 minutes before cutting. Bagels continue cooking as they cool.
       </p>
 
-      <h2 className="mt-10 mb-3">Topping Ideas</h2>
+      <h2 className="mt-10 mb-3">What Toppings Work Best on Bagels?</h2>
       <p className="mb-4">Classic New York bagels use simple, bold toppings. Brush with egg wash first, then dip in your topping of choice before baking:</p>
       <ul className="list-disc pl-6 space-y-2 my-4">
         <li><strong>Plain:</strong> just egg wash, nothing else. Lets the bagel flavor shine.</li>
@@ -142,7 +142,7 @@ export default function BlogPost() {
         <li><strong>Asiago cheese:</strong> grated asiago pressed on before baking.</li>
       </ul>
 
-      <h2 className="mt-10 mb-3">Common Problems and Fixes</h2>
+      <h2 className="mt-10 mb-3">Why Do My Bagels Deflate or Lose Their Shine?</h2>
 
       <h3 className="mt-6 mb-3 text-xl font-semibold">Bagels deflate when boiled</h3>
       <p className="mb-4"><strong>Cause:</strong> under-proofed or too soft when going into the water.</p>
@@ -160,7 +160,7 @@ export default function BlogPost() {
       <p className="mb-4"><strong>Cause:</strong> shaped the hole too small, or it closed up during proofing.</p>
       <p className="mb-4"><strong>Fix:</strong> stretch the hole to at least 1.5 inches when shaping. During the cold proof, check the bagels: if the hole has shrunk significantly, stretch it again before boiling.</p>
 
-      <h2 className="mt-10 mb-3">The Bottom Line</h2>
+      <h2 className="mt-10 mb-3">Are Sourdough Bagels Worth Making at Home?</h2>
       <p className="mb-4">
         Sourdough bagels look intimidating but are surprisingly forgiving. The high-protein dough and cold proof make the shaping easy, the boil gives the classic chew, and the bake is fast. The result is a bagel that beats anything you can buy, with deeper flavor and better digestibility.
       </p>
@@ -172,12 +172,12 @@ export default function BlogPost() {
       <section className="max-w-3xl mx-auto px-6 mt-10 pt-8 border-t border-brand-tan">
         <h2 className="text-2xl mb-4">References</h2>
         <ol className="list-decimal pl-6 space-y-3 text-sm text-brand-muted">
-          <li>Reinhart, P. (2010). The Bread Bakers Apprentice. Ten Speed Press. ISBN 978-1607741296. Bagel formula and boiling method.</li>
-          <li>Forkish, K. (2012). Flour Water Salt Yeast. Chronicle Books. ISBN 978-1607742736. Sourdough bagel approach.</li>
-          <li>Hamelman, J. (2004). Bread: A Bakers Book of Techniques and Recipes. John Wiley and Sons. ISBN 978-0471292857.</li>
-          <li>Suas, M. (2009). Advanced Bread and Pastry. Delmar Cengage Learning. ISBN 978-1417420440.</li>
-          <li>King Arthur Baking. Sourdough Bagels. https://www.kingarthurbaking.com/recipes/breads/sourdough-bagels. Accessed 2026.</li>
-          <li>Leo, M. The Perfect Loaf Sourdough Bagels. https://www.theperfectloaf.com/sourdough-bagels/. Accessed 2026.</li>
+          <li>Reinhart, P. (2010). The Bread Baker's Apprentice. Ten Speed Press.</li>
+          <li>Forkish, K. (2012). Flour Water Salt Yeast. Chronicle Books.</li>
+          <li>Hamelman, J. (2004). Bread: A Baker's Book of Techniques and Recipes. John Wiley and Sons.</li>
+          <li>Suas, M. (2009). Advanced Bread and Pastry. Delmar Cengage Learning.</li>
+          <li>King Arthur Baking. <a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="noopener">Sourdough Guide</a>. Accessed August 2026.</li>
+          <li>Leo, M. <a href="https://www.theperfectloaf.com/beginners-sourdough-bread/" target="_blank" rel="noopener">Beginner Sourdough Bread</a>. The Perfect Loaf. Accessed August 2026.</li>
         </ol>
       </section><NextPostNav slug="sourdough-bagels" />
         </article>
