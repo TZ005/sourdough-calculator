@@ -5,6 +5,11 @@ const emoji = "📖";
 const apostrophe = "\u2019";
 
 const POSTS: Post[] = [
+  { slug: "sourdough-hydration-chart", title: "Sourdough Hydration Chart: 50% to 100% Explained", excerpt: "What 50%, 70%, 80%, and 100% hydration actually look like in the bowl and in the crumb, with a full chart and beginner guidance.", readTime: "8 min" },
+  { slug: "how-much-starter-to-use", title: "How Much Sourdough Starter Should You Use?", excerpt: "The starter amount changes rise speed, flavor, and structure. Learn what 10%, 15%, 20%, and 25% look like and how to choose.", readTime: "7 min" },
+  { slug: "why-is-my-sourdough-sticky", title: "Why Is My Sourdough Sticky? 7 Causes and Fixes", excerpt: "Sticky dough is normal at first, but it can also signal too much water, weak gluten, or over-fermentation. Here is how to tell and what to do.", readTime: "8 min" },
+  { slug: "best-sourdough-bread-recipe", title: "Best Sourdough Bread Recipe for Beginners", excerpt: "A simple 75% hydration loaf with clear timing, shaping, and baking steps. No fancy equipment required beyond a Dutch oven and a scale.", readTime: "10 min" },
+  { slug: "sourdough-beginners-timeline", title: "Sourdough for Beginners: Week-by-Week Timeline", excerpt: "What to do in week one, two, and three when you are new to sourdough: starter, first loaves, and the skills that matter most.", readTime: "9 min" },
   { slug: "didnt-rise", title: "Why Your Sourdough Did Not Rise: 12 Common Causes and How to Fix Each", excerpt: "Troubleshooting guide for flat, dense, or sunken sourdough. 12 common causes with specific fixes, from weak starter to oven temperature mistakes.", readTime: "10 min" },
   { slug: "rye-sourdough", title: "Rye Sourdough: A Beginner\u2019s Guide to Dark, Flavorful, Traditional Bread", excerpt: "Rye sourdough is a different beast from wheat. Here\u2019s how to work with rye\u2019s unique properties for dark, moist, intensely flavored bread.", readTime: "8 min" },
   { slug: "shaping-boule", title: "How to Shape a Sourdough Boule: 3 Methods for Beginners", excerpt: "Step-by-step instructions for shaping a tight, round boule. Three methods from simple to advanced, with troubleshooting.", readTime: "7 min" },
