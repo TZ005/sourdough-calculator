@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About - SourdoughCalc",
   description: "About SourdoughCalc - the free sourdough hydration calculator for home bakers.",
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/about/",
+  },
 };
 
 export default function About() {

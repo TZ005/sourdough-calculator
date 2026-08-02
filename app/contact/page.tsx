@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact - SourdoughCalc",
   description: "Get in touch with the SourdoughCalc team.",
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/contact/",
+  },
 };
 
 export default function Contact() {

@@ -3,6 +3,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms of Service - SourdoughCalc",
   description: "Terms of service for SourdoughCalc, the free sourdough hydration calculator for home bakers.",
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/terms/",
+  },
 };
 
 export default function Terms() {

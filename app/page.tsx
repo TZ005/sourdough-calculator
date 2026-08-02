@@ -8,7 +8,7 @@ import AffiliateLink from "@/components/AffiliateLink";
 export const metadata: Metadata = {
   title: "Sourdough Hydration Calculator - Free Instant Recipe Tool",
   description: "Free sourdough hydration calculator. Enter flour weight to get exact water, salt and starter ratios, plus a 50%-100% hydration chart. No signup.",
-  keywords: ["sourdough hydration calculator", "sourdough calculator", "hydration calculator", "bakers percentage calculator", "sourdough recipe calculator"],
+  keywords: ["sourdough hydration calculator", "sourdough calculator", "bakers percentage calculator"],
   alternates: {
     canonical: "https://sourdough-hydrationcalculator.com/",
   },

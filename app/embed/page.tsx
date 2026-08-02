@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Sourdough Hydration Calculator - Embed",
   robots: { index: false },
   description: "Embeddable sourdough hydration calculator widget. Add a free interactive calculator to your website or blog with one line of HTML.",
+  alternates: {
+    canonical: "https://sourdough-hydrationcalculator.com/embed/",
+  },
 };
 
 export default function Embed() {
