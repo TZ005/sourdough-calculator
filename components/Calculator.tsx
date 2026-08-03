@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, type ChangeEvent } from "react";
 import { WaterIcon, SaltIcon, FlourIcon, JarIcon, BreadIcon, GlassIcon, ScaleIcon, PrinterIcon, CopyIcon, CheckIcon, OliveOilIcon, SugarIcon } from "./CalculatorIcons";
@@ -8,7 +8,7 @@ interface Preset {
   h: number;
 }
 
-type Unit = "g" | "cup";
+type Unit = "g" | "oz" | "cup";
 
 const PRESETS: Preset[] = [
   { name: "Bagel (65%)", h: 65 },
@@ -28,10 +28,24 @@ const CUP_GRAMS: Record<"flour" | "water" | "salt" | "starter", number> = {
 };
 
 function fmt(n: number, kind: "flour" | "water" | "salt" | "starter" | "oil" | "sugar", unit: Unit): string {
-  if (n <= 0) return unit === "g" ? "0 g" : "0";
+  if (n <= 0) {
+    if (unit === "g") return "0 g";
+    if (unit === "oz") return "0 oz";
+    return "0";
+  }
   if (unit === "g") {
     if (n >= 1000) return (n / 1000).toFixed(2) + " kg";
     return n.toFixed(1) + " g";
+  }
+  if (unit === "oz") {
+    const oz = n / 28.3495;
+    if (kind === "salt") return oz.toFixed(2) + " oz";
+    if (oz >= 16) {
+      const lb = Math.floor(oz / 16);
+      const remOz = oz - lb * 16;
+      return lb + " lb " + remOz.toFixed(1) + " oz";
+    }
+    return oz.toFixed(1) + " oz";
   }
   // cup mode
   if (kind === "salt") {
@@ -58,7 +72,12 @@ function fmtSimpleGrams(n: number, unit: Unit): string {
     if (n >= 1000) return (n / 1000).toFixed(2) + " kg";
     return n.toFixed(0) + " g";
   }
-  // fallback for totalDough
+  if (unit === "oz") {
+    const oz = n / 28.3495;
+    if (oz >= 16) return (oz / 16).toFixed(2) + " lb";
+    return oz.toFixed(0) + " oz";
+  }
+  // fallback for totalDough (cup mode keeps kg)
   return (n / 1000).toFixed(2) + " kg";
 }
 
@@ -153,6 +172,19 @@ export default function Calculator(): JSX.Element {
           </button>
           <button
             type="button"
+            onClick={() => setUnit("oz")}
+            className={
+              "px-3 py-1.5 rounded-md font-medium border transition-colors " +
+              (unit === "oz"
+                ? "bg-brand-brown text-white border-brand-brown"
+                : "bg-white text-brand-dark border-[#E8DDC8] hover:border-brand-brown")
+            }
+            aria-pressed={unit === "oz"}
+          >
+            Ounces (oz)
+          </button>
+          <button
+            type="button"
             onClick={() => setUnit("cup")}
             className={
               "px-3 py-1.5 rounded-md font-medium border transition-colors " +
@@ -170,7 +202,7 @@ export default function Calculator(): JSX.Element {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-7">
 
         <div className="flex flex-col">
-          <label className="font-semibold mb-1.5 text-brand-dark">Flour Weight (g)</label>
+          <label className="font-semibold mb-1.5 text-brand-dark">Flour Weight ({unit})</label>
           <input
             type="number"
             value={flour}
