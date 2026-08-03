@@ -32,11 +32,11 @@ Format: one section per backlink with date, URL, anchor, DR estimate, status.
 | Anchor text | "Sourdough Hydration Calculator" + 主站 URL (in body) |
 | DR estimate | ~90 |
 | Purpose | SEO lessons learned article (after 28-commit audit upgrade) |
-| Canonical | https://sourdough-hydrationcalculator.com |
+| Canonical | https://sourdough-hydrationcalculator.com/blog/sourdough-hydration-chart/ |
 | Expected impact | +1 to +3 positions on Google in 1-3 months |
 
 ### Notes
-- ⚠️ **Canonical 与 article 1 重复**（都是裸首页）。Google 会去重，权重算一份。下一个 dev.to 文章（article 3）已经换了独立内页，避免继续撞。
+- ✅ Canonical 已于 2026-08-03 从裸首页改为 `/blog/sourdough-hydration-chart/`（独立内页，与 article 1 / 3 都不冲突）
 
 ### GSC submission status
 - [ ] Submit to GSC as external link
