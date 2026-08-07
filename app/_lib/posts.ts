@@ -5,6 +5,7 @@ const emoji = "📖";
 const apostrophe = "\u2019";
 
 const POSTS: Post[] = [
+  { slug: "best-sourdough-starter-kit", title: "Best Sourdough Starter Kit for Beginners (2026): What You Actually Need", excerpt: "You do not need a $60 kit. Here are the 4 things worth buying, the 3 things to skip, and exact Amazon picks for 2026.", readTime: "7 min" },
   { slug: "best-sourdough-proofing-box", title: "Best Sourdough Proofing Box: When You Need One and How to Choose", excerpt: "A proofing box controls dough temperature for predictable fermentation. Here is when you actually need one, your DIY alternatives, and the best picks at every price point.", readTime: "7 min" },
   { slug: "how-to-score-sourdough-bread", title: "How to Score Sourdough Bread: Patterns, Tools, and When to Cut", excerpt: "Scoring is the final artistic step in sourdough. Here is when to cut, what tools you need, the classic patterns, and the common mistakes that ruin a good loaf.", readTime: "7 min" },
   { slug: "best-sourdough-banneton", title: "Sourdough Banneton: What It Does, Why It Matters, and How to Choose Yours", excerpt: "Every artisan sourdough loaf has the distinctive ridges and shape from a banneton. Here is what it does, the three materials compared, and how to pick one for your style.", readTime: "7 min" },
