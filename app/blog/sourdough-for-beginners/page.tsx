@@ -8,8 +8,8 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 export const metadata: Metadata = {
-  title: "Sourdough for Beginners: Your First Loaf Guide",
-  description: "Want to make your first sourdough loaf? This step-by-step guide takes you from building a starter to baking your first crusty boule. No experience needed.",
+  title: "Sourdough for Beginners: 2026 Step-by-Step Guide to Your First Loaf",
+  description: "Bake your first sourdough loaf in 2026. From starter to crusty boule in 8 hours active time, 24 hours total. Tested recipe, hydration calculator, troubleshooting FAQ.",
   keywords: ["sourdough for beginners","first sourdough loaf","sourdough starter recipe","how to make sourdough"],
 
   alternates: {
@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     siteName: "SourdoughCalc",
-    title: "Sourdough for Beginners: Your First Loaf Guide",
-    description: "Want to make your first sourdough loaf? This step-by-step guide takes you from building a starter to baking your first crusty boule. No experience needed.",
+    title: "Sourdough for Beginners: 2026 Step-by-Step Guide to Your First Loaf",
+    description: "Bake your first sourdough loaf in 2026. From starter to crusty boule in 8 hours active time, 24 hours total. Tested recipe, hydration calculator, troubleshooting FAQ.",
     type: "article",
     url: "https://sourdough-hydrationcalculator.com/blog/sourdough-for-beginners/",
     publishedTime: "2026-07-25T08:00:00Z",
@@ -26,14 +26,14 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blog/sourdough-for-beginners.webp",
-        alt: "Sourdough for Beginners: Your First Loaf Guide",
+        alt: "Sourdough for Beginners: 2026 Step-by-Step Guide to Your First Loaf",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sourdough for Beginners: Your First Loaf Guide",
-    description: "Want to make your first sourdough loaf? This step-by-step guide takes you from building a starter to baking your first crusty boule. No experience needed.",
+    title: "Sourdough for Beginners: 2026 Step-by-Step Guide to Your First Loaf",
+    description: "Bake your first sourdough loaf in 2026. From starter to crusty boule in 8 hours active time, 24 hours total. Tested recipe, hydration calculator, troubleshooting FAQ.",
     images: ["/images/blog/sourdough-for-beginners.webp"],
   },
 };
@@ -47,8 +47,8 @@ export default function BlogPost() {
     <>
       <ArticleSchema
         slug="sourdough-for-beginners"
-        title="Sourdough for Beginners: Your First Loaf Guide"
-        description="Want to make your first sourdough loaf? This step-by-step guide takes you from building a starter to baking your first crusty boule. No experience needed."
+        title="Sourdough for Beginners: 2026 Step-by-Step Guide to Your First Loaf"
+        description="Bake your first sourdough loaf in 2026. From starter to crusty boule in 8 hours active time, 24 hours total. Tested recipe, hydration calculator, troubleshooting FAQ."
         image="/images/blog/sourdough-for-beginners.webp"
         datePublished="2026-07-25T08:00:00Z"
         dateModified="2026-07-25T08:00:00Z"

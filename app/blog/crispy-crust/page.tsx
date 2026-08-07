@@ -7,8 +7,8 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 export const metadata: Metadata = {
-  title: "Sourdough Crust: 7 Tips for a Bakery-Style Crackle",
-  description: "Want that signature crackling sourdough crust? Seven proven tips for oven spring, steam, and the perfect crackle every time.",
+  title: "Sourdough Crust: 7 Tips for Crackling Bakery-Style Bread (2026)",
+  description: "7 proven techniques for crackling bakery-style sourdough crust: oven spring, steam, hydration tricks, scoring patterns. Updated 2026.",
   keywords: ["sourdough crust", "crispy sourdough crust", "sourdough oven spring", "crusty bread", "sourdough steam"],
 
   alternates: {
@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     siteName: "SourdoughCalc",
-    title: "Sourdough Crust: 7 Tips for a Bakery-Style Crackle",
-    description: "Want that signature crackling sourdough crust? Seven proven tips for oven spring, steam, and the perfect crackle every time.",
+    title: "Sourdough Crust: 7 Tips for Crackling Bakery-Style Bread (2026)",
+    description: "7 proven techniques for crackling bakery-style sourdough crust: oven spring, steam, hydration tricks, scoring patterns. Updated 2026.",
     type: "article",
     url: "https://sourdough-hydrationcalculator.com/blog/crispy-crust/",
     publishedTime: "2026-07-15",
@@ -25,14 +25,14 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blog/crispy-crust.webp",
-        alt: "Sourdough Crust: 7 Tips for a Bakery-Style Crackle",
+        alt: "Sourdough Crust: 7 Tips for Crackling Bakery-Style Bread (2026)",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sourdough Crust: 7 Tips for a Bakery-Style Crackle",
-    description: "Want that signature crackling sourdough crust? Seven proven tips for oven spring, steam, and the perfect crackle every time.",
+    title: "Sourdough Crust: 7 Tips for Crackling Bakery-Style Bread (2026)",
+    description: "7 proven techniques for crackling bakery-style sourdough crust: oven spring, steam, hydration tricks, scoring patterns. Updated 2026.",
     images: ["/images/blog/crispy-crust.webp"],
   },
 };
@@ -47,8 +47,8 @@ export default function CrispyCrust() {
 
       <ArticleSchema
         slug="crispy-crust"
-        title="Sourdough Crust: 7 Tips for a Bakery-Style Crackle"
-        description="Want that signature crackling sourdough crust? Seven proven tips for oven spring, steam, and the perfect crackle every time."
+        title="Sourdough Crust: 7 Tips for Crackling Bakery-Style Bread (2026)"
+        description="7 proven techniques for crackling bakery-style sourdough crust: oven spring, steam, hydration tricks, scoring patterns. Updated 2026."
         image="/images/blog/crispy-crust.webp"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"

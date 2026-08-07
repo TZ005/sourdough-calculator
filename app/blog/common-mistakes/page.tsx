@@ -9,8 +9,8 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 export const metadata: Metadata = {
-  title: "5 Common Sourdough Mistakes and How to Fix Them",
-  description: "Dense crumb, flat loaf, gummy texture? These are the 5 most common sourdough mistakes and exactly how to fix each one, with troubleshooting and timing guides.",
+  title: "5 Common Sourdough Mistakes (and the 5-Minute Fix for Each)",
+  description: "Dense crumb, flat loaf, gummy texture? Diagnose and fix any sourdough problem in 5 minutes with this visual troubleshooting guide. Updated for 2026.",
   keywords: ["sourdough mistakes","sourdough troubleshooting","dense sourdough","flat sourdough loaf"],
 
   alternates: {
@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     siteName: "SourdoughCalc",
-    title: "5 Common Sourdough Mistakes and How to Fix Them",
-    description: "Dense crumb, flat loaf, gummy texture? These are the 5 most common sourdough mistakes and exactly how to fix each one, with troubleshooting and timing guides.",
+    title: "5 Common Sourdough Mistakes (and the 5-Minute Fix for Each)",
+    description: "Dense crumb, flat loaf, gummy texture? Diagnose and fix any sourdough problem in 5 minutes with this visual troubleshooting guide. Updated for 2026.",
     type: "article",
     url: "https://sourdough-hydrationcalculator.com/blog/common-mistakes/",
     publishedTime: "2026-07-15",
@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blog/common-mistakes.png",
-        alt: "5 Common Sourdough Mistakes and How to Fix Them",
+        alt: "5 Common Sourdough Mistakes (and the 5-Minute Fix for Each)",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "5 Common Sourdough Mistakes and How to Fix Them",
-    description: "Dense crumb, flat loaf, gummy texture? These are the 5 most common sourdough mistakes and exactly how to fix each one, with troubleshooting and timing guides.",
+    title: "5 Common Sourdough Mistakes (and the 5-Minute Fix for Each)",
+    description: "Dense crumb, flat loaf, gummy texture? Diagnose and fix any sourdough problem in 5 minutes with this visual troubleshooting guide. Updated for 2026.",
     images: ["/images/blog/common-mistakes.png"],
   },
 };
@@ -49,8 +49,8 @@ export default function CommonMistakes() {
 
       <ArticleSchema
         slug="common-mistakes"
-        title="5 Common Sourdough Mistakes and How to Fix Them"
-        description="Dense crumb, flat loaf, gummy texture? These are the 5 most common sourdough mistakes and exactly how to fix each one, with troubleshooting and timing guides."
+        title="5 Common Sourdough Mistakes (and the 5-Minute Fix for Each)"
+        description="Dense crumb, flat loaf, gummy texture? Diagnose and fix any sourdough problem in 5 minutes with this visual troubleshooting guide. Updated for 2026."
         image="/images/blog/common-mistakes.png"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"

@@ -9,8 +9,8 @@ import AffiliateDisclosure from "@/components/AffiliateDisclosure";
 
 
 export const metadata: Metadata = {
-  title: "Baker's Percentage: Convert Any Recipe (With Calculator)",
-  description: "Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, and never guess hydration again.",
+  title: "Baker's Percentage Calculator: Convert Any Recipe in 5 Minutes",
+  description: "Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, never guess hydration again. 2026 guide with free calculator.",
   keywords: ["bakers percentage","bakers percentage calculator","convert to bakers percentage","bread formula"],
 
   alternates: {
@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     siteName: "SourdoughCalc",
-    title: "Baker's Percentage: Convert Any Recipe (With Calculator)",
-    description: "Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, and never guess hydration again.",
+    title: "Baker's Percentage Calculator: Convert Any Recipe in 5 Minutes",
+    description: "Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, never guess hydration again. 2026 guide with free calculator.",
     type: "article",
     url: "https://sourdough-hydrationcalculator.com/blog/bakers-percentage/",
     publishedTime: "2026-07-15",
@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blog/bakers-percentage.webp",
-        alt: "Baker's Percentage: Convert Any Recipe (With Calculator)",
+        alt: "Baker's Percentage Calculator: Convert Any Recipe in 5 Minutes",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Baker's Percentage: Convert Any Recipe (With Calculator)",
-    description: "Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, and never guess hydration again.",
+    title: "Baker's Percentage Calculator: Convert Any Recipe in 5 Minutes",
+    description: "Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, never guess hydration again. 2026 guide with free calculator.",
     images: ["/images/blog/bakers-percentage.webp"],
   },
 };
@@ -49,8 +49,8 @@ export default function BakersPercentage() {
 
       <ArticleSchema
         slug="bakers-percentage"
-        title="Baker's Percentage: Convert Any Recipe (With Calculator)"
-        description="Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, and never guess hydration again."
+        title="Baker's Percentage Calculator: Convert Any Recipe in 5 Minutes"
+        description="Master baker's percentage in 5 minutes. Convert any bread recipe, scale to your loaf size, never guess hydration again. 2026 guide with free calculator."
         image="/images/blog/bakers-percentage.webp"
         datePublished="2026-07-15"
         dateModified="2026-07-25T08:00:00Z"
