@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     url: "https://sourdough-hydrationcalculator.com/blog/best-sourdough-tortillas/",
     publishedTime: "2026-08-11",
     modifiedTime: "2026-08-11",
-    images: [{ url: "/images/blog/sourdough-focaccia.webp", alt: "Fresh sourdough tortillas stacked on a wooden board with cast iron comal in background" }],
+    images: [{ url: "/images/blog/sourdough-tortillas-2026.webp", alt: "Fresh sourdough tortillas stacked on a wooden board with cast iron comal in background" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Sourdough Tortillas: Soft, Chewy, and Naturally Leavened (2026)",
     description: "Learn how to make soft sourdough tortillas from active starter or discard. Includes hydration ratios, rolling technique, and 3 tested recipes (wheat, spelt, corn blend).",
-    images: ["/images/blog/sourdough-focaccia.webp"],
+    images: ["/images/blog/sourdough-tortillas-2026.webp"],
   },
 };
 
@@ -35,13 +35,26 @@ export default function BestSourdoughTortillas() {
         slug="best-sourdough-tortillas"
         title="Sourdough Tortillas: Soft, Chewy, and Naturally Leavened (2026)"
         description="Learn how to make soft sourdough tortillas from active starter or discard. Includes hydration ratios, rolling technique, and 3 tested recipes (wheat, spelt, corn blend)."
-        image="/images/blog/sourdough-focaccia.webp"
+        image="/images/blog/sourdough-tortillas-2026.webp"
         datePublished="2026-08-11"
         dateModified="2026-08-11"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
         <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline"><span className="text-2xl">←</span> Back to Blog</Link>
+        <picture>
+          <source srcSet="/images/blog/sourdough-tortillas-2026.webp" type="image/webp" />
+          <img
+            src="/images/blog/sourdough-tortillas-2026.webp"
+            alt="A stack of soft sourdough tortillas with golden-brown spots on a wooden board"
+            width="1200"
+            height="800"
+            className="w-full rounded-xl my-8"
+            loading="eager"
+            fetchPriority="high"
+          />
+        </picture>
+
 
         <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough Tortillas: Soft, Chewy, and Naturally Leavened (2026)</h1>
         <p className="text-brand-muted text-sm mb-8">📖 6 min read · Updated August 2026</p>

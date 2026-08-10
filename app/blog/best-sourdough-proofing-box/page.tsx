@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     url: "https://sourdough-hydrationcalculator.com/blog/best-sourdough-proofing-box/",
     publishedTime: "2026-08-04",
     modifiedTime: "2026-08-04",
-    images: [{ url: "/images/blog/sourdough-focaccia.webp", alt: "Sourdough dough proofing in a temperature-controlled proofing box" }],
+    images: [{ url: "/images/blog/sourdough-proofing-box-2026.webp", alt: "Sourdough dough proofing in a temperature-controlled proofing box" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Sourdough Proofing Box: When You Need One and How to Choose",
     description: "A proofing box holds sourdough dough at a stable temperature for predictable fermentation. Here is when you actually need one, the DIY alternatives, and the best options at every price point.",
-    images: ["/images/blog/sourdough-focaccia.webp"],
+    images: ["/images/blog/sourdough-proofing-box-2026.webp"],
   },
 };
 
@@ -35,13 +35,26 @@ export default function BestSourdoughProofingBox() {
         slug="best-sourdough-proofing-box"
         title="Best Sourdough Proofing Box: When You Need One and How to Choose"
         description="A proofing box holds sourdough dough at a stable temperature for predictable fermentation. Here is when you actually need one, the DIY alternatives, and the best options at every price point."
-        image="/images/blog/sourdough-focaccia.webp"
+        image="/images/blog/sourdough-proofing-box-2026.webp"
         datePublished="2026-08-04"
         dateModified="2026-08-04"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
         <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline"><span className="text-2xl">←</span> Back to Blog</Link>
+        <picture>
+          <source srcSet="/images/blog/sourdough-proofing-box-2026.webp" type="image/webp" />
+          <img
+            src="/images/blog/sourdough-proofing-box-2026.webp"
+            alt="Sourdough dough proofing inside a countertop proofing box with a temperature display"
+            width="1200"
+            height="800"
+            className="w-full rounded-xl my-8"
+            loading="eager"
+            fetchPriority="high"
+          />
+        </picture>
+
 
         <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Best Sourdough Proofing Box: When You Need One and How to Choose</h1>
         <p className="text-brand-muted text-sm mb-8">📖 7 min read · Updated August 2026</p>

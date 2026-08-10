@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     url: "https://sourdough-hydrationcalculator.com/blog/best-sourdough-starter-kit/",
     publishedTime: "2026-08-08",
     modifiedTime: "2026-08-08",
-    images: [{ url: "/images/blog/sourdough-starter.webp", alt: "Glass jar with sourdough starter on a kitchen counter next to a digital scale" }],
+    images: [{ url: "/images/blog/sourdough-starter-kit-2026.webp", alt: "Glass jar with sourdough starter on a kitchen counter next to a digital scale" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Best Sourdough Starter Kit for Beginners (2026): What You Actually Need",
     description: "Building your first sourdough starter? You do not need a $60 kit. Here are the 4 things worth buying, the 3 things to skip, and the exact Amazon picks we recommend in 2026.",
-    images: ["/images/blog/sourdough-starter.webp"],
+    images: ["/images/blog/sourdough-starter-kit-2026.webp"],
   },
 };
 
@@ -35,13 +35,26 @@ export default function BestSourdoughStarterKit() {
         slug="best-sourdough-starter-kit"
         title="Best Sourdough Starter Kit for Beginners (2026): What You Actually Need"
         description="Building your first sourdough starter? You do not need a $60 kit. Here are the 4 things worth buying, the 3 things to skip, and the exact Amazon picks we recommend in 2026."
-        image="/images/blog/sourdough-starter.webp"
+        image="/images/blog/sourdough-starter-kit-2026.webp"
         datePublished="2026-08-08"
         dateModified="2026-08-08"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
         <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline"><span className="text-2xl">←</span> Back to Blog</Link>
+        <picture>
+          <source srcSet="/images/blog/sourdough-starter-kit-2026.webp" type="image/webp" />
+          <img
+            src="/images/blog/sourdough-starter-kit-2026.webp"
+            alt="Sourdough starter kit items laid out: glass jar with starter, digital scale, thermometer, cloth, and flour"
+            width="1200"
+            height="800"
+            className="w-full rounded-xl my-8"
+            loading="eager"
+            fetchPriority="high"
+          />
+        </picture>
+
 
         <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Best Sourdough Starter Kit for Beginners (2026): What You Actually Need</h1>
         <p className="text-brand-muted text-sm mb-8">📖 7 min read · Updated August 2026</p>

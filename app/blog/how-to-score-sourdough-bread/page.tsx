@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     url: "https://sourdough-hydrationcalculator.com/blog/how-to-score-sourdough-bread/",
     publishedTime: "2026-08-04",
     modifiedTime: "2026-08-04",
-    images: [{ url: "/images/blog/shaping-boule.webp", alt: "Sourdough boule with decorative scoring pattern on its surface" }],
+    images: [{ url: "/images/blog/sourdough-scoring-2026.webp", alt: "Sourdough boule with decorative scoring pattern on its surface" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "How to Score Sourdough Bread: Patterns, Tools, and When to Cut",
     description: "Scoring is the final artistic step in sourdough. Here is when to cut, what tools you need, the classic patterns, and the common mistakes that ruin a good loaf.",
-    images: ["/images/blog/shaping-boule.webp"],
+    images: ["/images/blog/sourdough-scoring-2026.webp"],
   },
 };
 
@@ -35,13 +35,26 @@ export default function HowToScoreSourdoughBread() {
         slug="how-to-score-sourdough-bread"
         title="How to Score Sourdough Bread: Patterns, Tools, and When to Cut"
         description="Scoring is the final artistic step in sourdough. Here is when to cut, what tools you need, the classic patterns, and the common mistakes that ruin a good loaf."
-        image="/images/blog/shaping-boule.webp"
+        image="/images/blog/sourdough-scoring-2026.webp"
         datePublished="2026-08-04"
         dateModified="2026-08-04"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
         <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline"><span className="text-2xl">←</span> Back to Blog</Link>
+        <picture>
+          <source srcSet="/images/blog/sourdough-scoring-2026.webp" type="image/webp" />
+          <img
+            src="/images/blog/sourdough-scoring-2026.webp"
+            alt="Sourdough boule with a deep scoring cut that opened into a raised ear, with a lame beside it"
+            width="1200"
+            height="800"
+            className="w-full rounded-xl my-8"
+            loading="eager"
+            fetchPriority="high"
+          />
+        </picture>
+
 
         <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">How to Score Sourdough Bread: Patterns, Tools, and When to Cut</h1>
         <p className="text-brand-muted text-sm mb-8">📖 7 min read · Updated August 2026</p>

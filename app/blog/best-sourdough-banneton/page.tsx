@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     modifiedTime: "2026-08-04",
     images: [
       {
-        url: "/images/blog/sourdough-focaccia.webp",
+        url: "/images/blog/sourdough-banneton-2026.webp",
         alt: "Sourdough shaped in a banneton proofing basket with flour dusted on the surface",
       },
     ],
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sourdough Banneton: What It Does, Why It Matters, and How to Choose Yours",
     description: "A banneton (proofing basket) is what gives artisan sourdough its distinctive shape and ridges. Here is how they work, the three materials to compare, and how to pick one for your style.",
-    images: ["/images/blog/sourdough-focaccia.webp"],
+    images: ["/images/blog/sourdough-banneton-2026.webp"],
   },
 };
 
@@ -42,13 +42,26 @@ export default function BestSourdoughBanneton() {
         slug="best-sourdough-banneton"
         title="Sourdough Banneton: What It Does, Why It Matters, and How to Choose Yours"
         description="A banneton (proofing basket) is what gives artisan sourdough its distinctive shape and ridges. Here is how they work, the three materials to compare, and how to pick one for your style."
-        image="/images/blog/sourdough-focaccia.webp"
+        image="/images/blog/sourdough-banneton-2026.webp"
         datePublished="2026-08-04"
         dateModified="2026-08-04"
       />
 
       <article className="max-w-3xl mx-auto px-6 py-16">
         <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline"><span className="text-2xl">←</span> Back to Blog</Link>
+        <picture>
+          <source srcSet="/images/blog/sourdough-banneton-2026.webp" type="image/webp" />
+          <img
+            src="/images/blog/sourdough-banneton-2026.webp"
+            alt="Cane banneton proofing basket with floured dough inside on a linen-covered table"
+            width="1200"
+            height="800"
+            className="w-full rounded-xl my-8"
+            loading="eager"
+            fetchPriority="high"
+          />
+        </picture>
+
 
         <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">Sourdough Banneton: What It Does, Why It Matters, and How to Choose Yours</h1>
         <p className="text-brand-muted text-sm mb-8">📖 7 min read · Updated August 2026</p>
