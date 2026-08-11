@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "test": "playwright test",
-    "test:install": "playwright install --with-deps chromium"
+    "test:install": "playwright install --with-deps chromium",
+    "gen-sitemap": "node scripts/gen-sitemap.mjs",
+    "prebuild": "node scripts/gen-sitemap.mjs"
   },
   "dependencies": {
     "next": "14.2.5",
