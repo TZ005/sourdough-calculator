@@ -290,7 +290,7 @@ export default function HighVsLowHydration() {
           <Link href="/" className="inline-block bg-brand-brown text-white px-5 py-2 rounded-lg font-medium hover:bg-brand-brown/90">Open Hydration Calculator -</Link>
         </div>
 
-        <NextPostNav currentSlug="high-vs-low-hydration-sourdough" />
+        <NextPostNav slug="high-vs-low-hydration-sourdough" />
       </article>
     </>
   );
