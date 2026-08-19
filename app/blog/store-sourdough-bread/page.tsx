@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     type: "article",
     url: "https://sourdough-hydrationcalculator.com/blog/store-sourdough-bread/",
     publishedTime: "2026-07-25T08:00:00Z",
-    modifiedTime: "2026-07-25T08:00:00Z",
+    modifiedTime: "2026-08-19",
     images: [
       {
         url: "/images/blog/store-sourdough-bread.webp",
@@ -49,8 +49,14 @@ export default function BlogPost() {
         description="Room temperature, frozen, or as dough. The right way to store sourdough bread at every stage so it stays fresh and crusty for days, not hours."
         image="/images/blog/store-sourdough-bread.webp"
         datePublished="2026-07-25T08:00:00Z"
-        dateModified="2026-07-25T08:00:00Z"
+        dateModified="2026-08-19"
       />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why does my crust go soft overnight?","acceptedAnswer":{"@type":"Answer","text":"The crust absorbs moisture from the air and from the bread itself as it cools. This is normal. To re-crisp, put the loaf in a 400F oven for 5 minutes. The crust will come back."}},{"@type":"Question","name":"Can I store different loaves together?","acceptedAnswer":{"@type":"Answer","text":"Yes, but be aware that flavors transfer. A rye loaf stored next to a white loaf will make the white loaf taste slightly of rye. Not usually a problem for home bakers."}},{"@type":"Question","name":"Does sourdough last longer than commercial bread?","acceptedAnswer":{"@type":"Answer","text":"Yes. The acids in sourdough slow starch retrogradation and inhibit mold. A typical sourdough loaf stays fresh 2-3 days longer than an equivalent commercial loaf under the same conditions."}},{"@type":"Question","name":"Should I wrap in plastic if I live in a humid climate?","acceptedAnswer":{"@type":"Answer","text":"No. Even in humid climates, plastic makes the crust soft and the crumb gummy. Use a paper bag or freeze instead. Paper absorbs excess moisture while still allowing some airflow."}}]} }}
+      />
+
 
       <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline"><span className="text-2xl">←</span> Back to Blog</Link>
@@ -210,6 +216,63 @@ export default function BlogPost() {
         crumb is slightly tighter, but most people cannot tell the difference.
       </p>
 
+        <h3 className="mt-6 mb-2">Storage Methods at a Glance</h3>
+        <p className="mb-4">
+          Five common storage methods, ranked by best use case. Pick one based on how long
+          you need to keep the bread fresh.
+        </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full border-collapse">
+            <thead>
+              <tr className="bg-brand-tan">
+                <th className="border border-brand-tan/40 px-4 py-2 text-left">Method</th>
+                <th className="border border-brand-tan/40 px-4 py-2 text-left">Freshness</th>
+                <th className="border border-brand-tan/40 px-4 py-2 text-left">Crust</th>
+                <th className="border border-brand-tan/40 px-4 py-2 text-left">Best For</th>
+                <th className="border border-brand-tan/40 px-4 py-2 text-left">Avoid If</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-brand-tan/40 px-4 py-2 font-semibold">Cotton Bread Bag</td>
+                <td className="border border-brand-tan/40 px-4 py-2">2-3 days</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Stays crisp</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Daily-use loaves</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Storing more than 3 days</td>
+              </tr>
+              <tr className="bg-brand-tan/20">
+                <td className="border border-brand-tan/40 px-4 py-2 font-semibold">Bread Box</td>
+                <td className="border border-brand-tan/40 px-4 py-2">2-3 days</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Stays crisp</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Counter storage, displays</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Limited counter space</td>
+              </tr>
+              <tr>
+                <td className="border border-brand-tan/40 px-4 py-2 font-semibold">Paper Bag</td>
+                <td className="border border-brand-tan/40 px-4 py-2">1-2 days</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Very crisp</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Maximum crust retention</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Long-term storage</td>
+              </tr>
+              <tr className="bg-brand-tan/20">
+                <td className="border border-brand-tan/40 px-4 py-2 font-semibold">Freezer (sliced)</td>
+                <td className="border border-brand-tan/40 px-4 py-2">1-3 months</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Re-crisps when toasted</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Long-term, ready-to-toast</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Need crust immediately</td>
+              </tr>
+              <tr>
+                <td className="border border-brand-tan/40 px-4 py-2 font-semibold">Refrigerator</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Speeds up staleness</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Goes soft fast</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Not recommended</td>
+                <td className="border border-brand-tan/40 px-4 py-2">Almost everything - avoid</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
       <h2 className="mt-10 mb-3">What Storage Mistakes Ruin Sourdough?</h2>
 
       <h3 className="mt-6 mb-3 text-xl font-semibold">Slicing before you need it</h3>
@@ -249,32 +312,29 @@ export default function BlogPost() {
 
       <h2 className="mt-10 mb-3">FAQ</h2>
 
-      <h3 className="mt-6 mb-3 text-xl font-semibold">Why does my crust go soft overnight?</h3>
-      <p className="mb-4">
-        The crust absorbs moisture from the air and from the bread itself as it cools.
+      <div className="mb-4">
+        <h3 className="font-semibold text-brand-brown mb-1">Why does my crust go soft overnight?</h3>
+        <p>The crust absorbs moisture from the air and from the bread itself as it cools.
         This is normal. To re-crisp, put the loaf in a 400F oven for 5 minutes. The crust
-        will come back.
-      </p>
-
-      <h3 className="mt-6 mb-3 text-xl font-semibold">Can I store different loaves together?</h3>
-      <p className="mb-4">
-        Yes, but be aware that flavors transfer. A rye loaf stored next to a white loaf will
-        make the white loaf taste slightly of rye. Not usually a problem for home bakers.
-      </p>
-
-      <h3 className="mt-6 mb-3 text-xl font-semibold">Does sourdough last longer than commercial bread?</h3>
-      <p className="mb-4">
-        Yes. The acids in sourdough slow starch retrogradation and inhibit mold. A typical
+        will come back.</p>
+      </div>
+      <div className="mb-4">
+        <h3 className="font-semibold text-brand-brown mb-1">Can I store different loaves together?</h3>
+        <p>Yes, but be aware that flavors transfer. A rye loaf stored next to a white loaf will
+        make the white loaf taste slightly of rye. Not usually a problem for home bakers.</p>
+      </div>
+      <div className="mb-4">
+        <h3 className="font-semibold text-brand-brown mb-1">Does sourdough last longer than commercial bread?</h3>
+        <p>Yes. The acids in sourdough slow starch retrogradation and inhibit mold. A typical
         sourdough loaf stays fresh 2-3 days longer than an equivalent commercial loaf under
-        the same conditions.
-      </p>
-
-      <h3 className="mt-6 mb-3 text-xl font-semibold">Should I wrap in plastic if I live in a humid climate?</h3>
-      <p className="mb-4">
-        No. Even in humid climates, plastic makes the crust soft and the crumb gummy.
+        the same conditions.</p>
+      </div>
+      <div className="mb-8">
+        <h3 className="font-semibold text-brand-brown mb-1">Should I wrap in plastic if I live in a humid climate?</h3>
+        <p>No. Even in humid climates, plastic makes the crust soft and the crumb gummy.
         Use a paper bag or freeze instead. Paper absorbs excess moisture while still
-        allowing some airflow.
-      </p>
+        allowing some airflow.</p>
+      </div>
 
       <h2 className="mt-10 mb-3">What Is the One Rule for Storing Sourdough?</h2>
       <p className="mb-4">
