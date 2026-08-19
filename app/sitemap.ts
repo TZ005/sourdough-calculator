@@ -6,11 +6,12 @@ const BASE = "https://sourdough-hydrationcalculator.com";
 // Newer articles get their actual creation date; rest get the original lastmod
 const NEW_ARTICLE_DATES: Record<string, string> = {
   "best-sourdough-banneton": "2026-08-04",
-  "best-sourdough-proofing-box": "2026-08-04",
+  "best-sourdough-proofing-box": "2026-08-19",
   "how-to-score-sourdough-bread": "2026-08-04",
   "best-sourdough-starter-kit": "2026-08-08",
   "best-sourdough-baguettes": "2026-08-19",
   "high-vs-low-hydration-sourdough": "2026-08-19",
+  "store-sourdough-bread": "2026-08-19",
   "best-sourdough-tortillas": "2026-08-11",
 };
 
