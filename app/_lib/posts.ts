@@ -5,6 +5,7 @@ const emoji = "📖";
 const apostrophe = "\u2019";
 
 const POSTS: Post[] = [
+  { slug: "high-vs-low-hydration-sourdough", title: "How to Choose Sourdough Hydration: 65%, 75%, or 85%?", excerpt: "Compare 65% vs 75% vs 85% sourdough hydration. See how each affects crumb, crust, and handling, plus a quick decision guide to pick the right one.", readTime: "10 min" },
   { slug: "best-sourdough-baguettes", title: "Sourdough Baguettes: How to Shape and Score at Home (2026)", excerpt: "Make bakery-quality sourdough baguettes at home. Includes the 65% hydration rule, three shaping methods (epis, fendu, traditional), and the 4-cut scoring pattern.", readTime: "7 min" },
   { slug: "best-sourdough-tortillas", title: "Sourdough Tortillas: Soft, Chewy, and Naturally Leavened (2026)", excerpt: "Make soft sourdough tortillas from active starter or discard. Includes hydration ratios, 3 tested variations (wheat, spelt, corn blend), and top equipment picks.", readTime: "6 min" },
   { slug: "best-sourdough-starter-kit", title: "Best Sourdough Starter Kit for Beginners (2026): What You Actually Need", excerpt: "You do not need a $60 kit. Here are the 4 things worth buying, the 3 things to skip, and exact Amazon picks for 2026.", readTime: "7 min" },
