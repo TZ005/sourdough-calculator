@@ -9,6 +9,7 @@ const NEW_ARTICLE_DATES: Record<string, string> = {
   "best-sourdough-proofing-box": "2026-08-04",
   "how-to-score-sourdough-bread": "2026-08-04",
   "best-sourdough-starter-kit": "2026-08-08",
+  "best-sourdough-baguettes": "2026-08-19",
   "best-sourdough-tortillas": "2026-08-11",
 };
 
