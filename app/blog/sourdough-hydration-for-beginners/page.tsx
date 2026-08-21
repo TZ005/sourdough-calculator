@@ -135,7 +135,7 @@ export default function SourdoughHydrationForBeginners() {
           <Link href="/" className="inline-block bg-brand-brown text-white px-5 py-2 rounded-lg font-medium hover:bg-brand-brown/90">Open Calculator -</Link>
         </div>
 
-        <NextPostNav currentSlug="sourdough-hydration-for-beginners" />
+        <NextPostNav slug="sourdough-hydration-for-beginners" />
       </article>
     </>
   );
