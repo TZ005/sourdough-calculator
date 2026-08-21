@@ -1,6 +1,14 @@
 ﻿# 🥖 Sourdough Hydration Calculator
 
 A free, fast, accurate sourdough hydration calculator built with **Next.js + Tailwind CSS**.
+<p align="center">
+  <a href="https://www.producthunt.com/products/sourdoughcalc?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-featured" target="_blank">
+    <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=sourdoughcalc&theme=light"
+         alt="SourdoughCalc - Free sourdough hydration calculator with 34 in-depth articles | Product Hunt"
+         width="250" height="54" />
+  </a>
+</p>
+
 
 ## 🌐 Live Site
 

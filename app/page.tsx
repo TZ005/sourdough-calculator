@@ -81,7 +81,24 @@ export default function Home() {
             Calculate water, salt, and starter ratios for any sourdough recipe — instantly, accurately, and free.
           </p>
         </div>
-      </section>
+      
+          {/* Featured on Product Hunt */}
+          <div className="text-center mt-6">
+            <a
+              href="https://www.producthunt.com/products/sourdoughcalc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#DA552F] text-white rounded-lg font-semibold hover:bg-[#C4451E] transition-colors shadow-md text-sm"
+              aria-label="Featured on Product Hunt"
+            >
+              <span>Featured on</span>
+              <svg viewBox="0 0 26 25" className="w-4 h-4 fill-current" aria-hidden="true">
+                <path d="M12.392 0c-6.877 0-12.5 5.623-12.5 12.5 0 6.876 5.623 12.5 12.5 12.5s12.5-5.624 12.5-12.5c0-6.877-5.623-12.5-12.5-12.5zM5.6 14.7l4.7-9.4h3.4v9.4h-1.7l-4.7-9.4v9.4H5.6V14.7zm10.8 0c-2.3 0-4.2-1.8-4.2-4.2 0-2.4 1.9-4.2 4.2-4.2 2.3 0 4.2 1.8 4.2 4.2 0 2.4-1.9 4.2-4.2 4.2z" />
+              </svg>
+              <span className="font-bold">Product Hunt</span>
+            </a>
+          </div>
+</section>
 
       <section className="py-10 md:py-16 print:py-4">
         <div className="max-w-6xl mx-auto px-6">
