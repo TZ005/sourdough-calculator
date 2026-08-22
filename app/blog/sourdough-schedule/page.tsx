@@ -224,6 +224,7 @@ export default function SourdoughSchedule() {
       <ul className="list-disc pl-6 space-y-2 mb-8">
         <li><a href="https://www.theperfectloaf.com/guides/the-ultimate-guide-to-bread-dough-bulk-fermentation/" target="_blank" rel="nofollow noopener">The Perfect Loaf: The Ultimate Guide to Bread Dough Bulk Fermentation</a></li>
         <li><a href="https://www.kingarthurbaking.com/learn/guides/sourdough" target="_blank" rel="nofollow noopener">King Arthur Baking: Sourdough Guide</a></li>
+        <li><Link href="/blog/store-sourdough-bread/" className="text-brand-brown font-medium">How to Store Sourdough Bread (5 Methods)</Link> — keep your timed bake fresh</li>
       </ul>
       <NextPostNav slug="sourdough-schedule" />
     </article>

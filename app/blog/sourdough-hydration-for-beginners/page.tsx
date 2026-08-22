@@ -135,6 +135,11 @@ export default function SourdoughHydrationForBeginners() {
           <Link href="/" className="inline-block bg-brand-brown text-white px-5 py-2 rounded-lg font-medium hover:bg-brand-brown/90">Open Calculator -</Link>
         </div>
 
+        <div className="bg-brand-tan/40 p-5 rounded-lg my-8">
+          <p className="font-semibold text-brand-dark mb-1">Baked and wondering how to keep it fresh?</p>
+          <p className="text-sm text-brand-muted mb-3">See our guide on <Link href="/blog/store-sourdough-bread/" className="text-brand-brown font-medium">how to store sourdough bread (5 methods that actually work)</Link>.</p>
+        </div>
+
         <NextPostNav slug="sourdough-hydration-for-beginners" />
       </article>
     </>

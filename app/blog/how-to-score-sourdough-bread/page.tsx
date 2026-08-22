@@ -243,6 +243,7 @@ export default function HowToScoreSourdoughBread() {
           <li><a href="https://www.kingarthurbaking.com/learn/resources/sourdough-shaping-and-scoring" target="_blank" rel="nofollow noopener">King Arthur: Shaping and Scoring Sourdough</a></li>
           <li><a href="https://www.theperfectloaf.com/the-ultimate-guide-to-shaping-and-scoring-bread/" target="_blank" rel="nofollow noopener">The Perfect Loaf: Shaping and Scoring</a></li>
           <li>Tartine Bread by Chad Robertson — scoring chapter</li>
+          <li><Link href="/blog/store-sourdough-bread/" className="text-brand-brown font-medium">How to Store Sourdough Bread</Link> — keep your scored loaf fresh for days</li>
         </ul>
 
         <NextPostNav slug="how-to-score-sourdough-bread" />

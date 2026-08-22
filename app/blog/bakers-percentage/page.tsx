@@ -224,6 +224,11 @@ export default function BakersPercentage() {
           </AffiliateLink>
         </div>
       </aside>
+
+      <div className="bg-brand-tan/40 p-5 rounded-lg my-8">
+        <p className="font-semibold text-brand-dark mb-1">Now that you have the math, bake and store it right</p>
+        <p className="text-sm text-brand-muted mb-3">Read our <Link href="/blog/store-sourdough-bread/" className="text-brand-brown font-medium">complete guide to storing sourdough bread</Link> — room temperature, freezer, and 3 more methods.</p>
+      </div>
       <NextPostNav slug="bakers-percentage" />
     </article>
     </>
