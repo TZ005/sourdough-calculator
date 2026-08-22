@@ -6,8 +6,8 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 
 export const metadata: Metadata = {
-  title: "How to Store Sourdough Bread: Keep It Fresh",
-  description: "Room temperature, frozen, or as dough. The right way to store sourdough bread at every stage so it stays fresh and crusty for days, not hours.",
+  title: "How to Store Sourdough Bread (5 Methods That Actually Work) [2026]",
+  description: "Stop sourdough going stale in 24 hours. Tested 5 storage methods — room temp, paper bag, freezer, and more. Plus a printable cheat sheet.",
   keywords: ["store sourdough bread","keep sourdough fresh","freeze sourdough","sourdough shelf life","bread storage"],
 
   alternates: {
@@ -15,8 +15,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     siteName: "SourdoughCalc",
-    title: "How to Store Sourdough Bread: Keep It Fresh",
-    description: "Room temperature, frozen, or as dough. The right way to store sourdough bread at every stage so it stays fresh and crusty for days, not hours.",
+    title: "How to Store Sourdough Bread (5 Methods That Actually Work) [2026]",
+    description: "Stop sourdough going stale in 24 hours. Tested 5 storage methods — room temp, paper bag, freezer, and more. Plus a printable cheat sheet.",
     type: "article",
     url: "https://sourdough-hydrationcalculator.com/blog/store-sourdough-bread/",
     publishedTime: "2026-07-25T08:00:00Z",
@@ -24,14 +24,14 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/blog/store-sourdough-bread.webp",
-        alt: "How to Store Sourdough Bread: Keep It Fresh",
+        alt: "How to Store Sourdough Bread (5 Methods That Actually Work) [2026]",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "How to Store Sourdough Bread: Keep It Fresh",
-    description: "Room temperature, frozen, or as dough. The right way to store sourdough bread at every stage so it stays fresh and crusty for days, not hours.",
+    title: "How to Store Sourdough Bread (5 Methods That Actually Work) [2026]",
+    description: "Stop sourdough going stale in 24 hours. Tested 5 storage methods — room temp, paper bag, freezer, and more. Plus a printable cheat sheet.",
     images: ["/images/blog/store-sourdough-bread.webp"],
   },
 };
@@ -45,8 +45,8 @@ export default function BlogPost() {
     <>
       <ArticleSchema
         slug="store-sourdough-bread"
-        title="How to Store Sourdough Bread: Keep It Fresh"
-        description="Room temperature, frozen, or as dough. The right way to store sourdough bread at every stage so it stays fresh and crusty for days, not hours."
+        title="How to Store Sourdough Bread (5 Methods That Actually Work) [2026]"
+        description="Stop sourdough going stale in 24 hours. Tested 5 storage methods — room temp, paper bag, freezer, and more. Plus a printable cheat sheet."
         image="/images/blog/store-sourdough-bread.webp"
         datePublished="2026-07-25T08:00:00Z"
         dateModified="2026-08-19"
@@ -75,7 +75,7 @@ export default function BlogPost() {
       </picture>
       
 
-      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">How to Store Sourdough Bread: Keep It Fresh for Days</h1>
+      <h1 className="mt-6 mb-4 text-3xl font-bold text-brand-dark">How to Store Sourdough Bread (5 Methods That Actually Work) [2026] for Days</h1>
       <p className="text-brand-muted text-sm mb-8">📖 8 min read · Updated July 2026</p>
       <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
