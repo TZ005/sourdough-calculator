@@ -42,9 +42,9 @@ export default function ConvertSourdoughRecipeToGrams() {
         <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline"><span className="text-2xl">-</span> Back to Blog</Link>
 
         <picture>
-          <source srcSet="/images/blog/hydration-guide.webp" type="image/webp" />
+          <source srcSet="/images/blog/best-flour.webp" type="image/webp" />
           <img
-            src="/images/blog/hydration-guide.webp"
+            src="/images/blog/best-flour.webp"
             alt="Sourdough ingredients on a digital kitchen scale, showing flour, water, salt and starter measured in grams"
             width="1200"
             height="630"
