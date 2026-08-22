@@ -47,7 +47,7 @@ export default function ConvertSourdoughRecipeToGrams() {
             src="/images/blog/sourdough-convert-recipe-2026.webp"
             alt="A digital kitchen scale showing 487g surrounded by flour, water, salt, vintage spoon, and a recipe notebook with bakers percentage tables — illustrating how to convert any sourdough recipe to grams"
             width="1200"
-            height="630"
+            height="800"
             className="w-full rounded-xl my-8"
             loading="eager"
             fetchPriority="high"
