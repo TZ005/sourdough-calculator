@@ -42,10 +42,10 @@ export default function ConvertSourdoughRecipeToGrams() {
         <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline"><span className="text-2xl">-</span> Back to Blog</Link>
 
         <picture>
-          <source srcSet="/images/blog/best-flour.webp" type="image/webp" />
+          <source srcSet="/images/blog/convert-sourdough-recipe-to-grams-hero.webp" type="image/webp" />
           <img
-            src="/images/blog/best-flour.webp"
-            alt="Sourdough ingredients on a digital kitchen scale, showing flour, water, salt and starter measured in grams"
+            src="/images/blog/convert-sourdough-recipe-to-grams-hero.webp"
+            alt="A digital kitchen scale showing 487g surrounded by flour, water, salt, vintage spoon, and a recipe notebook with bakers percentage tables — illustrating how to convert any sourdough recipe to grams"
             width="1200"
             height="630"
             className="w-full rounded-xl my-8"
