@@ -56,6 +56,58 @@ export default function CommonMistakes() {
         dateModified="2026-07-25T08:00:00Z"
       />
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Why is my sourdough dense and heavy?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Almost always under-fermentation. The dough did not have enough time for the yeast to produce gas and open up the crumb. Extend your bulk fermentation by 30-60 minutes and try again."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why does my sourdough spread out flat?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Your dough is too wet for your flour, or you over-proofed it. Lower hydration by 5% or switch to a higher-protein flour. Also make sure you shape tightly and use a banneton or bowl to support the dough during the final rise."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why is my sourdough gummy in the middle?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You almost certainly cut it too early. The internal temperature of the loaf needs to drop to around 90 F before slicing. Wait at least 1-2 hours after baking."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why is my sourdough pale, not golden brown?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Your oven is not hot enough, or you are not using a Dutch oven. Sourdough needs 450-500 F for proper caramelization. Preheat longer, use an oven thermometer, and consider investing in a Dutch oven."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why does my sourdough taste too sour?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Either your starter is very mature (over 12 hours since feeding) or your bulk fermentation is too long. Try a younger starter or a shorter bulk to mellow the flavor."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
       <article className="max-w-3xl mx-auto px-6 py-16">
       <Link href="/blog/" className="text-brand-brown font-bold text-xl inline-flex items-center gap-2 hover:underline">Back to Blog</Link>
 
