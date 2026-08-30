@@ -5,6 +5,7 @@ const emoji = "📖";
 const apostrophe = "\u2019";
 
 const POSTS: Post[] = [
+  { slug: "sourdough-naan", title: "Sourdough Naan: Soft, Puffy, Skillet-Cooked Flatbread", excerpt: "Make pillowy, blistered sourdough naan at home with active starter or discard. The recipe, the timing, and how to get those bubbly charred spots in a hot skillet.", readTime: "8 min" },
   { slug: "crusty-sourdough-bread-recipe", title: "Crusty Sourdough Bread Recipe: Crackling Crust, Step by Step", excerpt: "Make a bakery-style crusty sourdough loaf at home. Full recipe plus how to get that crackling crust with steam, scoring, and the right bake.", readTime: "10 min" },
   { slug: "convert-sourdough-recipe-to-grams", title: "How to Convert Any Sourdough Recipe to Grams (the Easy Way)", excerpt: "Most sourdough recipes list flour in cups, water in ounces, and starter as a percentage. This guide shows you how to convert everything to grams in 3 minutes, plus a printable conversion chart for the 12 most common sourdough ingredients.", readTime: "7 min" },
   { slug: "sourdough-hydration-for-beginners", title: "Sourdough Hydration for Beginners: Start with 75% (and Why)", excerpt: "If you are new to sourdough, start with 75% hydration. Here is why, plus the three things to adjust once you are ready to go higher or lower.", readTime: "6 min" },
