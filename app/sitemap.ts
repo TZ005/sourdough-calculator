@@ -33,17 +33,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Static pages
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${BASE}/`,            lastModified: "2026-08-11", changeFrequency: "weekly",  priority: 1.0 },
-    { url: `${BASE}/blog`,        lastModified: "2026-08-11", changeFrequency: "weekly",  priority: 0.8 },
-    { url: `${BASE}/about`,      lastModified: "2026-07-21", changeFrequency: "monthly", priority: 0.5 },
-    { url: `${BASE}/contact`,    lastModified: "2026-07-21", changeFrequency: "monthly", priority: 0.5 },
-    { url: `${BASE}/privacy`,    lastModified: "2026-07-21", changeFrequency: "yearly",  priority: 0.3 },
-    { url: `${BASE}/terms`,      lastModified: "2026-07-21", changeFrequency: "yearly",  priority: 0.3 },
-    { url: `${BASE}/embed`,      lastModified: "2026-07-21", changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE}/blog/`,       lastModified: "2026-08-11", changeFrequency: "weekly",  priority: 0.8 },
+    { url: `${BASE}/about/`,      lastModified: "2026-07-21", changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE}/contact/`,    lastModified: "2026-07-21", changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE}/privacy/`,    lastModified: "2026-07-21", changeFrequency: "yearly",  priority: 0.3 },
+    { url: `${BASE}/terms/`,      lastModified: "2026-07-21", changeFrequency: "yearly",  priority: 0.3 },
+    { url: `${BASE}/embed/`,      lastModified: "2026-07-21", changeFrequency: "monthly", priority: 0.5 },
   ];
 
   // Article pages (deduplicated by slug since pagination is 10/page)
   const articlePages: MetadataRoute.Sitemap = posts.map((p) => ({
-    url: `${BASE}/blog/${p.slug}`,
+    url: `${BASE}/blog/${p.slug}/`,
     lastModified: NEW_ARTICLE_DATES[p.slug] || DEFAULT_LASTMOD,
     changeFrequency: "monthly",
     priority: 0.7,
