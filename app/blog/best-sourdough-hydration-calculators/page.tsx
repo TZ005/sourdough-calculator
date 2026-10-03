@@ -114,7 +114,7 @@ export default function BestSourdoughHydrationCalculators() {
 
         <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">5. SourdoughCalc (this site)</h2>
         <p className="mb-4">Yes, I built this one, so I have to disclose that. The reason I built SourdoughCalc is that none of the above tools gave me all four things I wanted in one place: a hydration chart for visual reference, a recipe-preset selector, unit toggle, and zero ads. The calculator handles olive oil and starter hydration in the formula, which is rare.</p>
-        <p className="mb-4"><strong>Pros:</strong> Visual hydration chart on the same page as the calculator. Six recipe presets with one-click loading. Gram / ounce / cup unit toggle. Olive oil and sugar optionally included in hydration math.</p>
+        <p className="mb-4"><strong>Pros:</strong> Visual hydration chart on the same page as the calculator. Six recipe presets with one-click loading. Gram / ounce / cup unit toggle. Olive oil and sugar optionally included in hydration math, a feature that the simpler hydration calculators in this list (sourdough.co.uk, sourdoughcalc.info) do not have.</p>
         <p className="mb-4"><strong>Cons:</strong> Newer than the others, so fewer external references. If you want a community forum behind the tool, this site is not that.</p>
         <p className="mb-4"><strong>Best for:</strong> Bakers who want a visual reference plus a recipe preset plus flexible units in one place.</p>
         <p className="mb-6"><a href="https://sourdough-hydrationcalculator.com/" className="text-brand-brown underline" target="_blank" rel="noopener noreferrer">Visit SourdoughCalc →</a></p>
