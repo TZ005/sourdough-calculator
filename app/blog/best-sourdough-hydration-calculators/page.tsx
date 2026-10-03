@@ -85,7 +85,7 @@ export default function BestSourdoughHydrationCalculators() {
         </div>
 
         <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">1. Simple Sourdough Calculator (sourdoughcalc.info)</h2>
-        <p className="mb-4">The current top result for "sourdough hydration calculator" on Google, and with good reason. The tool is fast, the math is correct, and the UI gets to a baker percentage answer in two fields.</p>
+        <p className="mb-4">The current top result for "sourdough hydration calculator" on Google, and with good reason. The tool is fast, the math is correct, and the UI gets to a baker percentage answer in three fields (flour, water, starter).</p>
         <p className="mb-4"><strong>Pros:</strong> The fastest input on this list, no account needed, no ads above the fold.</p>
         <p className="mb-4"><strong>Cons:</strong> Grams only, no ounce or cup conversion. No hydration chart or visual reference. No recipe ecosystem behind it.</p>
         <p className="mb-4"><strong>Best for:</strong> A baker who knows their hydration target and wants the fastest possible answer.</p>
