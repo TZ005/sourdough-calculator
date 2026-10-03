@@ -5,13 +5,13 @@ import ArticleSchema from "@/components/ArticleSchema";
 
 export const metadata: Metadata = {
   title: "5 Best Sourdough Hydration Calculators (2026 Hands-On Review)",
-  description: "I tested every major sourdough hydration calculator online. Here is a frank comparison of the 5 tools home bakers actually use, with pros, cons, and who each one is best for.",
+  description: "I reviewed every major sourdough hydration calculator online. Here is a frank comparison of the 5 tools home bakers actually use, with pros, cons, and who each one is best for.",
   keywords: ["best sourdough hydration calculator", "sourdough calculator review", "sourdough hydration calculator comparison", "sourdough baker percentage calculator", "sourdough dough calculator"],
   alternates: { canonical: "https://sourdough-hydrationcalculator.com/blog/best-sourdough-hydration-calculators/" },
   openGraph: {
     siteName: "SourdoughCalc",
     title: "5 Best Sourdough Hydration Calculators (2026 Hands-On Review)",
-    description: "I tested every major sourdough hydration calculator online. Here is a frank comparison of the 5 tools home bakers actually use.",
+    description: "I reviewed every major sourdough hydration calculator online. Here is a frank comparison of the 5 tools home bakers actually use.",
     type: "article",
     url: "https://sourdough-hydrationcalculator.com/blog/best-sourdough-hydration-calculators/",
     publishedTime: "2026-10-03",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "5 Best Sourdough Hydration Calculators (2026 Hands-On Review)",
-    description: "I tested every major sourdough hydration calculator online. Here is a frank comparison of the 5 tools home bakers actually use.",
+    description: "I reviewed every major sourdough hydration calculator online. Here is a frank comparison of the 5 tools home bakers actually use.",
     images: ["/images/blog/best-sourdough-calculators.webp"],
   },
 };
@@ -43,7 +43,7 @@ export default function BestSourdoughHydrationCalculators() {
       <ArticleSchema
         slug="best-sourdough-hydration-calculators"
         title="5 Best Sourdough Hydration Calculators (2026 Hands-On Review)"
-        description="I tested every major sourdough hydration calculator online. Here is a frank comparison of the 5 tools home bakers actually use, with pros, cons, and who each one is best for."
+        description="I reviewed every major sourdough hydration calculator online. Here is a frank comparison of the 5 tools home bakers actually use, with pros, cons, and who each one is best for."
         image="/images/blog/best-sourdough-calculators.webp"
         datePublished="2026-10-03"
         dateModified="2026-10-03"
@@ -63,7 +63,7 @@ export default function BestSourdoughHydrationCalculators() {
         <p className="text-brand-muted text-sm mb-8">📖 6 min read · Updated October 2026</p>
         <p className="text-brand-muted text-sm mb-8">By SourdoughCalc Team</p>
 
-        <p className="text-lg mb-6">I have been baking sourdough every week for years, and I am also the person behind SourdoughCalc, so I went into this roundup with skin in the game. The goal was simple: use every major hydration calculator I could find for two weeks of real loaves, then write down what each one is actually best for.</p>
+        <p className="text-lg mb-6">I built SourdoughCalc, and I went looking at every hydration calculator I could find to understand what was already out there. Here is a frank comparison of each tool based on what the site actually shows today.</p>
 
         <p className="mb-6">Spoiler: they all do the same arithmetic. The differences are in the recipe presets, the unit handling, the affiliate baggage, and whether the tool teaches you what hydration is or just spits out a number.</p>
 
@@ -86,29 +86,29 @@ export default function BestSourdoughHydrationCalculators() {
 
         <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">1. Simple Sourdough Calculator (sourdoughcalc.info)</h2>
         <p className="mb-4">The current top result for "sourdough hydration calculator" on Google, and with good reason. The tool is fast, the math is correct, and the UI gets to a baker percentage answer in two fields.</p>
-        <p className="mb-4"><strong>Pros:</strong> The fastest input on this list, no account needed, no ads above the fold. The default starter ratio is sensible for a 100% hydration starter.</p>
+        <p className="mb-4"><strong>Pros:</strong> The fastest input on this list, no account needed, no ads above the fold.</p>
         <p className="mb-4"><strong>Cons:</strong> Grams only, no ounce or cup conversion. No hydration chart or visual reference. No recipe ecosystem behind it.</p>
         <p className="mb-4"><strong>Best for:</strong> A baker who knows their hydration target and wants the fastest possible answer.</p>
-        <p className="mb-6"><a href="https://sourdoughcalc.com.info/" className="text-brand-brown underline" target="_blank" rel="noopener noreferrer">Visit Simple Sourdough Calculator →</a></p>
+        <p className="mb-6"><a href="https://sourdoughcalculator.info/" className="text-brand-brown underline" target="_blank" rel="noopener noreferrer">Visit Simple Sourdough Calculator →</a></p>
 
         <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">2. Bread Hydration and Conversion Calculator (breadcalc.com)</h2>
         <p className="mb-4">The most established tool in this list, predating most of the others by years. It is technically a generic bread calculator, but its hydration mode is the cleanest of any tool I tested, and it handles conversions across grams, ounces, and volumetric units.</p>
         <p className="mb-4"><strong>Pros:</strong> The best unit converter of any calculator here. Handles sourdough, brioche, focaccia, and other enriched doughs. The site has been live since 2015 and is well-trusted in the bread community.</p>
-        <p className="mb-4"><strong>Cons:</strong> Not sourdough-specific in branding. The UI is utilitarian and a little dated. No sourdough-specific features.</p>
+        <p className="mb-4"><strong>Cons:</strong> Not sourdough-specific in branding. The UI is utilitarian. No sourdough-specific features.</p>
         <p className="mb-4"><strong>Best for:</strong> Bakers who work across multiple bread types and need a unit converter more than a sourdough specialist tool.</p>
         <p className="mb-6"><a href="https://breadcalc.com/" className="text-brand-brown underline" target="_blank" rel="noopener noreferrer">Visit Bread Hydration and Conversion Calculator →</a></p>
 
         <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">3. Sourdough Hydration Calculator (sourdough.co.uk)</h2>
         <p className="mb-4">The longest-running dedicated sourdough calculator on this list, with the deepest library of paired recipes. If you already follow sourdough.co.uk for formulas, the calculator is a natural fit.</p>
         <p className="mb-4"><strong>Pros:</strong> Long-time community presence. Strong recipe library tied to the calculator. Established UK sourdough audience.</p>
-        <p className="mb-4"><strong>Cons:</strong> Grams only, dated interface. Less focused on teaching the underlying baker percentage math.</p>
+        <p className="mb-4"><strong>Cons:</strong> Grams only, functional but older-style UI.</p>
         <p className="mb-4"><strong>Best for:</strong> Bakers already in the sourdough.co.uk ecosystem who want one tool plus many recipes.</p>
         <p className="mb-6"><a href="https://www.sourdough.co.uk/sourdough-hydration-calculator/" className="text-brand-brown underline" target="_blank" rel="noopener noreferrer">Visit Sourdough Hydration Calculator →</a></p>
 
         <h2 className="text-2xl font-bold text-brand-dark mt-12 mb-4">4. That Sourdough Gal Hydration Tool (thatsourdoughgal.com)</h2>
-        <p className="mb-4">Rebekah Parr runs one of the largest sourdough communities online, with 278K Instagram followers and years of tested recipes behind every formula she publishes. Her hydration tool is part of a much larger recipe and tip ecosystem.</p>
+        <p className="mb-4">Rebekah Parr runs one of the largest sourdough communities online, with 278K Instagram followers and an extensive recipe and hydration tool library. Her hydration tool is part of a much larger recipe and tip ecosystem.</p>
         <p className="mb-4"><strong>Pros:</strong> Comes with the credibility of a real working baker, not a generic tool. Tied to a large recipe library and an active community.</p>
-        <p className="mb-4"><strong>Cons:</strong> The calculator itself is lighter on features than the others on this list. You mostly get it because of the recipes and community behind it.</p>
+        <p className="mb-4"><strong>Cons:</strong> The calculator interface is simpler, with both baker percentage and hydration inputs. You mostly come here for the recipes and community behind it.</p>
         <p className="mb-4"><strong>Best for:</strong> Bakers who want to bake along with a recipe and learn the why, not just calculate the numbers.</p>
         <p className="mb-6"><a href="https://thatsourdoughgal.com/sourdough-bakers-percentage-hydration-calculator/" className="text-brand-brown underline" target="_blank" rel="noopener noreferrer">Visit That Sourdough Gal Hydration Tool →</a></p>
 
