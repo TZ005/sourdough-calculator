@@ -31,6 +31,14 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
+  themeColor: '#f5e6d3',
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }): JSX.Element {
   return (
     <html lang="en">
@@ -57,7 +65,7 @@ gtag('js', new Date());
 gtag('config', 'G-58KC5RL1PG');`
           }}
         />
-      </head>
+</head>
       <body className="bg-brand-cream text-brand-dark">
         <Header />
         <main>{children}</main>
